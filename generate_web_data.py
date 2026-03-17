@@ -62,10 +62,15 @@ def main():
         for item in previous.get("items", []):
             previous_keys.add(item_key(item))
 
+    # Roasters managed by separate projects — exclude from this site
+    EXCLUDED_ROASTERS = {"puchero coffee"}
+
     # Process items
     items = []
     for item in latest.get("items", []):
         if item.get("status") == "error":
+            continue
+        if item.get("roaster", "").strip().lower() in EXCLUDED_ROASTERS:
             continue
         key = item_key(item)
         entry = {
