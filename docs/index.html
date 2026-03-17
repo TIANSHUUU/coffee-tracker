@@ -292,6 +292,7 @@
       border-color: #ddd8e8;
     }
     .card:hover::before { opacity: 1; }
+    .card[data-url] { cursor: pointer; }
 
     .card.is-new {
       border-color: #ffd0b0;
@@ -574,7 +575,7 @@
     const flavour = item.flavour_profile
       ? `<div class="sep"></div><div class="flavour">${esc(item.flavour_profile)}</div>` : '';
 
-    return `<div class="card${item.is_new ? ' is-new' : ''}">
+    return `<div class="card${item.is_new ? ' is-new' : ''}"${item.url ? ` data-url="${esc(item.url)}"` : ''}>
       <div class="card-top">
         <div class="bean-name">${nameContent}</div>
         <div class="price">${price}</div>
@@ -590,6 +591,12 @@
   }
 
   // ── Events ──
+  document.getElementById('main').addEventListener('click', e => {
+    if (e.target.closest('a')) return;
+    const card = e.target.closest('.card[data-url]');
+    if (card) window.open(card.dataset.url, '_blank', 'noopener');
+  });
+
   document.getElementById('search').addEventListener('input', e => {
     state.search = e.target.value; render();
   });
