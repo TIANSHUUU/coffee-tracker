@@ -4,337 +4,471 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Coffee Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
-    /* ── Reset & base ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg:        #faf9f7;
-      --surface:   #ffffff;
-      --border:    #e8e2d9;
-      --text:      #2c2420;
-      --muted:     #8a7d74;
-      --accent:    #c0392b;
-      --filter-bg: #fff0f3;
-      --filter-fg: #b5294a;
-      --espresso-bg: #eaf4ec;
-      --espresso-fg: #2e7d4a;
-      --omni-bg:   #eef3ff;
-      --omni-fg:   #3456b0;
-      --new-bg:    #fffbe6;
-      --new-fg:    #a06000;
-      --shadow:    0 1px 3px rgba(0,0,0,.08);
+      --bg:           #f5f4f8;
+      --surface:      #ffffff;
+      --border:       #ebe8f0;
+      --text:         #1a1625;
+      --muted:        #7c6e8a;
+      --subtle:       #b8aec6;
+
+      /* candy palette */
+      --pink:         #ff6b9d;
+      --pink-soft:    #ffe0ee;
+      --blue:         #5bb8f5;
+      --blue-soft:    #ddf1ff;
+      --teal:         #2dd4bf;
+      --teal-soft:    #ccfaf4;
+      --orange:       #ff8c42;
+      --orange-soft:  #ffe8d6;
+      --purple:       #9b7fe8;
+      --purple-soft:  #ede8ff;
+
+      --header-h: 64px;
+      --filter-h: 52px;
     }
 
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: 'Inter', -apple-system, sans-serif;
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
-      font-size: 14px;
+      font-size: 13px;
       line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
     }
 
     /* ── Header ── */
     header {
+      height: var(--header-h);
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 18px 24px 14px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      box-shadow: var(--shadow);
-    }
-
-    .header-row {
+      padding: 0 28px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 8px;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      box-shadow: 0 1px 0 var(--border), 0 4px 16px rgba(0,0,0,.04);
     }
 
-    h1 {
-      font-size: 20px;
-      font-weight: 700;
-      letter-spacing: -0.3px;
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
 
-    h1 span { color: var(--accent); }
-
-    .meta {
-      font-size: 12px;
-      color: var(--muted);
+    .logo-icon {
+      width: 34px;
+      height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--pink) 0%, var(--orange) 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
     }
 
-    /* ── Filters ── */
+    .logo-text {
+      font-size: 17px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: var(--text);
+    }
+
+    .logo-text em {
+      font-style: normal;
+      background: linear-gradient(90deg, var(--pink), var(--orange));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header-meta {
+      font-size: 11.5px;
+      color: var(--subtle);
+      font-weight: 500;
+    }
+
+    /* ── Filter bar ── */
     .filters {
+      height: var(--filter-h);
       background: var(--surface);
       border-bottom: 1px solid var(--border);
-      padding: 10px 24px;
+      padding: 0 28px;
       display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
       align-items: center;
+      gap: 8px;
+      position: sticky;
+      top: var(--header-h);
+      z-index: 100;
     }
 
+    .search-wrap {
+      position: relative;
+      flex-shrink: 0;
+    }
+    .search-wrap svg {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--subtle);
+      pointer-events: none;
+    }
     .filters input[type="text"] {
-      padding: 6px 10px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      font-size: 13px;
-      width: 200px;
+      padding: 7px 12px 7px 32px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-size: 12.5px;
+      font-family: inherit;
+      width: 210px;
       background: var(--bg);
       color: var(--text);
       outline: none;
-      transition: border-color .15s;
+      transition: border-color .15s, box-shadow .15s;
     }
-    .filters input[type="text"]:focus { border-color: var(--accent); }
+    .filters input[type="text"]::placeholder { color: var(--subtle); }
+    .filters input[type="text"]:focus {
+      border-color: var(--pink);
+      box-shadow: 0 0 0 3px var(--pink-soft);
+    }
+
+    .divider { width: 1px; height: 20px; background: var(--border); flex-shrink: 0; }
 
     .filters select {
-      padding: 6px 28px 6px 10px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
-      font-size: 13px;
+      padding: 7px 28px 7px 11px;
+      border: 1.5px solid var(--border);
+      border-radius: 10px;
+      font-size: 12.5px;
+      font-family: inherit;
       background: var(--bg);
       color: var(--text);
       outline: none;
       appearance: none;
       cursor: pointer;
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238a7d74' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      transition: border-color .15s;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpath fill='%23b8aec6' d='M5 7L0 2h10z'/%3E%3C/svg%3E");
       background-repeat: no-repeat;
-      background-position: right 8px center;
+      background-position: right 9px center;
     }
+    .filters select:focus { border-color: var(--blue); }
 
-    .filter-btn {
-      padding: 6px 12px;
-      border: 1px solid var(--border);
-      border-radius: 6px;
+    /* pill filter buttons */
+    .pill-group { display: flex; gap: 4px; }
+
+    .pill {
+      padding: 5px 13px;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
       font-size: 12px;
+      font-weight: 600;
+      font-family: inherit;
       cursor: pointer;
       background: var(--bg);
       color: var(--muted);
       transition: all .15s;
+      white-space: nowrap;
     }
-    .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
-    .filter-btn.active {
-      background: var(--accent);
-      border-color: var(--accent);
-      color: #fff;
-    }
+    .pill:hover { border-color: var(--pink); color: var(--pink); }
 
-    .filter-group { display: flex; gap: 4px; }
+    .pill.active-all    { background: var(--text);   border-color: var(--text);   color: #fff; }
+    .pill.active-filter { background: var(--pink);   border-color: var(--pink);   color: #fff; }
+    .pill.active-espresso { background: var(--teal); border-color: var(--teal);   color: #fff; }
+    .pill.active-omni   { background: var(--blue);   border-color: var(--blue);   color: #fff; }
+    .pill.active-new    { background: var(--orange);  border-color: var(--orange); color: #fff; }
 
-    /* ── Stats bar ── */
-    .stats-bar {
-      padding: 8px 24px;
+    /* ── Stats strip ── */
+    .stats-strip {
+      padding: 10px 28px;
       display: flex;
-      gap: 16px;
+      gap: 4px;
       align-items: center;
       flex-wrap: wrap;
     }
-    .stat { font-size: 12px; color: var(--muted); }
-    .stat strong { color: var(--text); }
-    .stat.new strong { color: var(--new-fg); }
 
-    /* ── Main content ── */
-    main { padding: 0 24px 40px; }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+    }
+    .chip.new { background: var(--orange-soft); border-color: #ffd0b0; color: var(--orange); }
+    .chip-dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+    /* ── Main ── */
+    main { padding: 8px 28px 60px; }
 
     /* ── Roaster section ── */
-    .roaster-section { margin-bottom: 32px; }
+    .roaster-section { margin-bottom: 36px; }
 
     .roaster-header {
       display: flex;
       align-items: center;
       gap: 10px;
-      padding: 10px 0 8px;
-      border-bottom: 2px solid var(--border);
-      margin-bottom: 10px;
+      padding: 10px 0 10px;
+      margin-bottom: 12px;
       position: sticky;
-      top: 100px;
+      top: calc(var(--header-h) + var(--filter-h));
       background: var(--bg);
-      z-index: 10;
+      z-index: 50;
+    }
+
+    .roaster-accent {
+      width: 4px;
+      height: 20px;
+      border-radius: 2px;
+      background: linear-gradient(180deg, var(--pink), var(--orange));
+      flex-shrink: 0;
     }
 
     .roaster-name {
       font-size: 15px;
-      font-weight: 700;
+      font-weight: 800;
+      letter-spacing: -0.3px;
     }
 
     .roaster-count {
-      font-size: 12px;
+      font-size: 11px;
+      font-weight: 700;
       color: var(--muted);
       background: var(--border);
-      padding: 1px 7px;
+      padding: 2px 8px;
       border-radius: 20px;
     }
 
-    /* ── Coffee grid ── */
-    .coffee-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 10px;
+    .roaster-new {
+      font-size: 11px;
+      font-weight: 700;
+      background: var(--orange-soft);
+      color: var(--orange);
+      padding: 2px 8px;
+      border-radius: 20px;
     }
 
-    /* ── Coffee card ── */
+    /* ── Grid ── */
+    .coffee-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
+      gap: 12px;
+    }
+
+    /* ── Card ── */
     .card {
       background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 14px;
-      transition: box-shadow .15s, transform .15s;
+      border: 1.5px solid var(--border);
+      border-radius: 16px;
+      padding: 16px;
       position: relative;
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      overflow: hidden;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      border-radius: 16px;
+      opacity: 0;
+      transition: opacity .18s;
+      background: linear-gradient(135deg, rgba(255,107,157,.04), rgba(255,140,66,.04));
     }
     .card:hover {
-      box-shadow: 0 4px 12px rgba(0,0,0,.1);
-      transform: translateY(-1px);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(0,0,0,.09);
+      border-color: #ddd8e8;
     }
+    .card:hover::before { opacity: 1; }
+
     .card.is-new {
-      border-left: 3px solid var(--new-fg);
+      border-color: #ffd0b0;
+    }
+    .card.is-new::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      border-radius: 16px 16px 0 0;
+      background: linear-gradient(90deg, var(--orange), var(--pink));
     }
 
     .card-top {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
-      gap: 8px;
-      margin-bottom: 8px;
+      gap: 10px;
+      margin-bottom: 10px;
     }
 
     .bean-name {
       font-size: 14px;
-      font-weight: 600;
-      line-height: 1.3;
+      font-weight: 700;
+      line-height: 1.35;
+      letter-spacing: -0.2px;
       flex: 1;
     }
-
     .bean-name a {
       color: var(--text);
       text-decoration: none;
     }
-    .bean-name a:hover { color: var(--accent); text-decoration: underline; }
+    .bean-name a:hover { color: var(--pink); }
 
     .price {
-      font-size: 15px;
-      font-weight: 700;
-      color: var(--accent);
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
       white-space: nowrap;
+      background: linear-gradient(135deg, var(--pink), var(--orange));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
 
     .badges {
       display: flex;
       gap: 5px;
       flex-wrap: wrap;
-      margin-bottom: 8px;
+      margin-bottom: 11px;
     }
 
     .badge {
       font-size: 10px;
-      font-weight: 600;
-      padding: 2px 7px;
+      font-weight: 700;
+      padding: 3px 9px;
       border-radius: 20px;
+      letter-spacing: 0.4px;
       text-transform: uppercase;
-      letter-spacing: 0.3px;
     }
+    .badge-filter   { background: var(--pink-soft);   color: var(--pink); }
+    .badge-espresso { background: var(--teal-soft);   color: #0f9688; }
+    .badge-omni     { background: var(--blue-soft);   color: #2a8fd4; }
+    .badge-new      { background: var(--orange-soft); color: var(--orange); }
+    .badge-unknown  { background: var(--border);      color: var(--muted); }
 
-    .badge-filter    { background: var(--filter-bg);    color: var(--filter-fg); }
-    .badge-espresso  { background: var(--espresso-bg);  color: var(--espresso-fg); }
-    .badge-omni      { background: var(--omni-bg);      color: var(--omni-fg); }
-    .badge-new       { background: var(--new-bg);       color: var(--new-fg); }
-    .badge-unknown   { background: #f0f0f0;             color: #666; }
-
+    /* ── Details ── */
     .card-details {
-      font-size: 12px;
-      color: var(--muted);
       display: flex;
       flex-direction: column;
-      gap: 3px;
+      gap: 5px;
     }
 
     .detail-row {
       display: flex;
-      gap: 6px;
+      gap: 0;
+      align-items: baseline;
     }
+
     .detail-label {
-      width: 52px;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--subtle);
+      width: 58px;
       flex-shrink: 0;
-      font-weight: 500;
-      color: #b0a49a;
     }
+
     .detail-value {
+      font-size: 12px;
       color: var(--muted);
+      font-weight: 500;
+    }
+
+    .sep {
+      height: 1px;
+      background: var(--border);
+      margin: 6px 0 2px;
+      opacity: .6;
     }
 
     .flavour {
-      margin-top: 6px;
+      font-size: 11.5px;
       font-style: italic;
-      font-size: 12px;
-      color: #b0a49a;
+      color: var(--subtle);
+      line-height: 1.4;
     }
 
-    /* ── Empty state ── */
-    .empty {
-      text-align: center;
-      padding: 60px 20px;
-      color: var(--muted);
-    }
-    .empty-icon { font-size: 40px; margin-bottom: 12px; }
-
-    /* ── Loading ── */
-    .loading {
+    /* ── Empty / Loading ── */
+    .empty, .loading {
       text-align: center;
       padding: 80px 20px;
       color: var(--muted);
-      font-size: 15px;
     }
+    .empty-icon { font-size: 48px; margin-bottom: 14px; }
+    .empty p { font-size: 14px; font-weight: 500; }
 
-    /* ── Error ── */
     .error-box {
-      background: #fff0f0;
-      border: 1px solid #f0c0c0;
-      border-radius: 8px;
-      padding: 20px;
-      margin: 40px 24px;
-      color: #b00;
+      background: #fff0f5;
+      border: 1.5px solid #ffc8d8;
+      border-radius: 14px;
+      padding: 24px;
+      margin: 40px 0;
+      color: #c0284a;
+      font-size: 13px;
     }
 
     /* ── Responsive ── */
-    @media (max-width: 600px) {
-      header, .filters, .stats-bar, main { padding-left: 14px; padding-right: 14px; }
+    @media (max-width: 640px) {
+      header, .filters, .stats-strip, main { padding-left: 16px; padding-right: 16px; }
+      .filters { height: auto; padding: 10px 16px; flex-wrap: wrap; }
       .filters input[type="text"] { width: 100%; }
-      .filters { flex-direction: column; align-items: stretch; }
-      .filter-group { flex-wrap: wrap; }
-      .roaster-header { top: 140px; }
+      .header-meta { display: none; }
+      .roaster-header { top: calc(var(--header-h) + 90px); }
     }
   </style>
 </head>
 <body>
 
 <header>
-  <div class="header-row">
-    <h1>☕ Coffee <span>Tracker</span></h1>
-    <div class="meta" id="meta">Loading...</div>
+  <div class="logo">
+    <div class="logo-icon">☕</div>
+    <span class="logo-text">Coffee <em>Tracker</em></span>
   </div>
+  <div class="header-meta" id="meta">Loading…</div>
 </header>
 
 <div class="filters">
-  <input type="text" id="search" placeholder="Search beans, origin, process…" autocomplete="off" />
+  <div class="search-wrap">
+    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    </svg>
+    <input type="text" id="search" placeholder="Bean, origin, process…" autocomplete="off" />
+  </div>
+
+  <div class="divider"></div>
 
   <select id="roasterFilter">
     <option value="">All roasters</option>
   </select>
 
-  <div class="filter-group" id="profileFilter">
-    <button class="filter-btn active" data-profile="">All</button>
-    <button class="filter-btn" data-profile="filter">Filter</button>
-    <button class="filter-btn" data-profile="espresso">Espresso</button>
-    <button class="filter-btn" data-profile="omni">Omni</button>
+  <div class="divider"></div>
+
+  <div class="pill-group" id="profileFilter">
+    <button class="pill active-all" data-profile="">All</button>
+    <button class="pill" data-profile="filter">Filter</button>
+    <button class="pill" data-profile="espresso">Espresso</button>
+    <button class="pill" data-profile="omni">Omni</button>
   </div>
 
-  <button class="filter-btn" id="newOnlyBtn" data-active="false">New only</button>
+  <div class="divider"></div>
+
+  <button class="pill" id="newOnlyBtn">★ New</button>
 </div>
 
-<div class="stats-bar" id="statsBar"></div>
+<div class="stats-strip" id="statsStrip"></div>
 
 <main id="main">
   <div class="loading">Loading coffee data…</div>
@@ -342,199 +476,141 @@
 
 <script>
 (function () {
-  // ── State ──
-  let allItems = [];
-  let roasters = [];
-  let state = {
-    search: '',
-    roaster: '',
-    profile: '',
-    newOnly: false,
-  };
+  let allItems = [], roasters = [];
+  let state = { search: '', roaster: '', profile: '', newOnly: false };
 
-  // ── Fetch data ──
   fetch('data.json')
-    .then(r => {
-      if (!r.ok) throw new Error(`HTTP ${r.status}`);
-      return r.json();
-    })
-    .then(data => init(data))
+    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(init)
     .catch(err => {
       document.getElementById('main').innerHTML =
         `<div class="error-box"><strong>Failed to load data.</strong><br>${err.message}<br><br>
-        Make sure <code>data.json</code> exists in the <code>docs/</code> folder.<br>
-        Run <code>python generate_web_data.py</code> to generate it.</div>`;
+        Run <code>python generate_web_data.py</code> to generate <code>docs/data.json</code>.</div>`;
     });
 
   function init(data) {
     allItems = data.items || [];
     roasters = data.roasters || [];
-
-    // Meta line
     const s = data.stats || {};
     document.getElementById('meta').textContent =
       `Updated ${data.generated_at} · ${s.roasters} roasters · ${s.total} coffees`;
-
-    // Stats bar
-    renderStatsBar(allItems);
-
-    // Roaster dropdown
     const sel = document.getElementById('roasterFilter');
     roasters.forEach(r => {
-      const opt = document.createElement('option');
-      opt.value = r; opt.textContent = r;
-      sel.appendChild(opt);
+      const o = document.createElement('option');
+      o.value = r; o.textContent = r; sel.appendChild(o);
     });
-
     render();
   }
 
-  function renderStatsBar(filtered) {
-    const total = filtered.length;
-    const newCount = filtered.filter(i => i.is_new).length;
-    const bar = document.getElementById('statsBar');
-    bar.innerHTML = `
-      <span class="stat"><strong>${total}</strong> coffees shown</span>
-      ${newCount > 0 ? `<span class="stat new"><strong>★ ${newCount}</strong> new this week</span>` : ''}
-    `;
-  }
-
-  // ── Filter ──
-  function filteredItems() {
+  function filtered() {
     const q = state.search.toLowerCase().trim();
     return allItems.filter(item => {
       if (state.roaster && item.roaster !== state.roaster) return false;
       if (state.profile && item.roast_profile !== state.profile) return false;
       if (state.newOnly && !item.is_new) return false;
       if (q) {
-        const haystack = [
-          item.bean_name, item.origin, item.process,
-          item.varietal, item.flavour_profile, item.roaster,
-        ].join(' ').toLowerCase();
-        if (!haystack.includes(q)) return false;
+        const h = [item.bean_name, item.origin, item.process,
+                   item.varietal, item.flavour_profile, item.roaster].join(' ').toLowerCase();
+        if (!h.includes(q)) return false;
       }
       return true;
     });
   }
 
-  // ── Render ──
-  function render() {
-    const items = filteredItems();
-    renderStatsBar(items);
-
-    const main = document.getElementById('main');
-
-    if (items.length === 0) {
-      main.innerHTML = `<div class="empty">
-        <div class="empty-icon">☕</div>
-        <div>No coffees match your filters.</div>
-      </div>`;
-      return;
-    }
-
-    // Group by roaster (preserve order: new items are already first globally)
-    const groups = {};
-    const groupOrder = [];
-    for (const item of items) {
-      if (!groups[item.roaster]) {
-        groups[item.roaster] = [];
-        groupOrder.push(item.roaster);
-      }
-      groups[item.roaster].push(item);
-    }
-
-    const html = groupOrder.map(roaster => {
-      const cards = groups[roaster].map(cardHTML).join('');
-      const count = groups[roaster].length;
-      const newCount = groups[roaster].filter(i => i.is_new).length;
-      const newBadge = newCount > 0
-        ? `<span class="badge badge-new">★ ${newCount} new</span>`
-        : '';
-      return `
-        <section class="roaster-section">
-          <div class="roaster-header">
-            <span class="roaster-name">${esc(roaster)}</span>
-            <span class="roaster-count">${count}</span>
-            ${newBadge}
-          </div>
-          <div class="coffee-grid">${cards}</div>
-        </section>`;
-    }).join('');
-
-    main.innerHTML = html;
+  function renderStats(items) {
+    const newCount = items.filter(i => i.is_new).length;
+    document.getElementById('statsStrip').innerHTML =
+      `<span class="chip"><span class="chip-dot"></span>${items.length} coffees</span>` +
+      (newCount > 0 ? `<span class="chip new"><span class="chip-dot"></span>${newCount} new this week</span>` : '');
   }
 
-  function profileBadge(profile) {
-    if (!profile) return `<span class="badge badge-unknown">—</span>`;
-    const cls = {
-      filter: 'badge-filter',
-      espresso: 'badge-espresso',
-      omni: 'badge-omni',
-    }[profile] || 'badge-unknown';
-    return `<span class="badge ${cls}">${esc(profile)}</span>`;
+  function render() {
+    const items = filtered();
+    renderStats(items);
+    const main = document.getElementById('main');
+    if (!items.length) {
+      main.innerHTML = `<div class="empty"><div class="empty-icon">☕</div><p>No coffees match your filters.</p></div>`;
+      return;
+    }
+    const groups = {}, order = [];
+    for (const item of items) {
+      if (!groups[item.roaster]) { groups[item.roaster] = []; order.push(item.roaster); }
+      groups[item.roaster].push(item);
+    }
+    main.innerHTML = order.map(roaster => {
+      const grp = groups[roaster];
+      const newCount = grp.filter(i => i.is_new).length;
+      return `<section class="roaster-section">
+        <div class="roaster-header">
+          <div class="roaster-accent"></div>
+          <span class="roaster-name">${esc(roaster)}</span>
+          <span class="roaster-count">${grp.length}</span>
+          ${newCount > 0 ? `<span class="roaster-new">★ ${newCount} new</span>` : ''}
+        </div>
+        <div class="coffee-grid">${grp.map(cardHTML).join('')}</div>
+      </section>`;
+    }).join('');
+  }
+
+  function profileBadge(p) {
+    if (!p) return `<span class="badge badge-unknown">—</span>`;
+    const cls = { filter:'badge-filter', espresso:'badge-espresso', omni:'badge-omni' }[p] || 'badge-unknown';
+    return `<span class="badge ${cls}">${esc(p)}</span>`;
   }
 
   function cardHTML(item) {
-    const newBadge = item.is_new ? `<span class="badge badge-new">★ NEW</span>` : '';
     const price = item.price_aud ? `$${item.price_aud}` : '—';
-    const nameLink = item.url
+    const nameContent = item.url
       ? `<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.bean_name)}</a>`
       : esc(item.bean_name);
+    const newBadge = item.is_new ? `<span class="badge badge-new">★ NEW</span>` : '';
 
-    const details = [
-      item.origin    ? `<div class="detail-row"><span class="detail-label">Origin</span><span class="detail-value">${esc(item.origin)}</span></div>` : '',
-      item.process   ? `<div class="detail-row"><span class="detail-label">Process</span><span class="detail-value">${esc(item.process)}</span></div>` : '',
-      item.varietal  ? `<div class="detail-row"><span class="detail-label">Varietal</span><span class="detail-value">${esc(item.varietal)}</span></div>` : '',
+    const rows = [
+      item.origin   && `<div class="detail-row"><span class="detail-label">Origin</span><span class="detail-value">${esc(item.origin)}</span></div>`,
+      item.process  && `<div class="detail-row"><span class="detail-label">Process</span><span class="detail-value">${esc(item.process)}</span></div>`,
+      item.varietal && `<div class="detail-row"><span class="detail-label">Varietal</span><span class="detail-value">${esc(item.varietal)}</span></div>`,
     ].filter(Boolean).join('');
 
     const flavour = item.flavour_profile
-      ? `<div class="flavour">${esc(item.flavour_profile)}</div>`
-      : '';
+      ? `<div class="sep"></div><div class="flavour">${esc(item.flavour_profile)}</div>` : '';
 
-    return `
-      <div class="card${item.is_new ? ' is-new' : ''}">
-        <div class="card-top">
-          <div class="bean-name">${nameLink}</div>
-          <div class="price">${price}</div>
-        </div>
-        <div class="badges">${profileBadge(item.roast_profile)}${newBadge}</div>
-        <div class="card-details">${details}${flavour}</div>
-      </div>`;
+    return `<div class="card${item.is_new ? ' is-new' : ''}">
+      <div class="card-top">
+        <div class="bean-name">${nameContent}</div>
+        <div class="price">${price}</div>
+      </div>
+      <div class="badges">${profileBadge(item.roast_profile)}${newBadge}</div>
+      <div class="card-details">${rows}${flavour}</div>
+    </div>`;
   }
 
-  function esc(str) {
-    if (!str) return '';
-    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
-              .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  function esc(s) {
+    return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+                  .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
   }
 
-  // ── Event listeners ──
+  // ── Events ──
   document.getElementById('search').addEventListener('input', e => {
-    state.search = e.target.value;
-    render();
+    state.search = e.target.value; render();
   });
-
   document.getElementById('roasterFilter').addEventListener('change', e => {
-    state.roaster = e.target.value;
-    render();
+    state.roaster = e.target.value; render();
   });
-
   document.getElementById('profileFilter').addEventListener('click', e => {
     const btn = e.target.closest('[data-profile]');
     if (!btn) return;
     state.profile = btn.dataset.profile;
-    document.querySelectorAll('#profileFilter .filter-btn').forEach(b =>
-      b.classList.toggle('active', b === btn)
-    );
+    const activeClass = { '':'active-all', filter:'active-filter', espresso:'active-espresso', omni:'active-omni' }[state.profile] || 'active-all';
+    document.querySelectorAll('#profileFilter .pill').forEach(b => {
+      b.className = 'pill' + (b === btn ? ' ' + activeClass : '');
+    });
     render();
   });
-
   document.getElementById('newOnlyBtn').addEventListener('click', function () {
     state.newOnly = !state.newOnly;
-    this.classList.toggle('active', state.newOnly);
+    this.className = 'pill' + (state.newOnly ? ' active-new' : '');
     render();
   });
-
 })();
 </script>
 </body>
