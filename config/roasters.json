@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Market Lane",
+    "url": "https://marketlane.com.au/pages/coffee",
+    "collection_url_override": "https://marketlane.com.au/pages/coffee",
+    "force_html_listing": true
+  },
+  {
+    "name": "Proud Mary",
+    "url": "https://www.proudmarycoffee.com.au/collections/coffee"
+  },
+  {
+    "name": "Seven Seeds",
+    "url": "https://sevenseeds.com.au/collections/coffee"
+  },
+  {
+    "name": "Commonfolk",
+    "url": "https://www.commonfolkcoffee.com.au/collections/single-origin"
+  },
+  {
+    "name": "ONA Coffee",
+    "url": "https://onacoffee.com.au/collections/all"
+  },
+  {
+    "name": "Padre Coffee",
+    "url": "https://www.padrecoffee.com.au/collections/coffee",
+    "collection_url_override": "https://www.padrecoffee.com.au/collections/coffee",
+    "force_html_listing": false
+  },
+  {
+    "name": "Code Black",
+    "url": "https://codeblackcoffee.com.au/collections/coffee"
+  },
+  {
+    "name": "Puchero Coffee",
+    "url": "https://somospuchero.com/en/categoria-producto/cafe/"
+  }
+]
