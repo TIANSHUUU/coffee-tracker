@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Tracker</title>
+  <style>
+    /* ── Reset & base ── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #faf9f7;
+      --surface:   #ffffff;
+      --border:    #e8e2d9;
+      --text:      #2c2420;
+      --muted:     #8a7d74;
+      --accent:    #c0392b;
+      --filter-bg: #fff0f3;
+      --filter-fg: #b5294a;
+      --espresso-bg: #eaf4ec;
+      --espresso-fg: #2e7d4a;
+      --omni-bg:   #eef3ff;
+      --omni-fg:   #3456b0;
+      --new-bg:    #fffbe6;
+      --new-fg:    #a06000;
+      --shadow:    0 1px 3px rgba(0,0,0,.08);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 18px 24px 14px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: var(--shadow);
+    }
+
+    .header-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    h1 span { color: var(--accent); }
+
+    .meta {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* ── Filters ── */
+    .filters {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 24px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filters input[type="text"] {
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 13px;
+      width: 200px;
+      background: var(--bg);
+      color: var(--text);
+      outline: none;
+      transition: border-color .15s;
+    }
+    .filters input[type="text"]:focus { border-color: var(--accent); }
+
+    .filters select {
+      padding: 6px 28px 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 13px;
+      background: var(--bg);
+      color: var(--text);
+      outline: none;
+      appearance: none;
+      cursor: pointer;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238a7d74' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+    }
+
+    .filter-btn {
+      padding: 6px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      font-size: 12px;
+      cursor: pointer;
+      background: var(--bg);
+      color: var(--muted);
+      transition: all .15s;
+    }
+    .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .filter-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .filter-group { display: flex; gap: 4px; }
+
+    /* ── Stats bar ── */
+    .stats-bar {
+      padding: 8px 24px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .stat { font-size: 12px; color: var(--muted); }
+    .stat strong { color: var(--text); }
+    .stat.new strong { color: var(--new-fg); }
+
+    /* ── Main content ── */
+    main { padding: 0 24px 40px; }
+
+    /* ── Roaster section ── */
+    .roaster-section { margin-bottom: 32px; }
+
+    .roaster-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 0 8px;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 10px;
+      position: sticky;
+      top: 100px;
+      background: var(--bg);
+      z-index: 10;
+    }
+
+    .roaster-name {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .roaster-count {
+      font-size: 12px;
+      color: var(--muted);
+      background: var(--border);
+      padding: 1px 7px;
+      border-radius: 20px;
+    }
+
+    /* ── Coffee grid ── */
+    .coffee-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 10px;
+    }
+
+    /* ── Coffee card ── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px;
+      transition: box-shadow .15s, transform .15s;
+      position: relative;
+    }
+    .card:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,.1);
+      transform: translateY(-1px);
+    }
+    .card.is-new {
+      border-left: 3px solid var(--new-fg);
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .bean-name {
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.3;
+      flex: 1;
+    }
+
+    .bean-name a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .bean-name a:hover { color: var(--accent); text-decoration: underline; }
+
+    .price {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--accent);
+      white-space: nowrap;
+    }
+
+    .badges {
+      display: flex;
+      gap: 5px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+
+    .badge {
+      font-size: 10px;
+      font-weight: 600;
+      padding: 2px 7px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+
+    .badge-filter    { background: var(--filter-bg);    color: var(--filter-fg); }
+    .badge-espresso  { background: var(--espresso-bg);  color: var(--espresso-fg); }
+    .badge-omni      { background: var(--omni-bg);      color: var(--omni-fg); }
+    .badge-new       { background: var(--new-bg);       color: var(--new-fg); }
+    .badge-unknown   { background: #f0f0f0;             color: #666; }
+
+    .card-details {
+      font-size: 12px;
+      color: var(--muted);
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .detail-row {
+      display: flex;
+      gap: 6px;
+    }
+    .detail-label {
+      width: 52px;
+      flex-shrink: 0;
+      font-weight: 500;
+      color: #b0a49a;
+    }
+    .detail-value {
+      color: var(--muted);
+    }
+
+    .flavour {
+      margin-top: 6px;
+      font-style: italic;
+      font-size: 12px;
+      color: #b0a49a;
+    }
+
+    /* ── Empty state ── */
+    .empty {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--muted);
+    }
+    .empty-icon { font-size: 40px; margin-bottom: 12px; }
+
+    /* ── Loading ── */
+    .loading {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* ── Error ── */
+    .error-box {
+      background: #fff0f0;
+      border: 1px solid #f0c0c0;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 40px 24px;
+      color: #b00;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      header, .filters, .stats-bar, main { padding-left: 14px; padding-right: 14px; }
+      .filters input[type="text"] { width: 100%; }
+      .filters { flex-direction: column; align-items: stretch; }
+      .filter-group { flex-wrap: wrap; }
+      .roaster-header { top: 140px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-row">
+    <h1>☕ Coffee <span>Tracker</span></h1>
+    <div class="meta" id="meta">Loading...</div>
+  </div>
+</header>
+
+<div class="filters">
+  <input type="text" id="search" placeholder="Search beans, origin, process…" autocomplete="off" />
+
+  <select id="roasterFilter">
+    <option value="">All roasters</option>
+  </select>
+
+  <div class="filter-group" id="profileFilter">
+    <button class="filter-btn active" data-profile="">All</button>
+    <button class="filter-btn" data-profile="filter">Filter</button>
+    <button class="filter-btn" data-profile="espresso">Espresso</button>
+    <button class="filter-btn" data-profile="omni">Omni</button>
+  </div>
+
+  <button class="filter-btn" id="newOnlyBtn" data-active="false">New only</button>
+</div>
+
+<div class="stats-bar" id="statsBar"></div>
+
+<main id="main">
+  <div class="loading">Loading coffee data…</div>
+</main>
+
+<script>
+(function () {
+  // ── State ──
+  let allItems = [];
+  let roasters = [];
+  let state = {
+    search: '',
+    roaster: '',
+    profile: '',
+    newOnly: false,
+  };
+
+  // ── Fetch data ──
+  fetch('data.json')
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .then(data => init(data))
+    .catch(err => {
+      document.getElementById('main').innerHTML =
+        `<div class="error-box"><strong>Failed to load data.</strong><br>${err.message}<br><br>
+        Make sure <code>data.json</code> exists in the <code>docs/</code> folder.<br>
+        Run <code>python generate_web_data.py</code> to generate it.</div>`;
+    });
+
+  function init(data) {
+    allItems = data.items || [];
+    roasters = data.roasters || [];
+
+    // Meta line
+    const s = data.stats || {};
+    document.getElementById('meta').textContent =
+      `Updated ${data.generated_at} · ${s.roasters} roasters · ${s.total} coffees`;
+
+    // Stats bar
+    renderStatsBar(allItems);
+
+    // Roaster dropdown
+    const sel = document.getElementById('roasterFilter');
+    roasters.forEach(r => {
+      const opt = document.createElement('option');
+      opt.value = r; opt.textContent = r;
+      sel.appendChild(opt);
+    });
+
+    render();
+  }
+
+  function renderStatsBar(filtered) {
+    const total = filtered.length;
+    const newCount = filtered.filter(i => i.is_new).length;
+    const bar = document.getElementById('statsBar');
+    bar.innerHTML = `
+      <span class="stat"><strong>${total}</strong> coffees shown</span>
+      ${newCount > 0 ? `<span class="stat new"><strong>★ ${newCount}</strong> new this week</span>` : ''}
+    `;
+  }
+
+  // ── Filter ──
+  function filteredItems() {
+    const q = state.search.toLowerCase().trim();
+    return allItems.filter(item => {
+      if (state.roaster && item.roaster !== state.roaster) return false;
+      if (state.profile && item.roast_profile !== state.profile) return false;
+      if (state.newOnly && !item.is_new) return false;
+      if (q) {
+        const haystack = [
+          item.bean_name, item.origin, item.process,
+          item.varietal, item.flavour_profile, item.roaster,
+        ].join(' ').toLowerCase();
+        if (!haystack.includes(q)) return false;
+      }
+      return true;
+    });
+  }
+
+  // ── Render ──
+  function render() {
+    const items = filteredItems();
+    renderStatsBar(items);
+
+    const main = document.getElementById('main');
+
+    if (items.length === 0) {
+      main.innerHTML = `<div class="empty">
+        <div class="empty-icon">☕</div>
+        <div>No coffees match your filters.</div>
+      </div>`;
+      return;
+    }
+
+    // Group by roaster (preserve order: new items are already first globally)
+    const groups = {};
+    const groupOrder = [];
+    for (const item of items) {
+      if (!groups[item.roaster]) {
+        groups[item.roaster] = [];
+        groupOrder.push(item.roaster);
+      }
+      groups[item.roaster].push(item);
+    }
+
+    const html = groupOrder.map(roaster => {
+      const cards = groups[roaster].map(cardHTML).join('');
+      const count = groups[roaster].length;
+      const newCount = groups[roaster].filter(i => i.is_new).length;
+      const newBadge = newCount > 0
+        ? `<span class="badge badge-new">★ ${newCount} new</span>`
+        : '';
+      return `
+        <section class="roaster-section">
+          <div class="roaster-header">
+            <span class="roaster-name">${esc(roaster)}</span>
+            <span class="roaster-count">${count}</span>
+            ${newBadge}
+          </div>
+          <div class="coffee-grid">${cards}</div>
+        </section>`;
+    }).join('');
+
+    main.innerHTML = html;
+  }
+
+  function profileBadge(profile) {
+    if (!profile) return `<span class="badge badge-unknown">—</span>`;
+    const cls = {
+      filter: 'badge-filter',
+      espresso: 'badge-espresso',
+      omni: 'badge-omni',
+    }[profile] || 'badge-unknown';
+    return `<span class="badge ${cls}">${esc(profile)}</span>`;
+  }
+
+  function cardHTML(item) {
+    const newBadge = item.is_new ? `<span class="badge badge-new">★ NEW</span>` : '';
+    const price = item.price_aud ? `$${item.price_aud}` : '—';
+    const nameLink = item.url
+      ? `<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.bean_name)}</a>`
+      : esc(item.bean_name);
+
+    const details = [
+      item.origin    ? `<div class="detail-row"><span class="detail-label">Origin</span><span class="detail-value">${esc(item.origin)}</span></div>` : '',
+      item.process   ? `<div class="detail-row"><span class="detail-label">Process</span><span class="detail-value">${esc(item.process)}</span></div>` : '',
+      item.varietal  ? `<div class="detail-row"><span class="detail-label">Varietal</span><span class="detail-value">${esc(item.varietal)}</span></div>` : '',
+    ].filter(Boolean).join('');
+
+    const flavour = item.flavour_profile
+      ? `<div class="flavour">${esc(item.flavour_profile)}</div>`
+      : '';
+
+    return `
+      <div class="card${item.is_new ? ' is-new' : ''}">
+        <div class="card-top">
+          <div class="bean-name">${nameLink}</div>
+          <div class="price">${price}</div>
+        </div>
+        <div class="badges">${profileBadge(item.roast_profile)}${newBadge}</div>
+        <div class="card-details">${details}${flavour}</div>
+      </div>`;
+  }
+
+  function esc(str) {
+    if (!str) return '';
+    return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+              .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+
+  // ── Event listeners ──
+  document.getElementById('search').addEventListener('input', e => {
+    state.search = e.target.value;
+    render();
+  });
+
+  document.getElementById('roasterFilter').addEventListener('change', e => {
+    state.roaster = e.target.value;
+    render();
+  });
+
+  document.getElementById('profileFilter').addEventListener('click', e => {
+    const btn = e.target.closest('[data-profile]');
+    if (!btn) return;
+    state.profile = btn.dataset.profile;
+    document.querySelectorAll('#profileFilter .filter-btn').forEach(b =>
+      b.classList.toggle('active', b === btn)
+    );
+    render();
+  });
+
+  document.getElementById('newOnlyBtn').addEventListener('click', function () {
+    state.newOnly = !state.newOnly;
+    this.classList.toggle('active', state.newOnly);
+    render();
+  });
+
+})();
+</script>
+</body>
+</html>
