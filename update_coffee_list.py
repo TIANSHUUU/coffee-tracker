@@ -140,6 +140,7 @@ class CoffeeItem:
 
 def clean_text(text: str) -> str:
     text = unescape(text or "")
+    text = re.sub(r"<[^>]+>", " ", text)  # strip HTML tags
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 

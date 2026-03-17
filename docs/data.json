@@ -1242,7 +1242,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Brasil Fazenda Pereira <br> Natural <br> Espresso",
+      "bean_name": "Brasil Fazenda Pereira Natural Espresso",
       "url": "https://somospuchero.com/producto/brasil-fazenda-pereira-natural-espresso/",
       "roast_profile": "omni",
       "origin": "Brazil",
@@ -1254,7 +1254,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Cacao Alchemy <br> Sharp and Sour<br> Ebook",
+      "bean_name": "Cacao Alchemy Sharp and Sour Ebook",
       "url": "https://somospuchero.com/producto/cacao-alchemy-sharp-and-sour-ebook-2/",
       "roast_profile": "",
       "origin": "",
@@ -1266,7 +1266,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Colombia Cata Reserva <br> Lavado<br> Filtro",
+      "bean_name": "Colombia Cata Reserva Lavado Filtro",
       "url": "https://somospuchero.com/producto/colombia-cata-reserva-lavado-filtro/",
       "roast_profile": "filter",
       "origin": "Colombia",
@@ -1278,7 +1278,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Colombia Dos Quebradas<br> Lavado<br> Filtro",
+      "bean_name": "Colombia Dos Quebradas Lavado Filtro",
       "url": "https://somospuchero.com/producto/colombia-dos-quebradas-lavado-filtro/",
       "roast_profile": "filter",
       "origin": "Colombia",
@@ -1290,7 +1290,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Colombia Planadas <br> Lavado <br> Espresso",
+      "bean_name": "Colombia Planadas Lavado Espresso",
       "url": "https://somospuchero.com/producto/colombia-planadas-lavado-espresso/",
       "roast_profile": "omni",
       "origin": "Colombia",
@@ -1302,7 +1302,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Colombia Wilton Benítez<br> Competition<br>Fermentación especial",
+      "bean_name": "Colombia Wilton Benítez Competition Fermentación especial",
       "url": "https://somospuchero.com/producto/colombia-wilton-benitez-filtro-competition/",
       "roast_profile": "filter",
       "origin": "Colombia",
@@ -1314,7 +1314,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Costa Rica Tarrazú <br> Lavado <br> Espresso",
+      "bean_name": "Costa Rica Tarrazú Lavado Espresso",
       "url": "https://somospuchero.com/producto/costa-rica-tarrazu-espresso/",
       "roast_profile": "omni",
       "origin": "Costa Rica",
@@ -1326,7 +1326,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Etiopía Banko Gotiti <br> Lavado <br> Espresso",
+      "bean_name": "Etiopía Banko Gotiti Lavado Espresso",
       "url": "https://somospuchero.com/producto/etiopia-banko-gotiti-lavado-espresso/",
       "roast_profile": "omni",
       "origin": "",
@@ -1338,7 +1338,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Etiopía Okoluu <br> Natural<br> Filtro",
+      "bean_name": "Etiopía Okoluu Natural Filtro",
       "url": "https://somospuchero.com/producto/etiopia-okoluu-natural-filter/",
       "roast_profile": "filter",
       "origin": "",
@@ -1362,7 +1362,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Kenia Karindundu <br> Lavado <br> Espresso",
+      "bean_name": "Kenia Karindundu Lavado Espresso",
       "url": "https://somospuchero.com/producto/kenia-karindundu-lavado-espresso/",
       "roast_profile": "omni",
       "origin": "",
@@ -1374,7 +1374,7 @@
     },
     {
       "roaster": "Puchero Coffee",
-      "bean_name": "Ruanda Rutsiro <br> Lavado <br> Espresso",
+      "bean_name": "Ruanda Rutsiro Lavado Espresso",
       "url": "https://somospuchero.com/producto/ruanda-rutsiro-lavado-espresso/",
       "roast_profile": "omni",
       "origin": "",

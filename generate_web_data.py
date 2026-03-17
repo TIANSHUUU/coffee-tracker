@@ -8,8 +8,15 @@ new items, and writes the result to docs/data.json.
 import json
 import os
 import glob
+import re
 import sys
 from datetime import datetime
+
+
+def strip_html(text: str) -> str:
+    """Remove HTML tags and collapse whitespace."""
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    return re.sub(r"\s+", " ", text).strip()
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
 WEB_DATA_PATH = os.path.join(os.path.dirname(__file__), "docs", "data.json")
@@ -62,15 +69,15 @@ def main():
             continue
         key = item_key(item)
         entry = {
-            "roaster": item.get("roaster", ""),
-            "bean_name": item.get("bean_name", ""),
+            "roaster": strip_html(item.get("roaster", "")),
+            "bean_name": strip_html(item.get("bean_name", "")),
             "url": item.get("source_url") or item.get("product_url", ""),
             "roast_profile": item.get("roast_profile", ""),
-            "origin": item.get("origin", ""),
+            "origin": strip_html(item.get("origin", "")),
             "price_aud": item.get("price_aud", ""),
-            "process": item.get("process", ""),
-            "varietal": item.get("varietal", ""),
-            "flavour_profile": item.get("flavour_profile", ""),
+            "process": strip_html(item.get("process", "")),
+            "varietal": strip_html(item.get("varietal", "")),
+            "flavour_profile": strip_html(item.get("flavour_profile", "")),
             "is_new": key not in previous_keys,
         }
         items.append(entry)
