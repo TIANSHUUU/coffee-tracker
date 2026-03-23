@@ -473,6 +473,31 @@ def normalize_collection_json_url(
     return None
 
 
+# Regex to detect JS-template placeholder labels captured by accident
+# e.g. "IMPORTER/PARTNER", "PROCESSING", "REGION", "GEO TAG"
+_TEMPLATE_LABEL_RE = re.compile(r"^[A-Z][A-Z0-9 /]+$")
+
+def _is_template_label(s: str) -> bool:
+    """Return True if s looks like an all-caps template label, not a real value."""
+    return bool(_TEMPLATE_LABEL_RE.match(s.strip()))
+
+
+def extract_shopify_tag_metadata(tags: List[str]) -> Dict[str, List[str]]:
+    """Parse structured Shopify tags like 'PROCESS: Washed' into a metadata dict."""
+    meta: Dict[str, List[str]] = {
+        "process": [], "country": [], "roast": [], "varietal": [], "producer": [], "region": []
+    }
+    for tag in (tags or []):
+        m = re.match(r"^(PROCESS|COUNTRY|ROAST|VARIETAL|PRODUCER|REGION)\s*:\s*(.+)$",
+                     tag.strip(), re.IGNORECASE)
+        if m:
+            key = m.group(1).lower()
+            val = m.group(2).strip()
+            if key in meta and val:
+                meta[key].append(val)
+    return meta
+
+
 def scrape_shopify_collection_json(
     session: requests.Session,
     roaster: str,
@@ -504,11 +529,13 @@ def scrape_shopify_collection_json(
         if not title:
             continue
 
+        raw_tags: List[str] = product.get("tags") or []
+        tag_meta = extract_shopify_tag_metadata(raw_tags)
+        tags_str = " ".join(raw_tags)
         body_html = product.get("body_html") or ""
-        tags = " ".join(product.get("tags") or [])
         text_blob = clean_text(BeautifulSoup(body_html, "html.parser").get_text(" "))
-        exclude_text = " ".join([title, tags])
-        combined = " ".join([title, tags, text_blob])
+        exclude_text = " ".join([title, tags_str])
+        combined = " ".join([title, tags_str, text_blob])
         if should_exclude_product_for_roaster(roaster, exclude_text):
             continue
 
@@ -525,17 +552,41 @@ def scrape_shopify_collection_json(
         handle = product.get("handle") or ""
         product_url = f"{base}/products/{handle}" if handle else listing_url
 
-        roast_profile_label = parse_roast_profile(combined)
+        # Prefer structured tag values; fall back to body-text parsing.
+        # Guard against JS-template placeholders captured as values (e.g. "PROCESSING", "REGION").
+        def _tag_or_parse(tag_vals: List[str], fallback: str) -> str:
+            if tag_vals:
+                return ", ".join(tag_vals)
+            return "" if _is_template_label(fallback) else fallback
+
+        process = _tag_or_parse(
+            tag_meta["process"],
+            parse_process(combined, title=title, product_url=product_url),
+        )
+        origin = _tag_or_parse(
+            tag_meta["country"],
+            parse_origin(combined),
+        )
+        varietal = _tag_or_parse(
+            tag_meta["varietal"],
+            parse_varietal(combined),
+        )
+        roast_profile_label = (
+            parse_roast_profile(" ".join(tag_meta["roast"]))
+            if tag_meta["roast"]
+            else parse_roast_profile(combined)
+        )
+
         items.append(
             CoffeeItem(
                 roaster=roaster,
                 source_url=product_url,
                 bean_name=title,
                 roast_profile=roast_profile_label,
-                origin=parse_origin(combined),
+                origin=origin,
                 price_aud=price,
-                process=parse_process(combined, title=title, product_url=product_url),
-                varietal=parse_varietal(combined),
+                process=process,
+                varietal=varietal,
                 flavour_profile=parse_flavour_profile(combined),
                 product_url=product_url,
                 status="ok",
