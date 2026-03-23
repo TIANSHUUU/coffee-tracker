@@ -225,16 +225,22 @@ def parse_origin(text: str) -> str:
     t = clean_text(text)
     lower = t.lower()
 
-    patterns = [
-        r"(?:origin|country)\s*[:\-]\s*([A-Za-z ,/&]+)",
-        r"(?:from|grown in)\s+([A-Za-z ,/&]+)",
-    ]
-    for p in patterns:
-        m = re.search(p, t, flags=re.IGNORECASE)
-        if m:
-            candidate = clean_text(m.group(1))
-            candidate = re.split(r"[.|;]| process| variety| roast", candidate, flags=re.IGNORECASE)[0]
-            return candidate[:80].strip(" ,")
+    # "origin/country:" labels are reliable; "from/grown in" is too broad so we
+    # only trust it when the captured text contains a known country keyword.
+    explicit = re.search(r"(?:origin|country)\s*[:\-]\s*([A-Za-z ,/&]+)", t, flags=re.IGNORECASE)
+    if explicit:
+        candidate = clean_text(explicit.group(1))
+        candidate = re.split(r"[.|;]| process| variety| roast", candidate, flags=re.IGNORECASE)[0]
+        return candidate[:80].strip(" ,")
+
+    grown_in = re.search(r"(?:from|grown in)\s+([A-Za-z ,/&]+)", t, flags=re.IGNORECASE)
+    if grown_in:
+        candidate = clean_text(grown_in.group(1))
+        candidate = re.split(r"[.|;]| process| variety| roast", candidate, flags=re.IGNORECASE)[0]
+        candidate = candidate[:80].strip(" ,")
+        # Only trust if it actually contains a country name
+        if any(country in candidate.lower() for country in COUNTRY_KEYWORDS):
+            return candidate
 
     found = []
     for country in COUNTRY_KEYWORDS:
@@ -775,12 +781,14 @@ def extract_shop_slug_links(base_url: str, html: str) -> List[str]:
         if not same_site(base_url, full):
             return
         path = parsed.path.rstrip("/")
-        # Handle Woo-style product permalinks like /shop/<slug>
-        m = re.match(r"^/shop/([^/]+)$", path)
+        # Handle Woo-style product permalinks:
+        #   /shop/<slug>  or  /shop/<category>/<slug>
+        m = re.match(r"^/shop/((?:[^/]+/)?[^/]+)$", path)
         if not m:
             return
         slug = m.group(1).lower()
-        if slug in {"shop", "page", "category", "tag", "feed", "cart", "checkout", "my-account"}:
+        first_segment = slug.split("/")[0]
+        if first_segment in {"shop", "page", "category", "tag", "feed", "cart", "checkout", "my-account"}:
             return
         normalized = f"{base_prefix}/shop/{m.group(1)}"
         if normalized not in seen:
@@ -864,6 +872,15 @@ def parse_product_page(
             if m:
                 price = m.group(1)
     if not price:
+        # Try WooCommerce / structured price element before scanning the full page.
+        # Full-page scan risks picking up cart totals ($0) that appear early in the DOM.
+        for sel in (".price", ".woocommerce-Price-amount", "[class*='price']"):
+            el = soup.select_one(sel)
+            if el:
+                price = extract_price(el.get_text(" "))
+                if price and price != "0":
+                    break
+    if not price or price == "0":
         price = extract_price(soup.get_text(" "))
 
     text_blob = clean_text(soup.get_text(" "))
