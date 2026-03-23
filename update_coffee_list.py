@@ -85,7 +85,9 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "kettle",
     "dripper",
     "filter paper",
+    "filter papers",
     "paper filter",
+    "paper filters",
     "magazine",
     "book",
     "gift card",
@@ -106,6 +108,19 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "tamper",
     "hario v60 drip assist set",
     "instant coffee",
+    # Clothing & accessories
+    "hoodie",
+    "beanie",
+    "apron",
+    "socks",
+    # Equipment & tools
+    "bottle",
+    "portafilter",
+    "refractometer",
+    # Food & non-coffee products
+    "panela sugar",
+    "panel sugar",
+    "sampler pack",
 ]
 
 EXCLUDED_PRODUCT_REGEXES = [
@@ -113,6 +128,8 @@ EXCLUDED_PRODUCT_REGEXES = [
     r"\bt\s*shirts?\b",
     r"\btee\s*shirts?\b",
     r"\bgift\s*cards?\b",
+    r"\bncd\b",       # NCD / NCD Pulse / Pink NCD refractometer
+    r"\bstem\b",      # STEM milk pitcher
 ]
 
 ROAST_PROFILE_COLORS = {
