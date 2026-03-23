@@ -117,6 +117,9 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "bottle",
     "portafilter",
     "refractometer",
+    "mug",
+    "glasses",
+    "pitcher",
     # Food & non-coffee products
     "panela sugar",
     "panel sugar",
