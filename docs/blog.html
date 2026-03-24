@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog – Coffee Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Markdown renderer -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:           #f5f4f8;
+      --surface:      #ffffff;
+      --border:       #ebe8f0;
+      --text:         #1a1625;
+      --muted:        #7c6e8a;
+      --subtle:       #b8aec6;
+      --pink:         #ff6b9d;
+      --pink-soft:    #ffe0ee;
+      --orange:       #ff8c42;
+      --header-h:     64px;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      font-size: 13px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── Header ── */
+    header {
+      height: var(--header-h);
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      box-shadow: 0 1px 0 var(--border), 0 4px 16px rgba(0,0,0,.04);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .logo-icon {
+      width: 34px; height: 34px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--pink) 0%, var(--orange) 100%);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+    }
+
+    .logo-text {
+      font-size: 17px; font-weight: 800; letter-spacing: -0.5px;
+    }
+
+    .logo-text em {
+      font-style: normal;
+      background: linear-gradient(90deg, var(--pink), var(--orange));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .header-right { display: flex; align-items: center; gap: 16px; }
+
+    .nav-links { display: flex; gap: 4px; }
+
+    .nav-link {
+      padding: 5px 13px;
+      border-radius: 20px;
+      font-size: 12.5px; font-weight: 600;
+      font-family: inherit;
+      text-decoration: none;
+      color: var(--muted);
+      border: 1.5px solid transparent;
+      transition: all .15s;
+    }
+    .nav-link:hover { color: var(--pink); }
+    .nav-link.active {
+      background: var(--surface);
+      border-color: var(--border);
+      color: var(--text);
+    }
+
+    /* ── Layout ── */
+    .page {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 40px 28px 80px;
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 32px;
+      align-items: start;
+    }
+
+    /* ── Sidebar: post list ── */
+    .sidebar { position: sticky; top: calc(var(--header-h) + 20px); }
+
+    .sidebar-title {
+      font-size: 11px; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.6px;
+      color: var(--subtle);
+      margin-bottom: 10px;
+    }
+
+    .post-list { display: flex; flex-direction: column; gap: 6px; }
+
+    .post-item {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      cursor: pointer;
+      transition: border-color .15s, box-shadow .15s;
+    }
+    .post-item:hover { border-color: #ddd8e8; box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+    .post-item.active { border-color: var(--pink); }
+
+    .post-item-title {
+      font-size: 13px; font-weight: 600;
+      line-height: 1.35; margin-bottom: 4px;
+    }
+
+    .post-item-date {
+      font-size: 11px; color: var(--subtle); font-weight: 500;
+    }
+
+    /* ── Article ── */
+    .article-wrap {
+      background: var(--surface);
+      border: 1.5px solid var(--border);
+      border-radius: 16px;
+      padding: 36px 40px;
+      min-height: 400px;
+    }
+
+    .article-cover {
+      width: 100%; max-height: 320px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 28px;
+      display: block;
+    }
+
+    .article-meta {
+      font-size: 12px; color: var(--subtle); font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .article-title {
+      font-size: 24px; font-weight: 800;
+      letter-spacing: -0.5px; line-height: 1.25;
+      margin-bottom: 24px;
+    }
+
+    /* Markdown content styles */
+    .article-body { font-size: 14.5px; line-height: 1.8; color: #2d2540; }
+    .article-body h1,.article-body h2,.article-body h3 {
+      font-weight: 700; letter-spacing: -0.3px;
+      margin: 28px 0 10px; color: var(--text);
+    }
+    .article-body h2 { font-size: 18px; }
+    .article-body h3 { font-size: 15px; }
+    .article-body p { margin-bottom: 16px; }
+    .article-body ul,.article-body ol { padding-left: 22px; margin-bottom: 16px; }
+    .article-body li { margin-bottom: 6px; }
+    .article-body img {
+      max-width: 100%; border-radius: 8px;
+      margin: 16px 0; display: block;
+    }
+    .article-body strong { font-weight: 700; color: var(--text); }
+    .article-body em { font-style: italic; color: var(--muted); }
+    .article-body hr {
+      border: none; border-top: 1px solid var(--border);
+      margin: 28px 0;
+    }
+    .article-body blockquote {
+      border-left: 3px solid var(--pink);
+      padding-left: 16px; color: var(--muted);
+      margin: 16px 0; font-style: italic;
+    }
+
+    /* ── Empty / loading states ── */
+    .empty-state {
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      min-height: 360px; color: var(--muted); text-align: center;
+    }
+    .empty-state-icon { font-size: 48px; margin-bottom: 14px; }
+    .empty-state p { font-size: 14px; font-weight: 500; }
+    .empty-state small { font-size: 12px; color: var(--subtle); margin-top: 6px; display: block; }
+
+    /* ── Responsive ── */
+    @media (max-width: 700px) {
+      .page { grid-template-columns: 1fr; padding: 20px 16px 60px; }
+      .sidebar { position: static; }
+      .article-wrap { padding: 24px 20px; }
+      header { padding: 0 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="logo">
+    <div class="logo-icon">☕</div>
+    <span class="logo-text">Coffee <em>Tracker</em></span>
+  </a>
+  <div class="header-right">
+    <nav class="nav-links">
+      <a href="index.html" class="nav-link">Tracker</a>
+      <a href="blog.html" class="nav-link active">Blog</a>
+    </nav>
+  </div>
+</header>
+
+<div class="page">
+  <aside class="sidebar">
+    <div class="sidebar-title">文章</div>
+    <div class="post-list" id="postList"></div>
+  </aside>
+
+  <article class="article-wrap" id="articleWrap">
+    <div class="empty-state">
+      <div class="empty-state-icon">✍️</div>
+      <p>还没有文章</p>
+      <small>喝到好咖啡了就来记一笔</small>
+    </div>
+  </article>
+</div>
+
+<script>
+(function () {
+  fetch('blog-posts.json')
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(data => {
+      const posts = (data.posts || []).slice().sort((a, b) => b.date.localeCompare(a.date));
+      if (!posts.length) return;
+      renderList(posts);
+      loadPost(posts[0]);
+    })
+    .catch(() => { /* keep empty state */ });
+
+  function renderList(posts) {
+    const list = document.getElementById('postList');
+    list.innerHTML = posts.map((p, i) =>
+      `<div class="post-item${i === 0 ? ' active' : ''}" data-idx="${i}" data-slug="${p.slug}">
+        <div class="post-item-title">${esc(p.title)}</div>
+        <div class="post-item-date">${formatDate(p.date)}</div>
+      </div>`
+    ).join('');
+    list.addEventListener('click', e => {
+      const item = e.target.closest('.post-item');
+      if (!item) return;
+      list.querySelectorAll('.post-item').forEach(el => el.classList.remove('active'));
+      item.classList.add('active');
+      loadPost(posts[+item.dataset.idx]);
+    });
+  }
+
+  function loadPost(post) {
+    const wrap = document.getElementById('articleWrap');
+    wrap.innerHTML = '<div class="empty-state"><div class="empty-state-icon">⏳</div><p>Loading…</p></div>';
+    fetch(`blog/posts/${post.slug}.md`)
+      .then(r => r.ok ? r.text() : Promise.reject())
+      .then(md => {
+        wrap.innerHTML =
+          (post.cover ? `<img class="article-cover" src="${esc(post.cover)}" alt="" />` : '') +
+          `<div class="article-meta">${formatDate(post.date)}</div>
+           <h1 class="article-title">${esc(post.title)}</h1>
+           <div class="article-body">${marked.parse(md)}</div>`;
+      })
+      .catch(() => {
+        wrap.innerHTML =
+          (post.cover ? `<img class="article-cover" src="${esc(post.cover)}" alt="" />` : '') +
+          `<div class="article-meta">${formatDate(post.date)}</div>
+           <h1 class="article-title">${esc(post.title)}</h1>
+           <div class="article-body"><p style="color:var(--subtle)">文章加载失败，请检查 blog/posts/${esc(post.slug)}.md 是否存在。</p></div>`;
+      });
+  }
+
+  function formatDate(s) {
+    try {
+      return new Date(s).toLocaleDateString('zh-CN', { year:'numeric', month:'long', day:'numeric' });
+    } catch { return s; }
+  }
+
+  function esc(s) {
+    return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+                  .replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+})();
+</script>
+</body>
+</html>

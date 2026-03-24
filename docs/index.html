@@ -98,6 +98,36 @@
       font-weight: 500;
     }
 
+    /* ── Nav ── */
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 4px;
+    }
+
+    .nav-link {
+      padding: 5px 13px;
+      border-radius: 20px;
+      font-size: 12.5px;
+      font-weight: 600;
+      font-family: inherit;
+      text-decoration: none;
+      color: var(--muted);
+      border: 1.5px solid transparent;
+      transition: all .15s;
+    }
+    .nav-link:hover { color: var(--pink); }
+    .nav-link.active {
+      background: var(--surface);
+      border-color: var(--border);
+      color: var(--text);
+    }
+
     /* ── Filter bar ── */
     .filters {
       height: var(--filter-h);
@@ -438,7 +468,13 @@
     <div class="logo-icon">☕</div>
     <span class="logo-text">Coffee <em>Tracker</em></span>
   </div>
-  <div class="header-meta" id="meta">Loading…</div>
+  <div class="header-right">
+    <nav class="nav-links">
+      <a href="index.html" class="nav-link active">Tracker</a>
+      <a href="blog.html" class="nav-link">Blog</a>
+    </nav>
+    <div class="header-meta" id="meta">Loading…</div>
+  </div>
 </header>
 
 <div class="filters">
