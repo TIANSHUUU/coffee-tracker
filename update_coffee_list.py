@@ -209,7 +209,20 @@ def extract_price(text: str) -> str:
     return m.group(1)
 
 
-def parse_roast_profile(text: str) -> str:
+def parse_roast_profile(text: str, title: str = "") -> str:
+    # Title is the most reliable signal — if it explicitly says filter/espresso, trust it.
+    if title:
+        t_title = title.lower()
+        title_filter   = bool(re.search(r"\bfilter\b", t_title))
+        title_espresso = bool(re.search(r"\bespresso\b", t_title))
+        title_omni     = bool(re.search(r"\bomni\b", t_title))
+        if title_omni or (title_filter and title_espresso):
+            return "omni"
+        if title_filter:
+            return "filter"
+        if title_espresso:
+            return "espresso"
+
     t = text.lower()
     has_omni = bool(re.search(r"\bomni(?:\s*roast)?\b", t))
     has_filter = bool(re.search(r"\b(filter|pour over|pourover|v60|batch brew)\b", t))
@@ -497,6 +510,7 @@ def extract_shopify_tag_metadata(tags: List[str]) -> Dict[str, List[str]]:
         "process": [], "country": [], "roast": [], "varietal": [], "producer": [], "region": []
     }
     for tag in (tags or []):
+        # Format 1: "ROAST: Filter" / "PROCESS: Washed" etc.
         m = re.match(r"^(PROCESS|COUNTRY|ROAST|VARIETAL|PRODUCER|REGION)\s*:\s*(.+)$",
                      tag.strip(), re.IGNORECASE)
         if m:
@@ -504,6 +518,15 @@ def extract_shopify_tag_metadata(tags: List[str]) -> Dict[str, List[str]]:
             val = m.group(2).strip()
             if key in meta and val:
                 meta[key].append(val)
+            continue
+        # Format 2: "Brew Method.Espresso" / "Brew Method.Pour over" (ONA-style)
+        m2 = re.match(r"^Brew\s+Method[.\s]+(.+)$", tag.strip(), re.IGNORECASE)
+        if m2:
+            brew = m2.group(1).strip().lower()
+            if re.search(r"\b(filter|pour.?over|v60|aeropress|batch brew|drip)\b", brew):
+                meta["roast"].append("filter")
+            elif re.search(r"\bespresso\b", brew):
+                meta["roast"].append("espresso")
     return meta
 
 
@@ -561,6 +584,17 @@ def scrape_shopify_collection_json(
         handle = product.get("handle") or ""
         product_url = f"{base}/products/{handle}" if handle else listing_url
 
+        # Skip sold-out products by checking the .js endpoint (includes `available` field).
+        if handle:
+            try:
+                js_resp = session.get(f"{base}/products/{handle}.js", timeout=TIMEOUT_SECONDS)
+                if js_resp.status_code == 200:
+                    js_data = js_resp.json()
+                    if js_data.get("available") is False:
+                        continue
+            except Exception:
+                pass  # If check fails, include the product
+
         # Prefer structured tag values; fall back to body-text parsing.
         # Guard against JS-template placeholders captured as values (e.g. "PROCESSING", "REGION").
         def _tag_or_parse(tag_vals: List[str], fallback: str) -> str:
@@ -581,9 +615,9 @@ def scrape_shopify_collection_json(
             parse_varietal(combined),
         )
         roast_profile_label = (
-            parse_roast_profile(" ".join(tag_meta["roast"]))
+            parse_roast_profile(" ".join(tag_meta["roast"]), title=title)
             if tag_meta["roast"]
-            else parse_roast_profile(combined)
+            else parse_roast_profile(combined, title=title)
         )
 
         items.append(
