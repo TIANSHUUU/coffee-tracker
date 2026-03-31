@@ -721,11 +721,8 @@
           btn.className = 'update-btn done';
           label.textContent = 'Updated ✓';
           setTimeout(() => {
-            btn.className = 'update-btn';
-            label.textContent = 'Update';
-            btn.disabled = false;
-          }, 3000);
-          location.reload();
+            location.href = location.pathname + '?t=' + Date.now();
+          }, 1000);
         }
       } catch {}
       if (Date.now() > deadline) {
