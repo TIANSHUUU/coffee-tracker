@@ -132,14 +132,14 @@
       font-weight: 600;
       font-family: inherit;
       color: var(--muted);
-      text-decoration: none;
       background: var(--bg);
+      cursor: pointer;
       transition: all .15s;
     }
-    .update-btn:hover {
-      border-color: var(--teal);
-      color: var(--teal);
-    }
+    .update-btn:hover:not(:disabled) { border-color: var(--teal); color: var(--teal); }
+    .update-btn:disabled { cursor: not-allowed; opacity: .6; }
+    .update-btn.done  { border-color: #4ade80; color: #16a34a; }
+    .update-btn.error { border-color: #f87171; color: #dc2626; }
 
     .nav-link:hover { color: var(--pink); }
     .nav-link.active {
@@ -489,11 +489,10 @@
     <span class="logo-text">Coffee <em>Tracker</em></span>
   </div>
   <div class="header-right">
-    <a href="https://github.com/TIANSHUUU/coffee-tracker/actions/workflows/update.yml"
-       target="_blank" rel="noopener" class="update-btn" title="Trigger a manual update via GitHub Actions">
+    <button id="updateBtn" class="update-btn">
       <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
-      Update
-    </a>
+      <span id="updateLabel">Update</span>
+    </button>
     <nav class="nav-links">
       <a href="index.html" class="nav-link active">Tracker</a>
       <a href="blog.html" class="nav-link">Blog</a>
@@ -562,6 +561,7 @@
       o.value = r; o.textContent = r; sel.appendChild(o);
     });
     render();
+    document.dispatchEvent(new CustomEvent('coffeeDataLoaded', { detail: data.generated_at }));
   }
 
   function filtered() {
@@ -678,6 +678,63 @@
     state.newOnly = !state.newOnly;
     this.className = 'pill' + (state.newOnly ? ' active-new' : '');
     render();
+  });
+})();
+
+// ── Manual update button ──
+(function () {
+  const WORKER_URL = 'https://coffee-trigger.tianshu-tan.workers.dev';
+  const btn   = document.getElementById('updateBtn');
+  const label = document.getElementById('updateLabel');
+  let baseline = null;
+
+  // Capture generated_at once data loads
+  document.addEventListener('coffeeDataLoaded', function (e) {
+    baseline = e.detail;
+  });
+
+  btn.addEventListener('click', async function () {
+    if (btn.disabled) return;
+    btn.disabled = true;
+    btn.className = 'update-btn';
+    label.textContent = 'Updating…';
+
+    try {
+      const res = await fetch(WORKER_URL, { method: 'POST' });
+      if (!res.ok) throw new Error('dispatch failed');
+    } catch {
+      btn.className = 'update-btn error';
+      label.textContent = 'Failed, retry';
+      btn.disabled = false;
+      return;
+    }
+
+    // Poll data.json until generated_at changes (max 5 min)
+    const deadline = Date.now() + 5 * 60 * 1000;
+    const poll = setInterval(async () => {
+      try {
+        const r = await fetch('data.json?t=' + Date.now(), { cache: 'no-store' });
+        const d = await r.json();
+        if (d.generated_at !== baseline) {
+          clearInterval(poll);
+          baseline = d.generated_at;
+          btn.className = 'update-btn done';
+          label.textContent = 'Updated ✓';
+          setTimeout(() => {
+            btn.className = 'update-btn';
+            label.textContent = 'Update';
+            btn.disabled = false;
+          }, 3000);
+          location.reload();
+        }
+      } catch {}
+      if (Date.now() > deadline) {
+        clearInterval(poll);
+        btn.className = 'update-btn error';
+        label.textContent = 'Timed out';
+        btn.disabled = false;
+      }
+    }, 15000);
   });
 })();
 </script>
