@@ -519,14 +519,26 @@ def extract_shopify_tag_metadata(tags: List[str]) -> Dict[str, List[str]]:
             if key in meta and val:
                 meta[key].append(val)
             continue
-        # Format 2: "Brew Method.Espresso" / "Brew Method.Pour over" (ONA-style)
-        m2 = re.match(r"^Brew\s+Method[.\s]+(.+)$", tag.strip(), re.IGNORECASE)
+        # Format 2: "Coffee Type.Filter" / "Coffee Type.Espresso" — definitive ONA tag
+        m2 = re.match(r"^Coffee\s+Type[.\s]+(.+)$", tag.strip(), re.IGNORECASE)
         if m2:
-            brew = m2.group(1).strip().lower()
+            ct = m2.group(1).strip().lower()
+            if re.search(r"\bfilter\b", ct):
+                meta["_coffee_type"] = "filter"
+            elif re.search(r"\bespresso\b", ct):
+                meta["_coffee_type"] = "espresso"
+            continue
+        # Format 3: "Brew Method.Espresso" / "Brew Method.Pour over" (ONA-style)
+        m3 = re.match(r"^Brew\s+Method[.\s]+(.+)$", tag.strip(), re.IGNORECASE)
+        if m3:
+            brew = m3.group(1).strip().lower()
             if re.search(r"\b(filter|pour.?over|v60|aeropress|batch brew|drip)\b", brew):
                 meta["roast"].append("filter")
             elif re.search(r"\bespresso\b", brew):
                 meta["roast"].append("espresso")
+    # Coffee Type overrides Brew Method — it's the explicit roast classification
+    if "_coffee_type" in meta:
+        meta["roast"] = [meta.pop("_coffee_type")]
     return meta
 
 
