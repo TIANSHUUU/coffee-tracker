@@ -476,6 +476,17 @@ def session_with_headers() -> requests.Session:
             "Referer": "https://www.google.com/",
         }
     )
+    # Force Shopify to return AUD prices regardless of server IP geolocation.
+    # Without this, stores with multi-currency enabled serve USD prices to
+    # GitHub Actions runners (US-based IPs).
+    from requests.cookies import RequestsCookieJar
+    jar = RequestsCookieJar()
+    for domain in ["padrecoffee.com.au", "commonfolkcoffee.com.au",
+                   "sevenseeds.com.au", "marketlane.com.au",
+                   "proudmarycoffee.com.au", "onacoffee.com.au",
+                   "codeblackcoffee.com.au"]:
+        jar.set("cart_currency", "AUD", domain=domain)
+    s.cookies = jar
     return s
 
 
