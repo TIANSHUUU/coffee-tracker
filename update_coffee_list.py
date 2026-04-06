@@ -542,21 +542,6 @@ def extract_shopify_tag_metadata(tags: List[str]) -> Dict[str, List[str]]:
     return meta
 
 
-def _set_shopify_aud_currency(session: requests.Session, base_url: str) -> None:
-    """Visit store homepage to establish a Shopify session, then force AUD currency.
-
-    Without this, Shopify uses IP geolocation to pick a currency — GitHub Actions
-    runners have US IPs and receive USD prices from multi-currency stores.
-    """
-    try:
-        session.get(base_url, timeout=TIMEOUT_SECONDS)
-    except Exception:
-        pass
-    parsed = urlparse(base_url)
-    domain = parsed.netloc
-    session.cookies.set("cart_currency", "AUD", domain=domain)
-    session.cookies.set("localization", "AU", domain=domain)
-
 
 def scrape_shopify_collection_json(
     session: requests.Session,
@@ -567,10 +552,6 @@ def scrape_shopify_collection_json(
     json_url = normalize_collection_json_url(listing_url, shopify_collection_handle)
     if not json_url:
         return [], "not_a_collection_url"
-
-    parsed_base = urlparse(listing_url)
-    base_url = f"{parsed_base.scheme}://{parsed_base.netloc}"
-    _set_shopify_aud_currency(session, base_url)
 
     try:
         resp = session.get(json_url, timeout=TIMEOUT_SECONDS)
