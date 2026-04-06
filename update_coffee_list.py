@@ -616,16 +616,34 @@ def scrape_shopify_collection_json(
         handle = product.get("handle") or ""
         product_url = f"{base}/products/{handle}" if handle else listing_url
 
-        # Skip sold-out products by checking the .js endpoint (includes `available` field).
+        # Use individual product.json for two purposes:
+        # 1. Availability check (skip sold-out products)
+        # 2. Price verification — product.json always returns base store currency (AUD),
+        #    while collection JSON adapts to visitor IP (returns USD from GitHub Actions).
         if handle:
             try:
-                js_resp = session.get(f"{base}/products/{handle}.js", timeout=TIMEOUT_SECONDS)
-                if js_resp.status_code == 200:
-                    js_data = js_resp.json()
-                    if js_data.get("available") is False:
+                pj_resp = session.get(f"{base}/products/{handle}.json", timeout=TIMEOUT_SECONDS)
+                if pj_resp.status_code == 200:
+                    pj = pj_resp.json().get("product", {})
+                    # Availability: skip if no published_at (unpublished = sold out / unavailable)
+                    pj_variants = pj.get("variants") or []
+                    all_unavailable = pj_variants and all(
+                        v.get("inventory_management") == "shopify" and
+                        v.get("inventory_policy") == "deny" and
+                        int(v.get("inventory_quantity") or 0) <= 0
+                        for v in pj_variants
+                    )
+                    if all_unavailable:
                         continue
+                    # Price: use AUD-verified price from product.json if currency matches
+                    if pj_variants:
+                        currency = pj_variants[0].get("price_currency", "")
+                        if currency == "AUD":
+                            pj_prices = [float(v["price"]) for v in pj_variants if v.get("price")]
+                            if pj_prices:
+                                price = f"{min(pj_prices):.2f}"
             except Exception:
-                pass  # If check fails, include the product
+                pass  # If check fails, keep collection JSON price and include the product
 
         # Prefer structured tag values; fall back to body-text parsing.
         # Guard against JS-template placeholders captured as values (e.g. "PROCESSING", "REGION").
