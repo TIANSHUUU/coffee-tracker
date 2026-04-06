@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-06 02:54",
+  "generated_at": "2026-04-06 03:05",
   "stats": {
     "total": 136,
-    "new": 7,
+    "new": 0,
     "roasters": 10
   },
   "roasters": [
@@ -18,90 +18,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Tres Dragones Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "31.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "CHERRY, TAMARIND, DARK CHOCOLATE",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Tres Dragones Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-filter-single-origin-1",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "31.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "CHERRY, TAMARIND, DARK CHOCOLATE",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Buenos Aires, Nicaragua, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-z-soe2",
-      "roast_profile": "espresso",
-      "origin": "Nicaragua",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Copey Lot Lu, Costa Rica, Honey",
-      "url": "https://onacoffee.com.au/products/filter-w-rare",
-      "roast_profile": "filter",
-      "origin": "Costa Rica",
-      "price_aud": "24.75",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Kathakwa AB, Kenya, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-x-soe1-1",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "La Picona, Nicaragua, Washed",
-      "url": "https://onacoffee.com.au/products/filter-w-sof3",
-      "roast_profile": "filter",
-      "origin": "Nicaragua",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Thageini, Kenya, CM Natural Indigo",
-      "url": "https://onacoffee.com.au/products/milk-x-som1",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "26.50",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -232,6 +148,30 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "LIME CORDIAL, ORANGE, BLACKCURRANT",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Tres Dragones Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "31.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "CHERRY, TAMARIND, DARK CHOCOLATE",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Tres Dragones Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-filter-single-origin-1",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "31.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "CHERRY, TAMARIND, DARK CHOCOLATE",
       "is_new": false
     },
     {
@@ -680,6 +620,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Buenos Aires, Nicaragua, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-z-soe2",
+      "roast_profile": "espresso",
+      "origin": "Nicaragua",
+      "price_aud": "20.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Chelchele G1, Ethiopia, Natural",
       "url": "https://onacoffee.com.au/products/filter-z-sof1",
       "roast_profile": "filter",
@@ -710,6 +662,18 @@
       "origin": "",
       "price_aud": "45.41",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Copey Lot Lu, Costa Rica, Honey",
+      "url": "https://onacoffee.com.au/products/filter-w-rare",
+      "roast_profile": "filter",
+      "origin": "Costa Rica",
+      "price_aud": "24.75",
+      "process": "Honey",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -788,12 +752,36 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Kathakwa AB, Kenya, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-x-soe1-1",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "20.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "La Esmeralda 'La Cumbre', Costa Rica, Honey",
       "url": "https://onacoffee.com.au/products/la-esmeralda-la-cumbre-costa-rica-honey",
       "roast_profile": "filter",
       "origin": "Costa Rica",
       "price_aud": "20.00",
       "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "La Picona, Nicaragua, Washed",
+      "url": "https://onacoffee.com.au/products/filter-w-sof3",
+      "roast_profile": "filter",
+      "origin": "Nicaragua",
+      "price_aud": "20.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -854,6 +842,18 @@
       "origin": "Honduras",
       "price_aud": "20.00",
       "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Thageini, Kenya, CM Natural Indigo",
+      "url": "https://onacoffee.com.au/products/milk-x-som1",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "26.50",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
