@@ -23,6 +23,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Debug price check
+        run: |
+          python - <<'EOF'
+          import requests
+          s = requests.Session()
+          s.headers['User-Agent'] = 'Mozilla/5.0'
+          # Collection JSON price
+          r = s.get('https://www.padrecoffee.com.au/collections/coffee/products.json?limit=250', timeout=20)
+          products = r.json()['products']
+          for p in products:
+              if 'san francisco' in p['title'].lower() and 'filter' in p['title'].lower():
+                  col_price = min(float(v['price']) for v in p['variants'])
+                  print(f"Collection JSON price: {col_price}")
+                  break
+          # Product JSON price
+          r2 = s.get('https://www.padrecoffee.com.au/products/mexico-san-francisco-washed-filter.json', timeout=20)
+          v = r2.json()['product']['variants'][0]
+          print(f"Product JSON price: {v['price']} currency: {v.get('price_currency')}")
+          EOF
+
       - name: Run scraper
         run: python update_coffee_list.py
 
