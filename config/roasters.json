@@ -42,5 +42,10 @@
   {
     "name": "Small Batch",
     "url": "https://www.smallbatch.com.au/shop/"
+  },
+  {
+    "name": "Stitch Coffee",
+    "url": "https://stitch.coffee/collections/coffee",
+    "price_variant_filter": "250g"
   }
 ]
