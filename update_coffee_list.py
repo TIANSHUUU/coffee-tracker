@@ -486,12 +486,12 @@ def normalize_collection_json_url(
     if shopify_collection_handle:
         handle = shopify_collection_handle.strip("/")
         if handle:
-            return f"{parsed.scheme}://{parsed.netloc}/collections/{handle}/products.json?limit=250"
+            return f"{parsed.scheme}://{parsed.netloc}/collections/{handle}/products.json?limit=250&country=AU"
 
     parts = [p for p in parsed.path.split("/") if p]
     if len(parts) >= 2 and parts[0] == "collections":
         handle = parts[1]
-        return f"{parsed.scheme}://{parsed.netloc}/collections/{handle}/products.json?limit=250"
+        return f"{parsed.scheme}://{parsed.netloc}/collections/{handle}/products.json?limit=250&country=AU"
     return None
 
 
@@ -679,10 +679,10 @@ def scrape_shopify_all_products_json(
     parsed = urlparse(listing_url)
     base = f"{parsed.scheme}://{parsed.netloc}"
     candidate_urls = [
-        f"{base}/products.json?limit=250",
-        f"{base}/collections/all/products.json?limit=250",
-        f"{base}/collections/shop/products.json?limit=250",
-        f"{base}/collections/coffee/products.json?limit=250",
+        f"{base}/products.json?limit=250&country=AU",
+        f"{base}/collections/all/products.json?limit=250&country=AU",
+        f"{base}/collections/shop/products.json?limit=250&country=AU",
+        f"{base}/collections/coffee/products.json?limit=250&country=AU",
     ]
     errors: List[str] = []
     best_items: List[CoffeeItem] = []
