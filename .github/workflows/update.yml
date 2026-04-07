@@ -23,6 +23,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Debug price check
+        run: |
+          python - <<'EOF'
+          import requests
+          s = requests.Session()
+          s.headers['User-Agent'] = 'Mozilla/5.0'
+          r = s.get('https://www.padrecoffee.com.au/products/brazil-rafael-vinhal-anaerobic-natural.json?country=AU', timeout=20)
+          v = r.json()['product']['variants'][0]
+          print(f"product.json+country=AU: price={v['price']} currency={v.get('price_currency')}")
+          r2 = s.get('https://www.padrecoffee.com.au/products/brazil-rafael-vinhal-anaerobic-natural.json', timeout=20)
+          v2 = r2.json()['product']['variants'][0]
+          print(f"product.json no param:    price={v2['price']} currency={v2.get('price_currency')}")
+          EOF
+
       - name: Run scraper
         run: python update_coffee_list.py
 
