@@ -599,11 +599,10 @@ def scrape_shopify_collection_json(
 
         # Use individual product.json for two purposes:
         # 1. Availability check (skip sold-out products)
-        # 2. Price verification — product.json always returns base store currency (AUD),
-        #    while collection JSON adapts to visitor IP (returns USD from GitHub Actions).
+        # 2. Price override — country=AU forces Shopify Markets to return AUD price.
         if handle:
             try:
-                pj_resp = session.get(f"{base}/products/{handle}.json", timeout=TIMEOUT_SECONDS)
+                pj_resp = session.get(f"{base}/products/{handle}.json?country=AU", timeout=TIMEOUT_SECONDS)
                 if pj_resp.status_code == 200:
                     pj = pj_resp.json().get("product", {})
                     # Availability: skip if no published_at (unpublished = sold out / unavailable)
