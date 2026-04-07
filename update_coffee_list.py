@@ -586,6 +586,9 @@ def scrape_shopify_collection_json(
 
         price = ""
         variants = product.get("variants") or []
+        # Skip products where every variant is explicitly unavailable in the collection JSON.
+        if variants and all(v.get("available") is False for v in variants):
+            continue
         if variants:
             try:
                 filtered = (
@@ -731,6 +734,8 @@ def scrape_shopify_all_products_json(
 
             price = ""
             variants = product.get("variants") or []
+            if variants and all(v.get("available") is False for v in variants):
+                continue
             if variants:
                 try:
                     price_values = [float(v.get("price")) for v in variants if v.get("price") is not None]
