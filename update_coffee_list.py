@@ -548,6 +548,7 @@ def scrape_shopify_collection_json(
     roaster: str,
     listing_url: str,
     shopify_collection_handle: Optional[str] = None,
+    price_variant_filter: Optional[str] = None,
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     json_url = normalize_collection_json_url(listing_url, shopify_collection_handle)
     if not json_url:
@@ -579,16 +580,19 @@ def scrape_shopify_collection_json(
         tags_str = " ".join(raw_tags)
         body_html = product.get("body_html") or ""
         text_blob = clean_text(BeautifulSoup(body_html, "html.parser").get_text(" "))
-        exclude_text = " ".join([title, tags_str])
         combined = " ".join([title, tags_str, text_blob])
-        if should_exclude_product_for_roaster(roaster, exclude_text):
+        if should_exclude_product_for_roaster(roaster, title):
             continue
 
         price = ""
         variants = product.get("variants") or []
         if variants:
             try:
-                price_values = [float(v.get("price")) for v in variants if v.get("price") is not None]
+                filtered = (
+                    [v for v in variants if price_variant_filter and price_variant_filter.lower() in (v.get("title") or "").lower()]
+                    or variants
+                )
+                price_values = [float(v.get("price")) for v in filtered if v.get("price") is not None]
                 if price_values:
                     price = f"{min(price_values):.2f}"
             except Exception:
@@ -619,7 +623,11 @@ def scrape_shopify_collection_json(
                     if pj_variants:
                         currency = pj_variants[0].get("price_currency", "")
                         if currency == "AUD":
-                            pj_prices = [float(v["price"]) for v in pj_variants if v.get("price")]
+                            pj_filtered = (
+                                [v for v in pj_variants if price_variant_filter and price_variant_filter.lower() in (v.get("title") or "").lower()]
+                                or pj_variants
+                            )
+                            pj_prices = [float(v["price"]) for v in pj_filtered if v.get("price")]
                             if pj_prices:
                                 price = f"{min(pj_prices):.2f}"
             except Exception:
@@ -644,11 +652,16 @@ def scrape_shopify_collection_json(
             tag_meta["varietal"],
             parse_varietal(combined),
         )
-        roast_profile_label = (
-            parse_roast_profile(" ".join(tag_meta["roast"]), title=title)
-            if tag_meta["roast"]
-            else parse_roast_profile(combined, title=title)
-        )
+        # If variants offer multiple brew methods (espresso + filter), the product is omni-roast.
+        variant_titles = " ".join(v.get("title") or "" for v in variants).lower()
+        has_espresso_variant = any(k in variant_titles for k in ("espresso",))
+        has_filter_variant = any(k in variant_titles for k in ("pour over", "filter", "batch brew", "aeropress", "plunger"))
+        if has_espresso_variant and has_filter_variant:
+            roast_profile_label = "omni"
+        elif tag_meta["roast"]:
+            roast_profile_label = parse_roast_profile(" ".join(tag_meta["roast"]), title=title)
+        else:
+            roast_profile_label = parse_roast_profile(combined, title=title)
 
         items.append(
             CoffeeItem(
@@ -1309,6 +1322,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
     url = str(roaster.get("url", "") or "").strip()
     collection_url_override = str(roaster.get("collection_url_override", "") or "").strip()
     shopify_collection_handle = str(roaster.get("shopify_collection_handle", "") or "").strip() or None
+    price_variant_filter = str(roaster.get("price_variant_filter", "") or "").strip() or None
     force_html_listing = bool(roaster.get("force_html_listing", False))
     listing_url = collection_url_override or url
 
@@ -1345,6 +1359,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                 name,
                 candidate_url,
                 shopify_collection_handle=shopify_collection_handle,
+                price_variant_filter=price_variant_filter,
             )
             if items:
                 return items
