@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-11 11:23",
+  "generated_at": "2026-04-12 15:01",
   "stats": {
-    "total": 149,
-    "new": 12,
+    "total": 147,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,150 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Gargari 1725, Ethiopia, CM Natural Jasper",
-      "url": "https://onacoffee.com.au/products/milk-y-som1",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "26.50",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Guji Uraga Siko G1, Ethiopia, Washed",
-      "url": "https://onacoffee.com.au/products/filter-y-sof1",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Guji Yabitu Koba G1, Ethiopia, Natural",
-      "url": "https://onacoffee.com.au/products/espresso-w-soe2",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Heritage Varieties of Bambito Estate",
-      "url": "https://onacoffee.com.au/products/heritage-varieties-of-bambito-estate",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "60.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Irmãs Pereira Lot 153, Brazil, Natural",
-      "url": "https://onacoffee.com.au/products/filter-x-sof4",
-      "roast_profile": "filter",
-      "origin": "Brazil",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "La Huerta, Honduras, Washed",
-      "url": "https://onacoffee.com.au/products/filter-x-sof2",
-      "roast_profile": "filter",
-      "origin": "Honduras",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Yirgacheffe, Ethiopia, Natural",
-      "url": "https://onacoffee.com.au/products/filter-x-sof3",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Burundi Bumba Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/burundi-bumba-espresso",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "27.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Luis Anibal Papayo Filter",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-luis-anibal-papayo-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Arbaey Ortega, Colombia",
-      "url": "https://sevenseeds.com.au/products/arbaey-ortega-colombia",
-      "roast_profile": "omni",
-      "origin": "Pitalito, Huila, Colombia PRODUCER",
-      "price_aud": "30.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Pink Bourbon and Bourbon Aj",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Frinsa Collective, Indonesia",
-      "url": "https://sevenseeds.com.au/products/frinsa-collective-indonesia",
-      "roast_profile": "filter",
-      "origin": "Bandung, West Java, Indonesia PRODUCER",
-      "price_aud": "25.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Andungasari, Bor Bor, Kartika, Ateng",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "RWANDA, PHILIPPE SINAYOBYE",
-      "url": "https://stitch.coffee/products/rwanda-philippe-sinayobye-26",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "its light body, crisp acidity, and peachy flavour",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -705,18 +561,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "Chelchele G1, Ethiopia, Natural",
-      "url": "https://onacoffee.com.au/products/filter-z-sof1",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Chilling Rock Pack Espresso",
       "url": "https://onacoffee.com.au/products/chilling-rock-pack-esp",
       "roast_profile": "espresso",
@@ -753,12 +597,12 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "El Guayabo, Honduras, Washed",
-      "url": "https://onacoffee.com.au/products/filter-w-sof2",
-      "roast_profile": "filter",
-      "origin": "Honduras",
-      "price_aud": "20.00",
-      "process": "Washed",
+      "bean_name": "Gargari 1725, Ethiopia, CM Natural Jasper",
+      "url": "https://onacoffee.com.au/products/milk-y-som1",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "26.50",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -789,6 +633,42 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Guji Uraga Siko G1, Ethiopia, Washed",
+      "url": "https://onacoffee.com.au/products/filter-y-sof1",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "20.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Guji Yabitu Koba G1, Ethiopia, Natural",
+      "url": "https://onacoffee.com.au/products/espresso-w-soe2",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Heritage Varieties of Bambito Estate",
+      "url": "https://onacoffee.com.au/products/heritage-varieties-of-bambito-estate",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "60.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Iris Estate Echo, Panama, CM Washed",
       "url": "https://onacoffee.com.au/products/espresso-reserve-y-rsoe1",
       "roast_profile": "espresso",
@@ -806,6 +686,30 @@
       "roast_profile": "filter",
       "origin": "Panama",
       "price_aud": "82.25",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Irmãs Pereira Lot 153, Brazil, Natural",
+      "url": "https://onacoffee.com.au/products/filter-x-sof4",
+      "roast_profile": "filter",
+      "origin": "Brazil",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "La Huerta, Honduras, Washed",
+      "url": "https://onacoffee.com.au/products/filter-x-sof2",
+      "roast_profile": "filter",
+      "origin": "Honduras",
+      "price_aud": "20.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
@@ -903,6 +807,18 @@
       "origin": "",
       "price_aud": "17.50",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Yirgacheffe, Ethiopia, Natural",
+      "url": "https://onacoffee.com.au/products/filter-x-sof3",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "20.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1221,6 +1137,18 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Burundi Bumba Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/burundi-bumba-espresso",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "27.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Burundi Gishubi Espresso",
       "url": "https://www.rumblecoffee.com.au/products/burundi-gishubi",
       "roast_profile": "omni",
@@ -1238,6 +1166,18 @@
       "roast_profile": "filter",
       "origin": "Colombia",
       "price_aud": "26.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Luis Anibal Papayo Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-luis-anibal-papayo-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "30.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
@@ -1377,6 +1317,18 @@
     },
     {
       "roaster": "Seven Seeds",
+      "bean_name": "Arbaey Ortega, Colombia",
+      "url": "https://sevenseeds.com.au/products/arbaey-ortega-colombia",
+      "roast_profile": "omni",
+      "origin": "Pitalito, Huila, Colombia PRODUCER",
+      "price_aud": "30.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Pink Bourbon and Bourbon Aj",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
       "bean_name": "Cold Filter Cask",
       "url": "https://sevenseeds.com.au/products/cold-filter-cask",
       "roast_profile": "filter",
@@ -1396,6 +1348,18 @@
       "price_aud": "23.00",
       "process": "Fully Washed",
       "varietal": "Colombia, Caturra",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
+      "bean_name": "Frinsa Collective, Indonesia",
+      "url": "https://sevenseeds.com.au/products/frinsa-collective-indonesia",
+      "roast_profile": "filter",
+      "origin": "Bandung, West Java, Indonesia PRODUCER",
+      "price_aud": "25.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Andungasari, Bor Bor, Kartika, Ateng",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1637,6 +1601,18 @@
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "RWANDA, PHILIPPE SINAYOBYE",
+      "url": "https://stitch.coffee/products/rwanda-philippe-sinayobye-26",
+      "roast_profile": "omni",
+      "origin": "Rwanda",
+      "price_aud": "28.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "its light body, crisp acidity, and peachy flavour",
       "is_new": false
     },
     {
