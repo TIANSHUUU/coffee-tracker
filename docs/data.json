@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-12 15:01",
+  "generated_at": "2026-04-13 01:10",
   "stats": {
-    "total": 147,
+    "total": 145,
     "new": 0,
     "roasters": 11
   },
@@ -470,18 +470,6 @@
       "roast_profile": "espresso",
       "origin": "Caranavi, Bolivia Varieties",
       "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "Caturra",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "El Carmen",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/el-carmen",
-      "roast_profile": "filter",
-      "origin": "Inz",
-      "price_aud": "26.00",
       "process": "Washed",
       "varietal": "Caturra",
       "flavour_profile": "",
@@ -1613,18 +1601,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "its light body, crisp acidity, and peachy flavour",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "Rwanda, Kanya",
-      "url": "https://stitch.coffee/products/rwanda-kanya-26",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "27.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
