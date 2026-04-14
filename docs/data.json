@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-13 04:24",
+  "generated_at": "2026-04-14 10:49",
   "stats": {
-    "total": 146,
-    "new": 1,
+    "total": 145,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,18 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Lomaverde",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "34.00",
-      "process": "Natural Producer",
-      "varietal": "Chiroso",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -405,18 +393,6 @@
     },
     {
       "roaster": "Commonfolk",
-      "bean_name": "La Familia",
-      "url": "https://www.commonfolkcoffee.com.au/products/la-familia_25f",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
       "bean_name": "Mando",
       "url": "https://www.commonfolkcoffee.com.au/products/mando_25",
       "roast_profile": "omni",
@@ -508,6 +484,18 @@
       "price_aud": "24.00",
       "process": "Washed",
       "varietal": "Red Bourbon",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Lomaverde",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
+      "roast_profile": "filter",
+      "origin": "Santa Barbara, Antioquia, Colombia",
+      "price_aud": "34.00",
+      "process": "Natural Producer",
+      "varietal": "Chiroso",
       "flavour_profile": "",
       "is_new": false
     },
