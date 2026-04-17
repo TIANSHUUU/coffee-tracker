@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-14 10:49",
+  "generated_at": "2026-04-17 00:20",
   "stats": {
-    "total": 145,
-    "new": 0,
+    "total": 148,
+    "new": 8,
     "roasters": 11
   },
   "roasters": [
@@ -19,6 +19,102 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ecuador Grace Morales Finca Cruz Loma Honey Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ecuador-grace-morales-finca-cruz-loma-honey-filter-single-origin",
+      "roast_profile": "omni",
+      "origin": "Ecuador",
+      "price_aud": "38.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "MELON, CANDIED FRUIT, HONEY, APPLE",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Guatemala Fredy Orantes Gesha Natural Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/guatemala-fredy-orantes-gesha-natural-espresso-single-origin",
+      "roast_profile": "omni",
+      "origin": "Guatemala",
+      "price_aud": "57.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "GUAVA, BERRY, CHOCOALTE, MALT, ALMOND",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Guatemala Fredy Orantes Gesha Natural Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/guatemala-fredy-orantes-gesha-natural-filter-single-origin",
+      "roast_profile": "omni",
+      "origin": "Guatemala",
+      "price_aud": "57.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "GUAVA, BERRY, CHOCOALTE, MALT, ALMOND",
+      "is_new": true
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "El Faldón",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/el-faldon",
+      "roast_profile": "filter",
+      "origin": "Caicedo, Antioquia, Colombia Varieties",
+      "price_aud": "30.00",
+      "process": "Washed",
+      "varietal": "Caturra & Bourbon",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Panama | Lost Origin x Finca La Estrella | Pacamara | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/panama-lost-origin-x-finca-la-estrella-pacamara-natural",
+      "roast_profile": "",
+      "origin": "Panama",
+      "price_aud": "71.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Burundi Mikuba Filter",
+      "url": "https://www.rumblecoffee.com.au/products/burundi-mikuba-filter",
+      "roast_profile": "filter",
+      "origin": "Burundi",
+      "price_aud": "27.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Seven Seeds",
+      "bean_name": "Fazenda Engenho, Brazil",
+      "url": "https://sevenseeds.com.au/products/fazenda-engenho-brazil",
+      "roast_profile": "omni",
+      "origin": "Carmo de Minas, Minas Gerais, Brazil PRODUCER",
+      "price_aud": "29.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Icatu",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "RWANDA, KIBIRIZI",
+      "url": "https://stitch.coffee/products/rwanda-kibirizi-26",
+      "roast_profile": "omni",
+      "origin": "Rwanda",
+      "price_aud": "28.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "brewing up notes of sweet honey and bright hints of strawberry throughout",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -453,18 +549,6 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "Carmelita",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/carmelita-filter-beans",
-      "roast_profile": "espresso",
-      "origin": "Caranavi, Bolivia Varieties",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "Caturra",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
       "bean_name": "La Linda",
       "url": "https://marketlane.com.au/collections/filter-beans/products/la-linda",
       "roast_profile": "filter",
@@ -573,18 +657,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "El Avión, Nicaragua, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-x-soe2",
-      "roast_profile": "espresso",
-      "origin": "Nicaragua",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Gargari 1725, Ethiopia, CM Natural Jasper",
       "url": "https://onacoffee.com.au/products/milk-y-som1",
       "roast_profile": "espresso",
@@ -639,18 +711,6 @@
       "origin": "Ethiopia",
       "price_aud": "20.00",
       "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Heritage Varieties of Bambito Estate",
-      "url": "https://onacoffee.com.au/products/heritage-varieties-of-bambito-estate",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "60.00",
-      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1149,36 +1209,12 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia German Peña Zuta Filter",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-german-pena-zuta-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Colombia Luis Anibal Papayo Filter",
       "url": "https://www.rumblecoffee.com.au/products/colombia-luis-anibal-papayo-filter",
       "roast_profile": "filter",
       "origin": "Colombia",
       "price_aud": "30.00",
       "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Paola Trujillo Wush Wush Filter - Special Release",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-paola-trujillo-wush-wush-filter-special-release",
-      "roast_profile": "filter",
-      "origin": "Colombia, Ethiopia",
-      "price_aud": "35.00",
-      "process": "Anaerobic",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1261,7 +1297,7 @@
       "url": "https://www.rumblecoffee.com.au/products/single-origin-filter-twin-pack",
       "roast_profile": "filter",
       "origin": "",
-      "price_aud": "50.00",
+      "price_aud": "51.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
