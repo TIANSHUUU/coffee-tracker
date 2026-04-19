@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-18 09:27",
+  "generated_at": "2026-04-19 15:01",
   "stats": {
     "total": 146,
-    "new": 1,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,18 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Carmelita",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/carmelita-filter-beans",
-      "roast_profile": "espresso",
-      "origin": "Caranavi, Bolivia Varieties",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "Caturra",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -472,6 +460,18 @@
       "price_aud": "30.00",
       "process": "Anaerobic Natural, Natural",
       "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Carmelita",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/carmelita-filter-beans",
+      "roast_profile": "espresso",
+      "origin": "Caranavi, Bolivia Varieties",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "Caturra",
       "flavour_profile": "",
       "is_new": false
     },
