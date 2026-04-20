@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-19 15:01",
+  "generated_at": "2026-04-20 03:32",
   "stats": {
-    "total": 146,
-    "new": 0,
+    "total": 151,
+    "new": 9,
     "roasters": 11
   },
   "roasters": [
@@ -19,6 +19,114 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Adrian Lasso Typica Mejorado Natural Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-adrian-lasso-typica-mejorado-natural-filter-single-origin",
+      "roast_profile": "omni",
+      "origin": "Colombia, Ethiopia",
+      "price_aud": "94.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "STRAWBERRY, PASSIONFRUIT, ROCKMELON, CONFECTIONARY",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Cerro Azul Honey Gesha Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-cerro-azul-honey-gesha-espresso-single-origin-1",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "95.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "MELON, WHITE GRAPE, HONEY",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Cerro Azul Honey Gesha Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-cerro-azul-honey-gesha-filter-single-origin-1",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "95.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "MELON, WHITE GRAPE, HONEY",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Jhonatan Gasca Washed Gesha Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-jhonatan-gasca-washed-gesha-espresso-single-origin",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "74.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "LEMON, HONEY SUCKLE, VIOLET, WHITE SUGAR",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Jhonatan Gasca Washed Gesha Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-jhonatan-gasca-washed-gesha-filter-single-origin",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "74.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "LEMON, HONEY SUCKLE, VIOLET, WHITE SUGAR",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Tres Dragones Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-espresso-single-origin",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "35.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "BERRY, TMARIND, COCOA, SALTED CARAMEL",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Tres Dragones Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-filter-single-origin-1",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "35.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "BERRY, TAMARIND, COCOA, SALTED CARAMEL",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Peru Norica Perez Vargas Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/peru-norica-perez-vargas-washed-espresso-single-origin",
+      "roast_profile": "omni",
+      "origin": "Peru",
+      "price_aud": "29.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "LIME, BROWN SUGAR, SWEET HERBS",
+      "is_new": true
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Peru Norica Perez Vargas Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/peru-norica-perez-vargas-washed-filter-single-origin",
+      "roast_profile": "omni",
+      "origin": "Peru",
+      "price_aud": "29.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "LIME, BROWN SUGAR, SWEET HERBS",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -345,18 +453,6 @@
     },
     {
       "roaster": "Commonfolk",
-      "bean_name": "Chenalho",
-      "url": "https://www.commonfolkcoffee.com.au/products/chenalho_25",
-      "roast_profile": "omni",
-      "origin": "",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
       "bean_name": "Elgon Natural",
       "url": "https://www.commonfolkcoffee.com.au/products/elgon-natural_25",
       "roast_profile": "omni",
@@ -435,18 +531,6 @@
       "origin": "Colombia",
       "price_aud": "29.00",
       "process": "Anaerobic Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Starmix",
-      "url": "https://www.commonfolkcoffee.com.au/products/starmix_26",
-      "roast_profile": "omni",
-      "origin": "Peru",
-      "price_aud": "29.00",
-      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -879,30 +963,6 @@
       "origin": "Brazil, Colombia",
       "price_aud": "23.00",
       "process": "Typica and caturra varietals from the Nasa Wesx community of Gaitania at",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "El Salvador Francisco De Sola - Single Origin Filter",
-      "url": "https://www.padrecoffee.com.au/products/el-salvador-francisco-de-sola-washed-filter",
-      "roast_profile": "omni",
-      "origin": "El Salvador",
-      "price_aud": "25.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "El Salvador, Francisco De Sola - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/el-salvador-francisco-de-sola-washed",
-      "roast_profile": "omni",
-      "origin": "El Salvador",
-      "price_aud": "25.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
