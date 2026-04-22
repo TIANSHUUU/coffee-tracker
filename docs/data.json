@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-20 04:23",
+  "generated_at": "2026-04-22 03:20",
   "stats": {
-    "total": 151,
-    "new": 0,
+    "total": 148,
+    "new": 1,
     "roasters": 11
   },
   "roasters": [
@@ -19,6 +19,18 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "Burundi, Kibingo",
+      "url": "https://stitch.coffee/products/burundi-kibingo-26",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "30.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -148,7 +160,7 @@
       "price_aud": "74.00",
       "process": "",
       "varietal": "",
-      "flavour_profile": "LEMON, HONEY SUCKLE, VIOLET, WHITE SUGAR",
+      "flavour_profile": "LEMON, HONEYSUCKLE, VIOLET, WHITE SUGAR",
       "is_new": false
     },
     {
@@ -357,18 +369,6 @@
     },
     {
       "roaster": "Code Black",
-      "bean_name": "Peru Miguel Estella Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/peru-miguel-estella-washed-espresso-single-origin",
-      "roast_profile": "omni",
-      "origin": "Peru",
-      "price_aud": "29.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "CITRUS, SUGARCANE, SWEET HERBALS",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
       "bean_name": "Peru Norica Perez Vargas Washed Espresso - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/peru-norica-perez-vargas-washed-espresso-single-origin",
       "roast_profile": "omni",
@@ -507,30 +507,6 @@
       "origin": "Tanzania",
       "price_aud": "28.00",
       "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Nzani Factory",
-      "url": "https://www.commonfolkcoffee.com.au/products/nzani-factory_25",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Sour 2",
-      "url": "https://www.commonfolkcoffee.com.au/products/sour-2_26",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "29.00",
-      "process": "Anaerobic Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1083,18 +1059,6 @@
       "origin": "",
       "price_aud": "24.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Honduras | La Salvaje COE #1B | Geisha | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/honduras-la-salvaje-coe-1b-geisha-washed",
-      "roast_profile": "",
-      "origin": "El Salvador, Honduras",
-      "price_aud": "115.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
