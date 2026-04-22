@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-22 03:20",
+  "generated_at": "2026-04-22 03:24",
   "stats": {
     "total": 148,
-    "new": 1,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,18 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "Burundi, Kibingo",
-      "url": "https://stitch.coffee/products/burundi-kibingo-26",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "30.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1563,6 +1551,18 @@
       "origin": "",
       "price_aud": "20.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "Burundi, Kibingo",
+      "url": "https://stitch.coffee/products/burundi-kibingo-26",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "30.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
