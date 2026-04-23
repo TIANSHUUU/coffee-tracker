@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-23 11:34",
+  "generated_at": "2026-04-23 11:40",
   "stats": {
-    "total": 146,
-    "new": 1,
+    "total": 145,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,18 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Santuario Sul Sudan Rume, Brazil",
-      "url": "https://sevenseeds.com.au/products/santuario-sul-sudan-rume-brazil",
-      "roast_profile": "omni",
-      "origin": "Carmo de Minas, Minas Gerais, Brazil PRODUCER",
-      "price_aud": "27.00",
-      "process": "Natural ALTITUDE",
-      "varietal": "Sudan Rume",
-      "flavour_profile": "of Excellence, including a standout 2nd place in 2021 for Luiz",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -568,18 +556,6 @@
       "price_aud": "24.00",
       "process": "Washed",
       "varietal": "Red Bourbon",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Lomaverde",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "34.00",
-      "process": "Natural Producer",
-      "varietal": "Chiroso",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1385,6 +1361,18 @@
       "process": "Fully Washed ALTITUDE",
       "varietal": "Caturra",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
+      "bean_name": "Santuario Sul Sudan Rume, Brazil",
+      "url": "https://sevenseeds.com.au/products/santuario-sul-sudan-rume-brazil",
+      "roast_profile": "omni",
+      "origin": "Carmo de Minas, Minas Gerais, Brazil PRODUCER",
+      "price_aud": "27.00",
+      "process": "Natural ALTITUDE",
+      "varietal": "Sudan Rume",
+      "flavour_profile": "of Excellence, including a standout 2nd place in 2021 for Luiz",
       "is_new": false
     },
     {
