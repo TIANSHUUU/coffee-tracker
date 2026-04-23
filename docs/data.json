@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-22 03:24",
+  "generated_at": "2026-04-23 11:34",
   "stats": {
-    "total": 148,
-    "new": 0,
+    "total": 146,
+    "new": 1,
     "roasters": 11
   },
   "roasters": [
@@ -19,6 +19,18 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Seven Seeds",
+      "bean_name": "Santuario Sul Sudan Rume, Brazil",
+      "url": "https://sevenseeds.com.au/products/santuario-sul-sudan-rume-brazil",
+      "roast_profile": "omni",
+      "origin": "Carmo de Minas, Minas Gerais, Brazil PRODUCER",
+      "price_aud": "27.00",
+      "process": "Natural ALTITUDE",
+      "varietal": "Sudan Rume",
+      "flavour_profile": "of Excellence, including a standout 2nd place in 2021 for Luiz",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -573,18 +585,6 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "Nkara",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/nkara",
-      "roast_profile": "espresso",
-      "origin": "Northern Province, Rwanda",
-      "price_aud": "24.00",
-      "process": "Washed Producer",
-      "varietal": "Red Bourbon",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
       "bean_name": "Seasonal Blend",
       "url": "https://marketlane.com.au/collections/espresso-beans/products/seasonal-blend",
       "roast_profile": "espresso",
@@ -602,18 +602,6 @@
       "roast_profile": "espresso",
       "origin": "",
       "price_aud": "16.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Bad Bunny",
-      "url": "https://onacoffee.com.au/products/bad-bunny",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "23.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -639,18 +627,6 @@
       "origin": "",
       "price_aud": "49.95",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Gargari 1725, Ethiopia, CM Natural Jasper",
-      "url": "https://onacoffee.com.au/products/milk-y-som1",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "26.50",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
