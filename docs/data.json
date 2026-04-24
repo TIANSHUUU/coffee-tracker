@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-23 11:40",
+  "generated_at": "2026-04-24 00:56",
   "stats": {
-    "total": 145,
-    "new": 0,
+    "total": 148,
+    "new": 5,
     "roasters": 11
   },
   "roasters": [
@@ -19,6 +19,66 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Commonfolk",
+      "bean_name": "Pink Bourbon Honey",
+      "url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-honey_25f",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "29.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Lomaverde",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
+      "roast_profile": "filter",
+      "origin": "Santa Barbara, Antioquia, Colombia",
+      "price_aud": "34.00",
+      "process": "Natural Producer",
+      "varietal": "Chiroso",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Bad Bunny",
+      "url": "https://onacoffee.com.au/products/bad-bunny",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "23.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Gargari 1725, Ethiopia, CM Natural Jasper",
+      "url": "https://onacoffee.com.au/products/milk-y-som1",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "26.50",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Honduras | Nahun Fernandez | Parainema | Honey",
+      "url": "https://www.proudmarycoffee.com.au/products/honduras-nahun-fernandes-parainema-honey",
+      "roast_profile": "omni",
+      "origin": "Honduras",
+      "price_aud": "38.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -435,18 +495,6 @@
       "origin": "Mexico",
       "price_aud": "28.00",
       "process": "Mountain Water Decaf",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Elgon Natural",
-      "url": "https://www.commonfolkcoffee.com.au/products/elgon-natural_25",
-      "roast_profile": "omni",
-      "origin": "Uganda",
-      "price_aud": "28.00",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -975,18 +1023,6 @@
       "origin": "",
       "price_aud": "24.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Ethiopia | Nigist Girmachew | Heirloom | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/ethiopia-nigist-girmachew-heirloom-natural",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "35.00",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
