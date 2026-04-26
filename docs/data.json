@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-25 13:20",
+  "generated_at": "2026-04-26 12:26",
   "stats": {
     "total": 146,
-    "new": 4,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,54 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Fazenda Progresso",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/fazenda-progresso",
-      "roast_profile": "espresso",
-      "origin": "Chapada Diamantina, Bahia, Brazil",
-      "price_aud": "24.00",
-      "process": "Natural Producer",
-      "varietal": "Catua",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Fazenda do Engenho Lot 9, Brazil, Washed",
-      "url": "https://onacoffee.com.au/products/finca-licho-costa-rica-white-honey",
-      "roast_profile": "filter",
-      "origin": "Brazil",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Kamachungwa AB, Kenya, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-w-soe1",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Koke 2425, Ethiopia, CM Natural Amber",
-      "url": "https://onacoffee.com.au/products/milk-z-som1",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "27.25",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -444,11 +396,11 @@
       "bean_name": "Seasonal Espresso Blend",
       "url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
       "roast_profile": "omni",
-      "origin": "Colombia, Ethiopia",
+      "origin": "Burundi, Colombia, Ethiopia",
       "price_aud": "24.00",
       "process": "WASHED, NATURAL REGION",
       "varietal": "HEIRLOOM, CASTILLO, CATURRA, COLOMBIA CUP",
-      "flavour_profile": "STONE FRUIT, TANGERINE, GRAPEFRUIT",
+      "flavour_profile": "CHERRY, LEMONGRASS, COOKED APPLE, MILK CHOCOLATE",
       "is_new": false
     },
     {
@@ -585,6 +537,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "Fazenda Progresso",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/fazenda-progresso",
+      "roast_profile": "espresso",
+      "origin": "Chapada Diamantina, Bahia, Brazil",
+      "price_aud": "24.00",
+      "process": "Natural Producer",
+      "varietal": "Catua",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "La Linda",
       "url": "https://marketlane.com.au/collections/filter-beans/products/la-linda",
       "roast_profile": "filter",
@@ -669,6 +633,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Fazenda do Engenho Lot 9, Brazil, Washed",
+      "url": "https://onacoffee.com.au/products/finca-licho-costa-rica-white-honey",
+      "roast_profile": "filter",
+      "origin": "Brazil",
+      "price_aud": "20.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Gateway",
       "url": "https://onacoffee.com.au/products/gateway",
       "roast_profile": "espresso",
@@ -711,6 +687,30 @@
       "origin": "Panama",
       "price_aud": "82.25",
       "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Kamachungwa AB, Kenya, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-w-soe1",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "20.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Koke 2425, Ethiopia, CM Natural Amber",
+      "url": "https://onacoffee.com.au/products/milk-z-som1",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "27.25",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
