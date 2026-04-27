@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-04-26 15:01",
+  "generated_at": "2026-04-27 02:19",
   "stats": {
-    "total": 146,
+    "total": 139,
     "new": 0,
     "roasters": 11
   },
@@ -237,54 +237,6 @@
     },
     {
       "roaster": "Code Black",
-      "bean_name": "Ethiopia Gogogu Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-gogogu-natural-espresso-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "27.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "BLUEBERRY, DRIED APRICOT, NUTTY",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Gogogu Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-gogogu-natural-filter-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "27.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "BLUEBERRY, DRIED APRICOT, NUTTY",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Lalesa Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-lalesa-washed-espresso-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "26.00",
-      "process": "",
-      "varietal": "WOLISHO, DEGA CUP",
-      "flavour_profile": "STONEFRUIT, COOKED CITRUS, LEMON & BLACK TEA",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Lalesa Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-raro-natural-filter-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "26.00",
-      "process": "",
-      "varietal": "WOLISHO, DEGA CUP",
-      "flavour_profile": "STONEFRUIT, COOKED CITRUS, LEMON & BLACK TEA",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
       "bean_name": "Ex-Wife Espresso Blend",
       "url": "https://codeblackcoffee.com.au/products/ex-wife-espresso-blend-coffee",
       "roast_profile": "omni",
@@ -405,18 +357,6 @@
     },
     {
       "roaster": "Commonfolk",
-      "bean_name": "3005",
-      "url": "https://www.commonfolkcoffee.com.au/products/3005_26",
-      "roast_profile": "omni",
-      "origin": "",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
       "bean_name": "Bom Jesus",
       "url": "https://www.commonfolkcoffee.com.au/products/bom-jesus_26",
       "roast_profile": "espresso",
@@ -477,36 +417,12 @@
     },
     {
       "roaster": "Commonfolk",
-      "bean_name": "Mando",
-      "url": "https://www.commonfolkcoffee.com.au/products/mando_25",
-      "roast_profile": "omni",
-      "origin": "Tanzania",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
       "bean_name": "Pink Bourbon Honey",
       "url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-honey_25f",
       "roast_profile": "omni",
       "origin": "Colombia",
       "price_aud": "29.00",
       "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Vinhal",
-      "url": "https://www.commonfolkcoffee.com.au/products/vinhal_26",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "30.00",
-      "process": "Anaerobic Natural, Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
