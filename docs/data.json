@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-27 10:13",
+  "generated_at": "2026-04-28 05:34",
   "stats": {
-    "total": 139,
-    "new": 0,
+    "total": 141,
+    "new": 2,
     "roasters": 11
   },
   "roasters": [
@@ -19,6 +19,30 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Uraga 1025, Ethiopia, Nitrogen Washed Amber",
+      "url": "https://onacoffee.com.au/products/espresso-y-rare",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "27.50",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Yirgacheffe Amederaro, Ethiopia, Supernatural",
+      "url": "https://onacoffee.com.au/products/filter-x-rare",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "24.25",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
