@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-28 05:34",
+  "generated_at": "2026-04-29 11:12",
   "stats": {
-    "total": 141,
-    "new": 2,
+    "total": 138,
+    "new": 4,
     "roasters": 11
   },
   "roasters": [
@@ -20,25 +20,49 @@
   ],
   "items": [
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Uraga 1025, Ethiopia, Nitrogen Washed Amber",
-      "url": "https://onacoffee.com.au/products/espresso-y-rare",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "27.50",
+      "roaster": "Market Lane",
+      "bean_name": "El Jardín",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
+      "roast_profile": "filter",
+      "origin": "Santa Barbara, Antioquia, Colombia",
+      "price_aud": "32.00",
+      "process": "Washed",
+      "varietal": "Chiroso",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "San Bartolomé",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/san-bartolome-filter-beans",
+      "roast_profile": "filter",
+      "origin": "Copacabana, Caranavi, Bolivia Varieties",
+      "price_aud": "28.00",
+      "process": "Washed Producers",
+      "varietal": "Caturra & Catua",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "BOLIVIA, LA LLAMA",
+      "url": "https://stitch.coffee/products/bolivia-la-llama-26",
+      "roast_profile": "omni",
+      "origin": "Bolivia",
+      "price_aud": "30.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Yirgacheffe Amederaro, Ethiopia, Supernatural",
-      "url": "https://onacoffee.com.au/products/filter-x-rare",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "24.25",
-      "process": "",
+      "roaster": "Stitch Coffee",
+      "bean_name": "Ecuador, FINCA MERIDIANO",
+      "url": "https://stitch.coffee/products/ecuador-finca-meridiano-26",
+      "roast_profile": "omni",
+      "origin": "Ecuador",
+      "price_aud": "39.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -489,42 +513,6 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "La Linda",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/la-linda",
-      "roast_profile": "filter",
-      "origin": "Caranavi, Bolivia",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "Caturra",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Laurence Mukakabera",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/laurence-mukakabera",
-      "roast_profile": "filter",
-      "origin": "Northern Province, Rwanda",
-      "price_aud": "24.00",
-      "process": "Washed",
-      "varietal": "Red Bourbon",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Lomaverde",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "34.00",
-      "process": "Natural Producer",
-      "varietal": "Chiroso",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
       "bean_name": "Seasonal Blend",
       "url": "https://marketlane.com.au/collections/espresso-beans/products/seasonal-blend",
       "roast_profile": "espresso",
@@ -753,6 +741,30 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Uraga 1025, Ethiopia, Nitrogen Washed Amber",
+      "url": "https://onacoffee.com.au/products/espresso-y-rare",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "27.50",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Yirgacheffe Amederaro, Ethiopia, Supernatural",
+      "url": "https://onacoffee.com.au/products/filter-x-rare",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "24.25",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Yirgacheffe, Ethiopia, Natural",
       "url": "https://onacoffee.com.au/products/filter-x-sof3",
       "roast_profile": "filter",
@@ -869,18 +881,6 @@
       "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "HONEYCOMB, HAZELNUT, DARK CHOCOLATE, RAISIN In The Box Available in a 30 pack or bulk saving 120 pack (4",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "India, Riverdale Estate - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/india-riverdale-estate-mosto",
-      "roast_profile": "omni",
-      "origin": "",
-      "price_aud": "29.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1269,18 +1269,6 @@
     },
     {
       "roaster": "Seven Seeds",
-      "bean_name": "Frinsa Collective, Indonesia",
-      "url": "https://sevenseeds.com.au/products/frinsa-collective-indonesia",
-      "roast_profile": "filter",
-      "origin": "Bandung, West Java, Indonesia PRODUCER",
-      "price_aud": "25.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Andungasari, Bor Bor, Kartika, Ateng",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
       "bean_name": "Golden Gate Espresso Blend",
       "url": "https://sevenseeds.com.au/products/golden-gate-blend",
       "roast_profile": "omni",
@@ -1340,18 +1328,6 @@
       "is_new": false
     },
     {
-      "roaster": "Seven Seeds",
-      "bean_name": "Yandaro, Burundi",
-      "url": "https://sevenseeds.com.au/products/yandaro-burundi-2026",
-      "roast_profile": "omni",
-      "origin": "Yandaro, Kayanza, Burundi PRODUCER",
-      "price_aud": "27.00",
-      "process": "Honey ALTITUDE",
-      "varietal": "Red Bourbon",
-      "flavour_profile": "with elevated fruit character, rounded sweetness, and a silky texture",
-      "is_new": false
-    },
-    {
       "roaster": "Small Batch",
       "bean_name": "Alirio Munoz – Filter",
       "url": "https://www.smallbatch.com.au/shop/filter/alirio",
@@ -1407,18 +1383,6 @@
       "origin": "prepared super",
       "price_aud": "28",
       "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Nolberto – Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/nolberto-olaya-caturra-chiroso-filter",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "25",
-      "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
