@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-29 11:12",
+  "generated_at": "2026-04-30 10:02",
   "stats": {
-    "total": 138,
-    "new": 4,
+    "total": 135,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,54 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Market Lane",
-      "bean_name": "El Jardín",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
-      "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "Chiroso",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "San Bartolomé",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/san-bartolome-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Copacabana, Caranavi, Bolivia Varieties",
-      "price_aud": "28.00",
-      "process": "Washed Producers",
-      "varietal": "Caturra & Catua",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "BOLIVIA, LA LLAMA",
-      "url": "https://stitch.coffee/products/bolivia-la-llama-26",
-      "roast_profile": "omni",
-      "origin": "Bolivia",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "Ecuador, FINCA MERIDIANO",
-      "url": "https://stitch.coffee/products/ecuador-finca-meridiano-26",
-      "roast_profile": "omni",
-      "origin": "Ecuador",
-      "price_aud": "39.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -269,18 +221,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "BERRY, TAMARIND, COCOA, SALTED CARAMEL",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ecuador Grace Morales Finca Cruz Loma Honey Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ecuador-grace-morales-finca-cruz-loma-honey-filter-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ecuador",
-      "price_aud": "38.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "MELON, CANDIED FRUIT, HONEY, APPLE",
       "is_new": false
     },
     {
@@ -501,6 +441,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "El Jardín",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
+      "roast_profile": "filter",
+      "origin": "Santa Barbara, Antioquia, Colombia",
+      "price_aud": "32.00",
+      "process": "Washed",
+      "varietal": "Chiroso",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "Fazenda Progresso",
       "url": "https://marketlane.com.au/collections/espresso-beans/products/fazenda-progresso",
       "roast_profile": "espresso",
@@ -508,6 +460,18 @@
       "price_aud": "24.00",
       "process": "Natural Producer",
       "varietal": "Catua",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "San Bartolomé",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/san-bartolome-filter-beans",
+      "roast_profile": "filter",
+      "origin": "Copacabana, Caranavi, Bolivia Varieties",
+      "price_aud": "28.00",
+      "process": "Washed Producers",
+      "varietal": "Caturra & Catua",
       "flavour_profile": "",
       "is_new": false
     },
@@ -603,18 +567,6 @@
       "origin": "Ethiopia",
       "price_aud": "20.00",
       "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Iris Estate Illumination, Panama, CM Washed",
-      "url": "https://onacoffee.com.au/products/filter-reserve-w-rsof2",
-      "roast_profile": "filter",
-      "origin": "Panama",
-      "price_aud": "82.25",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1425,6 +1377,18 @@
     },
     {
       "roaster": "Stitch Coffee",
+      "bean_name": "BOLIVIA, LA LLAMA",
+      "url": "https://stitch.coffee/products/bolivia-la-llama-26",
+      "roast_profile": "omni",
+      "origin": "Bolivia",
+      "price_aud": "30.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
       "bean_name": "Black Field Blend",
       "url": "https://stitch.coffee/products/blackfield-blend",
       "roast_profile": "omni",
@@ -1461,6 +1425,18 @@
     },
     {
       "roaster": "Stitch Coffee",
+      "bean_name": "Ecuador, FINCA MERIDIANO",
+      "url": "https://stitch.coffee/products/ecuador-finca-meridiano-26",
+      "roast_profile": "omni",
+      "origin": "Ecuador",
+      "price_aud": "39.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
       "bean_name": "Higgs Field Blend",
       "url": "https://stitch.coffee/products/higgs-field-blend",
       "roast_profile": "omni",
@@ -1479,18 +1455,6 @@
       "origin": "",
       "price_aud": "20.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "PERÚ, NUWA SENCHI",
-      "url": "https://stitch.coffee/products/peru-nuwa-senchi-26",
-      "roast_profile": "omni",
-      "origin": "",
-      "price_aud": "34.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
