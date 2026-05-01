@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-04-30 10:02",
+  "generated_at": "2026-05-01 05:52",
   "stats": {
-    "total": 135,
-    "new": 0,
+    "total": 136,
+    "new": 2,
     "roasters": 11
   },
   "roasters": [
@@ -19,6 +19,30 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Dez Anos",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/dez-anos",
+      "roast_profile": "filter",
+      "origin": "Chapada Diamantina, Bahia, Brazil",
+      "price_aud": "28.00",
+      "process": "Natural",
+      "varietal": "Top",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Fazenda do Engenho Lot 10, Brazil, Washed",
+      "url": "https://onacoffee.com.au/products/cofosoe3-opz",
+      "roast_profile": "espresso",
+      "origin": "Brazil",
+      "price_aud": "20.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1469,18 +1493,6 @@
       "process": "Honey",
       "varietal": "",
       "flavour_profile": "brewing up notes of sweet honey and bright hints of strawberry throughout",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "RWANDA, PHILIPPE SINAYOBYE",
-      "url": "https://stitch.coffee/products/rwanda-philippe-sinayobye-26",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "its light body, crisp acidity, and peachy flavour",
       "is_new": false
     },
     {
