@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-01 05:52",
+  "generated_at": "2026-05-02 04:23",
   "stats": {
-    "total": 136,
-    "new": 2,
+    "total": 137,
+    "new": 1,
     "roasters": 11
   },
   "roasters": [
@@ -20,25 +20,13 @@
   ],
   "items": [
     {
-      "roaster": "Market Lane",
-      "bean_name": "Dez Anos",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/dez-anos",
-      "roast_profile": "filter",
-      "origin": "Chapada Diamantina, Bahia, Brazil",
-      "price_aud": "28.00",
-      "process": "Natural",
-      "varietal": "Top",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
       "roaster": "ONA Coffee",
-      "bean_name": "Fazenda do Engenho Lot 10, Brazil, Washed",
-      "url": "https://onacoffee.com.au/products/cofosoe3-opz",
-      "roast_profile": "espresso",
-      "origin": "Brazil",
-      "price_aud": "20.00",
-      "process": "Washed",
+      "bean_name": "ONA Navy Half Zip Crew",
+      "url": "https://onacoffee.com.au/products/ona-navy-half-zip-crew",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "95.00",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -453,6 +441,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "Dez Anos",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/dez-anos",
+      "roast_profile": "filter",
+      "origin": "Chapada Diamantina, Bahia, Brazil",
+      "price_aud": "28.00",
+      "process": "Natural",
+      "varietal": "Top",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "El Faldón",
       "url": "https://marketlane.com.au/collections/filter-beans/products/el-faldon",
       "roast_profile": "filter",
@@ -543,6 +543,18 @@
       "origin": "",
       "price_aud": "49.95",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Fazenda do Engenho Lot 10, Brazil, Washed",
+      "url": "https://onacoffee.com.au/products/cofosoe3-opz",
+      "roast_profile": "espresso",
+      "origin": "Brazil",
+      "price_aud": "20.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
