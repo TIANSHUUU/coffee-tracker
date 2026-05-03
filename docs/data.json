@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-02 04:23",
+  "generated_at": "2026-05-03 02:24",
   "stats": {
     "total": 137,
-    "new": 1,
+    "new": 2,
     "roasters": 11
   },
   "roasters": [
@@ -20,13 +20,25 @@
   ],
   "items": [
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "ONA Navy Half Zip Crew",
-      "url": "https://onacoffee.com.au/products/ona-navy-half-zip-crew",
-      "roast_profile": "",
-      "origin": "",
-      "price_aud": "95.00",
+      "roaster": "Small Batch",
+      "bean_name": "Edilma Piedrahita – Borbon Aji Espresso",
+      "url": "https://www.smallbatch.com.au/shop/espresso/edilma-borbonaji",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "28",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Nelson Fabio Cordoba – Pink Borbon Filter",
+      "url": "https://www.smallbatch.com.au/shop/filter/nelson_fabio",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "26",
+      "process": "Nelson has his processing locked and loaded after years of success",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -657,6 +669,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "ONA Navy Half Zip Crew",
+      "url": "https://onacoffee.com.au/products/ona-navy-half-zip-crew",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "95.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Paragon Espresso",
       "url": "https://onacoffee.com.au/products/paragon",
       "roast_profile": "espresso",
@@ -699,18 +723,6 @@
       "origin": "",
       "price_aud": "24.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "San Pablo, Honduras, Washed",
-      "url": "https://onacoffee.com.au/products/san-pablo-honduras-washed",
-      "roast_profile": "espresso",
-      "origin": "Honduras",
-      "price_aud": "20.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1347,18 +1359,6 @@
       "origin": "Colombia",
       "price_aud": "21",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Jhoan Vergara – Pink Borbon Filter",
-      "url": "https://www.smallbatch.com.au/shop/filter/jhoan-vergara-pink-borbon-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "28",
-      "process": "Washed, Anaerobic",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
