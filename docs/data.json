@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-03 02:24",
+  "generated_at": "2026-05-03 15:01",
   "stats": {
     "total": 137,
-    "new": 2,
+    "new": 4,
     "roasters": 11
   },
   "roasters": [
@@ -21,11 +21,11 @@
   "items": [
     {
       "roaster": "Small Batch",
-      "bean_name": "Edilma Piedrahita – Borbon Aji Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/edilma-borbonaji",
-      "roast_profile": "omni",
+      "bean_name": "Golden Ticket",
+      "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
+      "roast_profile": "filter",
       "origin": "Colombia",
-      "price_aud": "28",
+      "price_aud": "21",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -33,7 +33,31 @@
     },
     {
       "roaster": "Small Batch",
-      "bean_name": "Nelson Fabio Cordoba – Pink Borbon Filter",
+      "bean_name": "Jorge Rojas – Caturra Chiroso",
+      "url": "https://www.smallbatch.com.au/shop/filter/king_george",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "28",
+      "process": "Washed, Natural, Experimental",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Las Estrellas de Ají",
+      "url": "https://www.smallbatch.com.au/shop/filter/estrellas-filter",
+      "roast_profile": "filter",
+      "origin": "prepared super",
+      "price_aud": "28",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Nelson Fabio Cordoba – Pink Borbon",
       "url": "https://www.smallbatch.com.au/shop/filter/nelson_fabio",
       "roast_profile": "filter",
       "origin": "Colombia",
@@ -1329,18 +1353,6 @@
     },
     {
       "roaster": "Small Batch",
-      "bean_name": "Alirio Munoz – Filter",
-      "url": "https://www.smallbatch.com.au/shop/filter/alirio",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "25",
-      "process": "Washed",
-      "varietal": "his farm has pink bourbon, bourbon aji, caturra, sidra, chiroso, pacas, omblig",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
       "bean_name": "Candyman Espresso Blend",
       "url": "https://www.smallbatch.com.au/shop/espresso/candyman-espresso-blend",
       "roast_profile": "omni",
@@ -1353,24 +1365,12 @@
     },
     {
       "roaster": "Small Batch",
-      "bean_name": "Golden Ticket – Filter",
-      "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
-      "roast_profile": "filter",
+      "bean_name": "Edilma Piedrahita – Borbon Aji Espresso",
+      "url": "https://www.smallbatch.com.au/shop/espresso/edilma-borbonaji",
+      "roast_profile": "omni",
       "origin": "Colombia",
-      "price_aud": "21",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Las Estrellas de Ají – Filter",
-      "url": "https://www.smallbatch.com.au/shop/filter/estrellas-filter",
-      "roast_profile": "filter",
-      "origin": "prepared super",
       "price_aud": "28",
-      "process": "Washed",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
