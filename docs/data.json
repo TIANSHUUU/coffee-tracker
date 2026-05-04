@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-04 04:30",
+  "generated_at": "2026-05-04 04:44",
   "stats": {
     "total": 135,
-    "new": 3,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,42 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Small Producers of Aponte",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/small-producers-of-aponte-espresso-beans",
-      "roast_profile": "espresso",
-      "origin": "Aponte, Nari",
-      "price_aud": "26.00",
-      "process": "Honey",
-      "varietal": "Caturra & Colombia",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Honduras | Ovidio Gomez | Geisha | Honey",
-      "url": "https://www.proudmarycoffee.com.au/products/honduras-ovidio-gomez-geisha-honey",
-      "roast_profile": "",
-      "origin": "Honduras",
-      "price_aud": "62.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Nicaragua | Buenos Aires | Maracaturra | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/nicaragua-buenos-aires-maracaturra-washed-1",
-      "roast_profile": "omni",
-      "origin": "Nicaragua",
-      "price_aud": "36.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -512,6 +476,18 @@
       "is_new": false
     },
     {
+      "roaster": "Market Lane",
+      "bean_name": "Small Producers of Aponte",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/small-producers-of-aponte-espresso-beans",
+      "roast_profile": "espresso",
+      "origin": "Aponte, Nari",
+      "price_aud": "26.00",
+      "process": "Honey",
+      "varietal": "Caturra & Colombia",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
       "roaster": "ONA Coffee",
       "bean_name": "Aspen",
       "url": "https://onacoffee.com.au/products/aspen",
@@ -945,6 +921,18 @@
     },
     {
       "roaster": "Proud Mary",
+      "bean_name": "Honduras | Ovidio Gomez | Geisha | Honey",
+      "url": "https://www.proudmarycoffee.com.au/products/honduras-ovidio-gomez-geisha-honey",
+      "roast_profile": "",
+      "origin": "Honduras",
+      "price_aud": "62.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
       "bean_name": "Humbler",
       "url": "https://www.proudmarycoffee.com.au/products/blend-humbler",
       "roast_profile": "omni",
@@ -961,6 +949,18 @@
       "url": "https://www.proudmarycoffee.com.au/products/mexico-santa-cruz-typica-bourbon-washed",
       "roast_profile": "omni",
       "origin": "Mexico",
+      "price_aud": "36.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Nicaragua | Buenos Aires | Maracaturra | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/nicaragua-buenos-aires-maracaturra-washed-1",
+      "roast_profile": "omni",
+      "origin": "Nicaragua",
       "price_aud": "36.00",
       "process": "Washed",
       "varietal": "",
