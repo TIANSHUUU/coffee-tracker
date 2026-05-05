@@ -50,6 +50,7 @@
   },
   {
     "name": "Criteria Coffee",
-    "url": "https://criteriacoffee.com/shop/"
+    "url": "https://criteriacoffee.com/shop/",
+    "force_woo_api": true
   }
 ]

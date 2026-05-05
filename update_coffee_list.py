@@ -1365,6 +1365,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
     shopify_collection_handle = str(roaster.get("shopify_collection_handle", "") or "").strip() or None
     price_variant_filter = str(roaster.get("price_variant_filter", "") or "").strip() or None
     force_html_listing = bool(roaster.get("force_html_listing", False))
+    force_woo_api = bool(roaster.get("force_woo_api", False))
     listing_url = collection_url_override or url
 
     if not listing_url:
@@ -1428,6 +1429,13 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                     if best_handle:
                         discovery_errors.append(f"selected_handle={best_handle}")
                     return best_items
+
+        if force_woo_api:
+            woo_items, woo_err = scrape_woocommerce_store_api(session, name, candidate_url)
+            if woo_items:
+                return woo_items
+            candidate_errors.append(f"{candidate_url} => {woo_err or 'woocommerce_no_items'}")
+            continue
 
         html_items, html_err = scrape_via_html_listing(session, name, candidate_url)
         if html_items:
