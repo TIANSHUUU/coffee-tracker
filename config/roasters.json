@@ -47,5 +47,9 @@
     "name": "Stitch Coffee",
     "url": "https://stitch.coffee/collections/coffee",
     "price_variant_filter": "250g"
+  },
+  {
+    "name": "Criteria Coffee",
+    "url": "https://criteriacoffee.com/shop/"
   }
 ]

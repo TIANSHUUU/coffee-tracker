@@ -124,6 +124,11 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "panela sugar",
     "panel sugar",
     "sampler pack",
+    # Education / services
+    "course",
+    "certification",
+    "cupping spoon",
+    "cupping spoons",
 ]
 
 EXCLUDED_PRODUCT_REGEXES = [
@@ -1192,9 +1197,22 @@ def scrape_woocommerce_store_api(
     if not all_products:
         return [], last_err or "woocommerce_no_products"
 
-    items: List[CoffeeItem] = []
+    # Group by title to deduplicate products offered in multiple brew variants
+    # (e.g. same coffee listed as both "Espresso Coffee" and "Filter Coffee")
+    from collections import defaultdict as _dd
+    groups: Dict[str, List[Dict]] = _dd(list)
     for product in all_products:
-        title = clean_text(str(product.get("name", "")))
+        t = clean_text(str(product.get("name", "")))
+        if t:
+            groups[t].append(product)
+
+    items: List[CoffeeItem] = []
+    for title, products in groups.items():
+        # Skip if all variants are sold out
+        if all(not p.get("is_in_stock", True) for p in products):
+            continue
+
+        product = products[0]
         permalink = clean_text(str(product.get("permalink", "")))
         if not title or not permalink:
             continue
@@ -1228,7 +1246,25 @@ def scrape_woocommerce_store_api(
                 price = ""
 
         combined = " ".join([title, short_desc, description, categories, tags])
-        roast_profile = parse_roast_profile(combined)
+
+        # Determine roast profile from all variant categories
+        all_cats_lower = [
+            clean_text(str(c.get("name", ""))).lower()
+            for p in products
+            for c in (p.get("categories") or [])
+            if isinstance(c, dict)
+        ]
+        has_esp_cat = any("espresso" in c for c in all_cats_lower)
+        has_flt_cat = any("filter" in c for c in all_cats_lower)
+        if has_esp_cat and has_flt_cat:
+            roast_profile = "omni"
+        elif has_esp_cat:
+            roast_profile = "espresso"
+        elif has_flt_cat:
+            roast_profile = "filter"
+        else:
+            roast_profile = parse_roast_profile(combined)
+
         items.append(
             CoffeeItem(
                 roaster=roaster,
