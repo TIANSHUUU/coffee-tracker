@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-05 05:16",
+  "generated_at": "2026-05-06 05:08",
   "stats": {
-    "total": 144,
-    "new": 4,
+    "total": 142,
+    "new": 0,
     "roasters": 12
   },
   "roasters": [
@@ -20,54 +20,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Kenya – Kiangundo. SL28, SL34, Ruiru 11, Batian – Washed",
-      "url": "https://criteriacoffee.com/product/kenya-kiangundo-sl28-sl34-ruiru-11-batian-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "33.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "with bright apple and cherry notes, floral honey blossom, and long sugarcane sweetness and vibrant acidity",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
-      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-      "roast_profile": "omni",
-      "origin": "northern Peru",
-      "price_aud": "29.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "26.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "the Mwito farm of Rwanda",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -210,18 +162,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "LEMON, HONEY SUCKLE, VIOLET, WHITE SUGAR",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Jose Lasso Sudan Rume Natural 'Floral Symphony' Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-jose-lasso-sudan-rume-natural-floral-symphony-espresso-single-origin-1",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "95.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "TANGERINE, BERRY CANDY, MINT",
       "is_new": false
     },
     {
@@ -478,12 +418,60 @@
     },
     {
       "roaster": "Criteria Coffee",
+      "bean_name": "Kenya – Kiangundo. SL28, SL34, Ruiru 11, Batian – Washed",
+      "url": "https://criteriacoffee.com/product/kenya-kiangundo-sl28-sl34-ruiru-11-batian-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "33.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "with bright apple and cherry notes, floral honey blossom, and long sugarcane sweetness and vibrant acidity",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
       "bean_name": "Nebula Espresso Blend",
       "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
       "roast_profile": "espresso",
       "origin": "a washed Colombian coffee",
       "price_aud": "20.00",
       "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
+      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
+      "roast_profile": "omni",
+      "origin": "northern Peru",
+      "price_aud": "29.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
+      "roast_profile": "omni",
+      "origin": "Rwanda",
+      "price_aud": "26.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "the Mwito farm of Rwanda",
+      "price_aud": "26.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1337,18 +1325,6 @@
       "price_aud": "19.00",
       "process": "Pulped Natural",
       "varietal": "Yellow Bourbon",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Matambo, Colombia",
-      "url": "https://sevenseeds.com.au/products/matambo-colombia-2026",
-      "roast_profile": "omni",
-      "origin": "Gigante, Huila, Colombia PRODUCER",
-      "price_aud": "22.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Caturra, Colombia, Castillo",
       "flavour_profile": "",
       "is_new": false
     },
