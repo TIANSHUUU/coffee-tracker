@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-08 01:10",
+  "generated_at": "2026-05-08 01:16",
   "stats": {
     "total": 136,
-    "new": 4,
+    "new": 0,
     "roasters": 11
   },
   "roasters": [
@@ -19,54 +19,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Nyeri",
-      "url": "https://www.commonfolkcoffee.com.au/products/nyeri_25",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "27.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Uraga Addis, Ethiopia, Supernatural",
-      "url": "https://onacoffee.com.au/products/milk-w-som1",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "20.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Takesi Geisha, Bolivia",
-      "url": "https://sevenseeds.com.au/products/takesi-geisha-bolivia-2026",
-      "roast_profile": "filter",
-      "origin": "Yanacachi, Sud Yungas, Bolivia PRODUCER",
-      "price_aud": "16.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Geisha",
-      "flavour_profile": "of Excellence results, unprecedented auction prices and countless winning barista performances",
-      "is_new": true
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Takesi Java, Bolivia",
-      "url": "https://sevenseeds.com.au/products/takesi-java-bolivia-2026",
-      "roast_profile": "filter",
-      "origin": "Yanacachi, Sud Yungas, Bolivia PRODUCER",
-      "price_aud": "10.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Java",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -429,6 +381,18 @@
     },
     {
       "roaster": "Commonfolk",
+      "bean_name": "Nyeri",
+      "url": "https://www.commonfolkcoffee.com.au/products/nyeri_25",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "27.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
       "bean_name": "Pink Bourbon Honey",
       "url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-honey_25f",
       "roast_profile": "omni",
@@ -747,6 +711,18 @@
       "origin": "Ethiopia",
       "price_aud": "27.50",
       "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Uraga Addis, Ethiopia, Supernatural",
+      "url": "https://onacoffee.com.au/products/milk-w-som1",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "20.50",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1288,6 +1264,30 @@
       "price_aud": "21.00",
       "process": "Fully Washed",
       "varietal": "Typica, Catuai, Pacamara",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
+      "bean_name": "Takesi Geisha, Bolivia",
+      "url": "https://sevenseeds.com.au/products/takesi-geisha-bolivia-2026",
+      "roast_profile": "filter",
+      "origin": "Yanacachi, Sud Yungas, Bolivia PRODUCER",
+      "price_aud": "16.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Geisha",
+      "flavour_profile": "of Excellence results, unprecedented auction prices and countless winning barista performances",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
+      "bean_name": "Takesi Java, Bolivia",
+      "url": "https://sevenseeds.com.au/products/takesi-java-bolivia-2026",
+      "roast_profile": "filter",
+      "origin": "Yanacachi, Sud Yungas, Bolivia PRODUCER",
+      "price_aud": "10.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Java",
       "flavour_profile": "",
       "is_new": false
     },
