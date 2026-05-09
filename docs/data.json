@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-05-08 01:16",
+  "generated_at": "2026-05-09 03:12",
   "stats": {
-    "total": 136,
-    "new": 0,
-    "roasters": 11
+    "total": 142,
+    "new": 8,
+    "roasters": 12
   },
   "roasters": [
     "Code Black",
     "Commonfolk",
+    "Criteria Coffee",
     "Market Lane",
     "ONA Coffee",
     "Padre Coffee",
@@ -19,6 +20,102 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Commonfolk",
+      "bean_name": "Uvuu Factory [2025]",
+      "url": "https://www.commonfolkcoffee.com.au/products/uvuu-factory_25",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "29.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Batch Blend for Filter",
+      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "21.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Kenya – Kiangundo. SL28, SL34, Ruiru 11, Batian – Washed",
+      "url": "https://criteriacoffee.com/product/kenya-kiangundo-sl28-sl34-ruiru-11-batian-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "33.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "with bright apple and cherry notes, floral honey blossom, and long sugarcane sweetness and vibrant acidity",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Nebula Espresso Blend",
+      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
+      "roast_profile": "espresso",
+      "origin": "a washed Colombian coffee",
+      "price_aud": "20.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
+      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
+      "roast_profile": "omni",
+      "origin": "northern Peru",
+      "price_aud": "29.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
+      "roast_profile": "omni",
+      "origin": "Rwanda",
+      "price_aud": "26.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "the Mwito farm of Rwanda",
+      "price_aud": "26.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "The Crowd Pleaser Espresso Blend",
+      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "will deliver flavours of chocolate and cherry through both espresso and milk",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1449,18 +1546,6 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "bean_name": "Ecuador, FINCA MERIDIANO",
-      "url": "https://stitch.coffee/products/ecuador-finca-meridiano-26",
-      "roast_profile": "omni",
-      "origin": "Ecuador",
-      "price_aud": "39.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
       "bean_name": "Higgs Field Blend",
       "url": "https://stitch.coffee/products/higgs-field-blend",
       "roast_profile": "omni",
@@ -1493,18 +1578,6 @@
       "process": "Honey",
       "varietal": "",
       "flavour_profile": "brewing up notes of sweet honey and bright hints of strawberry throughout",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "Rwanda, Ruli",
-      "url": "https://stitch.coffee/products/rwanda-ruli-26",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "32.00",
-      "process": "Natural, Anaerobic",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
