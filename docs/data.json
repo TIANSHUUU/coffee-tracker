@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-11 05:01",
+  "generated_at": "2026-05-12 05:56",
   "stats": {
-    "total": 152,
-    "new": 7,
+    "total": 151,
+    "new": 1,
     "roasters": 12
   },
   "roasters": [
@@ -21,87 +21,15 @@
   ],
   "items": [
     {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Batch Blend for Filter",
-      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Linarco Rodriguez Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-filter",
       "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "21.00",
-      "process": "",
+      "origin": "Huila, Colombia, this lot expresses the varietal in a new way while retaining it",
+      "price_aud": "32.00",
+      "process": "Anaerobic",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Kenya – Kiangundo. SL28, SL34, Ruiru 11, Batian – Washed",
-      "url": "https://criteriacoffee.com/product/kenya-kiangundo-sl28-sl34-ruiru-11-batian-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "33.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "with bright apple and cherry notes, floral honey blossom, and long sugarcane sweetness and vibrant acidity",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Nebula Espresso Blend",
-      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "roast_profile": "espresso",
-      "origin": "a washed Colombian coffee",
-      "price_aud": "20.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
-      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-      "roast_profile": "omni",
-      "origin": "northern Peru",
-      "price_aud": "29.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "26.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "the Mwito farm of Rwanda",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "The Crowd Pleaser Espresso Blend",
-      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "will deliver flavours of chocolate and cherry through both espresso and milk",
       "is_new": true
     },
     {
@@ -609,6 +537,90 @@
       "is_new": false
     },
     {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Batch Blend for Filter",
+      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "21.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Kenya – Kiangundo. SL28, SL34, Ruiru 11, Batian – Washed",
+      "url": "https://criteriacoffee.com/product/kenya-kiangundo-sl28-sl34-ruiru-11-batian-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "33.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "with bright apple and cherry notes, floral honey blossom, and long sugarcane sweetness and vibrant acidity",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Nebula Espresso Blend",
+      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
+      "roast_profile": "espresso",
+      "origin": "a washed Colombian coffee",
+      "price_aud": "20.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
+      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
+      "roast_profile": "omni",
+      "origin": "northern Peru",
+      "price_aud": "29.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
+      "roast_profile": "omni",
+      "origin": "Rwanda",
+      "price_aud": "26.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "the Mwito farm of Rwanda",
+      "price_aud": "26.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "The Crowd Pleaser Espresso Blend",
+      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "will deliver flavours of chocolate and cherry through both espresso and milk",
+      "is_new": false
+    },
+    {
       "roaster": "Market Lane",
       "bean_name": "El Faldón",
       "url": "https://marketlane.com.au/collections/filter-beans/products/el-faldon",
@@ -958,18 +970,6 @@
     },
     {
       "roaster": "Padre Coffee",
-      "bean_name": "Colombia, Paola Trujillo Caturra - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/colombia-paola-trujillo-caturra-washed",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
       "bean_name": "Colombia, Paola Trujillo Typica - Single Origin Filter",
       "url": "https://www.padrecoffee.com.au/products/colombia-paola-trujillo-typica-washed-filter",
       "roast_profile": "omni",
@@ -1258,18 +1258,6 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Luis Anibal Papayo Filter",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-luis-anibal-papayo-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Haymaker Espresso Blend",
       "url": "https://www.rumblecoffee.com.au/products/haymaker-espresso-blend",
       "roast_profile": "omni",
@@ -1346,7 +1334,7 @@
       "url": "https://www.rumblecoffee.com.au/products/single-origin-filter-twin-pack",
       "roast_profile": "filter",
       "origin": "",
-      "price_aud": "51.00",
+      "price_aud": "53.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
