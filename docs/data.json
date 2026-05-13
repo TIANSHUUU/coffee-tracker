@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-12 05:56",
+  "generated_at": "2026-05-13 02:49",
   "stats": {
-    "total": 151,
-    "new": 1,
+    "total": 152,
+    "new": 3,
     "roasters": 12
   },
   "roasters": [
@@ -22,12 +22,36 @@
   "items": [
     {
       "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Linarco Rodriguez Filter",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-filter",
-      "roast_profile": "filter",
-      "origin": "Huila, Colombia, this lot expresses the varietal in a new way while retaining it",
-      "price_aud": "32.00",
-      "process": "Anaerobic",
+      "bean_name": "Brazil Pedro Gabarra Bourbon Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/brazil-pedro-gabarra-bourbon",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "26.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "BURUNDI, KIBINGO (INTENSO WASHED)",
+      "url": "https://stitch.coffee/products/burundi-kibingo-intenso-washed-26",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "30.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "Burundi, Kibingo (Oro Natural)",
+      "url": "https://stitch.coffee/products/burundi-kibingo-26",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "30.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -1222,18 +1246,6 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Burundi Bumba Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/burundi-bumba-espresso",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "27.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Burundi Gishubi Espresso",
       "url": "https://www.rumblecoffee.com.au/products/burundi-gishubi",
       "roast_profile": "omni",
@@ -1252,6 +1264,18 @@
       "origin": "Burundi",
       "price_aud": "27.00",
       "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Linarco Rodriguez Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-filter",
+      "roast_profile": "filter",
+      "origin": "Huila, Colombia, this lot expresses the varietal in a new way while retaining it",
+      "price_aud": "32.00",
+      "process": "Anaerobic",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1624,18 +1648,6 @@
       "origin": "",
       "price_aud": "20.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "Burundi, Kibingo",
-      "url": "https://stitch.coffee/products/burundi-kibingo-26",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "30.00",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
