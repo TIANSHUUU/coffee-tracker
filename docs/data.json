@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-13 02:49",
+  "generated_at": "2026-05-14 06:00",
   "stats": {
-    "total": 152,
-    "new": 3,
+    "total": 154,
+    "new": 2,
     "roasters": 12
   },
   "roasters": [
@@ -21,38 +21,26 @@
   ],
   "items": [
     {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Brazil Pedro Gabarra Bourbon Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/brazil-pedro-gabarra-bourbon",
+      "roaster": "Seven Seeds",
+      "bean_name": "Chirinos, Peru",
+      "url": "https://sevenseeds.com.au/products/chirinos-peru-2026",
       "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "26.00",
-      "process": "",
-      "varietal": "",
+      "origin": "Chirinos, Cajamarca, Peru PRODUCER",
+      "price_aud": "28.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Caturra, Bourbon, Catuai",
       "flavour_profile": "",
       "is_new": true
     },
     {
-      "roaster": "Stitch Coffee",
-      "bean_name": "BURUNDI, KIBINGO (INTENSO WASHED)",
-      "url": "https://stitch.coffee/products/burundi-kibingo-intenso-washed-26",
+      "roaster": "Seven Seeds",
+      "bean_name": "Santuario Sul Bourbon, Brazil",
+      "url": "https://sevenseeds.com.au/products/santuario-sul-bourbon-brazil",
       "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "Burundi, Kibingo (Oro Natural)",
-      "url": "https://stitch.coffee/products/burundi-kibingo-26",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "30.00",
-      "process": "Natural",
-      "varietal": "",
+      "origin": "Carmo de Minas, Minas Gerais, Brazil PRODUCER",
+      "price_aud": "27.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Bourbon",
       "flavour_profile": "",
       "is_new": true
     },
@@ -1246,6 +1234,18 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Brazil Pedro Gabarra Bourbon Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/brazil-pedro-gabarra-bourbon",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "26.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Burundi Gishubi Espresso",
       "url": "https://www.rumblecoffee.com.au/products/burundi-gishubi",
       "roast_profile": "omni",
@@ -1642,12 +1642,36 @@
     },
     {
       "roaster": "Stitch Coffee",
+      "bean_name": "BURUNDI, KIBINGO (INTENSO WASHED)",
+      "url": "https://stitch.coffee/products/burundi-kibingo-intenso-washed-26",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "30.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
       "bean_name": "Black Field Blend",
       "url": "https://stitch.coffee/products/blackfield-blend",
       "roast_profile": "omni",
       "origin": "",
       "price_aud": "20.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "Burundi, Kibingo (Oro Natural)",
+      "url": "https://stitch.coffee/products/burundi-kibingo-26",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "30.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
