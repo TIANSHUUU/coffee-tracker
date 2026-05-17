@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-17 05:53",
+  "generated_at": "2026-05-17 09:24",
   "stats": {
-    "total": 159,
+    "total": 158,
     "new": 0,
     "roasters": 12
   },
@@ -820,18 +820,6 @@
       "origin": "Costa Rica",
       "price_aud": "20.00",
       "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "La Huerta, Honduras, Washed",
-      "url": "https://onacoffee.com.au/products/filter-x-sof2",
-      "roast_profile": "filter",
-      "origin": "Honduras",
-      "price_aud": "20.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
