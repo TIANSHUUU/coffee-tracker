@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-17 15:01",
+  "generated_at": "2026-05-18 05:12",
   "stats": {
-    "total": 158,
+    "total": 154,
     "new": 0,
     "roasters": 12
   },
@@ -78,18 +78,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "MELON, WHITE GRAPE, HONEY",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Edier Perdomo & Cesar Lopez 'Bourbon Joint' Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-edier-perdomo-cesar-lopez-bourbon-joint-filter-single-origin",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "85.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "FRUIT CANDY, GRAPE, MELON, PINEAPPLE",
       "is_new": false
     },
     {
@@ -1438,18 +1426,6 @@
     },
     {
       "roaster": "Seven Seeds",
-      "bean_name": "Arbaey Ortega, Colombia",
-      "url": "https://sevenseeds.com.au/products/arbaey-ortega-colombia",
-      "roast_profile": "omni",
-      "origin": "Pitalito, Huila, Colombia PRODUCER",
-      "price_aud": "30.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Pink Bourbon and Bourbon Aj",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
       "bean_name": "Chirinos, Peru",
       "url": "https://sevenseeds.com.au/products/chirinos-peru-2026",
       "roast_profile": "omni",
@@ -1505,18 +1481,6 @@
       "price_aud": "19.00",
       "process": "Pulped Natural",
       "varietal": "Yellow Bourbon",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Roger Quispe, Peru",
-      "url": "https://sevenseeds.com.au/products/roger-quispe-peru-2026",
-      "roast_profile": "omni",
-      "origin": "San Ignacio, Cajamarca, Peru PRODUCER",
-      "price_aud": "33.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Caturra",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1758,18 +1722,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "RWANDA, KIBIRIZI",
-      "url": "https://stitch.coffee/products/rwanda-kibirizi-26",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "28.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "brewing up notes of sweet honey and bright hints of strawberry throughout",
       "is_new": false
     },
     {
