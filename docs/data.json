@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-20 01:49",
+  "generated_at": "2026-05-22 01:44",
   "stats": {
-    "total": 155,
-    "new": 6,
+    "total": 152,
+    "new": 3,
     "roasters": 12
   },
   "roasters": [
@@ -21,75 +21,39 @@
   ],
   "items": [
     {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Albeirson Prada Devia Gesha Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-albeirson-prada-devia-gesha-filter-single-origin",
+      "roaster": "Commonfolk",
+      "bean_name": "Rebel Rebel",
+      "url": "https://www.commonfolkcoffee.com.au/products/rebel-rebel_26",
       "roast_profile": "omni",
       "origin": "Colombia",
-      "price_aud": "36.50",
-      "process": "",
+      "price_aud": "29.00",
+      "process": "Anaerobic Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Iris Estate Symmetry, CM Natural",
-      "url": "https://onacoffee.com.au/products/filter-reserve-x-rsof1",
+      "roaster": "Market Lane",
+      "bean_name": "Los Rodríguez",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/los-rodriguez-filter-beans",
       "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "85.00",
+      "origin": "Samaipata, Santa Cruz, Bolivia",
+      "price_aud": "34.00",
+      "process": "Washed Producer",
+      "varietal": "Caturra",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Panama | Altieri Estate - Alessa | Geisha | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/panama-altieri-estate-alessa-geisha-natural",
+      "roast_profile": "",
+      "origin": "Panama",
+      "price_aud": "83.00",
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "La Huerta, Honduras, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-z-rare",
-      "roast_profile": "espresso",
-      "origin": "Honduras",
-      "price_aud": "43.50",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ECUADOR, FINCA LA CAROLINA",
-      "url": "https://stitch.coffee/products/ecuador-finca-la-carolina-26",
-      "roast_profile": "omni",
-      "origin": "Ecuador",
-      "price_aud": "39.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "COLOMBIA | GUAVA BANANA | NATURAL ANAEROBIC - ESPRESSO",
-      "url": "https://wideopenroad.com.au/products/colombia-guava-banana-natural-anaerobic-filter",
-      "roast_profile": "omni",
-      "origin": "Colombia Region",
-      "price_aud": "22.50",
-      "process": "Natural Anaerobic Varietal",
-      "varietal": "Red Caturra Tasting",
-      "flavour_profile": "Pomegranate, banana split, caramel Description",
-      "is_new": true
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "HONDURAS | LA CRUZ | NATURAL - FILTER",
-      "url": "https://wideopenroad.com.au/products/honduras-la-cruz-natural-filter",
-      "roast_profile": "omni",
-      "origin": "Honduras Region",
-      "price_aud": "24.00",
-      "process": "Natural Varietal",
-      "varietal": "Catuai Tasting",
-      "flavour_profile": "Mulberry, apricot, dark chocolate Description",
       "is_new": true
     },
     {
@@ -126,6 +90,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "STRAWBERRY, PASSIONFRUIT, ROCKMELON, CONFECTIONARY",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Albeirson Prada Devia Gesha Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-albeirson-prada-devia-gesha-filter-single-origin",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "36.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -279,30 +255,6 @@
       "roast_profile": "omni",
       "origin": "Ecuador",
       "price_aud": "29.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Chorso Bule Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-chorso-bule-natural-espresso-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "30.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Chorso Bule Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-chorso-bule-natural-filter-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "30.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -802,30 +754,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "Fazenda do Engenho Lot 10, Brazil, Washed",
-      "url": "https://onacoffee.com.au/products/cofosoe3-opz",
-      "roast_profile": "espresso",
-      "origin": "Brazil",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Fazenda do Engenho Lot 9, Brazil, Washed",
-      "url": "https://onacoffee.com.au/products/finca-licho-costa-rica-white-honey",
-      "roast_profile": "filter",
-      "origin": "Brazil",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Gateway",
       "url": "https://onacoffee.com.au/products/gateway",
       "roast_profile": "espresso",
@@ -850,6 +778,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Iris Estate Symmetry, CM Natural",
+      "url": "https://onacoffee.com.au/products/filter-reserve-x-rsof1",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "85.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Kamachungwa AB, Kenya, Washed",
       "url": "https://onacoffee.com.au/products/espresso-w-soe1",
       "roast_profile": "espresso",
@@ -868,6 +808,18 @@
       "origin": "Costa Rica",
       "price_aud": "20.00",
       "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "La Huerta, Honduras, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-z-rare",
+      "roast_profile": "espresso",
+      "origin": "Honduras",
+      "price_aud": "43.50",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -963,30 +915,6 @@
       "roast_profile": "espresso",
       "origin": "",
       "price_aud": "17.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Uraga Addis, Ethiopia, Supernatural",
-      "url": "https://onacoffee.com.au/products/milk-w-som1",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "20.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Yirgacheffe Amederaro, Ethiopia, Supernatural",
-      "url": "https://onacoffee.com.au/products/filter-x-rare",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "24.25",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -1738,6 +1666,18 @@
     },
     {
       "roaster": "Stitch Coffee",
+      "bean_name": "ECUADOR, FINCA LA CAROLINA",
+      "url": "https://stitch.coffee/products/ecuador-finca-la-carolina-26",
+      "roast_profile": "omni",
+      "origin": "Ecuador",
+      "price_aud": "39.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
       "bean_name": "Higgs Field Blend",
       "url": "https://stitch.coffee/products/higgs-field-blend",
       "roast_profile": "omni",
@@ -1786,6 +1726,18 @@
     },
     {
       "roaster": "Wide Open Road",
+      "bean_name": "COLOMBIA | GUAVA BANANA | NATURAL ANAEROBIC - ESPRESSO",
+      "url": "https://wideopenroad.com.au/products/colombia-guava-banana-natural-anaerobic-filter",
+      "roast_profile": "omni",
+      "origin": "Colombia Region",
+      "price_aud": "22.50",
+      "process": "Natural Anaerobic Varietal",
+      "varietal": "Red Caturra Tasting",
+      "flavour_profile": "Pomegranate, banana split, caramel Description",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
       "bean_name": "COLOMBIA | PINK BOURBON PUNCH | ANAEROBIC NATURAL - FILTER",
       "url": "https://wideopenroad.com.au/products/colombia-pink-bourbon-punch-anaerobic-natural-filter",
       "roast_profile": "omni",
@@ -1806,6 +1758,18 @@
       "process": "Washed Varietal",
       "varietal": "Heirloom",
       "flavour_profile": "Orange, Cacao nibs, Candy apple Celebrating the iconic Hong Kong masterpiece written and directed by Wong Kar-wai",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
+      "bean_name": "HONDURAS | LA CRUZ | NATURAL - FILTER",
+      "url": "https://wideopenroad.com.au/products/honduras-la-cruz-natural-filter",
+      "roast_profile": "omni",
+      "origin": "Honduras Region",
+      "price_aud": "24.00",
+      "process": "Natural Varietal",
+      "varietal": "Catuai Tasting",
+      "flavour_profile": "Mulberry, apricot, dark chocolate Description",
       "is_new": false
     },
     {
