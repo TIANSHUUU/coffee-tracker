@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-22 12:52",
+  "generated_at": "2026-05-23 01:06",
   "stats": {
     "total": 156,
-    "new": 5,
+    "new": 0,
     "roasters": 12
   },
   "roasters": [
@@ -20,66 +20,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Finca Pampojila, Guatemala, Natural",
-      "url": "https://onacoffee.com.au/products/la-esperanza-costa-rica-natural",
-      "roast_profile": "filter",
-      "origin": "Guatemala",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Finca Quejina, Guatemala, Washed",
-      "url": "https://onacoffee.com.au/products/la-cima-del-cielo-lot-isabel-honduras-washed",
-      "roast_profile": "espresso",
-      "origin": "Guatemala",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "La Esperanza, Costa Rica, Natural",
-      "url": "https://onacoffee.com.au/products/milk-x-som1",
-      "roast_profile": "espresso",
-      "origin": "Costa Rica",
-      "price_aud": "29.50",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Yirgacheffe Amederaro, Ethiopia, Supernatural",
-      "url": "https://onacoffee.com.au/products/filter-x-rare",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "24.25",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Yirgacheffe Chelbesa G1, Ethiopia, Washed",
-      "url": "https://onacoffee.com.au/products/filter-w-sof1",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -802,6 +742,30 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Finca Pampojila, Guatemala, Natural",
+      "url": "https://onacoffee.com.au/products/la-esperanza-costa-rica-natural",
+      "roast_profile": "filter",
+      "origin": "Guatemala",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Finca Quejina, Guatemala, Washed",
+      "url": "https://onacoffee.com.au/products/la-cima-del-cielo-lot-isabel-honduras-washed",
+      "roast_profile": "espresso",
+      "origin": "Guatemala",
+      "price_aud": "20.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Gateway",
       "url": "https://onacoffee.com.au/products/gateway",
       "roast_profile": "espresso",
@@ -856,6 +820,18 @@
       "origin": "Costa Rica",
       "price_aud": "20.00",
       "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "La Esperanza, Costa Rica, Natural",
+      "url": "https://onacoffee.com.au/products/milk-x-som1",
+      "roast_profile": "espresso",
+      "origin": "Costa Rica",
+      "price_aud": "29.50",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -964,6 +940,30 @@
       "origin": "",
       "price_aud": "17.50",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Yirgacheffe Amederaro, Ethiopia, Supernatural",
+      "url": "https://onacoffee.com.au/products/filter-x-rare",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "24.25",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Yirgacheffe Chelbesa G1, Ethiopia, Washed",
+      "url": "https://onacoffee.com.au/products/filter-w-sof1",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "20.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
