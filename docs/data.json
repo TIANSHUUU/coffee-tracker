@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-23 01:06",
+  "generated_at": "2026-05-24 02:07",
   "stats": {
-    "total": 156,
+    "total": 154,
     "new": 0,
     "roasters": 12
   },
@@ -778,18 +778,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "Gatumbi PB, Kenya, Washed",
-      "url": "https://onacoffee.com.au/products/filter-z-sof1",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Iris Estate Symmetry, CM Natural",
       "url": "https://onacoffee.com.au/products/filter-reserve-x-rsof1",
       "roast_profile": "filter",
@@ -939,18 +927,6 @@
       "roast_profile": "espresso",
       "origin": "",
       "price_aud": "17.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Yirgacheffe Amederaro, Ethiopia, Supernatural",
-      "url": "https://onacoffee.com.au/products/filter-x-rare",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "24.25",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
