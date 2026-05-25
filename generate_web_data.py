@@ -5,11 +5,13 @@ Finds the two most recent output JSON files, compares them to identify
 new items, and writes the result to docs/data.json.
 """
 
+import html as _html
 import json
 import os
 import glob
 import re
 import sys
+import unicodedata
 from datetime import datetime
 
 
@@ -17,6 +19,18 @@ def strip_html(text: str) -> str:
     """Remove HTML tags and collapse whitespace."""
     text = re.sub(r"<[^>]+>", " ", text or "")
     return re.sub(r"\s+", " ", text).strip()
+
+
+# Dash/hyphen variants that different scrapers may produce
+_DASHES = "–—‐‑‒―⁻₋"
+
+def _normalize_key_str(s: str) -> str:
+    s = _html.unescape(s or "")
+    s = unicodedata.normalize("NFKC", s)
+    for ch in _DASHES:
+        s = s.replace(ch, "-")
+    return re.sub(r"\s+", " ", s).strip().lower()
+
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
 WEB_DATA_PATH = os.path.join(os.path.dirname(__file__), "docs", "data.json")
@@ -34,8 +48,8 @@ def load_json(path):
 
 
 def item_key(item):
-    """Stable identity key for a coffee product."""
-    return (item.get("roaster", "").strip(), item.get("bean_name", "").strip())
+    """Stable identity key for a coffee product, normalized against encoding differences."""
+    return (_normalize_key_str(item.get("roaster", "")), _normalize_key_str(item.get("bean_name", "")))
 
 
 def main():
