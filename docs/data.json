@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-05-24 15:01",
+  "generated_at": "2026-05-25 01:26",
   "stats": {
-    "total": 154,
+    "total": 144,
     "new": 0,
-    "roasters": 12
+    "roasters": 11
   },
   "roasters": [
     "Code Black",
     "Commonfolk",
-    "Criteria Coffee",
     "Market Lane",
     "ONA Coffee",
     "Padre Coffee",
@@ -430,18 +429,6 @@
     },
     {
       "roaster": "Commonfolk",
-      "bean_name": "Bom Jesus",
-      "url": "https://www.commonfolkcoffee.com.au/products/bom-jesus_26",
-      "roast_profile": "espresso",
-      "origin": "Brazil",
-      "price_aud": "26.00",
-      "process": "Brazil Natural, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
       "bean_name": "Café descafeinado de México",
       "url": "https://www.commonfolkcoffee.com.au/products/cafe-descafeinado-de-mexico_25",
       "roast_profile": "omni",
@@ -537,90 +524,6 @@
       "is_new": false
     },
     {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Batch Blend for Filter",
-      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "21.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Kenya – Kiangundo. SL28, SL34, Ruiru 11, Batian – Washed",
-      "url": "https://criteriacoffee.com/product/kenya-kiangundo-sl28-sl34-ruiru-11-batian-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "33.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "with bright apple and cherry notes, floral honey blossom, and long sugarcane sweetness and vibrant acidity",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Nebula Espresso Blend",
-      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "roast_profile": "espresso",
-      "origin": "a washed Colombian coffee",
-      "price_aud": "20.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
-      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-      "roast_profile": "omni",
-      "origin": "northern Peru",
-      "price_aud": "29.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "26.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "the Mwito farm of Rwanda",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "The Crowd Pleaser Espresso Blend",
-      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "will deliver flavours of chocolate and cherry through both espresso and milk",
-      "is_new": false
-    },
-    {
       "roaster": "Market Lane",
       "bean_name": "El Faldón",
       "url": "https://marketlane.com.au/collections/filter-beans/products/el-faldon",
@@ -665,18 +568,6 @@
       "price_aud": "34.00",
       "process": "Washed Producer",
       "varietal": "Caturra",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "San Bartolomé",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/san-bartolome-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Copacabana, Caranavi, Bolivia Varieties",
-      "price_aud": "28.00",
-      "process": "Washed Producers",
-      "varietal": "Caturra & Catua",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1264,18 +1155,6 @@
       "origin": "Brazil",
       "price_aud": "26.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Burundi Gishubi Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/burundi-gishubi",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "27.00",
-      "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
