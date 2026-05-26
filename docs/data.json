@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-25 05:25",
+  "generated_at": "2026-05-26 04:58",
   "stats": {
-    "total": 151,
-    "new": 0,
+    "total": 146,
+    "new": 2,
     "roasters": 12
   },
   "roasters": [
@@ -20,6 +20,30 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Bambito Estate, Panama, Natural",
+      "url": "https://onacoffee.com.au/products/filter-y-rare",
+      "roast_profile": "filter",
+      "origin": "Panama",
+      "price_aud": "36.50",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Fazenda do Engenho Lot 10, Brazil, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-z-soe3",
+      "roast_profile": "espresso",
+      "origin": "Brazil",
+      "price_aud": "20.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -238,18 +262,6 @@
     },
     {
       "roaster": "Code Black",
-      "bean_name": "Ethiopia Danche Red Honey Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-danche-red-honey-filter-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "30.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
       "bean_name": "Ex-Wife Espresso Blend",
       "url": "https://codeblackcoffee.com.au/products/ex-wife-espresso-blend-coffee",
       "roast_profile": "omni",
@@ -318,18 +330,6 @@
       "process": "",
       "varietal": "MIXED, MOSTLY SIGARARUTANG CUP",
       "flavour_profile": "JACKFRUIT, GUAVA, CHOCOLATE, PISTACHIO",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Ibonia Estate Peaberry Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-ibonia-estate-peaberry-washed-filter-single-origin",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "30.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1018,18 +1018,6 @@
     },
     {
       "roaster": "Padre Coffee",
-      "bean_name": "Indonesia, Frinsa - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/indonesia-frinsa-washed-single-origin-espresso",
-      "roast_profile": "omni",
-      "origin": "Indonesia",
-      "price_aud": "25.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
       "bean_name": "Indonesia, Frinsa - Single Origin Filter",
       "url": "https://www.padrecoffee.com.au/products/indonesia-frinsa-washed-single-origin-filter",
       "roast_profile": "omni",
@@ -1438,18 +1426,6 @@
     },
     {
       "roaster": "Seven Seeds",
-      "bean_name": "Fazenda Engenho, Brazil",
-      "url": "https://sevenseeds.com.au/products/fazenda-engenho-brazil",
-      "roast_profile": "omni",
-      "origin": "Carmo de Minas, Minas Gerais, Brazil PRODUCER",
-      "price_aud": "29.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Icatu",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
       "bean_name": "Golden Gate Espresso Blend",
       "url": "https://sevenseeds.com.au/products/golden-gate-blend",
       "roast_profile": "omni",
@@ -1470,18 +1446,6 @@
       "process": "Fully Washed ALTITUDE",
       "varietal": "Bourbon",
       "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Santuario Sul Sudan Rume, Brazil",
-      "url": "https://sevenseeds.com.au/products/santuario-sul-sudan-rume-brazil",
-      "roast_profile": "omni",
-      "origin": "Carmo de Minas, Minas Gerais, Brazil PRODUCER",
-      "price_aud": "27.00",
-      "process": "Natural ALTITUDE",
-      "varietal": "Sudan Rume",
-      "flavour_profile": "of Excellence, including a standout 2nd place in 2021 for Luiz",
       "is_new": false
     },
     {
@@ -1594,18 +1558,6 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "bean_name": "BOLIVIA, LA LLAMA",
-      "url": "https://stitch.coffee/products/bolivia-la-llama-26",
-      "roast_profile": "omni",
-      "origin": "Bolivia",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
       "bean_name": "BURUNDI, KIBINGO (INTENSO WASHED)",
       "url": "https://stitch.coffee/products/burundi-kibingo-intenso-washed-26",
       "roast_profile": "omni",
@@ -1624,18 +1576,6 @@
       "origin": "",
       "price_aud": "20.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "Burundi, Kibingo (Oro Natural)",
-      "url": "https://stitch.coffee/products/burundi-kibingo-26",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "30.00",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
