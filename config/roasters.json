@@ -52,5 +52,9 @@
     "name": "Criteria Coffee",
     "url": "https://criteriacoffee.com/shop/",
     "force_woo_api": true
+  },
+  {
+    "name": "Field Work Coffee",
+    "url": "https://fieldworkcoffee.com.au/collections/all"
   }
 ]

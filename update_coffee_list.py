@@ -129,6 +129,8 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "certification",
     "cupping spoon",
     "cupping spoons",
+    # Brewing equipment
+    "brewer",
 ]
 
 EXCLUDED_PRODUCT_REGEXES = [
