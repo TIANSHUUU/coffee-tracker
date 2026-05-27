@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-26 04:58",
+  "generated_at": "2026-05-27 01:50",
   "stats": {
-    "total": 146,
+    "total": 148,
     "new": 2,
     "roasters": 12
   },
@@ -21,24 +21,24 @@
   ],
   "items": [
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Bambito Estate, Panama, Natural",
-      "url": "https://onacoffee.com.au/products/filter-y-rare",
-      "roast_profile": "filter",
-      "origin": "Panama",
-      "price_aud": "36.50",
-      "process": "Natural",
+      "roaster": "Padre Coffee",
+      "bean_name": "Hot Shot Coffee Pods - Troublemaker Espresso",
+      "url": "https://www.padrecoffee.com.au/products/hot-shot-coffee-pods-troublemaker-espresso",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia, PNG",
+      "price_aud": "35.00",
+      "process": "Washed, Natural",
       "varietal": "",
-      "flavour_profile": "",
+      "flavour_profile": "HONEYCOMB, HAZELNUT, DARK CHOCOLATE, RAISIN In The Box Available in a 30 pack or bulk saving 120 pack (4",
       "is_new": true
     },
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Fazenda do Engenho Lot 10, Brazil, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-z-soe3",
-      "roast_profile": "espresso",
-      "origin": "Brazil",
-      "price_aud": "20.00",
+      "roaster": "Stitch Coffee",
+      "bean_name": "COLOMBIA, EL DIAMANTE",
+      "url": "https://stitch.coffee/products/colombia-el-diamante-26",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "30.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
@@ -694,6 +694,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Bambito Estate, Panama, Natural",
+      "url": "https://onacoffee.com.au/products/filter-y-rare",
+      "roast_profile": "filter",
+      "origin": "Panama",
+      "price_aud": "36.50",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Chilling Rock Pack Espresso",
       "url": "https://onacoffee.com.au/products/chilling-rock-pack-esp",
       "roast_profile": "espresso",
@@ -712,6 +724,18 @@
       "origin": "",
       "price_aud": "49.95",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Fazenda do Engenho Lot 10, Brazil, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-z-soe3",
+      "roast_profile": "espresso",
+      "origin": "Brazil",
+      "price_aud": "20.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
