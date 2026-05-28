@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-28 03:13",
+  "generated_at": "2026-05-28 03:20",
   "stats": {
     "total": 150,
-    "new": 3,
+    "new": 0,
     "roasters": 13
   },
   "roasters": [
@@ -21,42 +21,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Chorso Bule Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-chorso-bule-natural-espresso-single-origin",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "30.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Bolivia Carmalita Coco Natural Filter",
-      "url": "https://www.rumblecoffee.com.au/products/bolivia-carmalita-coco-natural",
-      "roast_profile": "omni",
-      "origin": "the epicentre of Bolivian speciality coffee comes this gorgeous lot from produce",
-      "price_aud": "28.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "El Conjuro, Peru",
-      "url": "https://sevenseeds.com.au/products/el-conjuro-peru-2026",
-      "roast_profile": "omni",
-      "origin": "Jaen, Cajamarca, Peru PRODUCER",
-      "price_aud": "28.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Caturra, Bourbon, Catimor",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -244,6 +208,18 @@
       "roast_profile": "omni",
       "origin": "Ecuador",
       "price_aud": "29.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Chorso Bule Natural Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-chorso-bule-natural-espresso-single-origin",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "30.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -1271,6 +1247,18 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Bolivia Carmalita Coco Natural Filter",
+      "url": "https://www.rumblecoffee.com.au/products/bolivia-carmalita-coco-natural",
+      "roast_profile": "omni",
+      "origin": "the epicentre of Bolivian speciality coffee comes this gorgeous lot from produce",
+      "price_aud": "28.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Brazil Pedro Gabarra Bourbon Espresso",
       "url": "https://www.rumblecoffee.com.au/products/brazil-pedro-gabarra-bourbon",
       "roast_profile": "omni",
@@ -1446,6 +1434,18 @@
       "price_aud": "30.00",
       "process": "",
       "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
+      "bean_name": "El Conjuro, Peru",
+      "url": "https://sevenseeds.com.au/products/el-conjuro-peru-2026",
+      "roast_profile": "omni",
+      "origin": "Jaen, Cajamarca, Peru PRODUCER",
+      "price_aud": "28.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Caturra, Bourbon, Catimor",
       "flavour_profile": "",
       "is_new": false
     },
