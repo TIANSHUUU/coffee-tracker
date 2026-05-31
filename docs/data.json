@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-30 01:20",
+  "generated_at": "2026-05-31 02:24",
   "stats": {
     "total": 155,
-    "new": 11,
+    "new": 0,
     "roasters": 13
   },
   "roasters": [
@@ -21,138 +21,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Batch Blend for Filter",
-      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "21.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Kenya – Kiangundo. SL28, SL34, Ruiru 11, Batian – Washed",
-      "url": "https://criteriacoffee.com/product/kenya-kiangundo-sl28-sl34-ruiru-11-batian-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "33.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "with bright apple and cherry notes, floral honey blossom, and long sugarcane sweetness and vibrant acidity",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Nebula Espresso Blend",
-      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "roast_profile": "espresso",
-      "origin": "a washed Colombian coffee",
-      "price_aud": "20.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
-      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-      "roast_profile": "omni",
-      "origin": "northern Peru",
-      "price_aud": "29.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "26.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "the Mwito farm of Rwanda",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "The Crowd Pleaser Espresso Blend",
-      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "will deliver flavours of chocolate and cherry through both espresso and milk",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Canta Ranas",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/canta-ranas",
-      "roast_profile": "filter",
-      "origin": "Santa Isabel, Tolima, Colombia",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "Chiroso",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Nossa Senhora Aparecida",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/nossa-senhora-aparecida-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Piat",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "Red Catua",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "El Salvador | La Siberia | Red Bourbon | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-red-bourbon-washed",
-      "roast_profile": "omni",
-      "origin": "El Salvador",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Alirio Munoz – Borbon aji",
-      "url": "https://www.smallbatch.com.au/shop/filter/estrellas-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia, Ethiopia",
-      "price_aud": "28",
-      "process": "",
-      "varietal": "his farm has pink bourbon, bourbon aji, caturra, sidra, chiroso, pacas, omblig",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -622,6 +490,90 @@
       "is_new": false
     },
     {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Batch Blend for Filter",
+      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "21.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Kenya – Kiangundo. SL28, SL34, Ruiru 11, Batian – Washed",
+      "url": "https://criteriacoffee.com/product/kenya-kiangundo-sl28-sl34-ruiru-11-batian-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "33.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "with bright apple and cherry notes, floral honey blossom, and long sugarcane sweetness and vibrant acidity",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Nebula Espresso Blend",
+      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
+      "roast_profile": "espresso",
+      "origin": "a washed Colombian coffee",
+      "price_aud": "20.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
+      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
+      "roast_profile": "omni",
+      "origin": "northern Peru",
+      "price_aud": "29.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
+      "roast_profile": "omni",
+      "origin": "Rwanda",
+      "price_aud": "26.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "the Mwito farm of Rwanda",
+      "price_aud": "26.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "The Crowd Pleaser Espresso Blend",
+      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "will deliver flavours of chocolate and cherry through both espresso and milk",
+      "is_new": false
+    },
+    {
       "roaster": "Field Work Coffee",
       "bean_name": "Bookkisa",
       "url": "https://fieldworkcoffee.com.au/products/bookkisa",
@@ -719,6 +671,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "Canta Ranas",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/canta-ranas",
+      "roast_profile": "filter",
+      "origin": "Santa Isabel, Tolima, Colombia",
+      "price_aud": "32.00",
+      "process": "Washed",
+      "varietal": "Chiroso",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "El Jardín",
       "url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
       "roast_profile": "filter",
@@ -750,6 +714,18 @@
       "price_aud": "34.00",
       "process": "Washed Producer",
       "varietal": "Caturra",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Nossa Senhora Aparecida",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/nossa-senhora-aparecida-filter-beans",
+      "roast_profile": "filter",
+      "origin": "Piat",
+      "price_aud": "24.00",
+      "process": "Natural",
+      "varietal": "Red Catua",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1223,6 +1199,18 @@
     },
     {
       "roaster": "Proud Mary",
+      "bean_name": "El Salvador | La Siberia | Red Bourbon | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-red-bourbon-washed",
+      "roast_profile": "omni",
+      "origin": "El Salvador",
+      "price_aud": "30.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
       "bean_name": "Ghost Rider",
       "url": "https://www.proudmarycoffee.com.au/products/ghost-rider",
       "roast_profile": "omni",
@@ -1566,6 +1554,18 @@
       "price_aud": "21.00",
       "process": "Fully Washed",
       "varietal": "Typica, Catuai, Pacamara",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Alirio Munoz – Borbon aji",
+      "url": "https://www.smallbatch.com.au/shop/filter/estrellas-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia, Ethiopia",
+      "price_aud": "28",
+      "process": "",
+      "varietal": "his farm has pink bourbon, bourbon aji, caturra, sidra, chiroso, pacas, omblig",
       "flavour_profile": "",
       "is_new": false
     },
