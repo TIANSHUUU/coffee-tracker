@@ -56,5 +56,10 @@
   {
     "name": "Field Work Coffee",
     "url": "https://fieldworkcoffee.com.au/collections/all"
+  },
+  {
+    "name": "Standing Room Coffee",
+    "url": "https://standingroomcoffee.com.au/collections/all-products",
+    "price_variant_filter": "250g"
   }
 ]

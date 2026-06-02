@@ -131,6 +131,10 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "cupping spoons",
     # Brewing equipment
     "brewer",
+    "aeropress",
+    "glass server",
+    # Non-coffee consumables
+    "drinking chocolate",
 ]
 
 EXCLUDED_PRODUCT_REGEXES = [
@@ -662,16 +666,23 @@ def scrape_shopify_collection_json(
             tag_meta["varietal"],
             parse_varietal(combined),
         )
-        # If variants offer multiple brew methods (espresso + filter), the product is omni-roast.
-        variant_titles = " ".join(v.get("title") or "" for v in variants).lower()
-        has_espresso_variant = any(k in variant_titles for k in ("espresso",))
-        has_filter_variant = any(k in variant_titles for k in ("pour over", "filter", "batch brew", "aeropress", "plunger"))
-        if has_espresso_variant and has_filter_variant:
-            roast_profile_label = "omni"
-        elif tag_meta["roast"]:
-            roast_profile_label = parse_roast_profile(" ".join(tag_meta["roast"]), title=title)
+        # Title is the highest-confidence signal — check it first.
+        # Variant titles often reflect grind options (Espresso / Pourover / Plunger) rather
+        # than distinct roast profiles, so only fall back to variant-based detection when
+        # the product title gives no clear answer.
+        title_profile = parse_roast_profile("", title=title)
+        if title_profile:
+            roast_profile_label = title_profile
         else:
-            roast_profile_label = parse_roast_profile(combined, title=title)
+            variant_titles = " ".join(v.get("title") or "" for v in variants).lower()
+            has_espresso_variant = any(k in variant_titles for k in ("espresso",))
+            has_filter_variant = any(k in variant_titles for k in ("pour over", "filter", "batch brew", "aeropress", "plunger"))
+            if has_espresso_variant and has_filter_variant:
+                roast_profile_label = "omni"
+            elif tag_meta["roast"]:
+                roast_profile_label = parse_roast_profile(" ".join(tag_meta["roast"]), title=title)
+            else:
+                roast_profile_label = parse_roast_profile(combined, title=title)
 
         items.append(
             CoffeeItem(
