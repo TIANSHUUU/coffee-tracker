@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-03 12:13",
+  "generated_at": "2026-06-04 01:50",
   "stats": {
-    "total": 158,
-    "new": 2,
+    "total": 159,
+    "new": 3,
     "roasters": 14
   },
   "roasters": [
@@ -23,26 +23,38 @@
   ],
   "items": [
     {
-      "roaster": "Seven Seeds",
-      "bean_name": "Gicherori, Kenya",
-      "url": "https://sevenseeds.com.au/products/gicherori-kenya-2026",
-      "roast_profile": "omni",
-      "origin": "Kibugu, Embu, Kenya PRODUCER",
-      "price_aud": "28.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Batian, SL - 28, SL - 34, Ruiru",
+      "roaster": "Proud Mary",
+      "bean_name": "Panama | Mama Cata Estate | Pacamara | ASD Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/panama-mama-cata-estate-pacamara-asd-natural",
+      "roast_profile": "",
+      "origin": "El Salvador, Pacamara is a hybrid of Pacas and Maragogipe",
+      "price_aud": "60.00",
+      "process": "ASD Natural",
+      "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
     {
-      "roaster": "Seven Seeds",
-      "bean_name": "Ichuga, Kenya",
-      "url": "https://sevenseeds.com.au/products/ichuga-kenya-2026",
+      "roaster": "Proud Mary",
+      "bean_name": "Winter Solstice | Limited Edition Blend",
+      "url": "https://www.proudmarycoffee.com.au/products/winter-solstice-limited-edition-blend",
       "roast_profile": "omni",
-      "origin": "Nyeri, Kenya PRODUCER",
-      "price_aud": "28.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Batian, SL - 28, SL - 34, Ruiru",
+      "origin": "Ethiopia and Honduras, this blend celebrates the birthplace of coffee alongside",
+      "price_aud": "24.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Victor Bermudez – Pink Borbon Espresso",
+      "url": "https://www.smallbatch.com.au/shop/espresso/victor-pink-borbon-espresso",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "26",
+      "process": "Washed",
+      "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
@@ -255,18 +267,6 @@
       "bean_name": "Guatemala Fredy Orantes Gesha Natural Espresso - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/guatemala-fredy-orantes-gesha-natural-espresso-single-origin",
       "roast_profile": "espresso",
-      "origin": "Guatemala",
-      "price_aud": "57.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "GUAVA, BERRY, CHOCOALTE, MALT, ALMOND",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Guatemala Fredy Orantes Gesha Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/guatemala-fredy-orantes-gesha-natural-filter-single-origin",
-      "roast_profile": "filter",
       "origin": "Guatemala",
       "price_aud": "57.00",
       "process": "",
@@ -703,18 +703,6 @@
       "price_aud": "24.00",
       "process": "Washed, Natural",
       "varietal": "Catua",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Small Producers of Aponte",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/small-producers-of-aponte-espresso-beans",
-      "roast_profile": "espresso",
-      "origin": "Aponte, Nari",
-      "price_aud": "26.00",
-      "process": "Honey",
-      "varietal": "Caturra & Colombia",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1476,6 +1464,18 @@
     },
     {
       "roaster": "Seven Seeds",
+      "bean_name": "Gicherori, Kenya",
+      "url": "https://sevenseeds.com.au/products/gicherori-kenya-2026",
+      "roast_profile": "omni",
+      "origin": "Kibugu, Embu, Kenya PRODUCER",
+      "price_aud": "28.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Batian, SL - 28, SL - 34, Ruiru",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
       "bean_name": "Golden Gate Espresso Blend",
       "url": "https://sevenseeds.com.au/products/golden-gate-blend",
       "roast_profile": "espresso",
@@ -1483,6 +1483,18 @@
       "price_aud": "19.00",
       "process": "Pulped Natural",
       "varietal": "Yellow Bourbon",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
+      "bean_name": "Ichuga, Kenya",
+      "url": "https://sevenseeds.com.au/products/ichuga-kenya-2026",
+      "roast_profile": "omni",
+      "origin": "Nyeri, Kenya PRODUCER",
+      "price_aud": "28.00",
+      "process": "Fully Washed ALTITUDE",
+      "varietal": "Batian, SL - 28, SL - 34, Ruiru",
       "flavour_profile": "",
       "is_new": false
     },
