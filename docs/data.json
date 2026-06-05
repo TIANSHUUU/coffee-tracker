@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-05 02:14",
+  "generated_at": "2026-06-05 03:10",
   "stats": {
-    "total": 163,
-    "new": 6,
+    "total": 162,
+    "new": 0,
     "roasters": 14
   },
   "roasters": [
@@ -22,78 +22,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Haymaker Espresso Blend",
-      "url": "https://www.rumblecoffee.com.au/products/haymaker-espresso-blend",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "22.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Main Card - 4 Pack of Rumble Blends",
-      "url": "https://www.rumblecoffee.com.au/products/main-card-pack-of-rumble-coffee-blends",
-      "roast_profile": "omni",
-      "origin": "",
-      "price_aud": "74.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Midnight Marauder Espresso Blend",
-      "url": "https://www.rumblecoffee.com.au/products/midnight-marauder-espresso-blend",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "21.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Shadow Boxer Espresso Blend",
-      "url": "https://www.rumblecoffee.com.au/products/shadow-boxer-espresso-blend",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "21.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Street Fighter Espresso Blend",
-      "url": "https://www.rumblecoffee.com.au/products/street-fighter-espresso-blend",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "23.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "SHADY LANE ESPRESSO BLEND",
-      "url": "https://wideopenroad.com.au/products/shady-lane-espresso-blend",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia, Nicaragua",
-      "price_aud": "22.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "DARK CHOCOLATE, CHERRY, VANILLA 50",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -816,18 +744,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "Finca Pampojila, Guatemala, Natural",
-      "url": "https://onacoffee.com.au/products/filter-x-sof4",
-      "roast_profile": "filter",
-      "origin": "Guatemala",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Finca Quejina, Guatemala, Washed",
       "url": "https://onacoffee.com.au/products/espresso-w-soe3",
       "roast_profile": "espresso",
@@ -1392,12 +1308,60 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Haymaker Espresso Blend",
+      "url": "https://www.rumblecoffee.com.au/products/haymaker-espresso-blend",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "22.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Main Card - 4 Pack of Rumble Blends",
+      "url": "https://www.rumblecoffee.com.au/products/main-card-pack-of-rumble-coffee-blends",
+      "roast_profile": "omni",
+      "origin": "",
+      "price_aud": "74.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Midnight Marauder Espresso Blend",
+      "url": "https://www.rumblecoffee.com.au/products/midnight-marauder-espresso-blend",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "21.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Peru Norico Perez Filter",
       "url": "https://www.rumblecoffee.com.au/products/peru-norico-perez-filter",
       "roast_profile": "filter",
       "origin": "Peru",
       "price_aud": "29.00",
       "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Shadow Boxer Espresso Blend",
+      "url": "https://www.rumblecoffee.com.au/products/shadow-boxer-espresso-blend",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "21.00",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1433,6 +1397,18 @@
       "roast_profile": "filter",
       "origin": "",
       "price_aud": "56.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Street Fighter Espresso Blend",
+      "url": "https://www.rumblecoffee.com.au/products/street-fighter-espresso-blend",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "23.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -1952,6 +1928,18 @@
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "RASPBERRY, GOLDEN SYRUP, ALMOND",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
+      "bean_name": "SHADY LANE ESPRESSO BLEND",
+      "url": "https://wideopenroad.com.au/products/shady-lane-espresso-blend",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia, Nicaragua",
+      "price_aud": "22.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "DARK CHOCOLATE, CHERRY, VANILLA 50",
       "is_new": false
     },
     {
