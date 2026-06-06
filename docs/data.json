@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-05 09:57",
+  "generated_at": "2026-06-06 02:31",
   "stats": {
-    "total": 164,
-    "new": 3,
+    "total": 162,
+    "new": 0,
     "roasters": 14
   },
   "roasters": [
@@ -22,42 +22,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
-      "url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "34.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Gutiérrez Family",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/gutierrez-family",
-      "roast_profile": "espresso",
-      "origin": "Taipiplaya, Caranavi, Bolivia Varieties",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "Caturra & Catua",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Finca Pampojila, Guatemala, Natural",
-      "url": "https://onacoffee.com.au/products/filter-x-sof4",
-      "roast_profile": "filter",
-      "origin": "Guatemala",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -504,6 +468,18 @@
     },
     {
       "roaster": "Criteria Coffee",
+      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
+      "url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "34.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
       "bean_name": "Nebula Espresso Blend",
       "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
       "roast_profile": "espresso",
@@ -679,6 +655,18 @@
       "price_aud": "24.00",
       "process": "Natural Producer",
       "varietal": "Catua",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Gutiérrez Family",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/gutierrez-family",
+      "roast_profile": "espresso",
+      "origin": "Taipiplaya, Caranavi, Bolivia Varieties",
+      "price_aud": "26.00",
+      "process": "Washed",
+      "varietal": "Caturra & Catua",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1794,18 +1782,6 @@
       "origin": "",
       "price_aud": "20.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ECUADOR, FINCA LA CAROLINA",
-      "url": "https://stitch.coffee/products/ecuador-finca-la-carolina-26",
-      "roast_profile": "omni",
-      "origin": "Ecuador",
-      "price_aud": "39.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
