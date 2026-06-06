@@ -61,5 +61,9 @@
     "name": "Standing Room Coffee",
     "url": "https://standingroomcoffee.com.au/collections/all-products",
     "price_variant_filter": "250g"
+  },
+  {
+    "name": "Vacation Coffee",
+    "url": "https://vacationcoffee.com.au/collections/coffee"
   }
 ]

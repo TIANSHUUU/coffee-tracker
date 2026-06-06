@@ -79,6 +79,7 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "cup",
     "cascara tea",
     "decaf",
+    "decaffeinated",
     "tote",
     "machine",
     "grinder",
@@ -139,6 +140,7 @@ EXCLUDED_PRODUCT_KEYWORDS = [
 
 EXCLUDED_PRODUCT_REGEXES = [
     r"\bcoffee\s*concentrate\b",
+    r"\bdrip\s+coffee\s+bags?\b",
     r"\bt\s*shirts?\b",
     r"\btee\s*shirts?\b",
     r"\bgift\s*cards?\b",
