@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-09 05:31",
+  "generated_at": "2026-06-09 07:25",
   "stats": {
     "total": 180,
-    "new": 9,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,114 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Maximino Guitierrez Tejada Gesha Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-maximino-guitierrez-tejada-gesha-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "36.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Gathaithi AA Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-gathaithi-aa-washed-espresso-single-origin-1",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Gathaithi AA Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-gathaithi-aa-washed-filter-single-origin-1",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Thunguri AA Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-thunguri-aa-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "clarity, acidity definition, and structural separation in the final profile",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Thunguri AA Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-thunguri-aa-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "clarity, acidity definition, and structural separation in the final profile",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Ama Project Blush Lot 1, Brazil, Nitrogen Washed",
-      "url": "https://onacoffee.com.au/products/cofosof-rare-opz",
-      "roast_profile": "filter",
-      "origin": "Brazil",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Standing Room Coffee",
-      "bean_name": "Kiangoi, Kenya, Espresso",
-      "url": "https://standingroomcoffee.com.au/products/kiangoi-kenya-espresso",
-      "roast_profile": "espresso",
-      "origin": "Kenya Region",
-      "price_aud": "27.00",
-      "process": "Washed",
-      "varietal": "Batian, SL28, SL34, Ruiru 11 Elevation",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Standing Room Coffee",
-      "bean_name": "Ruli Women's Coffee, Rwanda, Filter",
-      "url": "https://standingroomcoffee.com.au/products/ruli-womens-coffee-rwanda-filter-1",
-      "roast_profile": "filter",
-      "origin": "Rwanda Province",
-      "price_aud": "27.00",
-      "process": "Washed Farmers",
-      "varietal": "Red Bourbon",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "SHADY LANE ESPRESSO BLEND",
-      "url": "https://wideopenroad.com.au/products/shady-lane-espresso-blend",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia, Nicaragua",
-      "price_aud": "22.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "DARK CHOCOLATE, CHERRY, VANILLA 50",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -265,6 +157,18 @@
     },
     {
       "roaster": "Code Black",
+      "bean_name": "Colombia Maximino Guitierrez Tejada Gesha Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-maximino-guitierrez-tejada-gesha-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "36.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
       "bean_name": "Colombia Tres Dragones Espresso - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/colombia-tres-dragones-espresso-single-origin",
       "roast_profile": "espresso",
@@ -385,6 +289,30 @@
     },
     {
       "roaster": "Code Black",
+      "bean_name": "Kenya Gathaithi AA Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-gathaithi-aa-washed-espresso-single-origin-1",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Gathaithi AA Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-gathaithi-aa-washed-filter-single-origin-1",
+      "roast_profile": "filter",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
       "bean_name": "Kenya Kainamui AA Washed Espresso - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-espresso-single-origin",
       "roast_profile": "espresso",
@@ -405,6 +333,30 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Thunguri AA Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-thunguri-aa-washed-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "clarity, acidity definition, and structural separation in the final profile",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Thunguri AA Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-thunguri-aa-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "clarity, acidity definition, and structural separation in the final profile",
       "is_new": false
     },
     {
@@ -800,6 +752,18 @@
       "price_aud": "24.00",
       "process": "Washed, Natural",
       "varietal": "Catua",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Ama Project Blush Lot 1, Brazil, Nitrogen Washed",
+      "url": "https://onacoffee.com.au/products/cofosof-rare-opz",
+      "roast_profile": "filter",
+      "origin": "Brazil",
+      "price_aud": "30.00",
+      "process": "Washed",
+      "varietal": "",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1765,6 +1729,18 @@
     },
     {
       "roaster": "Standing Room Coffee",
+      "bean_name": "Kiangoi, Kenya, Espresso",
+      "url": "https://standingroomcoffee.com.au/products/kiangoi-kenya-espresso",
+      "roast_profile": "espresso",
+      "origin": "Kenya Region",
+      "price_aud": "27.00",
+      "process": "Washed",
+      "varietal": "Batian, SL28, SL34, Ruiru 11 Elevation",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Standing Room Coffee",
       "bean_name": "Kibingo, Burundi, Espresso",
       "url": "https://standingroomcoffee.com.au/products/kibingo-burundi-espresso",
       "roast_profile": "espresso",
@@ -1783,6 +1759,18 @@
       "origin": "Rwanda Province",
       "price_aud": "30.00",
       "process": "Natural Anaerobic Farmers",
+      "varietal": "Red Bourbon",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Standing Room Coffee",
+      "bean_name": "Ruli Women's Coffee, Rwanda, Filter",
+      "url": "https://standingroomcoffee.com.au/products/ruli-womens-coffee-rwanda-filter-1",
+      "roast_profile": "filter",
+      "origin": "Rwanda Province",
+      "price_aud": "27.00",
+      "process": "Washed Farmers",
       "varietal": "Red Bourbon",
       "flavour_profile": "",
       "is_new": false
@@ -2157,6 +2145,18 @@
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "RASPBERRY, GOLDEN SYRUP, ALMOND",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
+      "bean_name": "SHADY LANE ESPRESSO BLEND",
+      "url": "https://wideopenroad.com.au/products/shady-lane-espresso-blend",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia, Nicaragua",
+      "price_aud": "22.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "DARK CHOCOLATE, CHERRY, VANILLA 50",
       "is_new": false
     },
     {
