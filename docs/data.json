@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-09 07:25",
+  "generated_at": "2026-06-10 00:54",
   "stats": {
-    "total": 180,
-    "new": 0,
+    "total": 179,
+    "new": 2,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,30 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Colombia | Area 18 | Castillo | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "36.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "ECUADOR, FINCA LA CAROLINA",
+      "url": "https://stitch.coffee/products/ecuador-finca-la-carolina-26",
+      "roast_profile": "omni",
+      "origin": "Ecuador",
+      "price_aud": "39.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -105,18 +129,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "CHERRY RIPE, COCOA, ALMOND",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Jefferson Adrian Motta Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-jefferson-adrian-motta-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "38.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "COOKED APPLE, SUGARCANE, TOFFEE, SWEET HERBALS",
       "is_new": false
     },
     {
@@ -237,18 +249,6 @@
       "process": "WASHED & NATURAL REGION",
       "varietal": "",
       "flavour_profile": "ROASTED MACADAMIA, DARK CHOCOLATE, & AMARETTO WITH A CARAMEL & COCOA FINISH",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Guatemala Fredy Orantes Gesha Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/guatemala-fredy-orantes-gesha-natural-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Guatemala",
-      "price_aud": "57.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "GUAVA, BERRY, CHOCOALTE, MALT, ALMOND",
       "is_new": false
     },
     {
@@ -1243,18 +1243,6 @@
       "origin": "Honduras",
       "price_aud": "38.00",
       "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Honduras | Nahun Fernandez | Parainema | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/honduras-nahun-fernandez-parainema-natural-1",
-      "roast_profile": "omni",
-      "origin": "Honduras",
-      "price_aud": "39.00",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
