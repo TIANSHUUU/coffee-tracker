@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-10 00:54",
+  "generated_at": "2026-06-10 04:21",
   "stats": {
     "total": 179,
-    "new": 2,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,30 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Colombia | Area 18 | Castillo | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "36.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ECUADOR, FINCA LA CAROLINA",
-      "url": "https://stitch.coffee/products/ecuador-finca-la-carolina-26",
-      "roast_profile": "omni",
-      "origin": "Ecuador",
-      "price_aud": "39.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1201,6 +1177,18 @@
     },
     {
       "roaster": "Proud Mary",
+      "bean_name": "Colombia | Area 18 | Castillo | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "36.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
       "bean_name": "Costa Rica | Volcan Azul | Villa Sarchi | Natural",
       "url": "https://www.proudmarycoffee.com.au/products/costa-rica-volcan-azul-villa-sarchi-natural",
       "roast_profile": "omni",
@@ -1831,6 +1819,18 @@
       "origin": "",
       "price_aud": "20.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "ECUADOR, FINCA LA CAROLINA",
+      "url": "https://stitch.coffee/products/ecuador-finca-la-carolina-26",
+      "roast_profile": "omni",
+      "origin": "Ecuador",
+      "price_aud": "39.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
