@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-12 04:01",
+  "generated_at": "2026-06-13 09:57",
   "stats": {
-    "total": 184,
+    "total": 183,
     "new": 1,
     "roasters": 15
   },
@@ -24,14 +24,14 @@
   ],
   "items": [
     {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
-      "url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
+      "roaster": "Market Lane",
+      "bean_name": "Yaye",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/yaye-filter-beans",
+      "roast_profile": "filter",
+      "origin": "Arbegona, Sidama, Ethiopia Varieties",
+      "price_aud": "34.00",
+      "process": "Washed Producer",
+      "varietal": "JARC varieties 74148 & 74158",
       "flavour_profile": "",
       "is_new": true
     },
@@ -112,18 +112,6 @@
       "bean_name": "Colombia Jefferson Adrian Motta Washed Espresso - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/colombia-jefferson-adrian-motta-washed-espresso-single-origin",
       "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "38.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "COOKED APPLE, SUGARCANE, TOFFEE, SWEET HERBALS",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Jefferson Adrian Motta Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-jefferson-adrian-motta-washed-filter-single-origin",
-      "roast_profile": "filter",
       "origin": "Colombia",
       "price_aud": "38.00",
       "process": "",
@@ -499,6 +487,18 @@
       "origin": "",
       "price_aud": "21.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
+      "url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "22.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1604,18 +1604,6 @@
       "price_aud": "28.00",
       "process": "Fully Washed ALTITUDE",
       "varietal": "Batian, SL - 28, SL - 34, Ruiru",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Santuario Sul Bourbon, Brazil",
-      "url": "https://sevenseeds.com.au/products/santuario-sul-bourbon-brazil",
-      "roast_profile": "omni",
-      "origin": "Carmo de Minas, Minas Gerais, Brazil PRODUCER",
-      "price_aud": "27.00",
-      "process": "Fully Washed ALTITUDE",
-      "varietal": "Bourbon",
       "flavour_profile": "",
       "is_new": false
     },
