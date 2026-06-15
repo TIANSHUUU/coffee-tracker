@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-14 15:02",
+  "generated_at": "2026-06-15 01:19",
   "stats": {
-    "total": 182,
-    "new": 8,
+    "total": 180,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,102 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Batch Blend for Filter",
-      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "21.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
-      "url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
-      "url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "34.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Nebula Espresso Blend",
-      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "roast_profile": "espresso",
-      "origin": "a washed Colombian coffee",
-      "price_aud": "20.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
-      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-      "roast_profile": "omni",
-      "origin": "northern Peru",
-      "price_aud": "29.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
-      "roast_profile": "omni",
-      "origin": "Rwanda",
-      "price_aud": "26.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
-      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "the Mwito farm of Rwanda",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "The Crowd Pleaser Espresso Blend",
-      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "will deliver flavours of chocolate and cherry through both espresso and milk",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -564,6 +468,102 @@
       "is_new": false
     },
     {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Batch Blend for Filter",
+      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "21.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
+      "url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
+      "url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "34.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Nebula Espresso Blend",
+      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
+      "roast_profile": "espresso",
+      "origin": "a washed Colombian coffee",
+      "price_aud": "20.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
+      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
+      "roast_profile": "omni",
+      "origin": "northern Peru",
+      "price_aud": "29.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Natural",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-natural-filter/",
+      "roast_profile": "omni",
+      "origin": "Rwanda",
+      "price_aud": "26.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "the Mwito farm of Rwanda",
+      "price_aud": "26.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "The Crowd Pleaser Espresso Blend",
+      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "will deliver flavours of chocolate and cherry through both espresso and milk",
+      "is_new": false
+    },
+    {
       "roaster": "Field Work Coffee",
       "bean_name": "Bookkisa",
       "url": "https://fieldworkcoffee.com.au/products/bookkisa",
@@ -877,18 +877,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "La Esperanza, Costa Rica, Natural",
-      "url": "https://onacoffee.com.au/products/milk-x-som1",
-      "roast_profile": "espresso",
-      "origin": "Costa Rica",
-      "price_aud": "29.50",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "La Huerta, Honduras, Washed",
       "url": "https://onacoffee.com.au/products/espresso-z-rare",
       "roast_profile": "espresso",
@@ -1075,18 +1063,6 @@
       "origin": "Colombia",
       "price_aud": "28.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "Colombia, Jairo Arcila - Single Origin Filter",
-      "url": "https://www.padrecoffee.com.au/products/colombia-jairo-arcila-200hr-natural-single-origin-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "28.00",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
