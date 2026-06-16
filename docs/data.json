@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-15 06:32",
+  "generated_at": "2026-06-16 06:16",
   "stats": {
-    "total": 180,
-    "new": 0,
+    "total": 178,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,18 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Kenya Kabumbu Filter",
+      "url": "https://www.rumblecoffee.com.au/products/kenya-kabumbu-espresso-1",
+      "roast_profile": "filter",
+      "origin": "Kenya",
+      "price_aud": "28.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -93,18 +105,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "MELON, WHITE GRAPE, HONEY",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Jefferson Adrian Motta Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-jefferson-adrian-motta-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "38.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "COOKED APPLE, SUGARCANE, TOFFEE, SWEET HERBALS",
       "is_new": false
     },
     {
@@ -1405,18 +1405,6 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Peru Norico Perez Filter",
-      "url": "https://www.rumblecoffee.com.au/products/peru-norico-perez-filter",
-      "roast_profile": "filter",
-      "origin": "Peru",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Shadow Boxer Espresso Blend",
       "url": "https://www.rumblecoffee.com.au/products/shadow-boxer-espresso-blend",
       "roast_profile": "espresso",
@@ -1819,18 +1807,6 @@
       "origin": "",
       "price_aud": "16.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "COLOMBIA, EL DIAMANTE",
-      "url": "https://stitch.coffee/products/colombia-el-diamante-26",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "24.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
