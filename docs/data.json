@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-16 06:16",
+  "generated_at": "2026-06-17 05:16",
   "stats": {
-    "total": 178,
-    "new": 1,
+    "total": 176,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,18 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Kenya Kabumbu Filter",
-      "url": "https://www.rumblecoffee.com.au/products/kenya-kabumbu-espresso-1",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -165,18 +153,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "BERRY, TAMARIND, COCOA, SALTED CARAMEL",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Yubeli Trujillo Pink Bourbon Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-yubeli-trujillo-pink-bourbon-natural-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "32.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1057,18 +1033,6 @@
     },
     {
       "roaster": "Padre Coffee",
-      "bean_name": "Colombia Luz Helena - Single Origin Filter",
-      "url": "https://www.padrecoffee.com.au/products/colombia-luz-helena-single-origin-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
       "bean_name": "Colombia, Paola Trujillo Typica - Single Origin Filter",
       "url": "https://www.padrecoffee.com.au/products/colombia-paola-trujillo-typica-washed-filter",
       "roast_profile": "filter",
@@ -1374,6 +1338,18 @@
       "roast_profile": "espresso",
       "origin": "",
       "price_aud": "22.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Kenya Kabumbu Filter",
+      "url": "https://www.rumblecoffee.com.au/products/kenya-kabumbu-espresso-1",
+      "roast_profile": "filter",
+      "origin": "Kenya",
+      "price_aud": "28.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
