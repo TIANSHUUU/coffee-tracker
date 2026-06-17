@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-17 05:16",
+  "generated_at": "2026-06-17 23:38",
   "stats": {
-    "total": 176,
-    "new": 0,
+    "total": 174,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,18 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Padre Coffee",
+      "bean_name": "Colombia Luz Helena - Single Origin Filter",
+      "url": "https://www.padrecoffee.com.au/products/colombia-luz-helena-single-origin-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "28.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -45,18 +57,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "HONEY, JASMINE, FRUIT TEA, LAVENDER",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Adrian Lasso Typica Mejorado Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-adrian-lasso-typica-mejorado-natural-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Colombia, Ethiopia",
-      "price_aud": "94.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "STRAWBERRY, PASSIONFRUIT, ROCKMELON, CONFECTIONARY",
       "is_new": false
     },
     {
@@ -685,18 +685,6 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "Los Rodríguez",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/los-rodriguez-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Samaipata, Santa Cruz, Bolivia",
-      "price_aud": "34.00",
-      "process": "Washed Producer",
-      "varietal": "Caturra",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
       "bean_name": "Nossa Senhora Aparecida",
       "url": "https://marketlane.com.au/collections/filter-beans/products/nossa-senhora-aparecida-filter-beans",
       "roast_profile": "filter",
@@ -1014,18 +1002,6 @@
       "roast_profile": "filter",
       "origin": "Brazil",
       "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "Colombia Luz Helena - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/indonesia-frinsa-single-origin-espresso-copy",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "25.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
