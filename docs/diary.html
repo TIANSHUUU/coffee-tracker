@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Diary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="diary.css" />
+</head>
+<body>
+<header id="siteHeader"></header>
+
+<main class="list-page">
+  <div class="list-head">
+    <h1 class="list-title" id="listTitle"></h1>
+    <p class="list-intro" id="listIntro"></p>
+  </div>
+  <div class="controls">
+    <input type="text" class="search-box" id="search" />
+    <div class="filter-pills" id="filterPills"></div>
+  </div>
+  <div id="results"></div>
+</main>
+
+<script src="diary-common.js"></script>
+<script>
+(function () {
+  const D = window.Diary;
+  const ROASTS = ['all', 'filter', 'espresso', 'omni'];
+  const state = { q: '', roast: 'all' };
+  let ALL = [];
+
+  fetch('diary.json')
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(data => {
+      ALL = (data.entries || []).slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+      render();
+    })
+    .catch(() => { ALL = []; render(); });
+
+  function render() {
+    document.documentElement.lang = D.getLang() === 'en' ? 'en' : 'zh';
+    document.getElementById('siteHeader').innerHTML = D.renderHeader('diary');
+    D.initLangToggle(render);
+
+    document.getElementById('listTitle').textContent = D.ui('listTitle');
+    document.getElementById('listIntro').textContent = D.ui('listIntro');
+
+    const search = document.getElementById('search');
+    search.placeholder = D.ui('searchPlaceholder');
+    search.value = state.q;
+    search.oninput = function () { state.q = this.value; renderResults(); };
+
+    renderFilters();
+    renderResults();
+  }
+
+  function renderFilters() {
+    const wrap = document.getElementById('filterPills');
+    wrap.innerHTML = ROASTS.map(r => {
+      const label = r === 'all' ? D.ui('filterAll') : D.ui('roast.' + r);
+      return `<button class="filter-pill${state.roast === r ? ' active' : ''}" data-roast="${r}" type="button">${D.esc(label)}</button>`;
+    }).join('');
+    wrap.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        state.roast = btn.dataset.roast;
+        renderFilters();
+        renderResults();
+      });
+    });
+  }
+
+  function renderResults() {
+    const q = state.q.trim().toLowerCase();
+    const items = ALL.filter(e => {
+      if (state.roast !== 'all' && e.roast_profile !== state.roast) return false;
+      if (q && D.searchHaystack(e).indexOf(q) === -1) return false;
+      return true;
+    });
+    const results = document.getElementById('results');
+
+    if (!ALL.length) {
+      results.innerHTML = emptyState('☕', D.ui('emptyList'), D.ui('emptyHint'));
+      return;
+    }
+    if (!items.length) {
+      results.innerHTML = emptyState('🔍', D.ui('noMatch'), '');
+      return;
+    }
+    results.innerHTML = '<div class="card-grid">' + items.map(card).join('') + '</div>';
+  }
+
+  function card(e) {
+    const thumb = e.image
+      ? `<img src="${D.esc(e.image)}" alt="" />`
+      : `<span class="card-thumb-fallback">☕</span>`;
+    const flavours = (e.flavours || []).slice(0, 3).map(f =>
+      `<span class="chip">${D.esc(f.icon)} ${D.esc(D.t(f.label))}</span>`).join('');
+    return `<a class="card" href="diary-detail.html?slug=${encodeURIComponent(e.slug)}">
+      <div class="card-thumb" style="background:${D.heroColor(e.color)}">${thumb}</div>
+      <div class="card-body">
+        <div class="card-name">${D.esc(D.t(e.bean_name))}</div>
+        <div class="card-roaster">${D.esc(D.t(e.roaster))}</div>
+        <div class="card-flavours">${flavours}</div>
+      </div>
+    </a>`;
+  }
+
+  function emptyState(icon, title, hint) {
+    return `<div class="empty-state">
+      <div class="empty-state-icon">${icon}</div>
+      <p>${D.esc(title)}</p>
+      ${hint ? `<small>${D.esc(hint)}</small>` : ''}
+    </div>`;
+  }
+})();
+</script>
+</body>
+</html>
