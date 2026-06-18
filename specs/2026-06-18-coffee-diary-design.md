@@ -24,6 +24,9 @@
 | 图标 | 风味/搭配先用 **emoji**（零依赖），日后可换 SVG |
 | 产区 | **不做地图**，用 国旗 + 产区 + 海拔 文字块 |
 | 列表页 | 卡片网格 + **关键词搜索框** + 烘焙度筛选 pill（filter/espresso/omni），纯前端即时过滤 |
+| 双语 | **全内容中英双语** + header 语言切换（中/EN），偏好存 localStorage 跨页生效；可翻译文本字段存中英两版 |
+| 评分 | **不做**（移除 rating 字段与星级） |
+| 滑条维度 | 酸 / 甜 / 醇厚 / **香气 Aroma** / 余韵 / 平衡（无「苦」） |
 
 ## 3. 文件结构（均在 `docs/` 下）
 
@@ -42,47 +45,55 @@
 
 顶层：`{ "entries": [ <entry>, ... ] }`
 
+**双语约定**：可翻译的文本字段一律用 `{"zh": "...", "en": "..."}` 对象（下称 *LocalizedString*）。渲染时取 `field[lang]`，缺失则回退另一语言。非文本字段（slug/date/数值/emoji/flag 等）不翻译。
+
 每个 entry：
 
 ```jsonc
 {
-  "slug": "ethiopia-guji-natural",      // URL 唯一标识，kebab-case
-  "date": "2026-06-18",                 // ISO 日期
-  "bean_name": "Guji Natural",
-  "roaster": "Market Lane",
-  "image": "diary/images/guji.jpg",     // 可空；空则用色块占位
+  "slug": "ethiopia-guji-natural",      // URL 唯一标识，kebab-case（不翻译）
+  "date": "2026-06-18",                 // ISO 日期（不翻译）
+  "bean_name": {"zh":"古吉 日晒","en":"Guji Natural"},
+  "roaster": {"zh":"Market Lane","en":"Market Lane"},  // 品牌名常两版相同
+  "image": "diary/images/guji.jpg",     // 可空；空则用色块占位（不翻译）
   "color": "pink",                      // hero 左侧色块主题: pink/peach/blue/green
-  "roast_profile": "filter",            // filter/espresso/omni —— 用于列表筛选
-  "price_aud": "24.00",                 // 字符串，可空
-  "tags": ["Ethiopia","Natural","Filter","1900–2100m","Heirloom"],
-  "flavours": [                         // 风味图标行
-    {"icon":"🫐","label":"Blueberry"},
-    {"icon":"🌸","label":"Floral"}
+  "roast_profile": "filter",            // filter/espresso/omni —— 列表筛选用（不翻译）
+  "price_aud": "24.00",                 // 字符串，可空（不翻译）
+  "tags": [                             // 每个标签是 LocalizedString
+    {"zh":"埃塞俄比亚","en":"Ethiopia"}, {"zh":"日晒","en":"Natural"}
   ],
-  "story": "品鉴笔记 + 豆子背景，支持多段(以\\n\\n分段)",
+  "flavours": [                         // 风味图标行；label 为 LocalizedString
+    {"icon":"🫐","label":{"zh":"蓝莓","en":"Blueberry"}},
+    {"icon":"🌸","label":{"zh":"花香","en":"Floral"}}
+  ],
+  "story": {"zh":"中文笔记…","en":"English notes…"},  // 多段以 \\n\\n 分段
   "brew": {
-    "method": "V60 · 1:16 · 92°C",      // 冲煮参数，自由文本
-    "food":  [{"icon":"🥐","label":"Croissant"}],
-    "moods": [{"icon":"😌","label":"Calm"}],
-    "time":  [{"icon":"🌅","label":"Morning"}]
+    "method": {"zh":"V60 · 1:16 · 92°C","en":"V60 · 1:16 · 92°C"},
+    "food":  [{"icon":"🥐","label":{"zh":"可颂","en":"Croissant"}}],
+    "moods": [{"icon":"😌","label":{"zh":"平静","en":"Calm"}}],
+    "time":  [{"icon":"🌅","label":{"zh":"清晨","en":"Morning"}}]
   },
-  "profile": {                          // 杯测滑条，整数 1–5
+  "profile": {                          // 杯测滑条，整数 1–5（无苦，含香气）
     "acidity":4, "sweetness":3, "body":2,
-    "bitterness":1, "aftertaste":3, "balance":4
+    "aroma":4, "aftertaste":3, "balance":4
   },
-  "summary": "明亮莓果酸、花香突出、轻盈干净。",
-  "rating": 4.5,                        // 可选，0–5，半星粒度
+  "summary": {"zh":"明亮莓果酸、花香突出、轻盈干净。","en":"Bright berry acidity, floral, clean and light."},
   "origin": {
-    "country":"Ethiopia", "region":"Guji", "flag":"🇪🇹",
-    "altitude":"1900–2100m", "notes":"产区介绍…"
+    "country": {"zh":"埃塞俄比亚","en":"Ethiopia"},
+    "region":  {"zh":"古吉","en":"Guji"},
+    "flag": "🇪🇹",                       // 不翻译
+    "altitude": "1900–2100m",           // 不翻译
+    "notes": {"zh":"产区介绍…","en":"Region notes…"}
   }
 }
 ```
 
 字段约定：
 - 除 `slug`/`bean_name` 外字段均可缺省；渲染时缺省区块整体隐藏（如无 `brew` 则不渲染 BREW & PAIRING）。
-- `profile` 滑条为 1–5 整数；渲染为横条 + 圆点位置 `(value-1)/4`。
+- *LocalizedString* 渲染走统一 helper `t(field, lang)`：返回 `field[lang]` → 另一语言 → 空串。普通字符串也兼容直接返回。
+- `profile` 滑条为 1–5 整数；渲染为横条 + 圆点位置 `(value-1)/4`。维度固定为：acidity / sweetness / body / aroma / aftertaste / balance。
 - `color` 仅控制 hero 左侧色块主题，取自一组预设。
+- 无 `rating` 字段。
 
 ## 5. 详情页版式（`diary-detail.html`）
 
@@ -92,18 +103,18 @@
    - 左（sticky，色块底由 `color` 决定）：豆袋图（缺图→大号 ☕ 占位）；底部一排 pill `tags`；左下黑底白字 `price_aud`。
    - 右（白底）：大粗体 `bean_name`；下方小字 `roaster` + 日期；分享按钮；**FLAVOUR NOTES** emoji 图标行；**NOTES** 故事正文（`story`，按段渲染）。
 2. **BREW & PAIRING（杏色块）**：`brew.method` 文本 + 分类图标组 FOOD / MOOD / TIME（各一行 emoji+label）。
-3. **TASTE PROFILE（杏色块）**：6 条横向滑条（酸 / 甜 / 醇厚 / 苦 / 余韵 / 平衡），圆点标档位。
-4. **SUMMARY（奶油黄高亮条）**：`summary` 一句话 + `rating` 星级（满分 5，支持半星）。
+3. **TASTE PROFILE（杏色块）**：6 条横向滑条（酸 / 甜 / 醇厚 / 香气 Aroma / 余韵 / 平衡），圆点标档位。
+4. **SUMMARY（奶油黄高亮条）**：`summary` 一句话总评（无评分）。
 5. **ORIGIN（淡蓝色块）**：`origin.flag` + `country/region` + `altitude` + `notes`。
 
-缺失数据的区块整体不渲染。`slug` 不存在时显示友好的"未找到"占位并提供返回列表链接。
+区块标题（FLAVOUR NOTES / BREW & PAIRING / TASTE PROFILE / SUMMARY / ORIGIN 及滑条维度名）随语言切换显示中/英。缺失数据的区块整体不渲染。`slug` 不存在时显示友好的"未找到"占位并提供返回列表链接。
 
 ## 6. 列表页（`diary.html`）
 
 - 页眉：标题 + 一句简介。
 - 控件区：关键词搜索框 + 烘焙度筛选 pill（All / filter / espresso / omni）。
-- 卡片网格（响应式）：每张卡 = 豆袋缩略图（色块底）+ `bean_name` + `roaster` + 风味 chips + `rating`，点击进 `diary-detail.html?slug=...`。
-- **搜索**：纯前端，对 `bean_name`、`roaster`、`origin.country/region`、`tags`、`flavours.label` 做大小写不敏感包含匹配。
+- 卡片网格（响应式）：每张卡 = 豆袋缩略图（色块底）+ `bean_name` + `roaster` + 风味 chips（按当前语言显示），点击进 `diary-detail.html?slug=...`。
+- **搜索**：纯前端，对 `bean_name`、`roaster`、`origin.country/region`、`tags`、`flavours.label` 做大小写不敏感包含匹配；**中英两版文本都参与匹配**（无论当前显示哪种语言，输入中文或英文关键词都能命中）。
 - **筛选**：按 `roast_profile` 过滤；与搜索叠加（AND）。
 - 空数据/无匹配：显示友好占位文案。
 
@@ -113,10 +124,11 @@
 - 新增柔和大色块变量：`--hero-pink`、`--hero-peach`、`--hero-blue`、`--hero-green`、`--panel-peach`、`--panel-blue`、`--highlight-yellow`。
 - 标题字重 800–900 营造编辑感；不引入新字体。
 - 移动端：Hero 分栏在窄屏堆叠为上下；列表网格降为单列。
+- **语言切换**：header 右侧放 中/EN 切换控件，列表页与详情页共用。当前语言存 `localStorage`（键如 `diary_lang`），跨页与刷新保持；默认 `zh`。切换时即时重渲染当前页（无需刷新）。两页共享一段渲染逻辑（`t()` helper + 语言状态），实现上可复用同一内联脚本片段。
 
 ## 8. 录入工作流
 
-用户在对话中口述某支咖啡的信息与品鉴感受（可零散口语）；Claude 整理为一个 entry 对象，追加进 `docs/diary.json`（生成 `slug`、补全可选字段、必要时留空）。图片由用户另行放入 `docs/diary/images/` 或暂留空用占位。
+用户在对话中口述某支咖啡的信息与品鉴感受（可零散口语，可只讲一种语言）；Claude 整理为一个 entry 对象，追加进 `docs/diary.json`（生成 `slug`、补全可选字段、必要时留空），并为每个 *LocalizedString* 字段**同时产出中英两版**（用户只给一种语言时，另一种由 Claude 翻译，用户可校对修改）。图片由用户另行放入 `docs/diary/images/` 或暂留空用占位。
 
 ## 9. 测试 / 验收
 
@@ -124,6 +136,7 @@
 - `diary.html` 本地打开能列出种子数据卡片；搜索框与筛选 pill 正常过滤。
 - 点击卡片进入 `diary-detail.html?slug=...`，各区块按数据渲染、缺省区块隐藏。
 - 主页导航 Diary 按钮跳转正确，旧 blog 文件已删除且无残留引用。
+- 中/EN 切换在列表页与详情页都即时生效；刷新后保持上次选择；中英关键词均可搜索命中。
 - 移动端窄屏布局正常堆叠。
 - 至少 1 条种子 entry，确保页面非空、可视觉验证。
 
