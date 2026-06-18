@@ -1,0 +1,63 @@
+{
+  "entries": [
+    {
+      "slug": "ethiopia-guji-natural",
+      "date": "2026-06-18",
+      "bean_name": { "zh": "古吉 日晒", "en": "Guji Natural" },
+      "roaster": { "zh": "Market Lane", "en": "Market Lane" },
+      "image": "",
+      "color": "pink",
+      "roast_profile": "filter",
+      "price_aud": "24.00",
+      "tags": [
+        { "zh": "埃塞俄比亚", "en": "Ethiopia" },
+        { "zh": "日晒", "en": "Natural" },
+        { "zh": "手冲", "en": "Filter" },
+        { "zh": "1900–2100m", "en": "1900–2100m" }
+      ],
+      "flavours": [
+        { "icon": "🫐", "label": { "zh": "蓝莓", "en": "Blueberry" } },
+        { "icon": "🍓", "label": { "zh": "草莓", "en": "Strawberry" } },
+        { "icon": "🌸", "label": { "zh": "花香", "en": "Floral" } }
+      ],
+      "story": {
+        "zh": "干香是浓郁的莓果和花香，热水一冲整个房间都甜了。\n\n入口明亮多汁，蓝莓和草莓的酸甜很跳，尾段有淡淡的红茶感，干净利落。",
+        "en": "Dry aroma bursts with berries and florals — the whole room sweetens on the pour.\n\nBright and juicy up front, vivid blueberry-strawberry acidity, finishing on a light black-tea note. Clean and crisp."
+      },
+      "brew": {
+        "method": { "zh": "V60 · 1:16 · 92°C · 2:30", "en": "V60 · 1:16 · 92°C · 2:30" },
+        "food": [
+          { "icon": "🥐", "label": { "zh": "可颂", "en": "Croissant" } },
+          { "icon": "🍋", "label": { "zh": "柠檬蛋糕", "en": "Lemon cake" } }
+        ],
+        "moods": [
+          { "icon": "😌", "label": { "zh": "平静", "en": "Calm" } }
+        ],
+        "time": [
+          { "icon": "🌅", "label": { "zh": "清晨", "en": "Morning" } }
+        ]
+      },
+      "profile": {
+        "acidity": "high",
+        "sweetness": "medium",
+        "body": "low",
+        "aroma": "high",
+        "aftertaste": "medium"
+      },
+      "summary": {
+        "zh": "明亮莓果酸、花香突出、轻盈干净。",
+        "en": "Bright berry acidity, floral, clean and light."
+      },
+      "origin": {
+        "country": { "zh": "埃塞俄比亚", "en": "Ethiopia" },
+        "region": { "zh": "古吉", "en": "Guji" },
+        "flag": "🇪🇹",
+        "altitude": "1900–2100m",
+        "notes": {
+          "zh": "古吉位于埃塞俄比亚南部，高海拔、昼夜温差大，盛产花香与莓果调性突出的水洗与日晒处理咖啡。",
+          "en": "Guji, in southern Ethiopia, sits at high altitude with big diurnal swings — known for washed and natural coffees with pronounced floral and berry character."
+        }
+      }
+    }
+  ]
+}
