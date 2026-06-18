@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Diary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="diary.css" />
+</head>
+<body>
+<header id="siteHeader"></header>
+<a class="back-link" href="diary.html" id="backLink"></a>
+<div class="detail" id="content"></div>
+
+<script src="diary-common.js"></script>
+<script>
+(function () {
+  const D = window.Diary;
+  const slug = new URLSearchParams(location.search).get('slug');
+  let ENTRY = null;
+
+  fetch('diary.json')
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(data => {
+      ENTRY = (data.entries || []).find(e => e.slug === slug) || null;
+      render();
+    })
+    .catch(() => { ENTRY = null; render(); });
+
+  function render() {
+    document.documentElement.lang = D.getLang() === 'en' ? 'en' : 'zh';
+    document.getElementById('siteHeader').innerHTML = D.renderHeader('diary');
+    D.initLangToggle(render);
+    document.getElementById('backLink').textContent = D.ui('back');
+
+    const wrap = document.getElementById('content');
+    if (!ENTRY) {
+      wrap.innerHTML = `<div class="empty-state">
+        <div class="empty-state-icon">🤷</div>
+        <p>${D.esc(D.ui('notFound'))}</p>
+      </div>`;
+      return;
+    }
+    wrap.innerHTML = hero(ENTRY) + brew(ENTRY) + profile(ENTRY) + summary(ENTRY) + origin(ENTRY);
+  }
+
+  function hero(e) {
+    const img = e.image
+      ? `<img class="hero-img" src="${D.esc(e.image)}" alt="" />`
+      : `<span class="hero-img-fallback">☕</span>`;
+    const tags = (e.tags || []).map(tag =>
+      `<span class="hero-tag">${D.esc(D.t(tag))}</span>`).join('');
+    const price = e.price_aud ? `<div class="hero-price">$${D.esc(e.price_aud)}</div>` : '';
+    const flavours = (e.flavours || []).map(f =>
+      `<div class="icon-item">
+         <div class="icon-emoji">${D.esc(f.icon)}</div>
+         <div class="icon-label">${D.esc(D.t(f.label))}</div>
+       </div>`).join('');
+    const flavourBlock = flavours
+      ? `<h2 class="section-title" style="font-size:14px;margin-top:28px;margin-bottom:14px;">${D.esc(D.ui('flavours'))}</h2>
+         <div class="flavour-row">${flavours}</div>` : '';
+    const storyText = D.t(e.story);
+    const story = storyText
+      ? `<h2 class="section-title" style="font-size:14px;margin-top:28px;margin-bottom:12px;">NOTES</h2>
+         <div class="story">${storyText.split('\n\n').map(p => `<p>${D.esc(p)}</p>`).join('')}</div>` : '';
+    const meta = [D.t(e.roaster), D.formatDate(e.date)].filter(Boolean).join(' · ');
+
+    return `<section class="hero">
+      <div class="hero-left" style="background:${D.heroColor(e.color)}">
+        ${img}
+        ${tags ? `<div class="hero-tags">${tags}</div>` : ''}
+        ${price}
+      </div>
+      <div class="hero-right">
+        <h1 class="bean-name">${D.esc(D.t(e.bean_name))}</h1>
+        ${meta ? `<div class="bean-meta">${D.esc(meta)}</div>` : ''}
+        ${flavourBlock}
+        ${story}
+      </div>
+    </section>`;
+  }
+
+  function brew(e) {
+    const b = e.brew;
+    if (!b) return '';
+    const method = D.t(b.method)
+      ? `<div class="brew-method">${D.esc(D.t(b.method))}</div>` : '';
+    const groups = D.iconGroup('food', b.food) + D.iconGroup('mood', b.moods) + D.iconGroup('time', b.time);
+    if (!method && !groups) return '';
+    return `<section class="panel panel-peach">
+      <h2 class="section-title">${D.esc(D.ui('brewPairing'))}</h2>
+      ${method}${groups}
+    </section>`;
+  }
+
+  function profile(e) {
+    if (!e.profile) return '';
+    const rows = D.PROFILE_DIMS
+      .filter(dim => e.profile[dim])
+      .map(dim => D.sliderRow(dim, e.profile[dim])).join('');
+    if (!rows) return '';
+    return `<section class="panel panel-peach">
+      <h2 class="section-title">${D.esc(D.ui('tasteProfile'))}</h2>
+      ${rows}
+    </section>`;
+  }
+
+  function summary(e) {
+    const text = D.t(e.summary);
+    if (!text) return '';
+    return `<section class="summary-wrap">
+      <div class="summary-box"><span class="cup">☕</span><span>${D.esc(text)}</span></div>
+    </section>`;
+  }
+
+  function origin(e) {
+    const o = e.origin;
+    if (!o) return '';
+    const place = [D.t(o.region), D.t(o.country)].filter(Boolean).join(', ');
+    const head = `${o.flag ? D.esc(o.flag) + ' ' : ''}${D.esc(place)}`;
+    const alt = o.altitude ? `<div class="origin-alt">${D.esc(D.ui('altitude'))}: ${D.esc(o.altitude)}</div>` : '';
+    const notes = D.t(o.notes) ? `<div class="origin-notes">${D.esc(D.t(o.notes))}</div>` : '';
+    if (!place && !alt && !notes) return '';
+    return `<section class="panel panel-blue">
+      <h2 class="section-title">${D.esc(D.ui('origin'))}</h2>
+      ${place ? `<div class="origin-name">${head}</div>` : ''}
+      ${alt}${notes}
+    </section>`;
+  }
+})();
+</script>
+</body>
+</html>
