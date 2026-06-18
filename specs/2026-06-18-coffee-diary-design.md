@@ -26,7 +26,7 @@
 | 列表页 | 卡片网格 + **关键词搜索框** + 烘焙度筛选 pill（filter/espresso/omni），纯前端即时过滤 |
 | 双语 | **全内容中英双语** + header 语言切换（中/EN），偏好存 localStorage 跨页生效；可翻译文本字段存中英两版 |
 | 评分 | **不做**（移除 rating 字段与星级） |
-| 滑条维度 | 酸 / 甜 / 醇厚 / **香气 Aroma** / 余韵 / 平衡（无「苦」） |
+| 滑条维度 | 酸 / 甜 / 醇厚 / **香气 Aroma** / 余韵（5 项，无「苦」「平衡」），每项 **强/中/弱 三档**，不用分数 |
 
 ## 3. 文件结构（均在 `docs/` 下）
 
@@ -73,9 +73,9 @@
     "moods": [{"icon":"😌","label":{"zh":"平静","en":"Calm"}}],
     "time":  [{"icon":"🌅","label":{"zh":"清晨","en":"Morning"}}]
   },
-  "profile": {                          // 杯测滑条，整数 1–5（无苦，含香气）
-    "acidity":4, "sweetness":3, "body":2,
-    "aroma":4, "aftertaste":3, "balance":4
+  "profile": {                          // 杯测滑条，三档: "low"|"medium"|"high"
+    "acidity":"high", "sweetness":"medium", "body":"low",
+    "aroma":"high", "aftertaste":"medium"
   },
   "summary": {"zh":"明亮莓果酸、花香突出、轻盈干净。","en":"Bright berry acidity, floral, clean and light."},
   "origin": {
@@ -91,7 +91,7 @@
 字段约定：
 - 除 `slug`/`bean_name` 外字段均可缺省；渲染时缺省区块整体隐藏（如无 `brew` 则不渲染 BREW & PAIRING）。
 - *LocalizedString* 渲染走统一 helper `t(field, lang)`：返回 `field[lang]` → 另一语言 → 空串。普通字符串也兼容直接返回。
-- `profile` 滑条为 1–5 整数；渲染为横条 + 圆点位置 `(value-1)/4`。维度固定为：acidity / sweetness / body / aroma / aftertaste / balance。
+- `profile` 滑条取值为三档字符串 `"low"|"medium"|"high"`；渲染为三档横条，圆点落在 弱/中/强 对应位置。档位文案随语言：中文 弱/中/强，英文 Low/Medium/High。维度固定为：acidity / sweetness / body / aroma / aftertaste（5 项）。
 - `color` 仅控制 hero 左侧色块主题，取自一组预设。
 - 无 `rating` 字段。
 
@@ -103,7 +103,7 @@
    - 左（sticky，色块底由 `color` 决定）：豆袋图（缺图→大号 ☕ 占位）；底部一排 pill `tags`；左下黑底白字 `price_aud`。
    - 右（白底）：大粗体 `bean_name`；下方小字 `roaster` + 日期；分享按钮；**FLAVOUR NOTES** emoji 图标行；**NOTES** 故事正文（`story`，按段渲染）。
 2. **BREW & PAIRING（杏色块）**：`brew.method` 文本 + 分类图标组 FOOD / MOOD / TIME（各一行 emoji+label）。
-3. **TASTE PROFILE（杏色块）**：6 条横向滑条（酸 / 甜 / 醇厚 / 香气 Aroma / 余韵 / 平衡），圆点标档位。
+3. **TASTE PROFILE（杏色块）**：5 条横向滑条（酸 / 甜 / 醇厚 / 香气 Aroma / 余韵），每条三档 弱-中-强，圆点标档位。
 4. **SUMMARY（奶油黄高亮条）**：`summary` 一句话总评（无评分）。
 5. **ORIGIN（淡蓝色块）**：`origin.flag` + `country/region` + `altitude` + `notes`。
 
