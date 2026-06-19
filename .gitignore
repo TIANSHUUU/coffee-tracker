@@ -7,3 +7,6 @@ __pycache__/
 # Keep output JSON for "new item" comparison, skip binary/csv
 output/*.csv
 output/*.xlsx
+
+# Raw diary source notes (photos/markdown) — processed into docs/diary.json, not published
+coffee-diary/
