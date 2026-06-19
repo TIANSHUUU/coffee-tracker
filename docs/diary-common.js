@@ -20,7 +20,7 @@
   const UI = {
     zh: {
       navTracker: '追踪', navDiary: '日记',
-      flavours: '风味', brewPairing: '冲煮 & 搭配', tasteProfile: '风味曲线',
+      flavours: '风味', notes: '笔记', brewPairing: '冲煮 & 搭配', tasteProfile: '风味曲线',
       summary: '总评', origin: '产区',
       food: '食物', mood: '心情', time: '时段',
       dims: { acidity: '酸度', sweetness: '甜度', body: '醇厚', aroma: '香气', aftertaste: '余韵' },
@@ -34,7 +34,7 @@
     },
     en: {
       navTracker: 'Tracker', navDiary: 'Diary',
-      flavours: 'Flavour Notes', brewPairing: 'Brew & Pairing', tasteProfile: 'Taste Profile',
+      flavours: 'Flavour Notes', notes: 'Notes', brewPairing: 'Brew & Pairing', tasteProfile: 'Taste Profile',
       summary: 'Summary', origin: 'Origin',
       food: 'Food', mood: 'Mood', time: 'Time',
       dims: { acidity: 'Acidity', sweetness: 'Sweetness', body: 'Body', aroma: 'Aroma', aftertaste: 'Aftertaste' },
@@ -56,8 +56,8 @@
   const PROFILE_DIMS = ['acidity', 'sweetness', 'body', 'aroma', 'aftertaste'];
   const LEVELS = ['low', 'medium', 'high'];
   const HERO_COLORS = {
-    pink: 'var(--hero-pink)', peach: 'var(--hero-peach)',
-    blue: 'var(--hero-blue)', green: 'var(--hero-green)'
+    pink: 'var(--wash-pink)', peach: 'var(--wash-peach)',
+    blue: 'var(--wash-blue)', green: 'var(--wash-green)'
   };
 
   function esc(s) {
@@ -78,16 +78,13 @@
   function renderHeader(active) {
     const nextLabel = getLang() === 'zh' ? 'EN' : '中';
     return `
-      <a href="index.html" class="logo">
-        <div class="logo-icon">☕</div>
-        <span class="logo-text">Coffee <em>Tracker</em></span>
-      </a>
+      <a href="index.html" class="wordmark">Coffee <span class="wm-accent">Diary</span></a>
       <div class="header-right">
         <nav class="nav-links">
           <a href="index.html" class="nav-link${active === 'tracker' ? ' active' : ''}">${esc(ui('navTracker'))}</a>
           <a href="diary.html" class="nav-link${active === 'diary' ? ' active' : ''}">${esc(ui('navDiary'))}</a>
         </nav>
-        <button class="lang-toggle" id="langToggle" type="button">${nextLabel}</button>
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="language">${nextLabel}</button>
       </div>`;
   }
 

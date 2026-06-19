@@ -6,7 +6,7 @@
   <title>Coffee Diary</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="diary.css" />
 </head>
 <body>
@@ -59,12 +59,12 @@
          <div class="icon-label">${D.esc(D.t(f.label))}</div>
        </div>`).join('');
     const flavourBlock = flavours
-      ? `<h2 class="section-title" style="font-size:14px;margin-top:28px;margin-bottom:14px;">${D.esc(D.ui('flavours'))}</h2>
-         <div class="flavour-row">${flavours}</div>` : '';
+      ? `<div class="hero-sub"><div class="kicker">${D.esc(D.ui('flavours'))}</div>
+         <div class="flavour-row">${flavours}</div></div>` : '';
     const storyText = D.t(e.story);
     const story = storyText
-      ? `<h2 class="section-title" style="font-size:14px;margin-top:28px;margin-bottom:12px;">NOTES</h2>
-         <div class="story">${storyText.split('\n\n').map(p => `<p>${D.esc(p)}</p>`).join('')}</div>` : '';
+      ? `<div class="hero-sub"><div class="kicker">${D.esc(D.ui('notes'))}</div>
+         <div class="story">${storyText.split('\n\n').map(p => `<p>${D.esc(p)}</p>`).join('')}</div></div>` : '';
     const meta = [D.t(e.roaster), D.formatDate(e.date)].filter(Boolean).join(' · ');
 
     return `<section class="hero">
@@ -103,7 +103,7 @@
     if (!rows) return '';
     return `<section class="panel panel-peach">
       <h2 class="section-title">${D.esc(D.ui('tasteProfile'))}</h2>
-      ${rows}
+      <div class="taste-grid">${rows}</div>
     </section>`;
   }
 
