@@ -31,9 +31,10 @@ body { overflow-x: clip; }
   --wash-green: oklch(93% 0.042 150);
 
   /* ── Type ── */
-  --font-display: "Fraunces", ui-serif, Georgia, serif;
-  --font-body:    "Newsreader", ui-serif, Georgia, serif;
-  --font-mono:    "Geist Mono", ui-monospace, "SFMono-Regular", monospace;
+  /* CJK: 标题 霞鹜文楷, 其余中文 思源宋体 (西文走前置的 Fraunces/Newsreader/Geist Mono) */
+  --font-display: "Fraunces", "LXGW WenKai", "Noto Serif SC", ui-serif, Georgia, serif;
+  --font-body:    "Newsreader", "Noto Serif SC", ui-serif, Georgia, serif;
+  --font-mono:    "Geist Mono", "Noto Serif SC", ui-monospace, "SFMono-Regular", monospace;
 
   --text-xs:   0.78rem;
   --text-sm:   0.875rem;
