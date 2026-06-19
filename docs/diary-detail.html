@@ -100,9 +100,8 @@
     const b = e.brew;
     if (!b) return '';
     const method = D.t(b.method) ? `<div class="brew-method">${D.esc(D.t(b.method))}</div>` : '';
-    const groups = D.iconGroup('food', b.food) + D.iconGroup('mood', b.moods) + D.iconGroup('time', b.time);
-    if (!method && !groups) return '';
-    return `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('brewPairing'))}</h2>${method}${groups}</div>`;
+    if (!method) return '';
+    return `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('brew'))}</h2>${method}</div>`;
   }
 
   function profile(e) {

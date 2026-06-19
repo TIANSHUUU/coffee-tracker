@@ -1,6 +1,58 @@
 {
   "entries": [
     {
+      "slug": "rumble-colombia-luis-anibal-papayo",
+      "date": "2026-05-14",
+      "bean_name": { "zh": "哥伦比亚 路易斯·阿尼巴尔 帕帕约", "en": "Colombia Luis Anibal Papayo" },
+      "roaster": { "zh": "Rumble Coffee Roasters", "en": "Rumble Coffee Roasters" },
+      "image": "diary/images/rumble-colombia-luis-anibal-1.jpg",
+      "images": ["diary/images/rumble-colombia-luis-anibal-1.jpg"],
+      "color": "peach",
+      "roast_profile": "filter",
+      "price_aud": "30.00",
+      "tags": [
+        { "zh": "哥伦比亚", "en": "Colombia" },
+        { "zh": "惠兰", "en": "Huila" },
+        { "zh": "日晒", "en": "Natural" },
+        { "zh": "手冲", "en": "Filter" },
+        { "zh": "1700–2200m", "en": "1700–2200m" },
+        { "zh": "帕帕约", "en": "Papayo" }
+      ],
+      "flavours": [
+        { "icon": "🍒", "label": { "zh": "成熟红果", "en": "Ripe red fruit" } },
+        { "icon": "🧈", "label": { "zh": "奶油", "en": "Cream" } },
+        { "icon": "🫐", "label": { "zh": "莓果微酸", "en": "Berry acidity" } }
+      ],
+      "story": {
+        "zh": "磨粉后干香就有很强烈的甜香，冲煮后入口即有强烈甜感。\n\n在口腔中呈现奶油般饱满丝滑的质地，温度下降后泛出莓果的微酸，尾韵持久，整体十分愉悦。",
+        "en": "Even the dry grounds smell intensely sweet, and that sweetness lands the instant it touches your lips.\n\nThe body is full and silky — almost creamy. As it cools a gentle berry tartness emerges and the finish lingers. A thoroughly delightful cup."
+      },
+      "brew": {
+        "method": { "zh": "泰摩冰瞳 / Origami · 1:16（烘焙 6 周内），1:15（6 周后）· 96°C", "en": "TIMEMORE Icicle / Origami · 1:16 (within 6 wks of roast), 1:15 (after) · 96°C" }
+      },
+      "profile": {
+        "acidity": "medium",
+        "sweetness": "high",
+        "body": "high",
+        "aroma": "high",
+        "aftertaste": "high"
+      },
+      "summary": {
+        "zh": "成熟水果的甜，奶油般饱满浓厚的口感。",
+        "en": "Ripe-fruit sweetness with a full, creamy, weighty mouthfeel."
+      },
+      "origin": {
+        "country": { "zh": "哥伦比亚", "en": "Colombia" },
+        "region": { "zh": "惠兰", "en": "Huila" },
+        "flag": "🇨🇴",
+        "altitude": "1700–2200m",
+        "notes": {
+          "zh": "惠兰（Huila）位于哥伦比亚南部，高海拔、火山土壤，是公认的精品产区，咖啡以明亮甜感与饱满果味著称。本豆来自生产者 Luis Anibal 的 Villa Betuli 庄园，帕帕约（Papayo）品种，日晒处理。",
+          "en": "Huila, in southern Colombia, is a celebrated specialty region — high altitude and volcanic soils give its coffees bright sweetness and full fruit. This lot is from producer Luis Anibal's Villa Betuli farm: Papayo varietal, natural process."
+        }
+      }
+    },
+    {
       "slug": "ethiopia-guji-natural",
       "date": "2026-06-18",
       "bean_name": { "zh": "古吉 日晒", "en": "Guji Natural" },

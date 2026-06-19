@@ -20,7 +20,7 @@
   const UI = {
     zh: {
       navTracker: '追踪', navDiary: '日记',
-      flavours: '风味', notes: '笔记', brewPairing: '冲煮 & 搭配', tasteProfile: '风味曲线',
+      flavours: '风味', notes: '笔记', brew: '冲煮', tasteProfile: '风味曲线',
       summary: '总评', origin: '产区',
       food: '食物', mood: '心情', time: '时段',
       dims: { acidity: '酸度', sweetness: '甜度', body: '醇厚', aroma: '香气', aftertaste: '余韵' },
@@ -34,7 +34,7 @@
     },
     en: {
       navTracker: 'Tracker', navDiary: 'Diary',
-      flavours: 'Flavour Notes', notes: 'Notes', brewPairing: 'Brew & Pairing', tasteProfile: 'Taste Profile',
+      flavours: 'Flavour Notes', notes: 'Notes', brew: 'Brew', tasteProfile: 'Taste Profile',
       summary: 'Summary', origin: 'Origin',
       food: 'Food', mood: 'Mood', time: 'Time',
       dims: { acidity: 'Acidity', sweetness: 'Sweetness', body: 'Body', aroma: 'Aroma', aftertaste: 'Aftertaste' },
