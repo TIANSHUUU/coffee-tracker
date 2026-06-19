@@ -6,6 +6,7 @@
       "bean_name": { "zh": "古吉 日晒", "en": "Guji Natural" },
       "roaster": { "zh": "Market Lane", "en": "Market Lane" },
       "image": "",
+      "images": [],
       "color": "pink",
       "roast_profile": "filter",
       "price_aud": "24.00",

@@ -93,8 +93,9 @@
   }
 
   function card(e) {
-    const thumb = e.image
-      ? `<img src="${D.esc(e.image)}" alt="" />`
+    const cover = (e.images && e.images.length) ? e.images[0] : e.image;
+    const thumb = cover
+      ? `<img src="${D.esc(cover)}" alt="" />`
       : `<span class="card-thumb-fallback">☕</span>`;
     const flavours = (e.flavours || []).slice(0, 3).map(f =>
       `<span class="chip">${D.esc(f.icon)} ${D.esc(D.t(f.label))}</span>`).join('');

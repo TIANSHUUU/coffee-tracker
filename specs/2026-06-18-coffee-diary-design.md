@@ -56,6 +56,7 @@
   "bean_name": {"zh":"古吉 日晒","en":"Guji Natural"},
   "roaster": {"zh":"Market Lane","en":"Market Lane"},  // 品牌名常两版相同
   "image": "diary/images/guji.jpg",     // 可空；空则用色块占位（不翻译）
+  "images": ["diary/images/guji-1.jpg"],// 可空数组；详情页左侧竖排图栏用，缺省回退到 image 再回退占位
   "color": "pink",                      // hero 左侧色块主题: pink/peach/blue/green
   "roast_profile": "filter",            // filter/espresso/omni —— 列表筛选用（不翻译）
   "price_aud": "24.00",                 // 字符串，可空（不翻译）
@@ -96,6 +97,8 @@
 - 无 `rating` 字段。
 
 ## 5. 详情页版式（`diary-detail.html`）
+
+> 注：实现已采用**版式 A「杂志跨页」**——左侧 sticky 竖排图栏（`images[]`，缺省回退 `image` 再回退占位），右侧从上到下依次承载下列全部内容，细线分隔。另保留**版式 B**（大 Hero + 两栏 Brew/Profile）作为备选，需要时可切换。下文按原始分区描述各区块内容（与 A 的区块内容一致，仅排布不同）。
 
 复用现有站点 header（logo + 导航，Diary 高亮）。主体自上而下：
 
