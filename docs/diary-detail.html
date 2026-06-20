@@ -67,8 +67,9 @@
     const head = `${o.flag ? D.esc(o.flag) + ' ' : ''}${D.esc(place)}`;
     const alt = o.altitude ? `<div class="origin-alt">${D.esc(D.ui('altitude'))}: ${D.esc(o.altitude)}</div>` : '';
     const notes = D.t(o.notes) ? `<div class="origin-notes">${D.esc(D.t(o.notes))}</div>` : '';
-    if (!place && !alt && !notes) return '';
-    return `${place ? `<div class="origin-name">${head}</div>` : ''}${alt}${notes}`;
+    const map = o.map_url ? `<a class="source-link origin-map" href="${D.esc(o.map_url)}" target="_blank" rel="noopener">${D.esc(D.ui('viewOrigin'))} ↗</a>` : '';
+    if (!place && !alt && !notes && !map) return '';
+    return `${place ? `<div class="origin-name">${head}</div>` : ''}${alt}${notes}${map}`;
   }
   function metaBlockInner(e) {
     const tg = tagsHtml(e);

@@ -40,18 +40,19 @@
         "aftertaste": "high"
       },
       "summary": {
-        "zh": "成熟水果的甜，奶油般饱满浓厚的口感。",
-        "en": "Ripe-fruit sweetness with a full, creamy mouthfeel."
+        "zh": "成熟水果的甜，奶油般饱满顺滑的口感，可可般的尾韵。",
+        "en": "Ripe-fruit sweetness with a full, creamy mouthfeel, coco finish."
       },
       "origin": {
         "country": { "zh": "哥伦比亚", "en": "Colombia" },
-        "region": { "zh": "惠兰", "en": "Huila" },
+        "region": { "zh": "阿塞韦多，惠兰", "en": "Acevedo, Huila" },
         "flag": "🇨🇴",
         "altitude": "1700–2200m",
         "notes": {
-          "zh": "惠兰（Huila）位于哥伦比亚南部，高海拔、火山土壤，是公认的精品产区，咖啡以明亮甜感与饱满果味著称。本豆来自生产者 Luis Anibal 的 Villa Betuli 庄园，帕帕约（Papayo）品种，日晒处理。",
-          "en": "Huila, in southern Colombia, is a celebrated specialty region — high altitude and volcanic soils give its coffees bright sweetness and full fruit. This lot is from producer Luis Anibal's Villa Betuli farm: Papayo varietal, natural process."
-        }
+          "zh": "阿塞韦多（Acevedo）位于哥伦比亚南部惠兰省，高海拔、火山土壤，是公认的精品微产区，咖啡以明亮甜感与饱满果味著称。本豆来自生产者 Luis Anibal 的 Villa Betuli 庄园，帕帕约（Papayo）品种，日晒处理。",
+          "en": "Acevedo, in the southern Huila department of Colombia, is a celebrated specialty micro-region — high altitude and volcanic soils give its coffees bright sweetness and full fruit. This lot is from producer Luis Anibal's Villa Betuli farm: Papayo varietal, natural process."
+        },
+        "map_url": "https://www.google.com/maps/place/Acevedo,+Huila,+Colombia/@10.5374748,-90.7013653,4.61z/data=!4m6!3m5!1s0x8e2507d06c95a055:0xaaddef3c880f36be!8m2!3d1.805165!4d-75.88834!16s%2Fm%2F02qmyvn?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
       }
     }
   ]
