@@ -46,10 +46,17 @@
   }
 
   function hero(e) {
-    const cover = (e.images && e.images.length) ? e.images[0] : e.image;
-    const img = cover ? `<img class="hero-img" src="${D.esc(cover)}" alt="" />` : `<span class="hero-img-fallback">☕</span>`;
+    const imgs = (e.images && e.images.length) ? e.images : (e.image ? [e.image] : []);
+    const left = imgs.length
+      ? imgs.map(src => `<img class="hero-photo" src="${D.esc(src)}" alt="" />`).join('')
+      : `<span class="hero-img-fallback">☕</span>`;
+    const leftClass = imgs.length ? 'hero-left has-photos' : 'hero-left';
+    const leftStyle = imgs.length ? '' : ` style="background:${D.heroColor(e.color)}"`;
+
     const tags = (e.tags || []).map(t => `<span class="hero-tag">${D.esc(D.t(t))}</span>`).join('');
-    const price = e.price_aud ? `<div class="hero-price">$${D.esc(e.price_aud)}</div>` : '';
+    const dates = [];
+    if (e.roast_date) dates.push(D.ui('roasted') + ' ' + D.formatDate(e.roast_date));
+    if (e.date) dates.push(D.ui('firstBrew') + ' ' + D.formatDate(e.date));
     const flavours = (e.flavours || []).map(f =>
       `<div class="icon-item"><div class="icon-emoji">${D.esc(f.icon)}</div><div class="icon-label">${D.esc(D.t(f.label))}</div></div>`).join('');
     const flavourBlock = flavours
@@ -58,12 +65,15 @@
     const story = st
       ? `<div class="hero-sub"><div class="kicker">${D.esc(D.ui('notes'))}</div>
          <div class="story">${st.split('\n\n').map(p => `<p>${D.esc(p)}</p>`).join('')}</div></div>` : '';
-    const meta = [D.t(e.roaster), D.formatDate(e.date)].filter(Boolean).join(' · ');
+
     return `<section class="hero">
-      <div class="hero-left" style="background:${D.heroColor(e.color)}">${img}${tags ? `<div class="hero-tags">${tags}</div>` : ''}${price}</div>
+      <div class="${leftClass}"${leftStyle}>${left}</div>
       <div class="hero-right">
         <h1 class="bean-name">${D.esc(D.t(e.bean_name))}</h1>
-        ${meta ? `<div class="bean-meta">${D.esc(meta)}</div>` : ''}
+        ${D.t(e.roaster) ? `<div class="bean-meta">${D.esc(D.t(e.roaster))}</div>` : ''}
+        ${dates.length ? `<div class="bean-dates">${D.esc(dates.join(' · '))}</div>` : ''}
+        ${e.price_aud ? `<div class="bean-price">$${D.esc(e.price_aud)} AUD</div>` : ''}
+        ${tags ? `<div class="hero-tags hero-tags--static">${tags}</div>` : ''}
         ${flavourBlock}${story}
       </div>
     </section>`;

@@ -3,10 +3,11 @@
     {
       "slug": "rumble-colombia-luis-anibal-papayo",
       "date": "2026-05-14",
+      "roast_date": "2026-04-29",
       "bean_name": { "zh": "哥伦比亚 路易斯·阿尼巴尔 帕帕约", "en": "Colombia Luis Anibal Papayo" },
       "roaster": { "zh": "Rumble Coffee Roasters", "en": "Rumble Coffee Roasters" },
       "image": "diary/images/rumble-colombia-luis-anibal-1.jpg",
-      "images": ["diary/images/rumble-colombia-luis-anibal-1.jpg"],
+      "images": ["diary/images/rumble-colombia-luis-anibal-1.jpg", "diary/images/rumble-colombia-luis-anibal-2.webp"],
       "color": "peach",
       "roast_profile": "filter",
       "price_aud": "30.00",
@@ -40,7 +41,7 @@
       },
       "summary": {
         "zh": "成熟水果的甜，奶油般饱满浓厚的口感。",
-        "en": "Ripe-fruit sweetness with a full, creamy, weighty mouthfeel."
+        "en": "Ripe-fruit sweetness with a full, creamy mouthfeel."
       },
       "origin": {
         "country": { "zh": "哥伦比亚", "en": "Colombia" },

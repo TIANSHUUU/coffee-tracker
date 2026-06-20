@@ -305,6 +305,13 @@ header {
 }
 .hero-img { max-height: 400px; max-width: 78%; object-fit: contain; }
 .hero-img-fallback { font-size: 128px; opacity: 0.38; }
+/* photo stack (1+ real photos) */
+.hero-left.has-photos {
+  flex-direction: column; align-items: stretch; justify-content: flex-start;
+  gap: var(--space-md); padding: var(--space-md); min-height: 0;
+  background: var(--color-paper-2);
+}
+.hero-photo { width: 100%; height: auto; display: block; border-radius: 2px; }
 .hero-tags {
   position: absolute; left: var(--space-lg); right: var(--space-lg); bottom: var(--space-2xl);
   display: flex; flex-wrap: wrap; gap: var(--space-xs);
@@ -347,11 +354,19 @@ header {
   color: var(--color-muted);
   margin-top: var(--space-md);
 }
+.bean-dates {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-neutral);
+  margin-top: var(--space-xs);
+}
 .bean-price {
   font-family: var(--font-mono);
-  font-size: 1.05rem;
-  color: var(--color-ink);
-  margin-top: var(--space-md);
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  margin-top: var(--space-sm);
   font-variant-numeric: tabular-nums;
 }
 .hero-tags--static { position: static; margin-top: var(--space-md); }
