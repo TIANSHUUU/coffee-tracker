@@ -14,7 +14,7 @@
 <body>
 <header id="siteHeader"></header>
 <a class="back-link" href="diary.html" id="backLink"></a>
-<div class="detail" id="content"></div>
+<div id="root"></div>
 
 <script src="diary-common.js"></script>
 <script>
@@ -25,10 +25,7 @@
 
   fetch('diary.json')
     .then(r => r.ok ? r.json() : Promise.reject(r.status))
-    .then(data => {
-      ENTRY = (data.entries || []).find(e => e.slug === slug) || null;
-      render();
-    })
+    .then(data => { ENTRY = (data.entries || []).find(e => e.slug === slug) || null; render(); })
     .catch(() => { ENTRY = null; render(); });
 
   function render() {
@@ -37,82 +34,90 @@
     D.initLangToggle(render);
     document.getElementById('backLink').textContent = D.ui('back');
 
-    const wrap = document.getElementById('content');
+    const root = document.getElementById('root');
     if (!ENTRY) {
-      wrap.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🤷</div><p>${D.esc(D.ui('notFound'))}</p></div>`;
+      root.innerHTML = `<div class="detail"><div class="empty-state"><div class="empty-state-icon">🤷</div><p>${D.esc(D.ui('notFound'))}</p></div></div>`;
       return;
     }
-    wrap.innerHTML = hero(ENTRY) + brewPair(ENTRY) + summary(ENTRY) + origin(ENTRY) + source(ENTRY);
+    // multi-photo -> magazine spread (A); single/none -> hero layout (B)
+    root.innerHTML = imgsOf(ENTRY).length >= 2 ? renderA(ENTRY) : renderB(ENTRY);
   }
 
-  function hero(e) {
-    const imgs = (e.images && e.images.length) ? e.images : (e.image ? [e.image] : []);
-    const left = imgs.length
-      ? imgs.map(src => `<img class="hero-photo" src="${D.esc(src)}" alt="" />`).join('')
-      : `<span class="hero-img-fallback">☕</span>`;
-    const leftClass = imgs.length ? 'hero-left has-photos' : 'hero-left';
-    const leftStyle = imgs.length ? '' : ` style="background:${D.heroColor(e.color)}"`;
-
-    const tags = (e.tags || []).map(t => `<span class="hero-tag">${D.esc(D.t(t))}</span>`).join('');
-    const dates = [];
-    if (e.roast_date) dates.push(D.ui('roasted') + ' ' + D.formatDate(e.roast_date));
-    if (e.date) dates.push(D.ui('firstBrew') + ' ' + D.formatDate(e.date));
-    const flavours = (e.flavours || []).map(f =>
-      `<div class="icon-item"><div class="icon-emoji">${D.esc(f.icon)}</div><div class="icon-label">${D.esc(D.t(f.label))}</div></div>`).join('');
-    const flavourBlock = flavours
-      ? `<div class="hero-sub"><div class="kicker">${D.esc(D.ui('flavours'))}</div><div class="flavour-row">${flavours}</div></div>` : '';
-    const st = D.t(e.story);
-    const story = st
-      ? `<div class="hero-sub"><div class="kicker">${D.esc(D.ui('notes'))}</div>
-         <div class="story">${st.split('\n\n').map(p => `<p>${D.esc(p)}</p>`).join('')}</div></div>` : '';
-
-    return `<section class="hero">
-      <div class="${leftClass}"${leftStyle}>${left}</div>
-      <div class="hero-right">
-        <h1 class="bean-name">${D.esc(D.t(e.bean_name))}</h1>
-        ${D.t(e.roaster) ? `<div class="bean-meta">${D.esc(D.t(e.roaster))}</div>` : ''}
-        ${dates.length ? `<div class="bean-dates">${D.esc(dates.join(' · '))}</div>` : ''}
-        ${e.price_aud ? `<div class="bean-price">$${D.esc(e.price_aud)} AUD</div>` : ''}
-        ${tags ? `<div class="hero-tags hero-tags--static">${tags}</div>` : ''}
-        ${flavourBlock}${story}
-      </div>
-    </section>`;
-  }
-
-  function brewPair(e) {
-    let left = '';
-    if (e.brew && D.t(e.brew.method)) {
-      left = `<div><h2 class="section-title">${D.esc(D.ui('brew'))}</h2><div class="brew-method">${D.esc(D.t(e.brew.method))}</div></div>`;
-    }
-    let right = '';
-    if (e.profile) {
-      const rows = D.PROFILE_DIMS.filter(d => e.profile[d]).map(d => D.sliderRow(d, e.profile[d])).join('');
-      if (rows) right = `<div><h2 class="section-title">${D.esc(D.ui('tasteProfile'))}</h2><div class="taste-grid">${rows}</div></div>`;
-    }
-    if (!left && !right) return '';
-    return `<section class="panel panel-peach"><div class="brewpair">${left}${right}</div></section>`;
-  }
-
-  function summary(e) {
-    const t = D.t(e.summary);
-    if (!t) return '';
-    return `<section class="summary-wrap"><div class="summary-box"><span class="cup">☕</span><span>${D.esc(t)}</span></div></section>`;
-  }
-
-  function origin(e) {
-    const o = e.origin;
-    if (!o) return '';
+  /* ── shared content builders ── */
+  const imgsOf = e => (e.images && e.images.length) ? e.images : (e.image ? [e.image] : []);
+  const favHtml = e => (e.flavours || []).map(f =>
+    `<div class="icon-item"><div class="icon-emoji">${D.esc(f.icon)}</div><div class="icon-label">${D.esc(D.t(f.label))}</div></div>`).join('');
+  const storyHtml = e => { const st = D.t(e.story); return st ? st.split('\n\n').map(p => `<p>${D.esc(p)}</p>`).join('') : ''; };
+  const tagsHtml = e => (e.tags || []).map(t => `<span class="hero-tag">${D.esc(D.t(t))}</span>`).join('');
+  const roasterHtml = e => D.t(e.roaster) ? `<div class="bean-meta">${D.esc(D.t(e.roaster))}</div>` : '';
+  const datesHtml = e => {
+    const d = [];
+    if (e.roast_date) d.push(D.ui('roasted') + ' ' + D.formatDate(e.roast_date));
+    if (e.date) d.push(D.ui('firstBrew') + ' ' + D.formatDate(e.date));
+    return d.length ? `<div class="bean-dates">${D.esc(d.join(' · '))}</div>` : '';
+  };
+  const priceHtml = e => e.price_aud ? `<div class="bean-price">$${D.esc(e.price_aud)} AUD</div>` : '';
+  const brewMethodHtml = e => (e.brew && D.t(e.brew.method)) ? `<div class="brew-method">${D.esc(D.t(e.brew.method))}</div>` : '';
+  const profileRowsHtml = e => e.profile ? D.PROFILE_DIMS.filter(d => e.profile[d]).map(d => D.sliderRow(d, e.profile[d])).join('') : '';
+  const summaryBoxHtml = e => { const t = D.t(e.summary); return t ? `<div class="summary-box"><span class="cup">☕</span><span>${D.esc(t)}</span></div>` : ''; };
+  const sourceLink = e => e.url ? `<a class="source-link" href="${D.esc(e.url)}" target="_blank" rel="noopener">${D.esc(D.ui('source'))} ↗</a>` : '';
+  function originInner(e) {
+    const o = e.origin; if (!o) return '';
     const place = [D.t(o.region), D.t(o.country)].filter(Boolean).join(', ');
     const head = `${o.flag ? D.esc(o.flag) + ' ' : ''}${D.esc(place)}`;
     const alt = o.altitude ? `<div class="origin-alt">${D.esc(D.ui('altitude'))}: ${D.esc(o.altitude)}</div>` : '';
-    const notesHtml = D.t(o.notes) ? `<div class="origin-notes">${D.esc(D.t(o.notes))}</div>` : '';
-    if (!place && !alt && !notesHtml) return '';
-    return `<section class="panel panel-blue"><h2 class="section-title">${D.esc(D.ui('origin'))}</h2>${place ? `<div class="origin-name">${head}</div>` : ''}${alt}${notesHtml}</section>`;
+    const notes = D.t(o.notes) ? `<div class="origin-notes">${D.esc(D.t(o.notes))}</div>` : '';
+    if (!place && !alt && !notes) return '';
+    return `${place ? `<div class="origin-name">${head}</div>` : ''}${alt}${notes}`;
+  }
+  function metaBlockInner(e) {
+    const tg = tagsHtml(e);
+    return `<h1 class="bean-name">${D.esc(D.t(e.bean_name))}</h1>${roasterHtml(e)}${datesHtml(e)}${priceHtml(e)}${tg ? `<div class="hero-tags hero-tags--static">${tg}</div>` : ''}`;
+  }
+  const kickerBlock = (key, inner) => inner ? `<div class="kicker">${D.esc(D.ui(key))}</div>${inner}` : '';
+
+  /* ── Layout B: single/none photo — big hero + panels ── */
+  function renderB(e) {
+    const imgs = imgsOf(e);
+    const left = imgs.length ? imgs.map(s => `<img class="hero-photo" src="${D.esc(s)}" alt="" />`).join('') : `<span class="hero-img-fallback">☕</span>`;
+    const leftClass = imgs.length ? 'hero-left has-photos' : 'hero-left';
+    const leftStyle = imgs.length ? '' : ` style="background:${D.heroColor(e.color)}"`;
+    const fb = favHtml(e), sh = storyHtml(e);
+    const flavourBlock = fb ? `<div class="hero-sub"><div class="kicker">${D.esc(D.ui('flavours'))}</div><div class="flavour-row">${fb}</div></div>` : '';
+    const story = sh ? `<div class="hero-sub"><div class="kicker">${D.esc(D.ui('notes'))}</div><div class="story">${sh}</div></div>` : '';
+    const heroSec = `<section class="hero"><div class="${leftClass}"${leftStyle}>${left}</div><div class="hero-right">${metaBlockInner(e)}${flavourBlock}${story}</div></section>`;
+
+    const bm = brewMethodHtml(e);
+    const leftCol = bm ? `<div><h2 class="section-title">${D.esc(D.ui('brew'))}</h2>${bm}</div>` : '';
+    const pr = profileRowsHtml(e);
+    const rightCol = pr ? `<div><h2 class="section-title">${D.esc(D.ui('tasteProfile'))}</h2><div class="taste-grid">${pr}</div></div>` : '';
+    const brewSec = (leftCol || rightCol) ? `<section class="panel panel-peach"><div class="brewpair">${leftCol}${rightCol}</div></section>` : '';
+
+    const sb = summaryBoxHtml(e);
+    const sumSec = sb ? `<section class="summary-wrap">${sb}</section>` : '';
+    const oi = originInner(e);
+    const oriSec = oi ? `<section class="panel panel-blue"><h2 class="section-title">${D.esc(D.ui('origin'))}</h2>${oi}</section>` : '';
+    const src = sourceLink(e);
+    const srcSec = src ? `<section class="source-wrap">${src}</section>` : '';
+
+    return `<div class="detail">${heroSec}${brewSec}${sumSec}${oriSec}${srcSec}</div>`;
   }
 
-  function source(e) {
-    if (!e.url) return '';
-    return `<section class="source-wrap"><a class="source-link" href="${D.esc(e.url)}" target="_blank" rel="noopener">${D.esc(D.ui('source'))} ↗</a></section>`;
+  /* ── Layout A: 2+ photos — magazine spread ── */
+  function renderA(e) {
+    const imgs = imgsOf(e);
+    const gallery = imgs.map(s => `<div class="shot"><img src="${D.esc(s)}" alt="" /></div>`).join('');
+
+    let c = `<div class="blk">${metaBlockInner(e)}</div>`;
+    const fb = favHtml(e); if (fb) c += `<div class="blk">${kickerBlock('flavours', `<div class="flavour-row">${fb}</div>`)}</div>`;
+    const sh = storyHtml(e); if (sh) c += `<div class="blk">${kickerBlock('notes', `<div class="story">${sh}</div>`)}</div>`;
+    const bm = brewMethodHtml(e); if (bm) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('brew'))}</h2>${bm}</div>`;
+    const pr = profileRowsHtml(e); if (pr) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('tasteProfile'))}</h2><div class="taste-grid">${pr}</div></div>`;
+    const sb = summaryBoxHtml(e); if (sb) c += `<div class="blk sep">${sb}</div>`;
+    const oi = originInner(e); if (oi) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('origin'))}</h2>${oi}</div>`;
+    const src = sourceLink(e); if (src) c += `<div class="blk sep">${src}</div>`;
+
+    return `<div class="spread"><aside class="gallery">${gallery}</aside><div class="content">${c}</div></div>`;
   }
 })();
 </script>
