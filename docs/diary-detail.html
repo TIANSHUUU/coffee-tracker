@@ -70,20 +70,20 @@
     };
     row('producer', d.producer);
     row('farm', d.farm);
-    const region = D.t(d.region);
-    if (region) rows.push(`<div class="spec-row"><div class="spec-label">${D.esc(D.ui('region'))}</div><div class="spec-value">${d.flag ? D.esc(d.flag) + ' ' : ''}${D.esc(region)}</div></div>`);
     row('altitude', d.altitude);
     row('varietal', d.varietal);
     row('process', d.process);
     return rows.join('');
   }
-  function originNotes(e) {
-    const n = e.details && D.t(e.details.notes);
-    return n ? `<p class="origin-notes">${D.esc(n)}</p>` : '';
-  }
-  function mapLink(e) {
-    const u = e.details && e.details.map_url;
-    return u ? `<a class="source-link origin-map" href="${D.esc(u)}" target="_blank" rel="noopener">${D.esc(D.ui('viewOrigin'))} ↗</a>` : '';
+  // Origin section (its own heading): region name + intro prose + map link
+  function originInner(e) {
+    const d = e.details; if (!d) return '';
+    const region = D.t(d.region);
+    const name = region ? `<div class="origin-name">${d.flag ? D.esc(d.flag) + ' ' : ''}${D.esc(region)}</div>` : '';
+    const notes = D.t(d.notes) ? `<p class="origin-notes">${D.esc(D.t(d.notes))}</p>` : '';
+    const map = d.map_url ? `<a class="source-link origin-map" href="${D.esc(d.map_url)}" target="_blank" rel="noopener">${D.esc(D.ui('viewOrigin'))} ↗</a>` : '';
+    if (!name && !notes && !map) return '';
+    return `${name}${notes}${map}`;
   }
   function metaBlockInner(e) {
     const tg = tagsHtml(e);
@@ -110,12 +110,14 @@
 
     const sb = summaryBoxHtml(e);
     const sumSec = sb ? `<section class="summary-wrap">${sb}</section>` : '';
-    const sr = specRows(e), on = originNotes(e), ml = mapLink(e);
-    const detSec = (sr || on || ml) ? `<section class="panel panel-blue"><h2 class="section-title">${D.esc(D.ui('details'))}</h2>${sr ? `<div class="spec">${sr}</div>` : ''}${on}${ml}</section>` : '';
+    const sr = specRows(e);
+    const detSec = sr ? `<section class="panel panel-peach"><h2 class="section-title">${D.esc(D.ui('details'))}</h2><div class="spec">${sr}</div></section>` : '';
+    const oi = originInner(e);
+    const oriSec = oi ? `<section class="panel panel-blue"><h2 class="section-title">${D.esc(D.ui('origin'))}</h2>${oi}</section>` : '';
     const src = sourceLink(e);
     const srcSec = src ? `<section class="source-wrap">${src}</section>` : '';
 
-    return `<div class="detail">${heroSec}${brewSec}${sumSec}${detSec}${srcSec}</div>`;
+    return `<div class="detail">${heroSec}${brewSec}${sumSec}${detSec}${oriSec}${srcSec}</div>`;
   }
 
   /* ── Layout A: 2+ photos — magazine spread ── */
@@ -129,8 +131,8 @@
     const bm = brewMethodHtml(e); if (bm) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('brew'))}</h2>${bm}</div>`;
     const pr = profileRowsHtml(e); if (pr) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('tasteProfile'))}</h2><div class="taste-grid">${pr}</div></div>`;
     const sb = summaryBoxHtml(e); if (sb) c += `<div class="blk sep">${sb}</div>`;
-    const sr = specRows(e), on = originNotes(e), ml = mapLink(e);
-    if (sr || on || ml) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('details'))}</h2>${sr ? `<div class="spec">${sr}</div>` : ''}${on}${ml}</div>`;
+    const sr = specRows(e); if (sr) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('details'))}</h2><div class="spec">${sr}</div></div>`;
+    const oi = originInner(e); if (oi) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('origin'))}</h2>${oi}</div>`;
     const src = sourceLink(e); if (src) c += `<div class="blk sep">${src}</div>`;
 
     return `<div class="spread"><aside class="gallery">${gallery}</aside><div class="content">${c}</div></div>`;

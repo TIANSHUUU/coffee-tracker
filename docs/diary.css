@@ -493,7 +493,7 @@ header {
   font-weight: 400;
   font-size: var(--text-lg);
   letter-spacing: -0.02em;
-  margin-bottom: var(--space-xs);
+  margin-bottom: var(--space-md);
 }
 .origin-alt {
   font-family: var(--font-mono);
