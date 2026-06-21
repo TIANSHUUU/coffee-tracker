@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-21 07:03",
+  "generated_at": "2026-06-21 15:02",
   "stats": {
     "total": 179,
-    "new": 26,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -33,7 +33,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "STEWED PLUM & CITRUS, PEANUT BUTTER WITH VANILLA MALT & MILK CHOCOLATE",
-      "is_new": true
+      "is_new": false
     },
     {
       "roaster": "Code Black",
@@ -45,7 +45,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "HONEY, JASMINE, FRUIT TEA, LAVENDER",
-      "is_new": true
+      "is_new": false
     },
     {
       "roaster": "Code Black",
@@ -57,7 +57,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": true
+      "is_new": false
     },
     {
       "roaster": "Code Black",
@@ -69,7 +69,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "MELON, WHITE GRAPE, HONEY",
-      "is_new": true
+      "is_new": false
     },
     {
       "roaster": "Code Black",
@@ -81,7 +81,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "MELON, WHITE GRAPE, HONEY",
-      "is_new": true
+      "is_new": false
     },
     {
       "roaster": "Code Black",
@@ -93,7 +93,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "LEMON, HONEYSUCKLE, VIOLET, WHITE SUGAR",
-      "is_new": true
+      "is_new": false
     },
     {
       "roaster": "Code Black",
@@ -105,7 +105,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "LEMON, HONEY SUCKLE, VIOLET, WHITE SUGAR",
-      "is_new": true
+      "is_new": false
     },
     {
       "roaster": "Code Black",
@@ -117,223 +117,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ecuador Felipe Luzon Typica Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ecuador-felipe-luzon-typica-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ecuador",
-      "price_aud": "29.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ecuador Felipe Luzon Typica Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ecuador-felipe-luzon-typica-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Ecuador",
-      "price_aud": "29.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Ayla Bombe Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-ayla-bombe-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Ayla Bombe Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-ayla-bombe-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Yaye Premium Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "46.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ex-Wife Espresso Blend",
-      "url": "https://codeblackcoffee.com.au/products/ex-wife-espresso-blend-coffee",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia, Guatemala",
-      "price_aud": "22.00",
-      "process": "WASHED & NATURAL REGION",
-      "varietal": "",
-      "flavour_profile": "ROASTED MACADAMIA, DARK CHOCOLATE, & AMARETTO WITH A CARAMEL & COCOA FINISH",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Home Blend 500g",
-      "url": "https://codeblackcoffee.com.au/products/home-blend-espresso-and-filter-coffee-500g",
-      "roast_profile": "omni",
-      "origin": "Brazil, Guatemala",
-      "price_aud": "29.00",
-      "process": "WASHED & NATURAL REGION",
-      "varietal": "",
-      "flavour_profile": "TOFFEE, CHOCOLATE & NUTS, WITH A HINT OF CITRUS",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Indonesia Frinsa Manis Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/indonesia-frinsa-manis-natural-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Indonesia",
-      "price_aud": "35.00",
-      "process": "",
-      "varietal": "MIXED, MOSTLY SIGARARUTANG CUP",
-      "flavour_profile": "JACKFRUIT, GUAVA, CHOCOLATE, PISTACHIO",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Indonesia Frinsa Manis Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/indonesia-frinsa-manis-natural-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Indonesia",
-      "price_aud": "35.00",
-      "process": "",
-      "varietal": "MIXED, MOSTLY SIGARARUTANG CUP",
-      "flavour_profile": "JACKFRUIT, GUAVA, CHOCOLATE, PISTACHIO",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Gathaithi AA Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-gathaithi-aa-washed-espresso-single-origin-1",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Kainamui AA Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "30.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Kainamui AA Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "30.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Thunguri AA Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-thunguri-aa-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "clarity, acidity definition, and structural separation in the final profile",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Thunguri AA Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-thunguri-aa-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "clarity, acidity definition, and structural separation in the final profile",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Panama Lerida Estate Lot 5 Honey Gesha Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Panama",
-      "price_aud": "130.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "with vibrant fruit and floral complexity, while preserving the delicate character of Lerida",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Peru Lorenzo Arbildo Ubillus Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ethiopian landrace material",
-      "price_aud": "46.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Peru Lorenzo Arbildo Ubillus Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Ethiopian landrace material",
-      "price_aud": "46.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Seasonal Espresso Blend",
-      "url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
-      "roast_profile": "espresso",
-      "origin": "Burundi, Colombia, Ethiopia",
-      "price_aud": "26.00",
-      "process": "WASHED, NATURAL REGION",
-      "varietal": "HEIRLOOM, CASTILLO, CATURRA, COLOMBIA CUP",
-      "flavour_profile": "CHERRY, LEMONGRASS, COOKED APPLE, MILK CHOCOLATE",
-      "is_new": true
+      "is_new": false
     },
     {
       "roaster": "Code Black",
@@ -361,11 +145,215 @@
     },
     {
       "roaster": "Code Black",
+      "bean_name": "Ecuador Felipe Luzon Typica Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ecuador-felipe-luzon-typica-washed-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Ecuador",
+      "price_aud": "29.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ecuador Felipe Luzon Typica Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ecuador-felipe-luzon-typica-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Ecuador",
+      "price_aud": "29.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Ayla Bombe Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-ayla-bombe-washed-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "29.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Ayla Bombe Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-ayla-bombe-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "29.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Yaye Premium Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "46.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ex-Wife Espresso Blend",
+      "url": "https://codeblackcoffee.com.au/products/ex-wife-espresso-blend-coffee",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia, Guatemala",
+      "price_aud": "22.00",
+      "process": "WASHED & NATURAL REGION",
+      "varietal": "",
+      "flavour_profile": "ROASTED MACADAMIA, DARK CHOCOLATE, & AMARETTO WITH A CARAMEL & COCOA FINISH",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Home Blend 500g",
+      "url": "https://codeblackcoffee.com.au/products/home-blend-espresso-and-filter-coffee-500g",
+      "roast_profile": "omni",
+      "origin": "Brazil, Guatemala",
+      "price_aud": "29.00",
+      "process": "WASHED & NATURAL REGION",
+      "varietal": "",
+      "flavour_profile": "TOFFEE, CHOCOLATE & NUTS, WITH A HINT OF CITRUS",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Indonesia Frinsa Manis Natural Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/indonesia-frinsa-manis-natural-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Indonesia",
+      "price_aud": "35.00",
+      "process": "",
+      "varietal": "MIXED, MOSTLY SIGARARUTANG CUP",
+      "flavour_profile": "JACKFRUIT, GUAVA, CHOCOLATE, PISTACHIO",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Indonesia Frinsa Manis Natural Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/indonesia-frinsa-manis-natural-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Indonesia",
+      "price_aud": "35.00",
+      "process": "",
+      "varietal": "MIXED, MOSTLY SIGARARUTANG CUP",
+      "flavour_profile": "JACKFRUIT, GUAVA, CHOCOLATE, PISTACHIO",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Gathaithi AA Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-gathaithi-aa-washed-espresso-single-origin-1",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
       "bean_name": "Kenya Gathaithi AA Washed Filter - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/kenya-gathaithi-aa-washed-filter-single-origin-1",
       "roast_profile": "filter",
       "origin": "Kenya",
       "price_aud": "29.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Kainamui AA Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "30.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Kainamui AA Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Kenya",
+      "price_aud": "30.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Thunguri AA Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-thunguri-aa-washed-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "clarity, acidity definition, and structural separation in the final profile",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Thunguri AA Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-thunguri-aa-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "clarity, acidity definition, and structural separation in the final profile",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Panama Lerida Estate Lot 5 Honey Gesha Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Panama",
+      "price_aud": "130.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "with vibrant fruit and floral complexity, while preserving the delicate character of Lerida",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Peru Lorenzo Arbildo Ubillus Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Ethiopian landrace material",
+      "price_aud": "46.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Peru Lorenzo Arbildo Ubillus Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Ethiopian landrace material",
+      "price_aud": "46.50",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -381,6 +369,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "ALMOND, CHOCOLATE, BROWN SPICE, SWEET HERBS",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Seasonal Espresso Blend",
+      "url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
+      "roast_profile": "espresso",
+      "origin": "Burundi, Colombia, Ethiopia",
+      "price_aud": "26.00",
+      "process": "WASHED, NATURAL REGION",
+      "varietal": "HEIRLOOM, CASTILLO, CATURRA, COLOMBIA CUP",
+      "flavour_profile": "CHERRY, LEMONGRASS, COOKED APPLE, MILK CHOCOLATE",
       "is_new": false
     },
     {
