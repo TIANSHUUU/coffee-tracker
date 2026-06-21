@@ -504,6 +504,7 @@ header {
   margin-bottom: var(--space-md);
 }
 .origin-notes { font-size: var(--text-base); line-height: 1.75; max-width: 64ch; }
+.spec + .origin-notes { margin-top: var(--space-lg); }
 
 /* ── Detail · two-column Brew + Taste (layout B, active) ── */
 .brewpair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-2xl); align-items: start; }

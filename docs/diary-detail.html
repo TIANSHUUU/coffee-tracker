@@ -77,6 +77,10 @@
     row('process', d.process);
     return rows.join('');
   }
+  function originNotes(e) {
+    const n = e.details && D.t(e.details.notes);
+    return n ? `<p class="origin-notes">${D.esc(n)}</p>` : '';
+  }
   function mapLink(e) {
     const u = e.details && e.details.map_url;
     return u ? `<a class="source-link origin-map" href="${D.esc(u)}" target="_blank" rel="noopener">${D.esc(D.ui('viewOrigin'))} ↗</a>` : '';
@@ -106,8 +110,8 @@
 
     const sb = summaryBoxHtml(e);
     const sumSec = sb ? `<section class="summary-wrap">${sb}</section>` : '';
-    const sr = specRows(e), ml = mapLink(e);
-    const detSec = (sr || ml) ? `<section class="panel panel-blue"><h2 class="section-title">${D.esc(D.ui('details'))}</h2>${sr ? `<div class="spec">${sr}</div>` : ''}${ml}</section>` : '';
+    const sr = specRows(e), on = originNotes(e), ml = mapLink(e);
+    const detSec = (sr || on || ml) ? `<section class="panel panel-blue"><h2 class="section-title">${D.esc(D.ui('details'))}</h2>${sr ? `<div class="spec">${sr}</div>` : ''}${on}${ml}</section>` : '';
     const src = sourceLink(e);
     const srcSec = src ? `<section class="source-wrap">${src}</section>` : '';
 
@@ -125,8 +129,8 @@
     const bm = brewMethodHtml(e); if (bm) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('brew'))}</h2>${bm}</div>`;
     const pr = profileRowsHtml(e); if (pr) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('tasteProfile'))}</h2><div class="taste-grid">${pr}</div></div>`;
     const sb = summaryBoxHtml(e); if (sb) c += `<div class="blk sep">${sb}</div>`;
-    const sr = specRows(e), ml = mapLink(e);
-    if (sr || ml) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('details'))}</h2>${sr ? `<div class="spec">${sr}</div>` : ''}${ml}</div>`;
+    const sr = specRows(e), on = originNotes(e), ml = mapLink(e);
+    if (sr || on || ml) c += `<div class="blk sep"><h2 class="section-title">${D.esc(D.ui('details'))}</h2>${sr ? `<div class="spec">${sr}</div>` : ''}${on}${ml}</div>`;
     const src = sourceLink(e); if (src) c += `<div class="blk sep">${src}</div>`;
 
     return `<div class="spread"><aside class="gallery">${gallery}</aside><div class="content">${c}</div></div>`;
