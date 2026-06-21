@@ -522,6 +522,24 @@ header {
 .source-link:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
 .origin-map { display: inline-block; margin-top: var(--space-lg); }
 
+/* spec / details list */
+.spec { max-width: 580px; }
+.spec-row {
+  display: grid; grid-template-columns: minmax(96px, 150px) 1fr;
+  gap: var(--space-md); padding: var(--space-sm) 0;
+  border-top: 1px solid var(--color-rule);
+}
+.spec-row:first-child { border-top: none; }
+.spec-label {
+  font-family: var(--font-mono); font-size: 0.68rem;
+  text-transform: uppercase; letter-spacing: 0.1em;
+  color: var(--color-muted); padding-top: 3px;
+}
+.spec-value { font-size: var(--text-base); line-height: 1.5; }
+@media (max-width: 600px) {
+  .spec-row { grid-template-columns: 1fr; gap: var(--space-2xs); }
+}
+
 /* ── Detail · magazine spread (layout A, kept as alternative) ── */
 .spread {
   display: grid;
