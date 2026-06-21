@@ -60,7 +60,7 @@
   const LEVELS = ['low', 'medium', 'high'];
   const HERO_COLORS = {
     pink: 'var(--wash-pink)', peach: 'var(--wash-peach)',
-    blue: 'var(--wash-blue)', green: 'var(--wash-green)'
+    blue: 'var(--wash-blue)', green: 'var(--wash-green)', cocoa: 'var(--wash-cocoa)'
   };
 
   function esc(s) {

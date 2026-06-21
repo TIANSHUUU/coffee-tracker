@@ -56,7 +56,7 @@
     if (e.date) d.push(D.ui('firstBrew') + ' ' + D.formatDate(e.date));
     return d.length ? `<div class="bean-dates">${D.esc(d.join(' · '))}</div>` : '';
   };
-  const priceHtml = e => e.price_aud ? `<div class="bean-price">$${D.esc(e.price_aud)} AUD</div>` : '';
+  const priceHtml = e => e.price_aud ? `<div class="bean-price">$${D.esc(e.price_aud)} AUD${e.weight ? ' / ' + D.esc(e.weight) : ''}</div>` : '';
   const brewMethodHtml = e => (e.brew && D.t(e.brew.method)) ? `<div class="brew-method">${D.esc(D.t(e.brew.method))}</div>` : '';
   const profileRowsHtml = e => e.profile ? D.PROFILE_DIMS.filter(d => e.profile[d]).map(d => D.sliderRow(d, e.profile[d])).join('') : '';
   const summaryBoxHtml = e => { const t = D.t(e.summary); return t ? `<div class="summary-box"><span class="cup">☕</span><span>${D.esc(t)}</span></div>` : ''; };

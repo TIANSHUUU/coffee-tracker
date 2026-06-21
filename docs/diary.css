@@ -29,6 +29,7 @@ body { overflow-x: clip; }
   --wash-peach: oklch(93% 0.055 62);
   --wash-blue:  oklch(92% 0.038 235);
   --wash-green: oklch(93% 0.042 150);
+  --wash-cocoa: oklch(89% 0.045 70);
 
   /* ── Type ── */
   /* CJK: 标题 霞鹜文楷, 其余中文 思源宋体 (西文走前置的 Fraunces/Newsreader/Geist Mono) */
