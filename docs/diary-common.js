@@ -83,7 +83,7 @@
   function renderHeader(active) {
     const nextLabel = getLang() === 'zh' ? 'EN' : '中';
     return `
-      <a href="index.html" class="wordmark">Coffee <span class="wm-accent">Diary</span></a>
+      <a href="diary.html" class="wordmark">Coffee <span class="wm-accent">Diary</span></a>
       <div class="header-right">
         <nav class="nav-links">
           <a href="index.html" class="nav-link${active === 'tracker' ? ' active' : ''}">${esc(ui('navTracker'))}</a>
