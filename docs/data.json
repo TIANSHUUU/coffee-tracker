@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-22 04:26",
+  "generated_at": "2026-06-22 06:34",
   "stats": {
-    "total": 179,
-    "new": 0,
+    "total": 180,
+    "new": 3,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,42 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Colombia, La Mariposa. Mixed Varietal – Washed",
+      "url": "https://criteriacoffee.com/product/colombia-la-mariposa-mixed-varietal-washed/",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "21.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Colombia, La Mariposa. Mixed Varietal – Washed (Copy)",
+      "url": "https://criteriacoffee.com/product/colombia-la-mariposa-mixed-varietal-washed-copy/",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "21.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Inzovu",
+      "url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
+      "roast_profile": "filter",
+      "origin": "Rwanda Trading Company",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -45,18 +81,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "HONEY, JASMINE, FRUIT TEA, LAVENDER",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Albeirson Prada Devia Gesha Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-albeirson-prada-devia-gesha-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "36.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1315,18 +1339,6 @@
       "origin": "Nicaragua",
       "price_aud": "35.00",
       "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Panama | Altieri Estate - Alessa | Geisha | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/panama-altieri-estate-alessa-geisha-natural",
-      "roast_profile": "",
-      "origin": "Panama",
-      "price_aud": "83.00",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
