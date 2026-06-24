@@ -6,7 +6,8 @@ final fallback. See specs/2026-06-24-field-extraction-design.md.
 
 Design goals, in order: (1) never let unrelated text contaminate a field,
 (2) read the structured data each store actually exposes, (3) never fabricate —
-an unknown field stays empty.
+an unknown field stays empty. Every field value (from any source) passes through
+its guard, so contamination is impossible regardless of where it came from.
 """
 import re
 
@@ -22,6 +23,17 @@ _TAG_KEY_FIELD = {
     "taste notes": "flavour", "taste note": "flavour",
     "tasting notes": "flavour", "tasting note": "flavour",
     "notes": "flavour", "note": "flavour",
+}
+
+# Countries + continents, used to recognise a real origin and to strip a country
+# accidentally trailing a varietal list.
+_PLACES = {
+    "ethiopia", "kenya", "colombia", "brazil", "guatemala", "rwanda", "burundi",
+    "indonesia", "panama", "el salvador", "honduras", "peru", "mexico", "uganda",
+    "ecuador", "nicaragua", "costa rica", "bolivia", "yemen", "china", "tanzania",
+    "papua new guinea", "png", "dr congo", "congo", "timor", "india", "vietnam",
+    "america", "north america", "south america", "central america", "africa",
+    "east africa", "asia",
 }
 
 
@@ -49,6 +61,7 @@ def extract_from_tags(tags, rules=None):
     return {f: ", ".join(out[f]) for f in _FIELDS}
 
 
+# ── process ────────────────────────────────────────────────────────────────
 # Ordered most-specific-first so "Pulped Natural" wins over "Natural", etc.
 _PROCESS_PHRASES = [
     "Carbonic Maceration", "Double Fermentation", "Wet Hulled", "Pulped Natural",
@@ -72,6 +85,7 @@ def normalize_process(text: str) -> str:
     return ", ".join(dict.fromkeys(found))
 
 
+# ── varietal ─────────────────────────────────────────────────────────────────
 _VARIETAL_PROSE = re.compile(
     r"\b(in|from|is|are|was|were|with|the|his|her|their|its|grown|located|"
     r"hills?|farm|farms|region|valley|estate|family|producer|redefining|known)\b",
@@ -79,21 +93,108 @@ _VARIETAL_PROSE = re.compile(
 )
 
 
+def _is_varietal_junk(seg: str) -> bool:
+    s = seg.strip().lower()
+    return (not s) or s in _PLACES or s in {"cup", "region", "score", "masl"}
+
+
 def clean_varietal(s: str) -> str:
-    """Keep a short varietal/cultivar list; drop prose that leaked in."""
+    """Keep a short varietal/cultivar list; drop prose, cup-notes, trailing country."""
     s = (s or "").strip(" ,;:-")
     if not s:
         return ""
+    s = s.split(":")[0].strip(" ,")                    # a varietal never has a label colon
+    s = re.split(r"\bcup\b", s, flags=re.I)[0].strip(" ,")  # cut before "... CUP: notes"
     m = _VARIETAL_PROSE.search(s)
     if m and m.start() == 0:
-        return ""              # starts with prose -> not a varietal
+        return ""                                      # starts with prose -> not a varietal
     if m and m.start() > 0:
         s = s[:m.start()].strip(" ,")
+    segs = [seg.strip() for seg in s.split(",")]
+    while segs and _is_varietal_junk(segs[-1]):        # drop trailing country / CUP / score
+        segs.pop()
+    s = ", ".join(seg for seg in segs if seg).strip(" ,")
     if not s or len(s) > 80 or len(s.split()) > 12:
         return ""
     return s
 
 
+# ── origin ───────────────────────────────────────────────────────────────────
+_ORIGIN_CUT = re.compile(
+    r"\b(delivers?|where|redefining|brings?|built|shaped|based|located|known|grown|"
+    r"features?|offers?|combines?|showcases?|produces?|produced|nestled|sits?|"
+    r"is|are|was|were|with|notes?|tastes?|flavou?rs?|description|famous|renowned)\b",
+    re.I,
+)
+
+
+def _has_place(s: str) -> bool:
+    low = s.lower()
+    return any(p in low for p in _PLACES)
+
+
+def clean_origin(s: str) -> str:
+    """Keep a 'Place, Region, Country' style origin; drop prose / company blurbs."""
+    s = (s or "").strip(" ,;:-")
+    if not s:
+        return ""
+    s = re.split(r"\s+:\s+|[.;|]", s)[0].strip(" ,")   # sub-labels / sentence / pipe
+    m = _ORIGIN_CUT.search(s)
+    if m and m.start() > 0:
+        s = s[:m.start()].strip(" ,")
+    if re.match(r"^(the|a|an|this|his|her|its|their|our|where|in|from|grown|with)\b", s, re.I):
+        return ""
+    if "," not in s and not _has_place(s):             # a bare phrase with no place isn't an origin
+        return ""
+    if not s or len(s) > 70 or len(s.split()) > 9:
+        return ""
+    return s
+
+
+# ── flavour ──────────────────────────────────────────────────────────────────
+_FLAVOUR_HINTS = {
+    "citrus", "orange", "lemon", "lime", "grapefruit", "bergamot", "berry",
+    "strawberry", "raspberry", "blueberry", "blackcurrant", "currant", "cherry",
+    "stone fruit", "peach", "apricot", "plum", "nectarine", "tropical", "pineapple",
+    "mango", "passionfruit", "melon", "grape", "floral", "jasmine", "rose", "tea",
+    "chocolate", "cocoa", "caramel", "toffee", "honey", "vanilla", "marzipan",
+    "sugarcane", "almond", "hazelnut", "nutty", "nut", "herbal", "spice", "tamarind",
+    "watermelon", "blackberry", "fig", "raisin", "molasses", "syrup",
+}
+_FLAVOUR_CUT = re.compile(
+    r"[.;]|\s*\|\s*|\b\d+\s*%|"
+    r"\b(?:the|this|we|our|your|you|with|will|description|brew(?:ing)?|method|recipe|"
+    r"add|please|suggest|enjoy|grind|dose|yield|ratio|notes? on|"
+    r"enough|plenty|delivers?|hold|relax|attention|clarity|familiarity|combination|"
+    r"thoughtful|seasonal|through|featuring|crafted|designed|everyday|perfect|"
+    r"that|feels?|celebrat\w*|vibrant)\b",
+    re.I,
+)
+_FLAVOUR_TRAIL = re.compile(r"\s+\b(?:in|of|the|a|an|our|this|with|and|to|for|from)\b$", re.I)
+
+
+def clean_flavour(s: str) -> str:
+    """Keep a short flavour-note list; reject brew recipes / blurb / blend specs."""
+    s = (s or "").strip(" ,;:-")
+    if not s:
+        return ""
+    m = _FLAVOUR_CUT.search(s)
+    if m:
+        s = s[:m.start()].strip(" ,;:-")
+    s = _FLAVOUR_TRAIL.sub("", s).strip(" ,;:-")
+    if not s:
+        return ""
+    low = s.lower()
+    has_hint = any(h in low for h in _FLAVOUR_HINTS)
+    is_list = "," in s and len(s.split()) <= 14
+    if not (has_hint or is_list):
+        return ""
+    if len(s) > 140 or len(s.split()) > 16:
+        return ""
+    return s
+
+
+# ── body Label: value ────────────────────────────────────────────────────────
 # (label regex, field-or-None). None = boundary only (stops a previous value).
 _BODY_LABELS = [
     (r"origins?", "origin"),
@@ -109,6 +210,12 @@ _BODY_LABELS = [
     (r"farm", None),
     (r"importer", None),
     (r"roast(?:\s+(?:level|profile))?", None),
+    (r"description", None),
+    (r"filter\s+recipe", None),
+    (r"espresso\s+recipe", None),
+    (r"recipe", None),
+    (r"brew(?:ing)?(?:\s+(?:method|guide))?", None),
+    (r"cup(?:\s+(?:profile|score|notes?))?", "flavour"),
     (r"tasting\s+notes?", "flavour"),
     (r"flavou?r(?:\s+notes?)?", "flavour"),
     (r"notes?", "flavour"),
@@ -143,8 +250,17 @@ def extract_from_body_labels(text: str, rules=None):
     return out
 
 
+# ── orchestrator ─────────────────────────────────────────────────────────────
+_CLEANERS = {
+    "origin": clean_origin,
+    "process": normalize_process,
+    "varietal": clean_varietal,
+    "flavour": clean_flavour,
+}
+
+
 def extract_structured(tags=None, body_text="", rules=None):
-    """Combine tag + body sources (tags win), then whitelist/guard the values.
+    """Combine tag + body sources (tags win), then guard every value.
 
     Returns {origin, process, varietal, flavour}; any field may be ''.
     """
@@ -153,10 +269,4 @@ def extract_structured(tags=None, body_text="", rules=None):
     empty = {f: "" for f in _FIELDS}
     tag_out = empty if "tags" in skip else extract_from_tags(tags, rules)
     body_out = empty if "body" in skip else extract_from_body_labels(body_text, rules)
-
-    out = {}
-    for f in _FIELDS:
-        out[f] = tag_out.get(f) or body_out.get(f) or ""
-    out["process"] = normalize_process(out["process"])
-    out["varietal"] = clean_varietal(out["varietal"])
-    return out
+    return {f: _CLEANERS[f](tag_out.get(f) or body_out.get(f) or "") for f in _FIELDS}

@@ -4,6 +4,8 @@ from field_extraction import (
     extract_from_tags,
     normalize_process,
     clean_varietal,
+    clean_origin,
+    clean_flavour,
     extract_from_body_labels,
     extract_structured,
 )
@@ -72,9 +74,62 @@ class TestVarietal(unittest.TestCase):
     def test_keeps_clean_lists(self):
         self.assertEqual(clean_varietal("Caturra & Catuaí"), "Caturra & Catuaí")
         self.assertEqual(clean_varietal("Catuaí"), "Catuaí")
+        self.assertEqual(clean_varietal("Caturra, Bourbon, Catimor"), "Caturra, Bourbon, Catimor")
+
+    def test_cuts_cup_label_and_trailing_country(self):
+        self.assertEqual(clean_varietal("HEIRLOOM, CASTILLO, CATURRA, COLOMBIA CUP"),
+                         "HEIRLOOM, CASTILLO, CATURRA")
+        self.assertEqual(clean_varietal("GESHA CUP: HONEY, JASMINE, FRUIT TEA"), "GESHA")
+        self.assertEqual(clean_varietal("COLOMBIA CUP: BERRY, TAMARIND"), "")
 
     def test_empty(self):
         self.assertEqual(clean_varietal(""), "")
+
+
+class TestOrigin(unittest.TestCase):
+    def test_trims_flavour_prose(self):
+        self.assertEqual(clean_origin("Limu Kossa, Ethiopia, delivers notes of smooth milk chocolate"),
+                         "Limu Kossa, Ethiopia")
+
+    def test_rejects_company_without_place(self):
+        self.assertEqual(clean_origin("Unex Exporters based in coffee"), "")
+
+    def test_rejects_leading_article(self):
+        self.assertEqual(clean_origin("the highlands of Tarqui where the family built a farm"), "")
+
+    def test_keeps_clean(self):
+        self.assertEqual(clean_origin("Carmo de Minas, Minas Gerais, Brazil"),
+                         "Carmo de Minas, Minas Gerais, Brazil")
+        self.assertEqual(clean_origin("South America"), "South America")
+        self.assertEqual(clean_origin("Nicaragua"), "Nicaragua")
+
+
+class TestFlavour(unittest.TestCase):
+    def test_rejects_recipe_text(self):
+        self.assertEqual(clean_flavour("FILTER RECIPE + V60 RECIPE This is just a starting place"), "")
+
+    def test_cuts_blend_composition_and_prose(self):
+        self.assertEqual(clean_flavour("DARK CHOCOLATE, CHERRY, VANILLA 50% BRAZIL | Samba - Natural"),
+                         "DARK CHOCOLATE, CHERRY, VANILLA")
+        self.assertEqual(clean_flavour("Milk chocolate, caramel, stone fruit The thoughtful combination"),
+                         "Milk chocolate, caramel, stone fruit")
+
+    def test_rejects_marketing_prose(self):
+        self.assertEqual(clean_flavour("with enough clarity to hold your attention, and enough familiarity"), "")
+        self.assertEqual(clean_flavour("will deliver flavours of chocolate and cherry through both espresso"), "")
+
+    def test_trims_trailing_blurb(self):
+        self.assertEqual(clean_flavour("Milk chocolate, red apple + almond praline Our Seasonal Blend is"),
+                         "Milk chocolate, red apple + almond praline")
+
+    def test_keeps_clean_notes(self):
+        self.assertEqual(clean_flavour("Floral, Nutty"), "Floral, Nutty")
+        self.assertEqual(clean_flavour("Citrus, Floral, Stone Fruit"), "Citrus, Floral, Stone Fruit")
+        self.assertEqual(clean_flavour("PLUM, DARK CHOCOLATE, PEACH, MACADAMIA, APRICOT, MAPLE SYRUP"),
+                         "PLUM, DARK CHOCOLATE, PEACH, MACADAMIA, APRICOT, MAPLE SYRUP")
+
+    def test_empty(self):
+        self.assertEqual(clean_flavour(""), "")
 
 
 class TestBodyLabels(unittest.TestCase):

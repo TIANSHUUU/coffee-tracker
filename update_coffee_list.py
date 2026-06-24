@@ -16,7 +16,9 @@ from bs4 import BeautifulSoup
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill
 
-from field_extraction import extract_structured, normalize_process, clean_varietal
+from field_extraction import (
+    extract_structured, normalize_process, clean_varietal, clean_origin, clean_flavour,
+)
 
 
 TIMEOUT_SECONDS = 25
@@ -655,10 +657,10 @@ def scrape_shopify_collection_json(
         # Structured extraction (namespaced tags + body Label:value) first;
         # existing heuristics remain as the fallback for each field.
         sx = extract_structured(raw_tags, text_blob, rules=field_rules)
-        origin   = sx["origin"]   or parse_origin(combined)
+        origin   = clean_origin(sx["origin"]   or parse_origin(combined))
         process  = sx["process"]  or normalize_process(parse_process(combined, title=title, product_url=product_url))
         varietal = sx["varietal"] or clean_varietal(parse_varietal(combined))
-        flavour  = sx["flavour"]  or parse_flavour_profile(combined)
+        flavour  = clean_flavour(sx["flavour"] or parse_flavour_profile(combined))
         # Title is the highest-confidence signal — check it first.
         # Variant titles often reflect grind options (Espresso / Pourover / Plunger) rather
         # than distinct roast profiles, so only fall back to variant-based detection when
@@ -765,11 +767,11 @@ def scrape_shopify_all_products_json(
                     source_url=product_url,
                     bean_name=title,
                     roast_profile=roast_profile,
-                    origin=sx["origin"] or parse_origin(combined),
+                    origin=clean_origin(sx["origin"] or parse_origin(combined)),
                     price_aud=price,
                     process=sx["process"] or normalize_process(parse_process(combined, title=title, product_url=product_url)),
                     varietal=sx["varietal"] or clean_varietal(parse_varietal(combined)),
-                    flavour_profile=sx["flavour"] or parse_flavour_profile(combined),
+                    flavour_profile=clean_flavour(sx["flavour"] or parse_flavour_profile(combined)),
                     product_url=product_url,
                     status="ok",
                     error="",
@@ -1007,11 +1009,11 @@ def parse_product_page(
         source_url=product_url,
         bean_name=title,
         roast_profile=roast_profile,
-        origin=sx["origin"] or parse_origin(text_blob),
+        origin=clean_origin(sx["origin"] or parse_origin(text_blob)),
         price_aud=price,
         process=sx["process"] or normalize_process(parse_process(text_blob, title=title, product_url=product_url)),
         varietal=sx["varietal"] or clean_varietal(parse_varietal(text_blob)),
-        flavour_profile=sx["flavour"] or parse_flavour_profile(text_blob),
+        flavour_profile=clean_flavour(sx["flavour"] or parse_flavour_profile(text_blob)),
         product_url=product_url,
         status="ok" if title else "error",
         error="" if title else "missing_product_title",
@@ -1281,11 +1283,11 @@ def scrape_woocommerce_store_api(
                 source_url=permalink,
                 bean_name=title,
                 roast_profile=roast_profile,
-                origin=sx["origin"] or parse_origin(combined),
+                origin=clean_origin(sx["origin"] or parse_origin(combined)),
                 price_aud=price,
                 process=sx["process"] or normalize_process(parse_process(combined, title=title, product_url=permalink)),
                 varietal=sx["varietal"] or clean_varietal(parse_varietal(combined)),
-                flavour_profile=sx["flavour"] or parse_flavour_profile(combined),
+                flavour_profile=clean_flavour(sx["flavour"] or parse_flavour_profile(combined)),
                 product_url=permalink,
                 status="ok",
                 error="",
@@ -1353,11 +1355,11 @@ def scrape_wordpress_product_api(
                 source_url=product_url,
                 bean_name=title,
                 roast_profile=roast_profile,
-                origin=sx["origin"] or parse_origin(combined),
+                origin=clean_origin(sx["origin"] or parse_origin(combined)),
                 price_aud=extract_price(combined),
                 process=sx["process"] or normalize_process(parse_process(combined, title=title, product_url=product_url)),
                 varietal=sx["varietal"] or clean_varietal(parse_varietal(combined)),
-                flavour_profile=sx["flavour"] or parse_flavour_profile(combined),
+                flavour_profile=clean_flavour(sx["flavour"] or parse_flavour_profile(combined)),
                 product_url=product_url,
                 status="ok",
                 error="",
