@@ -16,6 +16,8 @@ from bs4 import BeautifulSoup
 from openpyxl import Workbook
 from openpyxl.styles import PatternFill
 
+from field_extraction import extract_structured, normalize_process, clean_varietal
+
 
 TIMEOUT_SECONDS = 25
 DEFAULT_CONFIG = "config/roasters.json"
@@ -562,6 +564,7 @@ def scrape_shopify_collection_json(
     listing_url: str,
     shopify_collection_handle: Optional[str] = None,
     price_variant_filter: Optional[str] = None,
+    field_rules: Optional[dict] = None,
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     json_url = normalize_collection_json_url(listing_url, shopify_collection_handle)
     if not json_url:
@@ -649,25 +652,13 @@ def scrape_shopify_collection_json(
             except Exception:
                 pass  # If check fails, keep collection JSON price and include the product
 
-        # Prefer structured tag values; fall back to body-text parsing.
-        # Guard against JS-template placeholders captured as values (e.g. "PROCESSING", "REGION").
-        def _tag_or_parse(tag_vals: List[str], fallback: str) -> str:
-            if tag_vals:
-                return ", ".join(tag_vals)
-            return "" if _is_template_label(fallback) else fallback
-
-        process = _tag_or_parse(
-            tag_meta["process"],
-            parse_process(combined, title=title, product_url=product_url),
-        )
-        origin = _tag_or_parse(
-            tag_meta["country"],
-            parse_origin(combined),
-        )
-        varietal = _tag_or_parse(
-            tag_meta["varietal"],
-            parse_varietal(combined),
-        )
+        # Structured extraction (namespaced tags + body Label:value) first;
+        # existing heuristics remain as the fallback for each field.
+        sx = extract_structured(raw_tags, text_blob, rules=field_rules)
+        origin   = sx["origin"]   or parse_origin(combined)
+        process  = sx["process"]  or normalize_process(parse_process(combined, title=title, product_url=product_url))
+        varietal = sx["varietal"] or clean_varietal(parse_varietal(combined))
+        flavour  = sx["flavour"]  or parse_flavour_profile(combined)
         # Title is the highest-confidence signal — check it first.
         # Variant titles often reflect grind options (Espresso / Pourover / Plunger) rather
         # than distinct roast profiles, so only fall back to variant-based detection when
@@ -696,7 +687,7 @@ def scrape_shopify_collection_json(
                 price_aud=price,
                 process=process,
                 varietal=varietal,
-                flavour_profile=parse_flavour_profile(combined),
+                flavour_profile=flavour,
                 product_url=product_url,
                 status="ok",
                 error="",
@@ -709,7 +700,7 @@ def scrape_shopify_collection_json(
 
 
 def scrape_shopify_all_products_json(
-    session: requests.Session, roaster: str, listing_url: str
+    session: requests.Session, roaster: str, listing_url: str, field_rules: Optional[dict] = None
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     parsed = urlparse(listing_url)
     base = f"{parsed.scheme}://{parsed.netloc}"
@@ -767,17 +758,18 @@ def scrape_shopify_all_products_json(
             handle = product.get("handle") or ""
             product_url = f"{base}/products/{handle}" if handle else listing_url
             roast_profile = parse_roast_profile(combined)
+            sx = extract_structured(product.get("tags") or [], text_blob, rules=field_rules)
             items.append(
                 CoffeeItem(
                     roaster=roaster,
                     source_url=product_url,
                     bean_name=title,
                     roast_profile=roast_profile,
-                    origin=parse_origin(combined),
+                    origin=sx["origin"] or parse_origin(combined),
                     price_aud=price,
-                    process=parse_process(combined, title=title, product_url=product_url),
-                    varietal=parse_varietal(combined),
-                    flavour_profile=parse_flavour_profile(combined),
+                    process=sx["process"] or normalize_process(parse_process(combined, title=title, product_url=product_url)),
+                    varietal=sx["varietal"] or clean_varietal(parse_varietal(combined)),
+                    flavour_profile=sx["flavour"] or parse_flavour_profile(combined),
                     product_url=product_url,
                     status="ok",
                     error="",
@@ -918,7 +910,8 @@ def extract_shop_slug_links(base_url: str, html: str) -> List[str]:
 
 
 def parse_product_page(
-    session: requests.Session, roaster: str, source_url: str, product_url: str
+    session: requests.Session, roaster: str, source_url: str, product_url: str,
+    field_rules: Optional[dict] = None,
 ) -> CoffeeItem:
     try:
         resp = session.get(product_url, timeout=TIMEOUT_SECONDS)
@@ -1007,17 +1000,18 @@ def parse_product_page(
         )
 
     roast_profile = parse_roast_profile(text_blob)
+    sx = extract_structured([], text_blob, rules=field_rules)
 
     return CoffeeItem(
         roaster=roaster,
         source_url=product_url,
         bean_name=title,
         roast_profile=roast_profile,
-        origin=parse_origin(text_blob),
+        origin=sx["origin"] or parse_origin(text_blob),
         price_aud=price,
-        process=parse_process(text_blob, title=title, product_url=product_url),
-        varietal=parse_varietal(text_blob),
-        flavour_profile=parse_flavour_profile(text_blob),
+        process=sx["process"] or normalize_process(parse_process(text_blob, title=title, product_url=product_url)),
+        varietal=sx["varietal"] or clean_varietal(parse_varietal(text_blob)),
+        flavour_profile=sx["flavour"] or parse_flavour_profile(text_blob),
         product_url=product_url,
         status="ok" if title else "error",
         error="" if title else "missing_product_title",
@@ -1025,7 +1019,7 @@ def parse_product_page(
 
 
 def scrape_via_html_listing(
-    session: requests.Session, roaster: str, listing_url: str
+    session: requests.Session, roaster: str, listing_url: str, field_rules: Optional[dict] = None
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     try:
         resp = session.get(listing_url, timeout=TIMEOUT_SECONDS)
@@ -1044,7 +1038,7 @@ def scrape_via_html_listing(
     if not product_links:
         return [], "listing_page_no_product_links"
 
-    items = [parse_product_page(session, roaster, listing_url, url) for url in product_links]
+    items = [parse_product_page(session, roaster, listing_url, url, field_rules=field_rules) for url in product_links]
     items = [i for i in items if i.status != "skip"]
     ok_items = [i for i in items if i.status == "ok"]
     if not ok_items:
@@ -1054,7 +1048,7 @@ def scrape_via_html_listing(
 
 
 def scrape_via_shop_slug_listing(
-    session: requests.Session, roaster: str, listing_url: str
+    session: requests.Session, roaster: str, listing_url: str, field_rules: Optional[dict] = None
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     try:
         resp = session.get(listing_url, timeout=TIMEOUT_SECONDS)
@@ -1067,7 +1061,7 @@ def scrape_via_shop_slug_listing(
     if not product_links:
         return [], "shop_slug_listing_no_product_links"
 
-    items = [parse_product_page(session, roaster, listing_url, url) for url in product_links]
+    items = [parse_product_page(session, roaster, listing_url, url, field_rules=field_rules) for url in product_links]
     items = [i for i in items if i.status != "skip"]
     ok_items = [i for i in items if i.status == "ok"]
     if not ok_items:
@@ -1099,7 +1093,7 @@ def discover_sitemaps_from_robots(session: requests.Session, base: str) -> List[
 
 
 def scrape_via_sitemap(
-    session: requests.Session, roaster: str, listing_url: str
+    session: requests.Session, roaster: str, listing_url: str, field_rules: Optional[dict] = None
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     parsed = urlparse(listing_url)
     base = f"{parsed.scheme}://{parsed.netloc}"
@@ -1168,7 +1162,7 @@ def scrape_via_sitemap(
     if not product_urls:
         return [], "sitemap_no_product_urls"
 
-    items = [parse_product_page(session, roaster, listing_url, url) for url in product_urls[:300]]
+    items = [parse_product_page(session, roaster, listing_url, url, field_rules=field_rules) for url in product_urls[:300]]
     items = [i for i in items if i.status != "skip"]
     ok_items = [i for i in items if i.status == "ok"]
     if not ok_items:
@@ -1179,7 +1173,7 @@ def scrape_via_sitemap(
 
 
 def scrape_woocommerce_store_api(
-    session: requests.Session, roaster: str, listing_url: str
+    session: requests.Session, roaster: str, listing_url: str, field_rules: Optional[dict] = None
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     parsed = urlparse(listing_url)
     base = f"{parsed.scheme}://{parsed.netloc}"
@@ -1280,17 +1274,18 @@ def scrape_woocommerce_store_api(
         else:
             roast_profile = parse_roast_profile(combined)
 
+        sx = extract_structured([], combined, rules=field_rules)
         items.append(
             CoffeeItem(
                 roaster=roaster,
                 source_url=permalink,
                 bean_name=title,
                 roast_profile=roast_profile,
-                origin=parse_origin(combined),
+                origin=sx["origin"] or parse_origin(combined),
                 price_aud=price,
-                process=parse_process(combined, title=title, product_url=permalink),
-                varietal=parse_varietal(combined),
-                flavour_profile=parse_flavour_profile(combined),
+                process=sx["process"] or normalize_process(parse_process(combined, title=title, product_url=permalink)),
+                varietal=sx["varietal"] or clean_varietal(parse_varietal(combined)),
+                flavour_profile=sx["flavour"] or parse_flavour_profile(combined),
                 product_url=permalink,
                 status="ok",
                 error="",
@@ -1304,7 +1299,7 @@ def scrape_woocommerce_store_api(
 
 
 def scrape_wordpress_product_api(
-    session: requests.Session, roaster: str, listing_url: str
+    session: requests.Session, roaster: str, listing_url: str, field_rules: Optional[dict] = None
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     parsed = urlparse(listing_url)
     base = f"{parsed.scheme}://{parsed.netloc}"
@@ -1351,17 +1346,18 @@ def scrape_wordpress_product_api(
             continue
         combined = " ".join([title, excerpt, content])
         roast_profile = parse_roast_profile(combined)
+        sx = extract_structured([], combined, rules=field_rules)
         items.append(
             CoffeeItem(
                 roaster=roaster,
                 source_url=product_url,
                 bean_name=title,
                 roast_profile=roast_profile,
-                origin=parse_origin(combined),
+                origin=sx["origin"] or parse_origin(combined),
                 price_aud=extract_price(combined),
-                process=parse_process(combined, title=title, product_url=product_url),
-                varietal=parse_varietal(combined),
-                flavour_profile=parse_flavour_profile(combined),
+                process=sx["process"] or normalize_process(parse_process(combined, title=title, product_url=product_url)),
+                varietal=sx["varietal"] or clean_varietal(parse_varietal(combined)),
+                flavour_profile=sx["flavour"] or parse_flavour_profile(combined),
                 product_url=product_url,
                 status="ok",
                 error="",
@@ -1381,6 +1377,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
     price_variant_filter = str(roaster.get("price_variant_filter", "") or "").strip() or None
     force_html_listing = bool(roaster.get("force_html_listing", False))
     force_woo_api = bool(roaster.get("force_woo_api", False))
+    field_rules = roaster.get("field_rules") if isinstance(roaster.get("field_rules"), dict) else None
     listing_url = collection_url_override or url
 
     if not listing_url:
@@ -1417,6 +1414,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                 candidate_url,
                 shopify_collection_handle=shopify_collection_handle,
                 price_variant_filter=price_variant_filter,
+                field_rules=field_rules,
             )
             if items:
                 return items
@@ -1433,6 +1431,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                         name,
                         candidate_url,
                         shopify_collection_handle=handle,
+                        field_rules=field_rules,
                     )
                     if items:
                         if len(items) > len(best_items):
@@ -1446,33 +1445,33 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                     return best_items
 
         if force_woo_api:
-            woo_items, woo_err = scrape_woocommerce_store_api(session, name, candidate_url)
+            woo_items, woo_err = scrape_woocommerce_store_api(session, name, candidate_url, field_rules=field_rules)
             if woo_items:
                 return woo_items
             candidate_errors.append(f"{candidate_url} => {woo_err or 'woocommerce_no_items'}")
             continue
 
-        html_items, html_err = scrape_via_html_listing(session, name, candidate_url)
+        html_items, html_err = scrape_via_html_listing(session, name, candidate_url, field_rules=field_rules)
         if html_items:
             return html_items
 
-        shopify_all_items, shopify_all_err = scrape_shopify_all_products_json(session, name, candidate_url)
+        shopify_all_items, shopify_all_err = scrape_shopify_all_products_json(session, name, candidate_url, field_rules=field_rules)
         if shopify_all_items:
             return shopify_all_items
 
-        shop_slug_items, shop_slug_err = scrape_via_shop_slug_listing(session, name, candidate_url)
+        shop_slug_items, shop_slug_err = scrape_via_shop_slug_listing(session, name, candidate_url, field_rules=field_rules)
         if shop_slug_items:
             return shop_slug_items
 
-        sitemap_items, sitemap_err = scrape_via_sitemap(session, name, candidate_url)
+        sitemap_items, sitemap_err = scrape_via_sitemap(session, name, candidate_url, field_rules=field_rules)
         if sitemap_items:
             return sitemap_items
 
-        woo_items, woo_err = scrape_woocommerce_store_api(session, name, candidate_url)
+        woo_items, woo_err = scrape_woocommerce_store_api(session, name, candidate_url, field_rules=field_rules)
         if woo_items:
             return woo_items
 
-        wp_items, wp_err = scrape_wordpress_product_api(session, name, candidate_url)
+        wp_items, wp_err = scrape_wordpress_product_api(session, name, candidate_url, field_rules=field_rules)
         if wp_items:
             return wp_items
 
