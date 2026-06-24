@@ -1509,7 +1509,9 @@ def item_identity(item: CoffeeItem) -> str:
 
 
 def previous_item_identities(output_dir: Path) -> set:
-    candidates = sorted(output_dir.glob("coffee_list_*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+    # Sort by filename, not mtime: the timestamped name is chronological, and a fresh
+    # git checkout resets every committed file's mtime to the same value (non-deterministic).
+    candidates = sorted(output_dir.glob("coffee_list_*.json"), key=lambda p: p.name, reverse=True)
     if not candidates:
         return set()
 

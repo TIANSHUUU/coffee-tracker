@@ -3,7 +3,13 @@ name: Weekly Coffee Update
 on:
   schedule:
     - cron: '0 1 * * 1'   # Every Monday at 01:00 UTC (11:00 AEDT / 09:00 AEST)
-  workflow_dispatch:        # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:        # Allow manual trigger (also used by the site's Update button via the Worker)
+
+# Serialise runs so the scheduled cron and a manual Update-button trigger can't
+# overlap and collide on `git push`.
+concurrency:
+  group: coffee-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -29,10 +35,39 @@ jobs:
       - name: Generate web data
         run: python generate_web_data.py
 
+      - name: Check scrape health
+        run: |
+          python3 - <<'PY'
+          import glob, json, os
+          files = sorted(glob.glob("output/coffee_list_*.json"))
+          data = json.load(open(files[-1], encoding="utf-8"))
+          ok = data.get("summary", {}).get("ok_rows", 0)
+          failed = sorted({e.get("roaster", "?") for e in data.get("errors", [])})
+          line = f"OK rows: {ok} · failed roasters ({len(failed)}): {', '.join(failed) or 'none'}"
+          print(line)
+          summary = os.environ.get("GITHUB_STEP_SUMMARY")
+          if summary:
+              with open(summary, "a") as f:
+                  f.write(f"### Scrape health\n{line}\n")
+          # Warn (don't fail) if several roasters returned nothing — likely a site changed structure.
+          if len(failed) >= 3:
+              print(f"::warning title=Coffee scrape health::{len(failed)} roasters failed: {', '.join(failed)}")
+          PY
+
+      - name: Prune old snapshots (keep newest 2)
+        run: |
+          cd output
+          ls -1 coffee_list_*.json | sort -r | tail -n +3 | xargs -r rm -f
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/data.json output/
-          git diff --staged --quiet || git commit -m "chore: weekly coffee update $(date +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: weekly coffee update $(date +%Y-%m-%d)"
+            # Retry once after rebasing in case main moved while we were scraping.
+            git push || (git pull --rebase --autostash && git push)
+          fi

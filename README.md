@@ -1,66 +1,44 @@
-# Coffee Tracker (Manual Update)
+# Coffee Tracker
 
-This tool fetches current coffee beans from your selected roasters and writes local files in CSV and JSON formats.
+One page to browse what's currently roasting across Australian specialty coffee roasters, refreshed weekly — so you don't have to check ~15 websites by hand.
 
-## Output fields
+**Live site:** https://tianshuuu.github.io/coffee-tracker/
 
-- `bean_name` (coffee name)
-- `roast_profile` (`filter` / `espresso` / `omni` / empty)
-- `origin`
-- `price_aud`
-- `process`
-- `varietal`
-- `flavour_profile`
-- plus status fields
+## What it does
 
-If a roaster cannot be scraped, the output includes a row with `status=error` and an `error` message.
-In CSV/XLSX output, `bean_name` is a hyperlink to the purchase URL.
-`product_url` and `source_url` are not shown as output columns.
+A Python scraper visits each roaster in [`config/roasters.json`](config/roasters.json), collects the coffees currently in stock (name, roast profile, origin, price, process, varietal, flavour notes), and publishes them to a static site hosted on GitHub Pages. New arrivals since the previous run are flagged.
 
-## Excluded product types
+The site has two sections:
 
-The scraper automatically excludes products with names/descriptions containing:
+- **Tracker** ([`docs/index.html`](docs/index.html)) — the weekly classifieds: every in-stock coffee, grouped by roaster, filterable by roaster / roast profile / search, with this week's new beans highlighted.
+- **Diary** ([`docs/diary.html`](docs/diary.html)) — hand-curated tasting notes for individual coffees.
 
-- drip bag(s)
-- bundle(s)
-- subscription / subsrcription
-- equipment
-- merchandise / merch
-- cup
-- cascara tea
-- decaf
-- tote
-- coffee concentrate
-- tshirt / t-shirt / tee shirt
-- giftcard / gift card
-- tea
-- brewing scales
-- candle
-- jug / jugs
-- matcha latte
-- matcha
-- vest
-- jumper
-- cap
-- tamper
-- Hario V60 Drip Assist Set
-- instant coffee
+## How it works
 
-## Setup
-
-```bash
-cd /Users/tantianshu/Documents/code/coffee-tracker
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+```
+update_coffee_list.py      scrape each roaster → output/coffee_list_<timestamp>.{json,csv,xlsx}
+        │                   (multi-strategy: Shopify JSON → HTML → WooCommerce/WP API → sitemap)
+        ▼
+generate_web_data.py       diff latest vs previous snapshot, mark new items → docs/data.json
+        ▼
+docs/index.html            vanilla JS fetches data.json and renders the page
 ```
 
-## Run update manually
+- **Automation:** [`.github/workflows/update.yml`](.github/workflows/update.yml) runs every Monday (and on manual dispatch), scrapes, regenerates `docs/data.json`, and commits the result.
+- **Update button:** the site's *Update* button calls a Cloudflare Worker, which triggers the same workflow via the GitHub API (keeps the token off the client), then polls `data.json` for the new timestamp.
+- **Snapshot retention:** only the newest two `output/coffee_list_*.json` snapshots are kept (the latest plus the one needed to compute "new this week"); the workflow prunes the rest automatically.
+
+## Run it locally
 
 ```bash
-cd /Users/tantianshu/Documents/code/coffee-tracker
-source .venv/bin/activate
-python update_coffee_list.py
+python3 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt
+
+python update_coffee_list.py    # scrape → output/
+python generate_web_data.py     # build docs/data.json
+
+# preview the site (data.json is fetched over HTTP, so file:// won't work)
+python3 -m http.server -d docs 8000   # then open http://localhost:8000
 ```
 
 Optional arguments:
@@ -69,10 +47,15 @@ Optional arguments:
 python update_coffee_list.py --config config/roasters.json --output-dir output
 ```
 
-## Output files
+## Adding or changing a roaster
 
-Generated under `output/`:
+Edit [`config/roasters.json`](config/roasters.json). Each entry needs a `name` and `url`; optional fields handle awkward sites:
 
-- `coffee_list_YYYY-MM-DD_HHMMSS.csv`
-- `coffee_list_YYYY-MM-DD_HHMMSS.xlsx` (new items vs previous run are highlighted yellow)
-- `coffee_list_YYYY-MM-DD_HHMMSS.json`
+| field | purpose |
+|---|---|
+| `collection_url_override` | scrape a different URL than the public listing |
+| `shopify_collection_handle` | force a specific Shopify collection |
+| `price_variant_filter` | pick a bag size for the displayed price (e.g. `"250g"`) |
+| `force_html_listing` / `force_woo_api` | skip auto-detection and use a specific strategy |
+
+Products that aren't whole-bean coffee (drip bags, subscriptions, merch, equipment, etc.) are filtered out by keyword. If a roaster can't be scraped, it's recorded with `status: error` rather than silently dropped, and the workflow warns when several roasters fail in one run.
