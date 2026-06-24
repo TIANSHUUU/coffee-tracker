@@ -113,7 +113,13 @@
   .update-btn.error { background: var(--err); }
 
   /* ── Section front masthead ── */
-  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 var(--space-xl); }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 var(--space-xl); position: relative; z-index: 1; }
+  /* faint pineapple watermark behind content */
+  .bg-pineapple {
+    position: fixed; right: -40px; bottom: -30px; width: 430px; height: 430px;
+    background: url('pineapple-riso.png') no-repeat right bottom / contain;
+    opacity: 0.08; z-index: 0; pointer-events: none;
+  }
   .masthead { position: relative; padding: var(--space-2xl) 0 var(--space-lg); }
   .miss {
     position: relative; display: block; width: 100%;
@@ -310,6 +316,7 @@
   @media (max-width: 640px) {
     header, .wrap { padding-left: var(--space-md); padding-right: var(--space-md); }
     .coffee-grid { grid-template-columns: minmax(0, 1fr); }
+    .bg-pineapple { width: 290px; height: 290px; right: -30px; }
     .logo .wordmark { display: none; }
     .header-right { gap: var(--space-sm); }
     .nav-links { gap: var(--space-sm); }
@@ -321,10 +328,11 @@
   </style>
 </head>
 <body>
+<div class="bg-pineapple"></div>
 
 <header>
   <a href="index.html" class="logo">
-    <span class="logo-icon"><img src="logo.png" alt="Coffee Tracker logo" /></span>
+    <span class="logo-icon"><img src="pineapple-icon.png" alt="Coffee Tracker logo" /></span>
     <span class="wordmark">Coffee<span class="wm-accent">Tracker</span></span>
   </a>
   <div class="header-right">
