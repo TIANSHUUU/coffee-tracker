@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-06-25 00:55",
+  "generated_at": "2026-06-26 01:08",
   "stats": {
-    "total": 167,
-    "new": 0,
-    "roasters": 14
+    "total": 174,
+    "new": 12,
+    "roasters": 15
   },
   "roasters": [
     "Code Black",
     "Commonfolk",
+    "Criteria Coffee",
     "Field Work Coffee",
     "Market Lane",
     "ONA Coffee",
@@ -22,6 +23,150 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Batch Blend for Filter",
+      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "21.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
+      "url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Colombia, La Mariposa. Mixed Varietal – Washed",
+      "url": "https://criteriacoffee.com/product/colombia-la-mariposa-mixed-varietal-washed-2/",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "21.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
+      "url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "34.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Nebula Espresso Blend",
+      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "20.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
+      "url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
+      "roast_profile": "omni",
+      "origin": "northern Peru",
+      "price_aud": "29.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Inzovu",
+      "url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
+      "roast_profile": "filter",
+      "origin": "Rwanda Trading Company",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
+      "url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "",
+      "price_aud": "26.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "The Crowd Pleaser Espresso Blend",
+      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "El Milagrito, Honduras, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-x-soe3",
+      "roast_profile": "espresso",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Green Apple, Herbal, Stone Fruit",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Guji PB, Ethiopia, Washed",
+      "url": "https://onacoffee.com.au/products/filter-x-sof1",
+      "roast_profile": "filter",
+      "origin": "East Africa",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Citrus, Floral, Peach, Sweet",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Plan del Hoyo, El Salvador, Washed",
+      "url": "https://onacoffee.com.au/products/filter-w-sof2",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Apple, Caramel, Strawberry",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -720,18 +865,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "Finca Quejina, Guatemala, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-w-soe3",
-      "roast_profile": "espresso",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Herbal, Nutty",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Gateway",
       "url": "https://onacoffee.com.au/products/gateway",
       "roast_profile": "espresso",
@@ -884,18 +1017,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "Caramel, Chocolate, Citrus",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Yirgacheffe Chelbesa G1, Ethiopia, Washed",
-      "url": "https://onacoffee.com.au/products/filter-w-sof1",
-      "roast_profile": "filter",
-      "origin": "East Africa",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1140,18 +1261,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "bean_name": "Honduras | La Salvaje COE #1B | Geisha | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/honduras-la-salvaje-coe-1b-geisha-washed",
-      "roast_profile": "",
-      "origin": "Honduras",
-      "price_aud": "115.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
       "bean_name": "Honduras | Nahun Fernandez | Parainema | Honey",
       "url": "https://www.proudmarycoffee.com.au/products/honduras-nahun-fernandes-parainema-honey",
       "roast_profile": "omni",
@@ -1193,18 +1302,6 @@
       "roast_profile": "omni",
       "origin": "Nicaragua",
       "price_aud": "35.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Panama | Los Lajones | Geisha | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/panama-los-lajones-geisha-washed",
-      "roast_profile": "",
-      "origin": "Panama",
-      "price_aud": "99.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
@@ -1428,18 +1525,6 @@
     },
     {
       "roaster": "Seven Seeds",
-      "bean_name": "El Conjuro, Peru",
-      "url": "https://sevenseeds.com.au/products/el-conjuro-peru-2026",
-      "roast_profile": "omni",
-      "origin": "Jaen, Cajamarca, Peru",
-      "price_aud": "28.00",
-      "process": "Fully Washed",
-      "varietal": "Caturra, Bourbon, Catimor",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
       "bean_name": "F. Bomb Filter Blend",
       "url": "https://sevenseeds.com.au/products/f-bomb-filter-blend",
       "roast_profile": "filter",
@@ -1494,7 +1579,7 @@
       "origin": "Santo Tomas, Cajamarca",
       "price_aud": "23.00",
       "process": "Fully Washed",
-      "varietal": "Typica, Catuai, Pacamara",
+      "varietal": "Caturra, Bourbon, Catuai",
       "flavour_profile": "",
       "is_new": false
     },
