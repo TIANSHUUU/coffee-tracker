@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-27_123220",
+  "generated_at": "2026-06-28_150143",
   "summary": {
-    "total_rows": 175,
-    "ok_rows": 175,
+    "total_rows": 173,
+    "ok_rows": 173,
     "error_rows": 0
   },
   "grouped": {
@@ -177,20 +177,6 @@
       },
       {
         "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-z-sof2",
-        "bean_name": "La Cima del Cielo, Honduras, Washed",
-        "roast_profile": "filter",
-        "origin": "Central America",
-        "price_aud": "22.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "Fruity, Herbal, Sweet",
-        "product_url": "https://onacoffee.com.au/products/filter-z-sof2",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "ONA Coffee",
         "source_url": "https://onacoffee.com.au/products/paragon-filter",
         "bean_name": "Paragon Filter Black",
         "roast_profile": "filter",
@@ -354,20 +340,6 @@
         "varietal": "T",
         "flavour_profile": "Berries, Citrus, Sweet",
         "product_url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-filter-single-origin",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Code Black",
-        "source_url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
-        "bean_name": "Panama Lerida Estate Lot 5 Honey Gesha Filter - Single Origin",
-        "roast_profile": "filter",
-        "origin": "Panama",
-        "price_aud": "130.00",
-        "process": "Honey",
-        "varietal": "G",
-        "flavour_profile": "Berries, Citrus, Delicate, Floral, Sweet",
-        "product_url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
         "status": "ok",
         "error": ""
       },
@@ -3126,20 +3098,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-z-sof2",
-      "bean_name": "La Cima del Cielo, Honduras, Washed",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Fruity, Herbal, Sweet",
-      "product_url": "https://onacoffee.com.au/products/filter-z-sof2",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "ONA Coffee",
       "source_url": "https://onacoffee.com.au/products/maple",
       "bean_name": "Maple",
       "roast_profile": "espresso",
@@ -3695,20 +3653,6 @@
       "varietal": "T",
       "flavour_profile": "Berries, Citrus, Sweet",
       "product_url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-espresso-single-origin",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Code Black",
-      "source_url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
-      "bean_name": "Panama Lerida Estate Lot 5 Honey Gesha Filter - Single Origin",
-      "roast_profile": "filter",
-      "origin": "Panama",
-      "price_aud": "130.00",
-      "process": "Honey",
-      "varietal": "G",
-      "flavour_profile": "Berries, Citrus, Delicate, Floral, Sweet",
-      "product_url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
       "status": "ok",
       "error": ""
     },
