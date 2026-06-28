@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-26_010855",
+  "generated_at": "2026-06-28_065050",
   "summary": {
-    "total_rows": 174,
-    "ok_rows": 174,
-    "error_rows": 0
+    "total_rows": 165,
+    "ok_rows": 164,
+    "error_rows": 1
   },
   "grouped": {
     "filter": [
@@ -177,20 +177,6 @@
       },
       {
         "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-z-sof2",
-        "bean_name": "La Cima del Cielo, Honduras, Washed",
-        "roast_profile": "filter",
-        "origin": "Central America",
-        "price_aud": "22.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "Fruity, Herbal, Sweet",
-        "product_url": "https://onacoffee.com.au/products/filter-z-sof2",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "ONA Coffee",
         "source_url": "https://onacoffee.com.au/products/paragon-filter",
         "bean_name": "Paragon Filter Black",
         "roast_profile": "filter",
@@ -354,20 +340,6 @@
         "varietal": "T",
         "flavour_profile": "Berries, Citrus, Sweet",
         "product_url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-filter-single-origin",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Code Black",
-        "source_url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
-        "bean_name": "Panama Lerida Estate Lot 5 Honey Gesha Filter - Single Origin",
-        "roast_profile": "filter",
-        "origin": "Panama",
-        "price_aud": "130.00",
-        "process": "Honey",
-        "varietal": "G",
-        "flavour_profile": "Berries, Citrus, Delicate, Floral, Sweet",
-        "product_url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
         "status": "ok",
         "error": ""
       },
@@ -652,34 +624,6 @@
         "error": ""
       },
       {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
-        "bean_name": "Rwanda – Inzovu",
-        "roast_profile": "filter",
-        "origin": "Rwanda Trading Company",
-        "price_aud": "22.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/batch-blend-filter/",
-        "bean_name": "Batch Blend for Filter",
-        "roast_profile": "filter",
-        "origin": "",
-        "price_aud": "21.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/batch-blend-filter/",
-        "status": "ok",
-        "error": ""
-      },
-      {
         "roaster": "Field Work Coffee",
         "source_url": "https://fieldworkcoffee.com.au/products/bookkisa",
         "bean_name": "Bookkisa",
@@ -860,6 +804,20 @@
         "varietal": "Catuaí",
         "flavour_profile": "",
         "product_url": "https://marketlane.com.au/collections/espresso-beans/products/seasonal-blend",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Market Lane",
+        "source_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
+        "bean_name": "Airumá",
+        "roast_profile": "espresso",
+        "origin": "Chapada Diamantina, Bahia, Brazil",
+        "price_aud": "24.00",
+        "process": "Pulped Natural",
+        "varietal": "Catuaí & Topazio",
+        "flavour_profile": "",
+        "product_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
         "status": "ok",
         "error": ""
       },
@@ -1592,34 +1550,6 @@
         "error": ""
       },
       {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-        "bean_name": "Nebula Espresso Blend",
-        "roast_profile": "espresso",
-        "origin": "",
-        "price_aud": "20.00",
-        "process": "Washed, Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-        "bean_name": "The Crowd Pleaser Espresso Blend",
-        "roast_profile": "espresso",
-        "origin": "Brazil, Ethiopia",
-        "price_aud": "20.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-        "status": "ok",
-        "error": ""
-      },
-      {
         "roaster": "Field Work Coffee",
         "source_url": "https://fieldworkcoffee.com.au/products/bookkisa-espresso",
         "bean_name": "Bookkisa Espresso",
@@ -2320,76 +2250,6 @@
         "product_url": "https://stitch.coffee/products/brazil-cerca-de-pedras-sakura-26",
         "status": "ok",
         "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/colombia-la-mariposa-mixed-varietal-washed-2/",
-        "bean_name": "Colombia, La Mariposa. Mixed Varietal – Washed",
-        "roast_profile": "omni",
-        "origin": "Colombia",
-        "price_aud": "21.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/colombia-la-mariposa-mixed-varietal-washed-2/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-        "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
-        "roast_profile": "omni",
-        "origin": "Brazil",
-        "price_aud": "22.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-        "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
-        "roast_profile": "omni",
-        "origin": "Kenya",
-        "price_aud": "34.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-        "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
-        "roast_profile": "omni",
-        "origin": "northern Peru",
-        "price_aud": "29.00",
-        "process": "Honey",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-        "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
-        "roast_profile": "omni",
-        "origin": "",
-        "price_aud": "26.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-        "status": "ok",
-        "error": ""
       }
     ],
     "unknown": [
@@ -2436,6 +2296,20 @@
         "error": ""
       },
       {
+        "roaster": "Criteria Coffee",
+        "source_url": "https://criteriacoffee.com/shop/",
+        "bean_name": "",
+        "roast_profile": "",
+        "origin": "",
+        "price_aud": "",
+        "process": "",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "",
+        "status": "error",
+        "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x7f2987117d90>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x7f2987022250>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
+      },
+      {
         "roaster": "Vacation Coffee",
         "source_url": "https://vacationcoffee.com.au/products/the-weekender",
         "bean_name": "THE WEEKENDER",
@@ -2463,6 +2337,20 @@
       "varietal": "Catuaí",
       "flavour_profile": "",
       "product_url": "https://marketlane.com.au/collections/espresso-beans/products/seasonal-blend",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Market Lane",
+      "source_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
+      "bean_name": "Airumá",
+      "roast_profile": "espresso",
+      "origin": "Chapada Diamantina, Bahia, Brazil",
+      "price_aud": "24.00",
+      "process": "Pulped Natural",
+      "varietal": "Catuaí & Topazio",
+      "flavour_profile": "",
+      "product_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
       "status": "ok",
       "error": ""
     },
@@ -3098,20 +2986,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-z-sof2",
-      "bean_name": "La Cima del Cielo, Honduras, Washed",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Fruity, Herbal, Sweet",
-      "product_url": "https://onacoffee.com.au/products/filter-z-sof2",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "ONA Coffee",
       "source_url": "https://onacoffee.com.au/products/maple",
       "bean_name": "Maple",
       "roast_profile": "espresso",
@@ -3667,20 +3541,6 @@
       "varietal": "T",
       "flavour_profile": "Berries, Citrus, Sweet",
       "product_url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-espresso-single-origin",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Code Black",
-      "source_url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
-      "bean_name": "Panama Lerida Estate Lot 5 Honey Gesha Filter - Single Origin",
-      "roast_profile": "filter",
-      "origin": "Panama",
-      "price_aud": "130.00",
-      "process": "Honey",
-      "varietal": "G",
-      "flavour_profile": "Berries, Citrus, Delicate, Floral, Sweet",
-      "product_url": "https://codeblackcoffee.com.au/products/panama-lerida-estate-lot-5-honey-gesha-filter-single-origin",
       "status": "ok",
       "error": ""
     },
@@ -4400,129 +4260,17 @@
     },
     {
       "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
-      "bean_name": "Rwanda – Inzovu",
-      "roast_profile": "filter",
-      "origin": "Rwanda Trading Company",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/colombia-la-mariposa-mixed-varietal-washed-2/",
-      "bean_name": "Colombia, La Mariposa. Mixed Varietal – Washed",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "21.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/colombia-la-mariposa-mixed-varietal-washed-2/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "34.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-      "bean_name": "Peru – Joel Tocto Peña. Castillo, Bourbon, Catimor – Honey",
-      "roast_profile": "omni",
-      "origin": "northern Peru",
-      "price_aud": "29.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/peru-joel-tocto-pena-castillo-bourbon-catimor-honey-espresso/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-      "bean_name": "Rwanda – Mwito. Red Bourbon – Washed",
-      "roast_profile": "omni",
+      "source_url": "https://criteriacoffee.com/shop/",
+      "bean_name": "",
+      "roast_profile": "",
       "origin": "",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/rwanda-mwito-red-bourbon-washed-espresso/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/batch-blend-filter/",
-      "bean_name": "Batch Blend for Filter",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "21.00",
+      "price_aud": "",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/batch-blend-filter/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "bean_name": "Nebula Espresso Blend",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "20.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "bean_name": "The Crowd Pleaser Espresso Blend",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "status": "ok",
-      "error": ""
+      "product_url": "",
+      "status": "error",
+      "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x7f2987117d90>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x7f2987022250>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
     },
     {
       "roaster": "Field Work Coffee",
@@ -4889,5 +4637,20 @@
       "error": ""
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "roaster": "Criteria Coffee",
+      "source_url": "https://criteriacoffee.com/shop/",
+      "bean_name": "",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "",
+      "status": "error",
+      "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x7f2987117d90>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x7f2987022250>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
+    }
+  ]
 }
