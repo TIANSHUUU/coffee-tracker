@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-29 05:56",
+  "generated_at": "2026-06-29 12:33",
   "stats": {
-    "total": 172,
-    "new": 4,
+    "total": 171,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,54 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Brazil | Dois Irmaos | Catuai | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/brazil-dois-irmaos-yellow-catuai-natural",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "38.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Alirio Munoz – Borbon Sidra",
-      "url": "https://www.smallbatch.com.au/shop/filter/nelson_fabio",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "26",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Standing Room Coffee",
-      "bean_name": "Airumá, Brazil, Espresso",
-      "url": "https://standingroomcoffee.com.au/products/airuma-brazil-espresso-copy-1",
-      "roast_profile": "espresso",
-      "origin": "Brazil State",
-      "price_aud": "25.00",
-      "process": "Pulped Natural",
-      "varietal": "Topázio",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Standing Room Coffee",
-      "bean_name": "São Judas Tadeu Natural, Brazil, Filter",
-      "url": "https://standingroomcoffee.com.au/products/sao-judas-tadeu-brazil-filter-copy",
-      "roast_profile": "filter",
-      "origin": "Brazil State",
-      "price_aud": "28.00",
-      "process": "Natural",
-      "varietal": "Catuaí",
-      "flavour_profile": "Nectarine, Almond Praline + Cherry Liqueur Origin Information",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -595,18 +547,6 @@
       "origin": "northern Peru",
       "price_aud": "29.00",
       "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Inzovu",
-      "url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
-      "roast_profile": "filter",
-      "origin": "Rwanda Trading Company",
-      "price_aud": "22.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1225,6 +1165,18 @@
     },
     {
       "roaster": "Proud Mary",
+      "bean_name": "Brazil | Dois Irmaos | Catuai | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/brazil-dois-irmaos-yellow-catuai-natural",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "38.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
       "bean_name": "Colombia | Area 18 | Castillo | Natural",
       "url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
       "roast_profile": "omni",
@@ -1597,6 +1549,18 @@
     },
     {
       "roaster": "Small Batch",
+      "bean_name": "Alirio Munoz – Borbon Sidra",
+      "url": "https://www.smallbatch.com.au/shop/filter/nelson_fabio",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "26",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Small Batch",
       "bean_name": "Alirio Munoz – Borbon aji",
       "url": "https://www.smallbatch.com.au/shop/filter/estrellas-filter",
       "roast_profile": "filter",
@@ -1681,6 +1645,18 @@
     },
     {
       "roaster": "Standing Room Coffee",
+      "bean_name": "Airumá, Brazil, Espresso",
+      "url": "https://standingroomcoffee.com.au/products/airuma-brazil-espresso-copy-1",
+      "roast_profile": "espresso",
+      "origin": "Brazil State",
+      "price_aud": "25.00",
+      "process": "Pulped Natural",
+      "varietal": "Topázio",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Standing Room Coffee",
       "bean_name": "Gititu, Kenya, Filter",
       "url": "https://standingroomcoffee.com.au/products/gatitu-kenya-filter",
       "roast_profile": "filter",
@@ -1737,6 +1713,18 @@
       "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "Milk chocolate, red apple + almond praline",
+      "is_new": false
+    },
+    {
+      "roaster": "Standing Room Coffee",
+      "bean_name": "São Judas Tadeu Natural, Brazil, Filter",
+      "url": "https://standingroomcoffee.com.au/products/sao-judas-tadeu-brazil-filter-copy",
+      "roast_profile": "filter",
+      "origin": "Brazil State",
+      "price_aud": "28.00",
+      "process": "Natural",
+      "varietal": "Catuaí",
+      "flavour_profile": "Nectarine, Almond Praline + Cherry Liqueur Origin Information",
       "is_new": false
     },
     {
