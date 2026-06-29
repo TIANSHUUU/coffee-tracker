@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-29_055645",
+  "generated_at": "2026-06-29_125830",
   "summary": {
-    "total_rows": 172,
-    "ok_rows": 172,
+    "total_rows": 171,
+    "ok_rows": 171,
     "error_rows": 0
   },
   "grouped": {
@@ -606,20 +606,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.smallbatch.com.au/shop/filter/nelson_fabio",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
-        "bean_name": "Rwanda – Inzovu",
-        "roast_profile": "filter",
-        "origin": "Rwanda Trading Company",
-        "price_aud": "22.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
         "status": "ok",
         "error": ""
       },
@@ -4311,20 +4297,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://stitch.coffee/products/brazil-cerca-de-pedras-sakura-26",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
-      "bean_name": "Rwanda – Inzovu",
-      "roast_profile": "filter",
-      "origin": "Rwanda Trading Company",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/rwanda-inzovu-red-bourbon-washed/",
       "status": "ok",
       "error": ""
     },
