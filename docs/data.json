@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-05 15:01",
+  "generated_at": "2026-07-06 05:18",
   "stats": {
-    "total": 180,
-    "new": 16,
+    "total": 176,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,198 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Mundayo Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-mundayo-natural-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Mundayo Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-mundayo-natural-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Yaye Premium Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-natural-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "46.50",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Citrus, Floral, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Yaye Premium Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-natural-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "46.50",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Citrus, Floral, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Rwanda – Inzovu | Red Bourbon – Washed",
-      "url": "https://criteriacoffee.com/product/rwanda-inzovu-espresso/",
-      "roast_profile": "omni",
-      "origin": "Rwanda Trading Company",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Faith",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/faith",
-      "roast_profile": "filter",
-      "origin": "Kirinyaga, Kenya",
-      "price_aud": "36.00",
-      "process": "Washed",
-      "varietal": "SL28 & Ruiru 11",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "La Esperanza",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/la-esperanza",
-      "roast_profile": "espresso",
-      "origin": "Ibagué, Tolima, Colombia",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "Caturra & Colombia",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Sakura",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/sakura",
-      "roast_profile": "filter",
-      "origin": "Piatã, Bahía, Brazil",
-      "price_aud": "24.00",
-      "process": "Pulped Natural",
-      "varietal": "Catucaí 2SL",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Ama Project Lot Botafogo, Brazil, Superhoney",
-      "url": "https://onacoffee.com.au/products/espresso-singleorigin-ama-project-lot-botafogo-brazil-superhoney",
-      "roast_profile": "espresso",
-      "origin": "East Africa",
-      "price_aud": "22.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "Chocolate, Chocolate milk, Nutty, Raisin",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Fazenda Um Supreme, Brazil, Pulped Natural",
-      "url": "https://onacoffee.com.au/products/filter-singleorigin-fazenda-um-supreme-brazil-pulped-natural",
-      "roast_profile": "filter",
-      "origin": "South America",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Almond, Brown sugar, Fig",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Fazenda do Engenho Lot 10, Brazil, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-z-soe3",
-      "roast_profile": "espresso",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Chocolate, Chocolate milk, Nutty",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Gatumbi AB, Kenya, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-singleorigin-gatumbi-ab-kenya-washed",
-      "roast_profile": "espresso",
-      "origin": "East Africa",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Fruity, Pink fruit, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Iris Estate Terroir, Panama, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-reserve-w-rsoe1",
-      "roast_profile": "espresso",
-      "origin": "Central America",
-      "price_aud": "76.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Apricot, Jasmine, Orange",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Ugly Sweater",
-      "url": "https://onacoffee.com.au/products/ugly-sweater",
-      "roast_profile": "espresso",
-      "origin": "Central America, East Africa, South America",
-      "price_aud": "24.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "Berries, Chocolate, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ECUADOR, FINCA YUM AND BOSS",
-      "url": "https://stitch.coffee/products/ecuador-finca-yum-and-boss-26",
-      "roast_profile": "omni",
-      "origin": "Ecuador",
-      "price_aud": "34.00",
-      "process": "Double Fermentation, Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "BRAZIL | FAZENDA DO CRUZEIRO | NATURAL - ESPRESSO",
-      "url": "https://wideopenroad.com.au/products/brazil-fazenda-natural-espresso",
-      "roast_profile": "espresso",
-      "origin": "Brazil",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "Yellow Catuai",
-      "flavour_profile": "Hazelnut, red apple, dutch cocoa",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -349,6 +157,54 @@
     },
     {
       "roaster": "Code Black",
+      "bean_name": "Ethiopia Mundayo Natural Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-mundayo-natural-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "29.00",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Mundayo Natural Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-mundayo-natural-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "29.00",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Yaye Premium Natural Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-natural-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "46.50",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Citrus, Floral, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Yaye Premium Natural Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-natural-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "46.50",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Citrus, Floral, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
       "bean_name": "Ethiopia Yaye Premium Washed Espresso - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-washed-espresso-single-origin",
       "roast_profile": "espresso",
@@ -393,18 +249,6 @@
       "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "Chocolate, Citrus, Nutty, Strong, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Indonesia Frinsa Manis Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/indonesia-frinsa-manis-natural-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Indonesia",
-      "price_aud": "35.00",
-      "process": "Washed, Natural",
-      "varietal": "MIXED, MOSTLY SIGARARUTANG",
-      "flavour_profile": "Berries, Chocolate, Nutty, Strong, Sweet",
       "is_new": false
     },
     {
@@ -709,6 +553,18 @@
     },
     {
       "roaster": "Criteria Coffee",
+      "bean_name": "Rwanda – Inzovu | Red Bourbon – Washed",
+      "url": "https://criteriacoffee.com/product/rwanda-inzovu-espresso/",
+      "roast_profile": "omni",
+      "origin": "Rwanda Trading Company",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
       "bean_name": "The Crowd Pleaser Espresso Blend",
       "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
       "roast_profile": "espresso",
@@ -853,13 +709,37 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "Nossa Senhora Aparecida",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/nossa-senhora-aparecida-filter-beans",
+      "bean_name": "Faith",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/faith",
       "roast_profile": "filter",
-      "origin": "Piatã, Bahia, Brazil",
+      "origin": "Kirinyaga, Kenya",
+      "price_aud": "36.00",
+      "process": "Washed",
+      "varietal": "SL28 & Ruiru 11",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "La Esperanza",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/la-esperanza",
+      "roast_profile": "espresso",
+      "origin": "Ibagué, Tolima, Colombia",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "Caturra & Colombia",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Sakura",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/sakura",
+      "roast_profile": "filter",
+      "origin": "Piatã, Bahía, Brazil",
       "price_aud": "24.00",
       "process": "Pulped Natural",
-      "varietal": "Red Catuaí",
+      "varietal": "Catucaí 2SL",
       "flavour_profile": "",
       "is_new": false
     },
@@ -897,6 +777,18 @@
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "Floral, Nutty",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Ama Project Lot Botafogo, Brazil, Superhoney",
+      "url": "https://onacoffee.com.au/products/espresso-singleorigin-ama-project-lot-botafogo-brazil-superhoney",
+      "roast_profile": "espresso",
+      "origin": "East Africa",
+      "price_aud": "22.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "Chocolate, Chocolate milk, Nutty, Raisin",
       "is_new": false
     },
     {
@@ -949,6 +841,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Fazenda Um Supreme, Brazil, Pulped Natural",
+      "url": "https://onacoffee.com.au/products/filter-singleorigin-fazenda-um-supreme-brazil-pulped-natural",
+      "roast_profile": "filter",
+      "origin": "South America",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Almond, Brown sugar, Fig",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Gateway",
       "url": "https://onacoffee.com.au/products/gateway",
       "roast_profile": "espresso",
@@ -957,6 +861,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "Berries, Chocolate",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Gatumbi AB, Kenya, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-singleorigin-gatumbi-ab-kenya-washed",
+      "roast_profile": "espresso",
+      "origin": "East Africa",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Fruity, Pink fruit, Sweet",
       "is_new": false
     },
     {
@@ -993,6 +909,18 @@
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "Citrus, Fruity, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Iris Estate Terroir, Panama, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-reserve-w-rsoe1",
+      "roast_profile": "espresso",
+      "origin": "Central America",
+      "price_aud": "76.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Apricot, Jasmine, Orange",
       "is_new": false
     },
     {
@@ -1077,6 +1005,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Ugly Sweater",
+      "url": "https://onacoffee.com.au/products/ugly-sweater",
+      "roast_profile": "espresso",
+      "origin": "Central America, East Africa, South America",
+      "price_aud": "24.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "Berries, Chocolate, Sweet",
       "is_new": false
     },
     {
@@ -1873,6 +1813,18 @@
     },
     {
       "roaster": "Stitch Coffee",
+      "bean_name": "ECUADOR, FINCA YUM AND BOSS",
+      "url": "https://stitch.coffee/products/ecuador-finca-yum-and-boss-26",
+      "roast_profile": "omni",
+      "origin": "Ecuador",
+      "price_aud": "34.00",
+      "process": "Double Fermentation, Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
       "bean_name": "Higgs Field Blend",
       "url": "https://stitch.coffee/products/higgs-field-blend",
       "roast_profile": "omni",
@@ -2041,6 +1993,18 @@
     },
     {
       "roaster": "Wide Open Road",
+      "bean_name": "BRAZIL | FAZENDA DO CRUZEIRO | NATURAL - ESPRESSO",
+      "url": "https://wideopenroad.com.au/products/brazil-fazenda-natural-espresso",
+      "roast_profile": "espresso",
+      "origin": "Brazil",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "Yellow Catuai",
+      "flavour_profile": "Hazelnut, red apple, dutch cocoa",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
       "bean_name": "Bathysphere",
       "url": "https://wideopenroad.com.au/products/bathysphere-espresso-blend",
       "roast_profile": "omni",
@@ -2109,18 +2073,6 @@
       "process": "Natural",
       "varietal": "Catuai",
       "flavour_profile": "Mulberry, apricot, dark chocolate",
-      "is_new": false
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "KENYA | RUKIRA | WASHED - ESPRESSO",
-      "url": "https://wideopenroad.com.au/products/kenya-rukira-washed-espresso",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "20.00",
-      "process": "Washed",
-      "varietal": "SL28/SL34",
-      "flavour_profile": "Dark plums, choc chip muffin, vanilla",
       "is_new": false
     },
     {
