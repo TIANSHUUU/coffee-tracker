@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12 05:31",
+  "generated_at": "2026-07-12 15:02",
   "stats": {
     "total": 169,
     "new": 0,
@@ -294,8 +294,8 @@
       "origin": "Colombia, Ethiopia",
       "price_aud": "26.00",
       "process": "Natural",
-      "varietal": "HEIRLOOM, CASTILLO, CATURRA",
-      "flavour_profile": "Berries, Citrus, Nutty, Strong, Sweet",
+      "varietal": "HEIRLOOM, CATURRA",
+      "flavour_profile": "Berries, Citrus, Strong, Sweet",
       "is_new": false
     },
     {
@@ -1925,7 +1925,7 @@
       "roast_profile": "omni",
       "origin": "El Salvador, Ethiopia, Nicaragua",
       "price_aud": "24.00",
-      "process": "Honey, Washed, Natural",
+      "process": "Carbonic Maceration, Washed, Natural",
       "varietal": "",
       "flavour_profile": "MILK CHOCOLATE , CARAMEL, STONE FRUIT",
       "is_new": false
