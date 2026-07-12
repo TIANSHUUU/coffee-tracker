@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-11 06:35",
+  "generated_at": "2026-07-12 05:31",
   "stats": {
-    "total": 178,
-    "new": 9,
-    "roasters": 15
+    "total": 169,
+    "new": 0,
+    "roasters": 14
   },
   "roasters": [
     "Code Black",
@@ -16,121 +16,12 @@
     "Proud Mary",
     "Rumble Coffee Roasters",
     "Seven Seeds",
-    "Small Batch",
     "Standing Room Coffee",
     "Stitch Coffee",
     "Vacation Coffee",
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Los Pequeños",
-      "url": "https://www.commonfolkcoffee.com.au/products/los-pequenos_25f",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Seasonal Blend",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/seasonal-blend-1",
-      "roast_profile": "espresso",
-      "origin": "Chapada Diamantina, Bahia, Brazil",
-      "price_aud": "24.00",
-      "process": "Pulped Natural",
-      "varietal": "Catuaí & Topázio",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Simply Fresh",
-      "url": "https://onacoffee.com.au/products/simply-fresh",
-      "roast_profile": "",
-      "origin": "",
-      "price_aud": "508.34",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "Kenya Gachatha AA - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-espresso",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "Kenya Gachatha AA - Single Origin Filter",
-      "url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-filter",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Mexico | Santa Cruz | Geisha | Honey",
-      "url": "https://www.proudmarycoffee.com.au/products/mexico-santa-cruz-geisha-honey",
-      "roast_profile": "",
-      "origin": "Mexico",
-      "price_aud": "63.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Bella Vista Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-bella-vista",
-      "roast_profile": "espresso",
-      "origin": "Huila, Colombia, reshaping his family",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Peru Elias Sanchez Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/peru-elias-sanchez-espresso",
-      "roast_profile": "espresso",
-      "origin": "Peru",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Danche Chelbesa – Filter",
-      "url": "https://www.smallbatch.com.au/shop/filter/nano-challa",
-      "roast_profile": "filter",
-      "origin": "Colombia, Ethiopia",
-      "price_aud": "27",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -464,6 +355,18 @@
       "price_aud": "22.00",
       "process": "",
       "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
+      "bean_name": "Los Pequeños",
+      "url": "https://www.commonfolkcoffee.com.au/products/los-pequenos_25f",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "29.00",
+      "process": "Washed",
+      "varietal": "PROCESSING",
       "flavour_profile": "",
       "is_new": false
     },
@@ -805,6 +708,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "Seasonal Blend",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/seasonal-blend-1",
+      "roast_profile": "espresso",
+      "origin": "Chapada Diamantina, Bahia, Brazil",
+      "price_aud": "24.00",
+      "process": "Pulped Natural",
+      "varietal": "Catuaí & Topázio",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "Yaye",
       "url": "https://marketlane.com.au/collections/filter-beans/products/yaye-filter-beans",
       "roast_profile": "filter",
@@ -925,18 +840,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "Iris Estate Aril, Panama, CM Washed",
-      "url": "https://onacoffee.com.au/products/filter-reserve-y-rsof1",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "78.25",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Citrus, Fruity, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Iris Estate Terroir, Panama, Washed",
       "url": "https://onacoffee.com.au/products/espresso-reserve-w-rsoe1",
       "roast_profile": "espresso",
@@ -1026,6 +929,18 @@
       "roast_profile": "filter",
       "origin": "",
       "price_aud": "26.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Simply Fresh",
+      "url": "https://onacoffee.com.au/products/simply-fresh",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "508.34",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -1161,6 +1076,30 @@
       "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "HONEYCOMB, HAZELNUT, DARK CHOCOLATE, RAISIN",
+      "is_new": false
+    },
+    {
+      "roaster": "Padre Coffee",
+      "bean_name": "Kenya Gachatha AA - Single Origin Espresso",
+      "url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-espresso",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "28.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Padre Coffee",
+      "bean_name": "Kenya Gachatha AA - Single Origin Filter",
+      "url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-filter",
+      "roast_profile": "filter",
+      "origin": "Kenya",
+      "price_aud": "28.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1321,6 +1260,18 @@
     },
     {
       "roaster": "Proud Mary",
+      "bean_name": "Mexico | Santa Cruz | Geisha | Honey",
+      "url": "https://www.proudmarycoffee.com.au/products/mexico-santa-cruz-geisha-honey",
+      "roast_profile": "",
+      "origin": "Mexico",
+      "price_aud": "63.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
       "bean_name": "Nicaragua | Buenos Aires | Maracaturra | Washed",
       "url": "https://www.proudmarycoffee.com.au/products/nicaragua-buenos-aires-maracaturra-washed-1",
       "roast_profile": "omni",
@@ -1351,6 +1302,18 @@
       "origin": "Ethiopia, Honduras",
       "price_aud": "24.00",
       "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Bella Vista Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-bella-vista",
+      "roast_profile": "espresso",
+      "origin": "Huila, Colombia, reshaping his family",
+      "price_aud": "28.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1411,6 +1374,18 @@
       "origin": "",
       "price_aud": "21.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Peru Elias Sanchez Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/peru-elias-sanchez-espresso",
+      "roast_profile": "espresso",
+      "origin": "Peru",
+      "price_aud": "26.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1604,90 +1579,6 @@
       "price_aud": "33.00",
       "process": "Fully Washed",
       "varietal": "Pink Bourbon",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Alirio Munoz – Borbon Sidra",
-      "url": "https://www.smallbatch.com.au/shop/filter/alirio_sidra",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "28",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Alirio Munoz – Borbon aji",
-      "url": "https://www.smallbatch.com.au/shop/filter/estrellas-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia, Ethiopia",
-      "price_aud": "28",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Candyman Espresso Blend",
-      "url": "https://www.smallbatch.com.au/shop/espresso/candyman-espresso-blend",
-      "roast_profile": "omni",
-      "origin": "Colombia, Ethiopia, Guatemala",
-      "price_aud": "20",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Edilma Piedrahita – Borbon Aji Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/edilma-borbonaji",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "28",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Golden Ticket",
-      "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "21",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "The Ones We Love – Seasonal Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/the-ones-we-love-x",
-      "roast_profile": "omni",
-      "origin": "Colombia, Ethiopia, Guatemala",
-      "price_aud": "21",
-      "process": "Honey, Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Victor Bermudez – Pink Borbon Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/victor-pink-borbon-espresso",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "26",
-      "process": "Washed",
-      "varietal": "",
       "flavour_profile": "",
       "is_new": false
     },
