@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13 02:26",
+  "generated_at": "2026-07-13 04:34",
   "stats": {
-    "total": 169,
+    "total": 168,
     "new": 0,
     "roasters": 14
   },
@@ -56,18 +56,6 @@
       "process": "Honey",
       "varietal": "GESHA",
       "flavour_profile": "Citrus, Delicate, Floral, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ecuador Felipe Luzon Typica Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ecuador-felipe-luzon-typica-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ecuador",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "T",
-      "flavour_profile": "Citrus, Nutty, Sweet",
       "is_new": false
     },
     {
@@ -291,10 +279,10 @@
       "bean_name": "Seasonal Espresso Blend",
       "url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
       "roast_profile": "espresso",
-      "origin": "Colombia, Ethiopia",
+      "origin": "Burundi, Colombia",
       "price_aud": "26.00",
       "process": "Natural",
-      "varietal": "HEIRLOOM, CATURRA",
+      "varietal": "HEIRLOOM, CATURRA, CASTILLO",
       "flavour_profile": "Berries, Citrus, Strong, Sweet",
       "is_new": false
     },
