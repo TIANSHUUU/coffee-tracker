@@ -1,6 +1,58 @@
 {
   "entries": [
     {
+      "slug": "glitch-colombia-milan-april",
+      "date": "2026-07-06",
+      "roast_date": "2026-06-10",
+      "bean_name": { "zh": "哥伦比亚 里萨拉尔达 米兰庄园（四月）", "en": "Colombia Risaralda Milán (April)" },
+      "roaster": { "zh": "Glitch Coffee and Roasters", "en": "Glitch Coffee and Roasters" },
+      "image": "diary/images/glitch-colombia-milan-1.jpg",
+      "images": ["diary/images/glitch-colombia-milan-1.jpg", "diary/images/glitch-colombia-milan-2.jpg"],
+      "color": "pink",
+      "roast_profile": "filter",
+      "tags": [
+        { "zh": "哥伦比亚", "en": "Colombia" },
+        { "zh": "菌种培养", "en": "Culturing" },
+        { "zh": "卡杜拉", "en": "Caturra" }
+      ],
+      "flavours": [
+        { "icon": "🍓", "label": { "zh": "草莓", "en": "Strawberry" } },
+        { "icon": "🍑", "label": { "zh": "杏桃", "en": "Apricot" } }
+      ],
+      "story": {
+        "zh": "朋友去日本旅游送的礼物，来自知名烘焙商Glitch。哥伦比亚有很多特殊处理/酵母接种增味咖啡，近年来越发受到精品咖啡烘焙商追捧，可见消费者十分买账，价格通常比传统处理法高。开袋就有很浓烈的草莓香气（正如许多哥伦比亚特殊处理一样），冲煮后也是明显的草莓和杏桃。随着温度下降，风味的类型和强度都没有改变，没有层次感，如一条直线。能理解为什么是crowd pleaser, 但不是我的菜。",
+        "en": "A gift from a friend's trip to Japan, from the well-known roaster Glitch. Colombia produces a lot of specialty-processed / yeast-inoculated coffees, and they've been increasingly popular with specialty roasters in recent years — clearly consumers are buying in, even though these usually cost more than traditionally processed lots. The bag smelled strongly of strawberry the moment I opened it (as many Colombian specialty-process coffees do), and the brewed cup was distinctly strawberry and apricot. As it cooled, the flavour's character and intensity barely changed — flat, with no real layering, like a straight line. I get why it's a crowd pleaser, but it's not really my cup."
+      },
+      "brew": {
+        "method": { "zh": "泰摩冰瞳 / Origami · 1:15 · 水温 94–96°C", "en": "TIMEMORE Icicle / Origami · 1:15 · 94–96°C water" }
+      },
+      "profile": {
+        "acidity": "medium",
+        "sweetness": "high",
+        "body": "low",
+        "aroma": "high",
+        "aftertaste": "medium"
+      },
+      "summary": {
+        "zh": "浓郁的草莓杏桃风味让新手也能轻易喝出「水果感」，但味道不随时间变化的「人工感」难以令我满意。",
+        "en": "Bold strawberry-apricot flavour that even a novice could pick out — but the flavour never evolves as it cools, and that artificial, one-note feel keeps it from winning me over."
+      },
+      "details": {
+        "producer": "Andrès Julio Quiceno & Julio Madrid",
+        "farm": "Finca Milán",
+        "region": { "zh": "佩雷拉，里萨拉尔达，哥伦比亚", "en": "Pereira, Risaralda, Colombia" },
+        "altitude": "1600 MASL",
+        "varietal": { "zh": "卡杜拉", "en": "Caturra" },
+        "process": { "zh": "菌种培养", "en": "Culturing" },
+        "notes": {
+          "zh": "Finca Milán 坐落于哥伦比亚里萨拉尔达省，是一座传承超过40年的咖啡庄园。现由第三代咖啡农 Julio Cesar Madrid 与其合作伙伴、处理法大师 Andres Julio Quinceno 共同经营。",
+          "en": "Nestled in the beautiful Risaralda Department of Colombia, Finca Milán is a coffee farm with a story stretching back over 40 years. Run by Julio Cesar Madrid, a third-generation coffee farmer, and his business partner, master processor Andres Julio Quinceno."
+        },
+        "flag": "🇨🇴",
+        "map_url": "https://www.google.com/maps/place/Pereira,Risaralda/data=!4m2!3m1!1s0x8e388748eb56c1fd:0x95b39410f9f1dfbc?sa=X&ved=1t:155783&ictx=111"
+      }
+    },
+    {
       "slug": "rumble-brazil-pedro-gabarra-bourbon",
       "date": "2026-06-21",
       "roast_date": "2026-06-11",
