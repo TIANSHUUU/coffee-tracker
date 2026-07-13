@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12_053153",
+  "generated_at": "2026-07-13_022621",
   "summary": {
     "total_rows": 170,
     "ok_rows": 169,
@@ -1165,8 +1165,8 @@
         "origin": "Colombia, Ethiopia",
         "price_aud": "26.00",
         "process": "Natural",
-        "varietal": "HEIRLOOM, CASTILLO, CATURRA",
-        "flavour_profile": "Berries, Citrus, Nutty, Strong, Sweet",
+        "varietal": "HEIRLOOM, CATURRA",
+        "flavour_profile": "Berries, Citrus, Strong, Sweet",
         "product_url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
         "status": "ok",
         "error": ""
@@ -2104,7 +2104,7 @@
         "roast_profile": "omni",
         "origin": "El Salvador, Ethiopia, Nicaragua",
         "price_aud": "24.00",
-        "process": "Honey, Washed, Natural",
+        "process": "Carbonic Maceration, Washed, Natural",
         "varietal": "",
         "flavour_profile": "MILK CHOCOLATE , CARAMEL, STONE FRUIT",
         "product_url": "https://wideopenroad.com.au/products/bathysphere-espresso-blend",
@@ -3482,8 +3482,8 @@
       "origin": "Colombia, Ethiopia",
       "price_aud": "26.00",
       "process": "Natural",
-      "varietal": "HEIRLOOM, CASTILLO, CATURRA",
-      "flavour_profile": "Berries, Citrus, Nutty, Strong, Sweet",
+      "varietal": "HEIRLOOM, CATURRA",
+      "flavour_profile": "Berries, Citrus, Strong, Sweet",
       "product_url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
       "status": "ok",
       "error": ""
@@ -3999,7 +3999,7 @@
       "roast_profile": "omni",
       "origin": "El Salvador, Ethiopia, Nicaragua",
       "price_aud": "24.00",
-      "process": "Honey, Washed, Natural",
+      "process": "Carbonic Maceration, Washed, Natural",
       "varietal": "",
       "flavour_profile": "MILK CHOCOLATE , CARAMEL, STONE FRUIT",
       "product_url": "https://wideopenroad.com.au/products/bathysphere-espresso-blend",
