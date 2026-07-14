@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-13 04:34",
+  "generated_at": "2026-07-14 01:18",
   "stats": {
-    "total": 168,
-    "new": 0,
-    "roasters": 14
+    "total": 176,
+    "new": 10,
+    "roasters": 15
   },
   "roasters": [
     "Code Black",
@@ -16,12 +16,133 @@
     "Proud Mary",
     "Rumble Coffee Roasters",
     "Seven Seeds",
+    "Small Batch",
     "Standing Room Coffee",
     "Stitch Coffee",
     "Vacation Coffee",
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Hacienda La Papaya Sidra Anaerobic Washed",
+      "url": "https://onacoffee.com.au/products/filter-rare-hacienda-la-papaya-sidra-anaerobic-washed",
+      "roast_profile": "filter",
+      "origin": "South America",
+      "price_aud": "47.25",
+      "process": "Anaerobic, Washed",
+      "varietal": "",
+      "flavour_profile": "Apricot, Eucalyptus, Orange, Citrus, Fruity, Sweet",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Iris Estate Afterglow, Panama, Natural",
+      "url": "https://onacoffee.com.au/products/filter-reserve-iris-estate-afterglow-panama-natural",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "79.75",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Orange, Fruity, Plum",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Alirio Munoz – Borbon Sidra",
+      "url": "https://www.smallbatch.com.au/shop/filter/alirio_sidra",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "28",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Alirio Munoz – Borbon aji",
+      "url": "https://www.smallbatch.com.au/shop/filter/estrellas-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia, Ethiopia",
+      "price_aud": "28",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Candyman Espresso Blend",
+      "url": "https://www.smallbatch.com.au/shop/espresso/candyman-espresso-blend",
+      "roast_profile": "omni",
+      "origin": "Colombia, Ethiopia, Guatemala",
+      "price_aud": "20",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Danche Chelbesa – Filter",
+      "url": "https://www.smallbatch.com.au/shop/filter/nano-challa",
+      "roast_profile": "filter",
+      "origin": "Colombia, Ethiopia",
+      "price_aud": "27",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Edilma Piedrahita – Borbon Aji Espresso",
+      "url": "https://www.smallbatch.com.au/shop/espresso/edilma-borbonaji",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "28",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Golden Ticket",
+      "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "21",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "The Ones We Love – Seasonal Espresso",
+      "url": "https://www.smallbatch.com.au/shop/espresso/the-ones-we-love-x",
+      "roast_profile": "omni",
+      "origin": "Colombia, Ethiopia, Guatemala",
+      "price_aud": "21",
+      "process": "Honey, Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Victor Bermudez – Pink Borbon Espresso",
+      "url": "https://www.smallbatch.com.au/shop/espresso/victor-pink-borbon-espresso",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "26",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -984,18 +1105,6 @@
     },
     {
       "roaster": "Padre Coffee",
-      "bean_name": "Brazil Gabriel Nunes - Single Origin Filter",
-      "url": "https://www.padrecoffee.com.au/products/brazil-gabriel-nunes-single-origin-filter",
-      "roast_profile": "filter",
-      "origin": "Brazil",
-      "price_aud": "26.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
       "bean_name": "Daddy's Girl Espresso Blend",
       "url": "https://www.padrecoffee.com.au/products/daddys-girl-espresso-blend",
       "roast_profile": "espresso",
@@ -1603,18 +1712,6 @@
       "price_aud": "27.00",
       "process": "Washed",
       "varietal": "Batian, SL28, SL34, Ruiru 11",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Standing Room Coffee",
-      "bean_name": "Kibingo, Burundi, Espresso",
-      "url": "https://standingroomcoffee.com.au/products/kibingo-burundi-espresso",
-      "roast_profile": "espresso",
-      "origin": "Burundi",
-      "price_aud": "25.00",
-      "process": "Honey",
-      "varietal": "Bourbon",
       "flavour_profile": "",
       "is_new": false
     },
