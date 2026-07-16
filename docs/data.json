@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-15 08:59",
+  "generated_at": "2026-07-16 00:51",
   "stats": {
     "total": 177,
-    "new": 4,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,54 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia El Diviso Ombligon Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-ombligon-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "46.50",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Chocolate, Floral, Strong, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia El Diviso Ombligon Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-ombligon-filter-single-origin-1",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "46.50",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Chocolate, Floral, Strong, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia El Diviso Sidra Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-sidra-espresso-single-origin-1",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "46.50",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Floral, Nutty, Strong, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Colombia El Diviso Sidra Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-sidra-filter-single-origin-1",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "46.50",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Floral, Nutty, Strong, Sweet",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -105,6 +57,54 @@
       "process": "Honey",
       "varietal": "GESHA",
       "flavour_profile": "Citrus, Delicate, Floral, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia El Diviso Ombligon Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-ombligon-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "46.50",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Chocolate, Floral, Strong, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia El Diviso Ombligon Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-ombligon-filter-single-origin-1",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "46.50",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Chocolate, Floral, Strong, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia El Diviso Sidra Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-sidra-espresso-single-origin-1",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "46.50",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Floral, Nutty, Strong, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia El Diviso Sidra Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-sidra-filter-single-origin-1",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "46.50",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Floral, Nutty, Strong, Sweet",
       "is_new": false
     },
     {
