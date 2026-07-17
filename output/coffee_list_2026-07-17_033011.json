@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-15_085947",
+  "generated_at": "2026-07-17_033011",
   "summary": {
-    "total_rows": 177,
-    "ok_rows": 177,
+    "total_rows": 178,
+    "ok_rows": 178,
     "error_rows": 0
   },
   "grouped": {
@@ -121,6 +121,20 @@
       },
       {
         "roaster": "ONA Coffee",
+        "source_url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+        "bean_name": "Finca Idolia, Guatemala, Anaerobic Natural",
+        "roast_profile": "filter",
+        "origin": "South America",
+        "price_aud": "22.00",
+        "process": "Anaerobic, Natural",
+        "varietal": "",
+        "flavour_profile": "Orange, Berries, Plum",
+        "product_url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "ONA Coffee",
         "source_url": "https://onacoffee.com.au/products/filter-x-sof1",
         "bean_name": "Guji PB, Ethiopia, Washed",
         "roast_profile": "filter",
@@ -177,20 +191,6 @@
       },
       {
         "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-y-sof4",
-        "bean_name": "Jumay, Guatemala, Anaerobic Natural",
-        "roast_profile": "filter",
-        "origin": "Central America",
-        "price_aud": "22.00",
-        "process": "Anaerobic, Natural",
-        "varietal": "",
-        "flavour_profile": "Chocolate, Grapes",
-        "product_url": "https://onacoffee.com.au/products/filter-y-sof4",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "ONA Coffee",
         "source_url": "https://onacoffee.com.au/products/paragon-filter",
         "bean_name": "Paragon Filter Black",
         "roast_profile": "filter",
@@ -218,6 +218,20 @@
         "error": ""
       },
       {
+        "roaster": "ONA Coffee",
+        "source_url": "https://onacoffee.com.au/products/filter-singleorigin-san-pablo-honduras-washed",
+        "bean_name": "San Pablo, Honduras, Washed",
+        "roast_profile": "filter",
+        "origin": "Central America",
+        "price_aud": "22.00",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "Botanical, Lime, Stone Fruit",
+        "product_url": "https://onacoffee.com.au/products/filter-singleorigin-san-pablo-honduras-washed",
+        "status": "ok",
+        "error": ""
+      },
+      {
         "roaster": "Padre Coffee",
         "source_url": "https://www.padrecoffee.com.au/products/hey-buddy-filter-blend",
         "bean_name": "Hey Buddy Blend - Filter Roast",
@@ -233,20 +247,6 @@
       },
       {
         "roaster": "Padre Coffee",
-        "source_url": "https://www.padrecoffee.com.au/products/guatemala-paraiso-single-origin-filter",
-        "bean_name": "Guatemala Paraiso - Single Origin Filter",
-        "roast_profile": "filter",
-        "origin": "Guatemala",
-        "price_aud": "25.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.padrecoffee.com.au/products/guatemala-paraiso-single-origin-filter",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Padre Coffee",
         "source_url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-filter",
         "bean_name": "Kenya Gachatha AA - Single Origin Filter",
         "roast_profile": "filter",
@@ -256,6 +256,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-filter",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Padre Coffee",
+        "source_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-filter",
+        "bean_name": "Rwanda Gishamwana Island - Single Origin Filter",
+        "roast_profile": "filter",
+        "origin": "Rwanda",
+        "price_aud": "26.50",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-filter",
         "status": "ok",
         "error": ""
       },
@@ -1200,6 +1214,20 @@
         "error": ""
       },
       {
+        "roaster": "Padre Coffee",
+        "source_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-espresso",
+        "bean_name": "Rwanda Gishamwana Island - Single Origin Espresso",
+        "roast_profile": "espresso",
+        "origin": "Rwanda",
+        "price_aud": "26.50",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-espresso",
+        "status": "ok",
+        "error": ""
+      },
+      {
         "roaster": "Code Black",
         "source_url": "https://codeblackcoffee.com.au/products/ex-wife-espresso-blend-coffee",
         "bean_name": "Ex-Wife Espresso Blend",
@@ -1884,20 +1912,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Proud Mary",
-        "source_url": "https://www.proudmarycoffee.com.au/products/winter-solstice-limited-edition-blend",
-        "bean_name": "Winter Solstice | Limited Edition Blend",
-        "roast_profile": "omni",
-        "origin": "Ethiopia, Honduras",
-        "price_aud": "24.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.proudmarycoffee.com.au/products/winter-solstice-limited-edition-blend",
         "status": "ok",
         "error": ""
       },
@@ -2706,20 +2720,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "source_url": "https://www.proudmarycoffee.com.au/products/winter-solstice-limited-edition-blend",
-      "bean_name": "Winter Solstice | Limited Edition Blend",
-      "roast_profile": "omni",
-      "origin": "Ethiopia, Honduras",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.proudmarycoffee.com.au/products/winter-solstice-limited-edition-blend",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Proud Mary",
       "source_url": "https://www.proudmarycoffee.com.au/products/brazil-dois-irmaos-yellow-catuai-natural",
       "bean_name": "Brazil | Dois Irmaos | Catuai | Natural",
       "roast_profile": "omni",
@@ -3112,6 +3112,20 @@
     },
     {
       "roaster": "ONA Coffee",
+      "source_url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+      "bean_name": "Finca Idolia, Guatemala, Anaerobic Natural",
+      "roast_profile": "filter",
+      "origin": "South America",
+      "price_aud": "22.00",
+      "process": "Anaerobic, Natural",
+      "varietal": "",
+      "flavour_profile": "Orange, Berries, Plum",
+      "product_url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "ONA Coffee",
       "source_url": "https://onacoffee.com.au/products/gateway",
       "bean_name": "Gateway",
       "roast_profile": "espresso",
@@ -3210,20 +3224,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-y-sof4",
-      "bean_name": "Jumay, Guatemala, Anaerobic Natural",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Anaerobic, Natural",
-      "varietal": "",
-      "flavour_profile": "Chocolate, Grapes",
-      "product_url": "https://onacoffee.com.au/products/filter-y-sof4",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "ONA Coffee",
       "source_url": "https://onacoffee.com.au/products/maple",
       "bean_name": "Maple",
       "roast_profile": "espresso",
@@ -3303,6 +3303,20 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://onacoffee.com.au/products/raspberry-candy-filter",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "ONA Coffee",
+      "source_url": "https://onacoffee.com.au/products/filter-singleorigin-san-pablo-honduras-washed",
+      "bean_name": "San Pablo, Honduras, Washed",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Botanical, Lime, Stone Fruit",
+      "product_url": "https://onacoffee.com.au/products/filter-singleorigin-san-pablo-honduras-washed",
       "status": "ok",
       "error": ""
     },
@@ -3504,20 +3518,6 @@
     },
     {
       "roaster": "Padre Coffee",
-      "source_url": "https://www.padrecoffee.com.au/products/guatemala-paraiso-single-origin-filter",
-      "bean_name": "Guatemala Paraiso - Single Origin Filter",
-      "roast_profile": "filter",
-      "origin": "Guatemala",
-      "price_aud": "25.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.padrecoffee.com.au/products/guatemala-paraiso-single-origin-filter",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Padre Coffee",
       "source_url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-filter",
       "bean_name": "Kenya Gachatha AA - Single Origin Filter",
       "roast_profile": "filter",
@@ -3541,6 +3541,34 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-espresso",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Padre Coffee",
+      "source_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-espresso",
+      "bean_name": "Rwanda Gishamwana Island - Single Origin Espresso",
+      "roast_profile": "espresso",
+      "origin": "Rwanda",
+      "price_aud": "26.50",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-espresso",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Padre Coffee",
+      "source_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-filter",
+      "bean_name": "Rwanda Gishamwana Island - Single Origin Filter",
+      "roast_profile": "filter",
+      "origin": "Rwanda",
+      "price_aud": "26.50",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-filter",
       "status": "ok",
       "error": ""
     },
