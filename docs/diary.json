@@ -1,6 +1,55 @@
 {
   "entries": [
     {
+      "slug": "brewman-peru-mira-flores-geisha",
+      "date": "2026-07-09",
+      "roast_date": "2026-05-27",
+      "bean_name": { "zh": "秘鲁 米拉弗洛雷斯庄园 瑰夏", "en": "Peru Finca Mira Flores Geisha" },
+      "roaster": { "zh": "Brewman Tokyo", "en": "Brewman Tokyo" },
+      "image": "diary/images/brewman-peru-mira-flores-1.jpg",
+      "color": "green",
+      "roast_profile": "filter",
+      "url": "https://coffeeomakasehk.com/product/brewman-tokyo-mira-flores-peru-geisha-washed/?srsltid=AfmBOor-LWZud7tMcrW4QyPf8CDr305EUx2o0Tn0uPr6hesLjp-I7qyM",
+      "tags": [
+        { "zh": "秘鲁", "en": "Peru" },
+        { "zh": "水洗", "en": "Washed" },
+        { "zh": "瑰夏", "en": "Geisha" }
+      ],
+      "flavours": [
+        { "icon": "🍊", "label": { "zh": "柑橘", "en": "Citrus" } },
+        { "icon": "🌼", "label": { "zh": "洋甘菊", "en": "Chamomile" } },
+        { "icon": "🍵", "label": { "zh": "茶感", "en": "Tea-like" } }
+      ],
+      "story": {
+        "zh": "来自朋友的礼物。口感风格是日式烘焙商典型的干净、优雅、清淡，对我来说body和复杂度不足。酸质明显，柑橘香气最突出，还有些洋甘菊、茶感。是一杯不错的水洗咖啡，但作为geisha来说只能算普通。",
+        "en": "A gift from a friend. The cup has that clean, elegant, delicate style typical of Japanese roasters — for me the body and complexity fell a bit short. Acidity is pronounced, with citrus as the standout note, plus some chamomile and a tea-like quality. A solid washed coffee, but fairly ordinary as far as geishas go."
+      },
+      "brew": {
+        "method": { "zh": "泰摩冰瞳 / Origami · C40 刻度 18–20 格 · 1:15 · 96°C", "en": "TIMEMORE Icicle / Origami · C40 grind, 18–20 clicks · 1:15 · 96°C" }
+      },
+      "profile": {
+        "acidity": "high",
+        "sweetness": "medium",
+        "body": "low",
+        "aroma": "medium",
+        "aftertaste": "medium"
+      },
+      "summary": {
+        "zh": "仿佛一杯纤细淡雅的柑橘花茶。",
+        "en": "Like a delicate, elegant cup of citrus flower tea."
+      },
+      "details": {
+        "producer": "Manuel Rojas and Esther Requejo",
+        "farm": "Mira Flores",
+        "region": { "zh": "乌图库班巴，亚马逊斯，秘鲁", "en": "Utcubamba, Amazonas, Peru" },
+        "altitude": "1920 MASL",
+        "varietal": { "zh": "瑰夏", "en": "Geisha" },
+        "process": { "zh": "水洗", "en": "Washed" },
+        "flag": "🇵🇪",
+        "map_url": "https://www.google.com/maps/place/Utcubamba+Province,+Peru/@-5.4851669,-78.2871856,6.37z/data=!4m6!3m5!1s0x91b4486db16dac19:0xcfd0d4f3221fe271!8m2!3d-5.8615816!4d-78.3842227!16zL20vMGR2NGhx?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
+      }
+    },
+    {
       "slug": "glitch-colombia-milan-april",
       "date": "2026-07-06",
       "roast_date": "2026-06-10",
