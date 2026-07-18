@@ -26,6 +26,13 @@ A human-readable record of notable changes. Newest first.
 - `update_coffee_list.py`: `previous_item_identities()` now selects the previous snapshot by filename (deterministic after a CI checkout), not mtime.
 - **Output retention**: `output/` keeps only the newest two `coffee_list_*.json` snapshots (latest + the one needed for next week's "new" diff). One-time cleanup removed ~141 old snapshots, and the git history was rewritten to drop them (`.git` ~11 MB → ~4.6 MB).
 
+### Diary — portrait photos + mobile polish
+- List thumbnails switched from landscape (5:4 / 16:9) to **portrait 4:5** to match the source photos (all ~3:4 portrait), which were being awkwardly cropped; desktop image column narrowed 220→180px.
+- Fixed the mobile list controls: the borderless search box was rendering **300px tall** (its `flex-basis: 300px` became a height in the column layout) with the filter pills shoved to the bottom — big empty gap. Search is now content-height and the controls stack tightly.
+- Kept the header wordmark on one line at ≤320px (was wrapping).
+- **Mobile list is now a 2-column magazine grid** (full-bleed, hairline grid lines, portrait photo + bean name + roaster; flavour line hidden on mobile) so several entries fit per screen. Desktop keeps the horizontal image-left cards.
+- The rich detail page (`diary-detail.html`) was verified clean on mobile (no horizontal overflow; hero, taste sliders, spec list, origin all adapt).
+
 ## Earlier (baseline)
 - Coffee **Diary** page (`docs/diary.html` / `docs/diary.css`): editorial "broadsheet index" design (coffee-crema palette, Fraunces / Newsreader / Geist Mono). Not yet visually unified with the Tracker — the Tracker's riso style is the lead going forward.
 - Python scraper with multi-strategy fallback (Shopify JSON → handle discovery → HTML → all-products JSON → shop-slug → sitemap → Woo/WP API), published to GitHub Pages, refreshed by a weekly GitHub Action and a manual Update button (cron-job.org → Cloudflare Worker → `workflow_dispatch`).

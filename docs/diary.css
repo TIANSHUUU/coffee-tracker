@@ -582,10 +582,21 @@ header {
   .nav-links { gap: var(--space-sm); }
   .nav-link { font-size: 0.66rem; letter-spacing: 0.08em; }
   .lang-toggle { padding: 4px 7px; }
-  .list-page { padding: var(--space-2xl) var(--space-md); }
+  .list-page { padding: var(--space-2xl) 0; }   /* full-bleed grid; pad head/controls instead */
+  .list-head, .controls { padding-left: var(--space-md); padding-right: var(--space-md); }
   .hero-right, .panel, .summary-wrap { padding-left: var(--space-md); padding-right: var(--space-md); }
-  .card { grid-template-columns: minmax(0, 1fr); gap: var(--space-md); }
-  .card-thumb { aspect-ratio: 4 / 5; }   /* mobile: portrait too; change here if it feels too tall */
+  /* 2-column magazine grid (portrait photos, more per screen) */
+  .card-grid { grid-template-columns: 1fr 1fr; border-top: 1px solid var(--color-rule); }
+  .card {
+    display: flex; flex-direction: column; align-items: stretch; gap: 0;
+    padding: var(--space-sm) var(--space-sm) var(--space-md);
+    border-top: none; border-bottom: 1px solid var(--color-rule);
+  }
+  .card:nth-child(odd) { border-right: 1px solid var(--color-rule); }
+  .card-thumb { aspect-ratio: 4 / 5; margin-bottom: var(--space-sm); }
+  .card-name { font-size: 1.02rem; line-height: 1.14; }
+  .card-roaster { margin-top: var(--space-2xs); }
+  .card-flavours { display: none; }
   .controls { flex-direction: column; align-items: stretch; justify-content: flex-start; gap: var(--space-md); margin-bottom: var(--space-xl); }
   .search-box { flex: 0 0 auto; }   /* content-height: 'flex-basis: 300px' was becoming a 300px-tall box in column layout */
   .filter-pills { gap: var(--space-md); }
