@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-17 03:30",
+  "generated_at": "2026-07-18 02:46",
   "stats": {
-    "total": 178,
-    "new": 4,
+    "total": 174,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,54 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Finca Idolia, Guatemala, Anaerobic Natural",
-      "url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
-      "roast_profile": "filter",
-      "origin": "South America",
-      "price_aud": "22.00",
-      "process": "Anaerobic, Natural",
-      "varietal": "",
-      "flavour_profile": "Orange, Berries, Plum",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "San Pablo, Honduras, Washed",
-      "url": "https://onacoffee.com.au/products/filter-singleorigin-san-pablo-honduras-washed",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Botanical, Lime, Stone Fruit",
-      "is_new": true
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "Rwanda Gishamwana Island - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-espresso",
-      "roast_profile": "espresso",
-      "origin": "Rwanda",
-      "price_aud": "26.50",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "Rwanda Gishamwana Island - Single Origin Filter",
-      "url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-filter",
-      "roast_profile": "filter",
-      "origin": "Rwanda",
-      "price_aud": "26.50",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -877,6 +829,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Finca Idolia, Guatemala, Anaerobic Natural",
+      "url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+      "roast_profile": "filter",
+      "origin": "South America",
+      "price_aud": "22.00",
+      "process": "Anaerobic, Natural",
+      "varietal": "",
+      "flavour_profile": "Orange, Berries, Plum",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Gateway",
       "url": "https://onacoffee.com.au/products/gateway",
       "roast_profile": "espresso",
@@ -1033,6 +997,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "San Pablo, Honduras, Washed",
+      "url": "https://onacoffee.com.au/products/filter-singleorigin-san-pablo-honduras-washed",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Botanical, Lime, Stone Fruit",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Simply Fresh",
       "url": "https://onacoffee.com.au/products/simply-fresh",
       "roast_profile": "",
@@ -1173,6 +1149,30 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "VANILLA, ORANGE, HAZELNUT PRALINE, CARAMEL, MILK CHOCOLATE",
+      "is_new": false
+    },
+    {
+      "roaster": "Padre Coffee",
+      "bean_name": "Rwanda Gishamwana Island - Single Origin Espresso",
+      "url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-espresso",
+      "roast_profile": "espresso",
+      "origin": "Rwanda",
+      "price_aud": "26.50",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Padre Coffee",
+      "bean_name": "Rwanda Gishamwana Island - Single Origin Filter",
+      "url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-filter",
+      "roast_profile": "filter",
+      "origin": "Rwanda",
+      "price_aud": "26.50",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1801,18 +1801,6 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "bean_name": "BRAZIL, CERCA DE PEDRAS (SAKURA)",
-      "url": "https://stitch.coffee/products/brazil-cerca-de-pedras-sakura-26",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
       "bean_name": "Black Field Blend",
       "url": "https://stitch.coffee/products/blackfield-blend",
       "roast_profile": "omni",
@@ -1831,18 +1819,6 @@
       "origin": "",
       "price_aud": "20.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ECUADOR, FINCA YUM AND BOSS",
-      "url": "https://stitch.coffee/products/ecuador-finca-yum-and-boss-26",
-      "roast_profile": "omni",
-      "origin": "Ecuador",
-      "price_aud": "34.00",
-      "process": "Double Fermentation, Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1940,30 +1916,6 @@
       "price_aud": "22.00",
       "process": "Fully Washed",
       "varietal": "Bourbon 40% & Caturra 60%",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "bean_name": "INDONESIA Bali Kintamani Karana ESPRESSO",
-      "url": "https://vacationcoffee.com.au/products/indonesia-bali-kintamani-karana-espresso",
-      "roast_profile": "espresso",
-      "origin": "Indonesia",
-      "price_aud": "23.00",
-      "process": "Natural",
-      "varietal": "S795 & Kartika",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "bean_name": "INDONESIA Bali Kintamani Karana FILTER",
-      "url": "https://vacationcoffee.com.au/products/indonesia-bali-kintamani-karana-filter",
-      "roast_profile": "filter",
-      "origin": "Indonesia",
-      "price_aud": "23.00",
-      "process": "Natural",
-      "varietal": "S795 & Kartika",
       "flavour_profile": "",
       "is_new": false
     },
