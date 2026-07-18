@@ -45,6 +45,10 @@
         "altitude": "1920 MASL",
         "varietal": { "zh": "瑰夏", "en": "Geisha" },
         "process": { "zh": "水洗", "en": "Washed" },
+        "notes": {
+          "zh": "乌图库班巴（Utcubamba）位于秘鲁北部亚马逊斯大区，地处安第斯山脉与亚马逊雨林交界的「高丛林」（Selva Alta）地带，是秘鲁近年逐渐崛起的精品咖啡产区。米拉弗洛雷斯庄园由 Manuel Rojas 与 Esther Requejo 于2002年创立，曾受咖啡锈病重创，历经多年更新修剪后于2021年起开始出产瑰夏等特殊品种。",
+          "en": "Utcubamba sits in Peru's northern Amazonas region, in the \"Selva Alta\" (high jungle) transition zone between the Andes and the Amazon rainforest — one of the country's emerging specialty coffee areas. Finca Miraflores was founded in 2002 by Manuel Rojas and Esther Requejo; after years of recovery from coffee leaf rust and a long renewal-pruning program, the farm began harvesting distinctive varietals like Geisha starting in 2021."
+        },
         "flag": "🇵🇪",
         "map_url": "https://www.google.com/maps/place/Utcubamba+Province,+Peru/@-5.4851669,-78.2871856,6.37z/data=!4m6!3m5!1s0x91b4486db16dac19:0xcfd0d4f3221fe271!8m2!3d-5.8615816!4d-78.3842227!16zL20vMGR2NGhx?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
       }
