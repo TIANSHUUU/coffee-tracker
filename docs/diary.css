@@ -581,7 +581,8 @@ header {
   .hero-right, .panel, .summary-wrap { padding-left: var(--space-md); padding-right: var(--space-md); }
   .card { grid-template-columns: minmax(0, 1fr); gap: var(--space-md); }
   .card-thumb { aspect-ratio: 16 / 9; }
-  .controls { flex-direction: column; align-items: stretch; }
+  .controls { flex-direction: column; align-items: stretch; justify-content: flex-start; gap: var(--space-md); margin-bottom: var(--space-xl); }
+  .search-box { flex: 0 0 auto; }   /* content-height: 'flex-basis: 300px' was becoming a 300px-tall box in column layout */
   .filter-pills { gap: var(--space-md); }
 }
 
