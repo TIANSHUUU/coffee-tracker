@@ -577,6 +577,11 @@ header {
 }
 @media (max-width: 600px) {
   header { padding: 0 var(--space-md); }
+  .wordmark { white-space: nowrap; }
+  .header-right { gap: var(--space-sm); }
+  .nav-links { gap: var(--space-sm); }
+  .nav-link { font-size: 0.66rem; letter-spacing: 0.08em; }
+  .lang-toggle { padding: 4px 7px; }
   .list-page { padding: var(--space-2xl) var(--space-md); }
   .hero-right, .panel, .summary-wrap { padding-left: var(--space-md); padding-right: var(--space-md); }
   .card { grid-template-columns: minmax(0, 1fr); gap: var(--space-md); }
