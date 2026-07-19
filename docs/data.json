@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-18 02:46",
+  "generated_at": "2026-07-19 15:01",
   "stats": {
-    "total": 174,
-    "new": 0,
+    "total": 178,
+    "new": 4,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,54 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "COSTA RICA Hermosa Tarrazu ESPRESSO",
+      "url": "https://vacationcoffee.com.au/products/costa-rica-hermosa-tarrazu-espresso",
+      "roast_profile": "espresso",
+      "origin": "Costa Rica",
+      "price_aud": "22.00",
+      "process": "Fully Washed",
+      "varietal": "Caturra & Catuai",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "COSTA RICA Hermosa Tarrazu FILTER",
+      "url": "https://vacationcoffee.com.au/products/costa-rica-hermosa-tarrazu-filter",
+      "roast_profile": "filter",
+      "origin": "Costa Rica",
+      "price_aud": "22.00",
+      "process": "Fully Washed",
+      "varietal": "Caturra & Catuai",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "ETHIOPIA Gara Agena ESPRESSO",
+      "url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-espresso",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "24.00",
+      "process": "Washed",
+      "varietal": "Heirloom",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "ETHIOPIA Gara Agena FILTER",
+      "url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-filter",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "24.00",
+      "process": "Washed",
+      "varietal": "Heirloom",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
