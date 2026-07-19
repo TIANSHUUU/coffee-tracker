@@ -215,6 +215,11 @@ header {
 .filter-pill.active { color: var(--color-ink); border-bottom-color: var(--color-accent); }
 .filter-pill:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
 
+/* month archive groups — keyed by first-brew month */
+.month-group + .month-group { margin-top: var(--space-2xl); }
+.month-head { margin-bottom: var(--space-md); }
+.month-head .month-count { color: var(--color-neutral); font-weight: 400; }
+
 /* broadsheet index — asymmetric rows, hairline-separated */
 .card-grid { display: grid; grid-template-columns: minmax(0, 1fr); }
 .card {
@@ -583,7 +588,7 @@ header {
   .nav-link { font-size: 0.66rem; letter-spacing: 0.08em; }
   .lang-toggle { padding: 4px 7px; }
   .list-page { padding: var(--space-2xl) 0; }   /* full-bleed grid; pad head/controls instead */
-  .list-head, .controls { padding-left: var(--space-md); padding-right: var(--space-md); }
+  .list-head, .controls, .month-head { padding-left: var(--space-md); padding-right: var(--space-md); }
   .hero-right, .panel, .summary-wrap { padding-left: var(--space-md); padding-right: var(--space-md); }
   /* 2-column magazine grid (portrait photos, more per screen) */
   .card-grid { grid-template-columns: 1fr 1fr; border-top: 1px solid var(--color-rule); }

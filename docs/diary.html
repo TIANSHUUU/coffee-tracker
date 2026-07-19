@@ -91,7 +91,29 @@
       results.innerHTML = emptyState('🔍', D.ui('noMatch'), '');
       return;
     }
-    results.innerHTML = '<div class="card-grid">' + items.map(card).join('') + '</div>';
+    // group by first-brew month (entries are already sorted by date desc)
+    const groups = [];
+    let cur = null;
+    for (const e of items) {
+      const key = (e.date || '').slice(0, 7);
+      if (!cur || cur.key !== key) { cur = { key, items: [] }; groups.push(cur); }
+      cur.items.push(e);
+    }
+    results.innerHTML = groups.map(g => {
+      const n = g.items.length;
+      const count = D.getLang() === 'en' ? `${n} cup${n === 1 ? '' : 's'}` : `${n} 杯`;
+      return `<section class="month-group">
+        <h2 class="section-title month-head">${D.esc(monthLabel(g.key))}<span class="month-count">${D.esc(count)}</span></h2>
+        <div class="card-grid">${g.items.map(card).join('')}</div>
+      </section>`;
+    }).join('');
+  }
+
+  function monthLabel(key) {
+    const [y, m] = key.split('-').map(Number);
+    if (!y || !m) return key || '—';
+    return new Date(y, m - 1, 1).toLocaleDateString(
+      D.getLang() === 'en' ? 'en-AU' : 'zh-CN', { year: 'numeric', month: 'long' });
   }
 
   function card(e) {
