@@ -21,6 +21,7 @@
   </div>
   <div class="controls">
     <input type="text" class="search-box" id="search" />
+    <select class="month-select" id="monthFilter"></select>
     <div class="filter-pills" id="filterPills"></div>
   </div>
   <div id="results"></div>
@@ -31,7 +32,7 @@
 (function () {
   const D = window.Diary;
   const ROASTS = ['all', 'filter', 'espresso', 'omni'];
-  const state = { q: '', roast: 'all' };
+  const state = { q: '', roast: 'all', month: 'all' };
   let ALL = [];
 
   fetch('diary.json')
@@ -55,8 +56,24 @@
     search.value = state.q;
     search.oninput = function () { state.q = this.value; renderResults(); };
 
+    renderMonthFilter();
     renderFilters();
     renderResults();
+  }
+
+  function renderMonthFilter() {
+    const sel = document.getElementById('monthFilter');
+    const months = [...new Set(ALL.map(e => (e.date || '').slice(0, 7)).filter(Boolean))];
+    sel.innerHTML =
+      `<option value="all">${D.esc(D.ui('allMonths'))}</option>` +
+      months.map(m => `<option value="${D.esc(m)}">${D.esc(monthLabel(m))}</option>`).join('');
+    sel.value = months.includes(state.month) ? state.month : (state.month = 'all', 'all');
+    sel.classList.toggle('active', state.month !== 'all');
+    sel.onchange = function () {
+      state.month = this.value;
+      this.classList.toggle('active', state.month !== 'all');
+      renderResults();
+    };
   }
 
   function renderFilters() {
@@ -78,6 +95,7 @@
     const q = state.q.trim().toLowerCase();
     const items = ALL.filter(e => {
       if (state.roast !== 'all' && e.roast_profile !== state.roast) return false;
+      if (state.month !== 'all' && (e.date || '').slice(0, 7) !== state.month) return false;
       if (q && D.searchHaystack(e).indexOf(q) === -1) return false;
       return true;
     });
@@ -99,14 +117,11 @@
       if (!cur || cur.key !== key) { cur = { key, items: [] }; groups.push(cur); }
       cur.items.push(e);
     }
-    results.innerHTML = groups.map(g => {
-      const n = g.items.length;
-      const count = D.getLang() === 'en' ? `${n} cup${n === 1 ? '' : 's'}` : `${n} 杯`;
-      return `<section class="month-group">
-        <h2 class="section-title month-head">${D.esc(monthLabel(g.key))}<span class="month-count">${D.esc(count)}</span></h2>
+    results.innerHTML = groups.map(g =>
+      `<section class="month-group">
+        <h2 class="section-title month-head">${D.esc(monthLabel(g.key))}</h2>
         <div class="card-grid">${g.items.map(card).join('')}</div>
-      </section>`;
-    }).join('');
+      </section>`).join('');
   }
 
   function monthLabel(key) {

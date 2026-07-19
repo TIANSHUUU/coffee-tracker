@@ -218,7 +218,30 @@ header {
 /* month archive groups — keyed by first-brew month */
 .month-group + .month-group { margin-top: var(--space-2xl); }
 .month-head { margin-bottom: var(--space-md); }
-.month-head .month-count { color: var(--color-neutral); font-weight: 400; }
+
+/* month dropdown — same voice as the filter pills */
+.month-select {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-muted);
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid transparent;
+  border-radius: 0;
+  padding: 4px 18px 4px 0;
+  cursor: pointer;
+  appearance: none;
+  max-width: 180px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 10 10'%3E%3Cpath fill='%23837365' d='M5 7L0 2h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 2px center;
+  transition: color .15s ease, border-color .15s ease;
+}
+.month-select:hover { color: var(--color-ink); }
+.month-select.active { color: var(--color-ink); border-bottom-color: var(--color-accent); }
+.month-select:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 3px; }
 
 /* broadsheet index — asymmetric rows, hairline-separated */
 .card-grid { display: grid; grid-template-columns: minmax(0, 1fr); }
