@@ -6,7 +6,7 @@
  */
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { overflow-x: clip; }
+html { overflow-x: clip; scroll-behavior: smooth; }
 body { overflow-x: clip; }
 
 :root {
@@ -218,6 +218,63 @@ header {
 /* month archive groups — keyed by first-brew month */
 .month-group + .month-group { margin-top: var(--space-2xl); }
 .month-head { margin-bottom: var(--space-md); }
+.month-group { scroll-margin-top: calc(var(--header-h) + var(--space-lg)); }
+
+/* ── Timeline rail — first-brew months, newest first, parked in the left margin.
+      Needs an empty gutter to live in, so it only appears on wide viewports;
+      below that the month dropdown covers the same ground. ── */
+.timeline { display: none; }
+@media (min-width: 1260px) {
+  .timeline {
+    display: block;
+    position: fixed;
+    top: calc(var(--header-h) + var(--space-2xl));
+    left: max(10px, calc(50vw - 622px));
+    width: 102px;
+    max-height: calc(100vh - var(--header-h) - var(--space-2xl) - var(--space-lg));
+    overflow-y: auto;
+    z-index: var(--z-sticky);
+  }
+  .timeline[hidden] { display: none; }
+  .tl-kicker {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--color-neutral);
+    padding-left: 15px;
+    margin-bottom: var(--space-sm);
+  }
+  .tl-item {
+    position: relative; display: block;
+    padding: 7px 0 7px 15px;
+    border-left: 1px solid var(--color-rule);
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    font-variant-numeric: lining-nums tabular-nums;
+    color: var(--color-muted);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color .15s ease;
+  }
+  .tl-dot {
+    position: absolute; left: -3.5px; top: 50%;
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--color-rule-2);
+    transform: translateY(-50%);
+    transition: background .15s ease, box-shadow .15s ease;
+  }
+  .tl-item:hover { color: var(--color-ink); }
+  .tl-item:hover .tl-dot { background: var(--color-muted); }
+  .tl-item.active { color: var(--color-ink); }
+  .tl-item.active .tl-dot {
+    background: var(--color-accent);
+    box-shadow: 0 0 0 3px color-mix(in oklch, var(--color-accent) 20%, transparent);
+  }
+  .tl-item.is-off { color: var(--color-rule-2); pointer-events: none; }
+  .tl-item:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+}
 
 /* month dropdown — same voice as the filter pills */
 .month-select {
@@ -632,4 +689,5 @@ header {
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
+  html { scroll-behavior: auto; }
 }

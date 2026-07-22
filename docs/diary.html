@@ -24,6 +24,7 @@
     <select class="month-select" id="monthFilter"></select>
     <div class="filter-pills" id="filterPills"></div>
   </div>
+  <nav class="timeline" id="timeline" hidden></nav>
   <div id="results"></div>
 </main>
 
@@ -118,10 +119,12 @@
       cur.items.push(e);
     }
     results.innerHTML = groups.map(g =>
-      `<section class="month-group">
+      `<section class="month-group" id="month-${D.esc(g.key)}" data-month="${D.esc(g.key)}">
         <h2 class="section-title month-head">${D.esc(monthLabel(g.key))}</h2>
         <div class="card-grid">${g.items.map(card).join('')}</div>
       </section>`).join('');
+
+    renderTimeline(new Set(groups.map(g => g.key)));
   }
 
   function monthLabel(key) {
@@ -130,6 +133,58 @@
     return new Date(y, m - 1, 1).toLocaleDateString(
       D.getLang() === 'en' ? 'en-AU' : 'zh-CN', { year: 'numeric', month: 'long' });
   }
+
+  // Rail label: zh 年/月 (2026年7月) · en 月/年 (Jul 2026).
+  // Built by hand — en-AU spells the month out even at month:'short',
+  // and the full name overflows the rail.
+  const EN_MONTH = new Intl.DateTimeFormat('en', { month: 'short' });
+  function monthLabelShort(key) {
+    const [y, m] = key.split('-').map(Number);
+    if (!y || !m) return key || '—';
+    return D.getLang() === 'en'
+      ? EN_MONTH.format(new Date(y, m - 1, 1)) + ' ' + y
+      : y + '年' + m + '月';
+  }
+
+  /* ── Left rail: every first-brew month, newest first; months with no
+        current matches stay listed but greyed out (not jump targets). ── */
+  function renderTimeline(liveKeys) {
+    const nav = document.getElementById('timeline');
+    const months = [...new Set(ALL.map(e => (e.date || '').slice(0, 7)).filter(Boolean))];
+    nav.hidden = months.length < 2;
+    if (nav.hidden) { nav.innerHTML = ''; return; }
+    nav.setAttribute('aria-label', D.ui('timeline'));
+    nav.innerHTML = `<div class="tl-kicker">${D.esc(D.ui('timeline'))}</div>` +
+      months.map(m => {
+        const live = liveKeys.has(m);
+        return `<a class="tl-item${live ? '' : ' is-off'}" href="#month-${D.esc(m)}" data-month="${D.esc(m)}"${live ? '' : ' tabindex="-1" aria-disabled="true"'}>
+          <span class="tl-dot"></span>${D.esc(monthLabelShort(m))}
+        </a>`;
+      }).join('');
+    syncActive();
+  }
+
+  // Mark the month currently under the header as active.
+  function syncActive() {
+    const groups = [...document.querySelectorAll('.month-group')];
+    const items = [...document.querySelectorAll('.tl-item')];
+    if (!groups.length || !items.length) return;
+    const line = (document.querySelector('header')?.offsetHeight || 68) + 40;
+    let key = groups[0].dataset.month;
+    for (const g of groups) if (g.getBoundingClientRect().top <= line) key = g.dataset.month;
+    // At the document bottom the last months can never reach the line — a jump
+    // to the oldest month would otherwise light up the month above it.
+    const atEnd = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2;
+    if (atEnd) key = groups[groups.length - 1].dataset.month;
+    items.forEach(a => a.classList.toggle('active', a.dataset.month === key));
+  }
+
+  let ticking = false;
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function () { ticking = false; syncActive(); });
+  }, { passive: true });
 
   function card(e) {
     const cover = (e.images && e.images.length) ? e.images[0] : e.image;
