@@ -9,7 +9,7 @@
       "image": "diary/images/brewman-peru-mira-flores-1.jpg",
       "color": "green",
       "roast_profile": "filter",
-      "url": "https://coffeeomakasehk.com/product/brewman-tokyo-mira-flores-peru-geisha-washed/?srsltid=AfmBOor-LWZud7tMcrW4QyPf8CDr305EUx2o0Tn0uPr6hesLjp-I7qyM",
+      "url": "https://coffeeomakasehk.com/product/brewman-tokyo-mira-flores-peru-geisha-washed/",
       "tags": [
         { "zh": "秘鲁", "en": "Peru" },
         { "zh": "水洗", "en": "Washed" },
@@ -50,7 +50,7 @@
           "en": "Utcubamba sits in Peru's northern Amazonas region, in the \"Selva Alta\" (high jungle) transition zone between the Andes and the Amazon rainforest — one of the country's emerging specialty coffee areas. Finca Miraflores was founded in 2002 by Manuel Rojas and Esther Requejo; after years of recovery from coffee leaf rust and a long renewal-pruning program, the farm began harvesting distinctive varietals like Geisha starting in 2021."
         },
         "flag": "🇵🇪",
-        "map_url": "https://www.google.com/maps/place/Utcubamba+Province,+Peru/@-5.4851669,-78.2871856,6.37z/data=!4m6!3m5!1s0x91b4486db16dac19:0xcfd0d4f3221fe271!8m2!3d-5.8615816!4d-78.3842227!16zL20vMGR2NGhx?entry=ttu&g_ep=EgoyMDI2MDcxNS4wIKXMDSoASAFQAw%3D%3D"
+        "map_url": "https://www.google.com/maps/place/Utcubamba+Province,+Peru"
       }
     },
     {
@@ -102,7 +102,7 @@
           "en": "Nestled in the beautiful Risaralda Department of Colombia, Finca Milán is a coffee farm with a story stretching back over 40 years. Run by Julio Cesar Madrid, a third-generation coffee farmer, and his business partner, master processor Andres Julio Quinceno."
         },
         "flag": "🇨🇴",
-        "map_url": "https://www.google.com/maps/place/Pereira,Risaralda/data=!4m2!3m1!1s0x8e388748eb56c1fd:0x95b39410f9f1dfbc?sa=X&ved=1t:155783&ictx=111"
+        "map_url": "https://www.google.com/maps/place/Pereira,+Risaralda,+Colombia"
       }
     },
     {
@@ -212,7 +212,7 @@
           "en": "Campos das Vertentes, in the south of Minas Gerais, Brazil, is one of the country's traditional specialty-coffee regions — known for dependable sweetness and a full body."
         },
         "flag": "🇧🇷",
-        "map_url": "https://www.google.com/maps/place/ASSOCIA%C3%87%C3%83O+DOS+CAFEICULTORES+DO+CAMPO+DAS+VERTENTES/@-21.6800171,-46.0116416,8.27z/data=!4m10!1m2!2m1!1sCampos+das+Vertentes+!3m6!1s0xa00ea983ae0b49:0x5785b6305593969!8m2!3d-20.9492883!4d-44.9205988!15sChRDYW1wb3MgZGFzIFZlcnRlbnRlc1oWIhRjYW1wb3MgZGFzIHZlcnRlbnRlc5IBG2Fzc29jaWF0aW9uX29yX29yZ2FuaXphdGlvbpoBI0NoWkRTVWhOTUc5blMwVkpRMEZuVFVSdmVuVlFUMlJCRUFF4AEA-gEECGEQLQ!16s%2Fg%2F11s5gmj7hv?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+        "map_url": "https://www.google.com/maps/place/Campos+das+Vertentes/@-20.9492883,-44.9205988,9z"
       }
     },
     {
@@ -268,7 +268,7 @@
           "en": "Acevedo, in the southern Huila department of Colombia, is a celebrated specialty micro-region — high altitude and volcanic soils give its coffees bright sweetness and full fruit."
         },
         "flag": "🇨🇴",
-        "map_url": "https://www.google.com/maps/place/Acevedo,+Huila,+Colombia/@10.5374748,-90.7013653,4.61z/data=!4m6!3m5!1s0x8e2507d06c95a055:0xaaddef3c880f36be!8m2!3d1.805165!4d-75.88834!16s%2Fm%2F02qmyvn?entry=ttu&g_ep=EgoyMDI2MDYxNi4wIKXMDSoASAFQAw%3D%3D"
+        "map_url": "https://www.google.com/maps/place/Acevedo,+Huila,+Colombia"
       }
     }
   ]
