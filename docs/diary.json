@@ -106,6 +106,61 @@
       }
     },
     {
+      "slug": "sevenseeds-colombia-zambrano-pink-bourbon",
+      "date": "2026-07-03",
+      "roast_date": "2026-06-10",
+      "bean_name": { "zh": "哥伦比亚 威廉·赞布拉诺 粉波旁", "en": "Colombia Willyan Zambrano Pink Bourbon" },
+      "roaster": { "zh": "Seven Seeds Coffee Roasters", "en": "Seven Seeds Coffee Roasters" },
+      "image": "diary/images/sevenseeds-colombia-zambrano-1.jpg",
+      "images": ["diary/images/sevenseeds-colombia-zambrano-1.jpg", "diary/images/sevenseeds-colombia-zambrano-2.jpg"],
+      "color": "pink",
+      "roast_profile": "filter",
+      "price_aud": "33.00",
+      "weight": "250g",
+      "url": "https://sevenseeds.com.au/products/willyan-colombia-2026",
+      "tags": [
+        { "zh": "哥伦比亚", "en": "Colombia" },
+        { "zh": "水洗", "en": "Fully Washed" },
+        { "zh": "粉波旁", "en": "Pink Bourbon" }
+      ],
+      "flavours": [
+        { "icon": "🧃", "label": { "zh": "复合果汁", "en": "Complex juice" } },
+        { "icon": "🍅", "label": { "zh": "小番茄", "en": "Cherry tomato" } }
+      ],
+      "story": {
+        "zh": "品牌官网上称它为「One of our most delicious releases」，所以必须尝试。的确是一杯好的水洗粉波旁（虽然对我来说谈不上「最」），拥有标志性的明亮高酸果汁感，层次丰富。\n\n值得一提的是磨粉时干香有很突出的番茄调，令人想起曾经流行的水洗肯尼亚风味。",
+        "en": "The roaster's site calls it \"one of our most delicious releases\", so I had to try it. It really is a good washed pink bourbon — though I wouldn't go as far as \"most\" — with that signature bright, high-acid juiciness and plenty of layering.\n\nWorth noting: the dry grounds have a pronounced tomato note, which brings to mind the washed Kenyan profile that was popular a while back."
+      },
+      "brew": {
+        "method": { "zh": "泰摩冰瞳 / Origami · C40 刻度 18–20 格 · 1:15 · 96°C", "en": "TIMEMORE Icicle / Origami · C40 grind, 18–20 clicks · 1:15 · 96°C" }
+      },
+      "profile": {
+        "acidity": "high",
+        "sweetness": "medium",
+        "body": "medium",
+        "aroma": "medium",
+        "aftertaste": "high"
+      },
+      "summary": {
+        "zh": "多汁的粉波旁，带着一丝肯尼亚式的番茄气息。",
+        "en": "A juicy pink bourbon with tomato-y Kenyan feel."
+      },
+      "details": {
+        "producer": "Willyan Zambrano",
+        "farm": "La Montañita",
+        "region": { "zh": "皮塔利托，惠兰，哥伦比亚", "en": "Pitalito, Huila, Colombia" },
+        "altitude": "1750 MASL",
+        "varietal": { "zh": "粉波旁", "en": "Pink Bourbon" },
+        "process": { "zh": "全水洗", "en": "Fully Washed" },
+        "notes": {
+          "zh": "皮塔利托（Pitalito）素有「惠兰咖啡之都」之称，是哥伦比亚最大精品咖啡产区惠兰省内产量最高的市镇，火山土壤与 1350–1900 米的海拔孕育出明亮酸质与浓郁果香。粉波旁正是发源于惠兰的哥伦比亚本土品种。La Montañita 庄园由 Willyan Rojas Zambrano 与妻子 Maria Esther Lopez 共同经营，自2022年起与 Seven Seeds 建立长期合作关系。",
+          "en": "Pitalito is known as the \"coffee capital of Huila\" — the highest-producing municipality in Huila, Colombia's largest specialty coffee department. Volcanic soils and elevations of 1,350–1,900m give its coffees bright acidity and pronounced fruit. Pink Bourbon itself is a Colombian variety native to Huila. La Montañita is run by Willyan Rojas Zambrano together with his wife Maria Esther Lopez, in a long-term partnership with Seven Seeds that began in 2022."
+        },
+        "flag": "🇨🇴",
+        "map_url": "https://www.google.com/maps/place/Pitalito,+Huila,+Colombia"
+      }
+    },
+    {
       "slug": "rumble-brazil-pedro-gabarra-bourbon",
       "date": "2026-06-21",
       "roast_date": "2026-06-11",
