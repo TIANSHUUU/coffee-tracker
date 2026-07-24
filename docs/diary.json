@@ -161,6 +161,61 @@
       }
     },
     {
+      "slug": "proudmary-winter-solstice-blend",
+      "date": "2026-06-24",
+      "roast_date": "2026-06-09",
+      "bean_name": { "zh": "冬至限定拼配", "en": "Winter Solstice Limited Blend" },
+      "roaster": { "zh": "Proud Mary Coffee Roasters", "en": "Proud Mary Coffee Roasters" },
+      "image": "diary/images/proudmary-winter-solstice-1.jpg",
+      "images": ["diary/images/proudmary-winter-solstice-1.jpg", "diary/images/proudmary-winter-solstice-2.jpg", "diary/images/proudmary-winter-solstice-3.jpg"],
+      "color": "cocoa",
+      "roast_profile": "omni",
+      "price_aud": "24.00",
+      "weight": "250g",
+      "url": "https://www.proudmarycoffee.com.au/products/winter-solstice-limited-edition-blend",
+      "tags": [
+        { "zh": "拼配", "en": "Blend" },
+        { "zh": "埃塞俄比亚", "en": "Ethiopia" },
+        { "zh": "洪都拉斯", "en": "Honduras" },
+        { "zh": "日晒", "en": "Natural" }
+      ],
+      "flavours": [
+        { "icon": "🍒", "label": { "zh": "樱桃利口酒", "en": "Maraschino" } },
+        { "icon": "🫚", "label": { "zh": "冬日香料", "en": "Winter spices" } },
+        { "icon": "🍫", "label": { "zh": "热巧克力", "en": "Hot chocolate" } }
+      ],
+      "story": {
+        "zh": "咖啡如其名，的确很适合在南半球的冬季品饮（它们的美国 roastery 出了不同配方的「夏至」blend）。入口是温暖的冬季香料如 clove，之后日晒埃塞和洪都拉斯带来的水果甜感和 winery notes 令人联想到 maraschino，醇厚的 body 像热巧克力包裹口腔。Parainema 是我很喜欢的豆种，以甜度高出名。\n\n在 Proud Mary 的公众杯测会后购入。有趣的是店员告诉我，他们的 omni blend 通常都更适合意式而非手冲，这是少数他认为更适合手冲的 blend。",
+        "en": "True to its name, this really does suit winter in the southern hemisphere (their US roastery puts out a differently formulated \"Summer Solstice\" blend). It opens with warm winter spice — clove especially — then the natural-processed Ethiopian and Honduran lots bring a fruity sweetness and winery note that lands somewhere near maraschino, with a full body that coats the mouth like hot chocolate. Parainema is a variety I'm fond of, known for its pronounced sweetness.\n\nBought after one of Proud Mary's public cuppings. Interestingly, the staff member told me their omni blends usually work better as espresso than as filter — this was one of the few he thought was better as filter."
+      },
+      "brew": {
+        "method": { "zh": "泰摩冰瞳 / Origami · C40 刻度 18–20 格 · 1:15 · 94–96°C", "en": "TIMEMORE Icicle / Origami · C40 grind, 18–20 clicks · 1:15 · 94–96°C" }
+      },
+      "profile": {
+        "acidity": "low",
+        "sweetness": "high",
+        "body": "high",
+        "aroma": "medium",
+        "aftertaste": "high"
+      },
+      "summary": {
+        "zh": "樱桃利口酒与温暖香料，适合与冬日阳光一起享用。",
+        "en": "Maraschino cherry and warm spice — one to drink in the winter sun."
+      },
+      "details": {
+        "producer": "67% Ethiopia Anferara | 33% Honduras Ovidio Gomez",
+        "region": { "zh": "埃塞俄比亚 · 洪都拉斯", "en": "Ethiopia · Honduras" },
+        "altitude": "1750 MASL",
+        "varietal": { "zh": "原生种 & 帕拉伊内玛", "en": "Heirloom & Parainema" },
+        "process": { "zh": "日晒", "en": "Natural" },
+        "notes": {
+          "zh": "这是一支限定拼配，由 67% 埃塞俄比亚 Anferara 原生种与 33% 洪都拉斯 Ovidio Gomez 的 Parainema 组成，两支均为日晒处理。Parainema 是洪都拉斯国家咖啡研究所（IHCAFE）培育的 Sarchimor 系品种，兼具抗叶锈病能力与突出的甜感。Proud Mary 自2012年起采购埃塞俄比亚咖啡，称这支拼配是向咖啡发源地与长期合作生产者的致敬。",
+          "en": "A limited blend of 67% Ethiopian Anferara heirloom and 33% Parainema from Ovidio Gomez in Honduras, both natural processed. Parainema is a Sarchimor-line variety developed by Honduras' national coffee institute (IHCAFE), combining leaf-rust resistance with notable sweetness. Proud Mary has been sourcing Ethiopian coffee since 2012 and describes this blend as a nod to the birthplace of coffee alongside its long-standing producer relationships."
+        },
+        "flag": "🇪🇹🇭🇳"
+      }
+    },
+    {
       "slug": "rumble-brazil-pedro-gabarra-bourbon",
       "date": "2026-06-21",
       "roast_date": "2026-06-11",
