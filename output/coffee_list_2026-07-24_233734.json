@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-22_052547",
+  "generated_at": "2026-07-24_233734",
   "summary": {
-    "total_rows": 180,
-    "ok_rows": 180,
+    "total_rows": 178,
+    "ok_rows": 178,
     "error_rows": 0
   },
   "grouped": {
@@ -88,6 +88,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://sevenseeds.com.au/products/cold-filter-cask",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Commonfolk",
+        "source_url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-natural_25f",
+        "bean_name": "Pink Bourbon Natural",
+        "roast_profile": "filter",
+        "origin": "Colombia",
+        "price_aud": "29.00",
+        "process": "Natural",
+        "varietal": "PROCESSING",
+        "flavour_profile": "",
+        "product_url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-natural_25f",
         "status": "ok",
         "error": ""
       },
@@ -233,7 +247,7 @@
       },
       {
         "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+        "source_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
         "bean_name": "Unfamiliar Origins: Sri Lanka",
         "roast_profile": "filter",
         "origin": "",
@@ -241,7 +255,7 @@
         "process": "",
         "varietal": "",
         "flavour_profile": "Chocolate, Sweet",
-        "product_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+        "product_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
         "status": "ok",
         "error": ""
       },
@@ -772,7 +786,7 @@
         "price_aud": "28.00",
         "process": "Natural",
         "varietal": "Catuaí",
-        "flavour_profile": "Nectarine, Almond Praline + Cherry Liqueur Origin Information",
+        "flavour_profile": "",
         "product_url": "https://standingroomcoffee.com.au/products/sao-judas-tadeu-brazil-filter-copy",
         "status": "ok",
         "error": ""
@@ -821,20 +835,6 @@
       },
       {
         "roaster": "Vacation Coffee",
-        "source_url": "https://vacationcoffee.com.au/products/indonesia-flores-marselina-walu-filter",
-        "bean_name": "INDONESIA Flores Marselina Walu FILTER",
-        "roast_profile": "filter",
-        "origin": "Indonesia",
-        "price_aud": "24.00",
-        "process": "Washed",
-        "varietal": "Lini S795",
-        "flavour_profile": "",
-        "product_url": "https://vacationcoffee.com.au/products/indonesia-flores-marselina-walu-filter",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Vacation Coffee",
         "source_url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-filter",
         "bean_name": "ETHIOPIA Gara Agena FILTER",
         "roast_profile": "filter",
@@ -844,6 +844,20 @@
         "varietal": "Heirloom",
         "flavour_profile": "",
         "product_url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-filter",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Vacation Coffee",
+        "source_url": "https://vacationcoffee.com.au/products/indonesia-flores-marselina-walu-filter",
+        "bean_name": "INDONESIA Flores Marselina Walu FILTER",
+        "roast_profile": "filter",
+        "origin": "Indonesia",
+        "price_aud": "24.00",
+        "process": "Washed",
+        "varietal": "Lini S795",
+        "flavour_profile": "",
+        "product_url": "https://vacationcoffee.com.au/products/indonesia-flores-marselina-walu-filter",
         "status": "ok",
         "error": ""
       }
@@ -865,20 +879,6 @@
       },
       {
         "roaster": "Market Lane",
-        "source_url": "https://marketlane.com.au/collections/espresso-beans/products/la-esperanza",
-        "bean_name": "La Esperanza",
-        "roast_profile": "espresso",
-        "origin": "Ibagué, Tolima, Colombia",
-        "price_aud": "28.00",
-        "process": "Washed",
-        "varietal": "Caturra & Colombia",
-        "flavour_profile": "",
-        "product_url": "https://marketlane.com.au/collections/espresso-beans/products/la-esperanza",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Market Lane",
         "source_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
         "bean_name": "Airumá",
         "roast_profile": "espresso",
@@ -888,6 +888,20 @@
         "varietal": "Catuaí & Topazio",
         "flavour_profile": "",
         "product_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Market Lane",
+        "source_url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
+        "bean_name": "Rurima",
+        "roast_profile": "espresso",
+        "origin": "Embu, Kenya",
+        "price_aud": "28.00",
+        "process": "Washed",
+        "varietal": "SL28, SL34, Ruiru 11 & Batian",
+        "flavour_profile": "",
+        "product_url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
         "status": "ok",
         "error": ""
       },
@@ -1288,10 +1302,10 @@
         "source_url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
         "bean_name": "Seasonal Espresso Blend",
         "roast_profile": "espresso",
-        "origin": "Burundi, Colombia",
+        "origin": "Colombia, Ethiopia",
         "price_aud": "26.00",
         "process": "Natural",
-        "varietal": "HEIRLOOM, CATURRA, CASTILLO",
+        "varietal": "HEIRLOOM, CATURRA",
         "flavour_profile": "Berries, Citrus, Strong, Sweet",
         "product_url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
         "status": "ok",
@@ -1712,7 +1726,7 @@
         "price_aud": "22.00",
         "process": "Washed, Natural",
         "varietal": "",
-        "flavour_profile": "Milk chocolate, red apple + almond praline",
+        "flavour_profile": "",
         "product_url": "https://standingroomcoffee.com.au/products/seasonal-blend",
         "status": "ok",
         "error": ""
@@ -1889,20 +1903,6 @@
       },
       {
         "roaster": "Proud Mary",
-        "source_url": "https://www.proudmarycoffee.com.au/products/nicaragua-monte-libano-caturra-washed",
-        "bean_name": "Nicaragua | Monte Libano | Caturra | Washed",
-        "roast_profile": "omni",
-        "origin": "Nicaragua",
-        "price_aud": "35.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.proudmarycoffee.com.au/products/nicaragua-monte-libano-caturra-washed",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Proud Mary",
         "source_url": "https://www.proudmarycoffee.com.au/products/nicaragua-buenos-aires-maracaturra-washed-1",
         "bean_name": "Nicaragua | Buenos Aires | Maracaturra | Washed",
         "roast_profile": "omni",
@@ -1972,6 +1972,20 @@
         "error": ""
       },
       {
+        "roaster": "Proud Mary",
+        "source_url": "https://www.proudmarycoffee.com.au/products/brazil-mantiqueira-de-minas-yellow-bourbon-natural",
+        "bean_name": "Brazil | Mantiqueira de Minas | Yellow Bourbon | Natural",
+        "roast_profile": "omni",
+        "origin": "Brazil",
+        "price_aud": "34.00",
+        "process": "Natural",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.proudmarycoffee.com.au/products/brazil-mantiqueira-de-minas-yellow-bourbon-natural",
+        "status": "ok",
+        "error": ""
+      },
+      {
         "roaster": "Seven Seeds",
         "source_url": "https://sevenseeds.com.au/products/seven-seeds-espresso-blend",
         "bean_name": "Seven Seeds House Blend",
@@ -1982,20 +1996,6 @@
         "varietal": "Caturra, Bourbon, Catuai",
         "flavour_profile": "",
         "product_url": "https://sevenseeds.com.au/products/seven-seeds-espresso-blend",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Seven Seeds",
-        "source_url": "https://sevenseeds.com.au/products/chirinos-peru-2026",
-        "bean_name": "Chirinos, Peru",
-        "roast_profile": "omni",
-        "origin": "Chirinos, Cajamarca, Peru",
-        "price_aud": "28.00",
-        "process": "Fully Washed",
-        "varietal": "Caturra, Bourbon, Catuai",
-        "flavour_profile": "",
-        "product_url": "https://sevenseeds.com.au/products/chirinos-peru-2026",
         "status": "ok",
         "error": ""
       },
@@ -2085,20 +2085,6 @@
       },
       {
         "roaster": "Commonfolk",
-        "source_url": "https://www.commonfolkcoffee.com.au/products/nkonge-washed_26",
-        "bean_name": "Nkonge Washed",
-        "roast_profile": "omni",
-        "origin": "Burundi",
-        "price_aud": "29.00",
-        "process": "Washed",
-        "varietal": "PROCESSING",
-        "flavour_profile": "",
-        "product_url": "https://www.commonfolkcoffee.com.au/products/nkonge-washed_26",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Commonfolk",
         "source_url": "https://www.commonfolkcoffee.com.au/products/nkonge-natural_26",
         "bean_name": "Nkonge Natural",
         "roast_profile": "omni",
@@ -2108,20 +2094,6 @@
         "varietal": "PROCESSING",
         "flavour_profile": "",
         "product_url": "https://www.commonfolkcoffee.com.au/products/nkonge-natural_26",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Commonfolk",
-        "source_url": "https://www.commonfolkcoffee.com.au/products/el-diviso_26",
-        "bean_name": "El Diviso",
-        "roast_profile": "omni",
-        "origin": "Colombia",
-        "price_aud": "28.00",
-        "process": "",
-        "varietal": "PROCESSING",
-        "flavour_profile": "",
-        "product_url": "https://www.commonfolkcoffee.com.au/products/el-diviso_26",
         "status": "ok",
         "error": ""
       },
@@ -2552,20 +2524,6 @@
     },
     {
       "roaster": "Market Lane",
-      "source_url": "https://marketlane.com.au/collections/espresso-beans/products/la-esperanza",
-      "bean_name": "La Esperanza",
-      "roast_profile": "espresso",
-      "origin": "Ibagué, Tolima, Colombia",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "Caturra & Colombia",
-      "flavour_profile": "",
-      "product_url": "https://marketlane.com.au/collections/espresso-beans/products/la-esperanza",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Market Lane",
       "source_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
       "bean_name": "Airumá",
       "roast_profile": "espresso",
@@ -2575,6 +2533,20 @@
       "varietal": "Catuaí & Topazio",
       "flavour_profile": "",
       "product_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Market Lane",
+      "source_url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
+      "bean_name": "Rurima",
+      "roast_profile": "espresso",
+      "origin": "Embu, Kenya",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "SL28, SL34, Ruiru 11 & Batian",
+      "flavour_profile": "",
+      "product_url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
       "status": "ok",
       "error": ""
     },
@@ -2673,20 +2645,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.proudmarycoffee.com.au/products/ghost-rider",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Proud Mary",
-      "source_url": "https://www.proudmarycoffee.com.au/products/nicaragua-monte-libano-caturra-washed",
-      "bean_name": "Nicaragua | Monte Libano | Caturra | Washed",
-      "roast_profile": "omni",
-      "origin": "Nicaragua",
-      "price_aud": "35.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.proudmarycoffee.com.au/products/nicaragua-monte-libano-caturra-washed",
       "status": "ok",
       "error": ""
     },
@@ -2803,6 +2761,20 @@
       "error": ""
     },
     {
+      "roaster": "Proud Mary",
+      "source_url": "https://www.proudmarycoffee.com.au/products/brazil-mantiqueira-de-minas-yellow-bourbon-natural",
+      "bean_name": "Brazil | Mantiqueira de Minas | Yellow Bourbon | Natural",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "34.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.proudmarycoffee.com.au/products/brazil-mantiqueira-de-minas-yellow-bourbon-natural",
+      "status": "ok",
+      "error": ""
+    },
+    {
       "roaster": "Seven Seeds",
       "source_url": "https://sevenseeds.com.au/products/seven-seeds-espresso-blend",
       "bean_name": "Seven Seeds House Blend",
@@ -2841,20 +2813,6 @@
       "varietal": "Colombia, Caturra",
       "flavour_profile": "",
       "product_url": "https://sevenseeds.com.au/products/f-bomb-filter-blend",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Seven Seeds",
-      "source_url": "https://sevenseeds.com.au/products/chirinos-peru-2026",
-      "bean_name": "Chirinos, Peru",
-      "roast_profile": "omni",
-      "origin": "Chirinos, Cajamarca, Peru",
-      "price_aud": "28.00",
-      "process": "Fully Washed",
-      "varietal": "Caturra, Bourbon, Catuai",
-      "flavour_profile": "",
-      "product_url": "https://sevenseeds.com.au/products/chirinos-peru-2026",
       "status": "ok",
       "error": ""
     },
@@ -2930,6 +2888,20 @@
     },
     {
       "roaster": "Commonfolk",
+      "source_url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-natural_25f",
+      "bean_name": "Pink Bourbon Natural",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "29.00",
+      "process": "Natural",
+      "varietal": "PROCESSING",
+      "flavour_profile": "",
+      "product_url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-natural_25f",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Commonfolk",
       "source_url": "https://www.commonfolkcoffee.com.au/products/los-pequenos_25f",
       "bean_name": "Los Pequeños",
       "roast_profile": "omni",
@@ -2958,20 +2930,6 @@
     },
     {
       "roaster": "Commonfolk",
-      "source_url": "https://www.commonfolkcoffee.com.au/products/nkonge-washed_26",
-      "bean_name": "Nkonge Washed",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "product_url": "https://www.commonfolkcoffee.com.au/products/nkonge-washed_26",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Commonfolk",
       "source_url": "https://www.commonfolkcoffee.com.au/products/nkonge-natural_26",
       "bean_name": "Nkonge Natural",
       "roast_profile": "omni",
@@ -2981,20 +2939,6 @@
       "varietal": "PROCESSING",
       "flavour_profile": "",
       "product_url": "https://www.commonfolkcoffee.com.au/products/nkonge-natural_26",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Commonfolk",
-      "source_url": "https://www.commonfolkcoffee.com.au/products/el-diviso_26",
-      "bean_name": "El Diviso",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "product_url": "https://www.commonfolkcoffee.com.au/products/el-diviso_26",
       "status": "ok",
       "error": ""
     },
@@ -3392,7 +3336,7 @@
     },
     {
       "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+      "source_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
       "bean_name": "Unfamiliar Origins: Sri Lanka",
       "roast_profile": "filter",
       "origin": "",
@@ -3400,7 +3344,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "Chocolate, Sweet",
-      "product_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+      "product_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
       "status": "ok",
       "error": ""
     },
@@ -3661,10 +3605,10 @@
       "source_url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
       "bean_name": "Seasonal Espresso Blend",
       "roast_profile": "espresso",
-      "origin": "Burundi, Colombia",
+      "origin": "Colombia, Ethiopia",
       "price_aud": "26.00",
       "process": "Natural",
-      "varietal": "HEIRLOOM, CATURRA, CASTILLO",
+      "varietal": "HEIRLOOM, CATURRA",
       "flavour_profile": "Berries, Citrus, Strong, Sweet",
       "product_url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
       "status": "ok",
@@ -4813,7 +4757,7 @@
       "price_aud": "22.00",
       "process": "Washed, Natural",
       "varietal": "",
-      "flavour_profile": "Milk chocolate, red apple + almond praline",
+      "flavour_profile": "",
       "product_url": "https://standingroomcoffee.com.au/products/seasonal-blend",
       "status": "ok",
       "error": ""
@@ -4869,7 +4813,7 @@
       "price_aud": "28.00",
       "process": "Natural",
       "varietal": "Catuaí",
-      "flavour_profile": "Nectarine, Almond Praline + Cherry Liqueur Origin Information",
+      "flavour_profile": "",
       "product_url": "https://standingroomcoffee.com.au/products/sao-judas-tadeu-brazil-filter-copy",
       "status": "ok",
       "error": ""
@@ -5002,6 +4946,20 @@
     },
     {
       "roaster": "Vacation Coffee",
+      "source_url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-filter",
+      "bean_name": "ETHIOPIA Gara Agena FILTER",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "24.00",
+      "process": "Washed",
+      "varietal": "Heirloom",
+      "flavour_profile": "",
+      "product_url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-filter",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Vacation Coffee",
       "source_url": "https://vacationcoffee.com.au/products/indonesia-flores-marselina-walu-espresso",
       "bean_name": "INDONESIA Flores Marselina Walu ESPRESSO",
       "roast_profile": "espresso",
@@ -5039,20 +4997,6 @@
       "varietal": "Caturra & Catuai",
       "flavour_profile": "",
       "product_url": "https://vacationcoffee.com.au/products/costa-rica-hermosa-tarrazu-espresso",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "source_url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-filter",
-      "bean_name": "ETHIOPIA Gara Agena FILTER",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "24.00",
-      "process": "Washed",
-      "varietal": "Heirloom",
-      "flavour_profile": "",
-      "product_url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-filter",
       "status": "ok",
       "error": ""
     }

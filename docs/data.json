@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-24 04:24",
+  "generated_at": "2026-07-24 23:37",
   "stats": {
-    "total": 177,
-    "new": 2,
+    "total": 178,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -24,26 +24,14 @@
   ],
   "items": [
     {
-      "roaster": "Commonfolk",
-      "bean_name": "Pink Bourbon Natural",
-      "url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-natural_25f",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Brazil | Mantiqueira de Minas | Yellow Bourbon | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/brazil-mantiqueira-de-minas-yellow-bourbon-natural",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "34.00",
-      "process": "Natural",
-      "varietal": "",
+      "roaster": "Market Lane",
+      "bean_name": "Rurima",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
+      "roast_profile": "espresso",
+      "origin": "Embu, Kenya",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "SL28, SL34, Ruiru 11 & Batian",
       "flavour_profile": "",
       "is_new": true
     },
@@ -451,6 +439,18 @@
       "origin": "Kenya",
       "price_aud": "27.00",
       "process": "Washed",
+      "varietal": "PROCESSING",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
+      "bean_name": "Pink Bourbon Natural",
+      "url": "https://www.commonfolkcoffee.com.au/products/pink-bourbon-natural_25f",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "29.00",
+      "process": "Natural",
       "varietal": "PROCESSING",
       "flavour_profile": "",
       "is_new": false
@@ -1022,7 +1022,7 @@
     {
       "roaster": "ONA Coffee",
       "bean_name": "Unfamiliar Origins: Sri Lanka",
-      "url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+      "url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
       "roast_profile": "filter",
       "origin": "",
       "price_aud": "52.00",
@@ -1254,6 +1254,18 @@
       "roast_profile": "omni",
       "origin": "Brazil",
       "price_aud": "38.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Brazil | Mantiqueira de Minas | Yellow Bourbon | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/brazil-mantiqueira-de-minas-yellow-bourbon-natural",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "34.00",
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
