@@ -1,0 +1,9 @@
+name = "coffee-favs"
+main = "favourites-sync.js"
+compatibility_date = "2026-07-01"
+
+# KV namespace holding one JSON blob per sync code.
+# Created 2026-07-24 with: npx wrangler kv namespace create FAVS
+[[kv_namespaces]]
+binding = "FAVS"
+id = "46faf09a5b574d01a857ddce1d224568"

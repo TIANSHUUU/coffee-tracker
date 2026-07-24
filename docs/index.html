@@ -26,6 +26,7 @@
 
     --blue:     oklch(47% 0.15 252);     /* riso blue — structure */
     --orange:   oklch(67% 0.205 47);     /* riso fluoro orange — reserved for NEW */
+    --red:      oklch(60% 0.23 22);      /* riso fluoro red — reserved for SAVED */
 
     --ok:       oklch(52% 0.13 150);     /* update success */
     --err:      oklch(55% 0.19 27);      /* update error */
@@ -209,6 +210,7 @@
   .filter-pill:hover { color: var(--blue); }
   .filter-pill:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
   .filter-pill.active { color: var(--paper); background: var(--ink); }
+  .filter-pill.fav-pill.active { color: var(--paper); background: var(--red); border-color: var(--red); }
 
   /* ── Roaster category section ── */
   main { padding-bottom: var(--space-3xl); }
@@ -265,12 +267,39 @@
     padding: 1px 6px; line-height: 1.4; white-space: nowrap;
   }
   .tag.tag-new { color: var(--ink); background: var(--orange); border-color: var(--orange); }
+  .tag.tag-gone { color: var(--paper); background: var(--ink); border-color: var(--ink); }
+  /* price + heart share the top-right corner; baseline comes from the price */
+  .ad-right { display: flex; align-items: center; gap: var(--space-xs); flex-shrink: 0; }
   .ad-price {
     font-family: var(--font-mono); font-weight: 700; font-size: 0.9rem;
     color: var(--ink); white-space: nowrap; flex-shrink: 0;
     font-variant-numeric: tabular-nums; padding-left: 4px;
     border-bottom: 2px solid var(--ink);
   }
+
+  /* ── Favourite heart ── */
+  .fav {
+    -webkit-appearance: none; appearance: none; background: transparent;
+    border: none; cursor: pointer; color: var(--ink); line-height: 0;
+    display: inline-flex; align-items: center; justify-content: center;
+    padding: 7px; margin: -7px -5px -7px 0;   /* 34px hit area, 20px optical */
+    transition: color .14s var(--ease-out), transform .14s var(--ease-out);
+  }
+  .fav svg { width: 20px; height: 20px; display: block; }
+  .fav:hover { color: var(--red); transform: scale(1.15); }
+  .fav:focus-visible { outline: 2px solid var(--blue); outline-offset: 1px; }
+  .fav.on { color: var(--red); }
+
+  /* ── Saved but no longer in this week's data ── */
+  .ad.is-gone { border-style: dashed; border-color: var(--rule); background: var(--paper-2); }
+  .ad.is-gone .ad-name { color: oklch(45% 0.02 255); }
+  .ad-lastseen {
+    font-family: var(--font-mono); font-size: 0.6rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.06em; color: var(--blue);
+    margin-top: var(--space-sm);
+  }
+  .roaster-tab.tab-gone { background: var(--ink); }
+  .roaster-tab.tab-gone::before { background: var(--rule); }
   .ad-name {
     font-family: var(--font-display); font-weight: 700;
     font-size: 1.3rem; line-height: 1.05; letter-spacing: -0.015em;
@@ -294,6 +323,83 @@
     font-size: 0.95rem; line-height: 1.45; color: var(--ink);
     border-left: 3px solid var(--blue); padding-left: var(--space-sm);
   }
+
+  /* ── Sync bar (only inside the Saved view) ── */
+  .sync-bar {
+    display: flex; align-items: center; gap: var(--space-md); flex-wrap: wrap;
+    margin-top: var(--space-xl); padding: var(--space-sm) var(--space-md);
+    border: 2px dashed var(--rule); background: var(--paper-2);
+    font-family: var(--font-mono); font-size: 0.68rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  .sync-state { color: var(--blue); }
+  .sync-state.is-err { color: var(--err); }
+  .sync-state.is-ok  { color: var(--ok); }
+  .sync-link {
+    font: inherit; color: var(--ink); background: transparent;
+    border: none; border-bottom: 2px solid var(--red);
+    padding: 0 0 1px; cursor: pointer; margin-left: auto;
+  }
+  .sync-link:hover { color: var(--red); }
+  .sync-link:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+
+  /* ── Sync dialog ── */
+  .modal-backdrop {
+    position: fixed; inset: 0; z-index: 500;
+    background: oklch(22% 0.03 255 / 0.55);
+    display: flex; align-items: center; justify-content: center; padding: var(--space-md);
+  }
+  .modal-backdrop[hidden] { display: none; }
+  .modal {
+    position: relative; width: min(100%, 500px); max-height: 88vh; overflow-y: auto;
+    background: var(--paper); border: 2.5px solid var(--ink);
+    box-shadow: 8px 8px 0 var(--blue); padding: var(--space-xl);
+  }
+  .modal h2 {
+    font-family: var(--font-display); font-weight: 800; font-size: 1.5rem;
+    text-transform: uppercase; letter-spacing: -0.02em; line-height: 1;
+    margin-bottom: var(--space-sm);
+  }
+  .modal p { font-size: 0.92rem; margin-bottom: var(--space-md); }
+  .modal .mono-note {
+    font-family: var(--font-mono); font-size: 0.66rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em; color: var(--blue);
+    margin-bottom: var(--space-xs);
+  }
+  .modal-close {
+    position: absolute; top: 8px; right: 10px; background: transparent; border: none;
+    font-size: 1.6rem; line-height: 1; cursor: pointer; color: var(--ink); padding: 4px;
+  }
+  .modal-close:hover { color: var(--red); }
+  .code-box {
+    font-family: var(--font-mono); font-size: 0.8rem; font-weight: 700;
+    word-break: break-all; background: var(--paper-2);
+    border: 2px solid var(--ink); padding: var(--space-sm); margin-bottom: var(--space-md);
+  }
+  .btn-row { display: flex; gap: var(--space-sm); flex-wrap: wrap; margin-bottom: var(--space-lg); }
+  .btn {
+    font-family: var(--font-mono); font-size: 0.7rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    border: 2px solid var(--ink); background: var(--ink); color: var(--paper);
+    padding: 8px 13px; cursor: pointer; line-height: 1;
+  }
+  .btn:hover { background: var(--blue); border-color: var(--blue); }
+  .btn:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+  .btn.btn-ghost { background: transparent; color: var(--ink); }
+  .btn.btn-ghost:hover { background: var(--paper-2); color: var(--ink); border-color: var(--ink); }
+  .btn.btn-danger { background: transparent; color: var(--err); border-color: var(--err); }
+  .btn.btn-danger:hover { background: var(--err); color: var(--paper); }
+  .modal-rule { border: 0; border-top: 2px solid var(--ink); margin: var(--space-lg) 0; }
+  .code-input {
+    width: 100%; font-family: var(--font-mono); font-size: 0.8rem;
+    padding: var(--space-xs) 0; border: none; border-bottom: 2px solid var(--ink);
+    background: transparent; color: var(--ink); margin-bottom: var(--space-sm);
+  }
+  .code-input:focus { outline: none; border-bottom-color: var(--red); }
+  .modal-msg { font-family: var(--font-mono); font-size: 0.66rem; font-weight: 700;
+               text-transform: uppercase; letter-spacing: 0.08em; min-height: 1em; }
+  .modal-msg.is-err { color: var(--err); }
+  .modal-msg.is-ok  { color: var(--ok); }
 
   /* ── Empty / Loading / Error ── */
   .empty, .loading {
@@ -368,6 +474,7 @@
         <button class="filter-pill" data-profile="espresso">Espresso</button>
         <button class="filter-pill" data-profile="omni">Omni</button>
         <button class="filter-pill" id="newOnlyBtn">★ New</button>
+        <button class="filter-pill fav-pill" id="favOnlyBtn">♥ Saved</button>
       </div>
     </div>
   </div>
@@ -377,10 +484,263 @@
   </main>
 </div>
 
+<div class="modal-backdrop" id="syncModal" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="syncTitle">
+    <button class="modal-close" id="syncClose" aria-label="Close">×</button>
+    <h2 id="syncTitle">Sync saved coffees</h2>
+    <div id="syncBody"></div>
+  </div>
+</div>
+
 <script>
 (function () {
-  let allItems = [], roasters = [];
-  let state = { search: '', roaster: '', profile: '', newOnly: false };
+  let allItems = [], roasters = [], generatedAt = '';
+  let state = { search: '', roaster: '', profile: '', newOnly: false, favOnly: false };
+
+  // ── Favourites ────────────────────────────────────────────────────────────
+  // Saved coffees live in localStorage as a full snapshot, not just an id, so a
+  // bean that sells out and drops off data.json can still be shown (flagged
+  // SOLD OUT) instead of silently vanishing. Snapshots are dropped GONE_TTL_DAYS
+  // after we first notice they're gone.
+  const FAV_KEY = 'coffee-tracker:favourites';
+  const FAV_VERSION = 2;
+  const GONE_TTL_DAYS = 14;
+  const GONE_TTL_MS = GONE_TTL_DAYS * 24 * 60 * 60 * 1000;
+  // Tombstones outlive the sold-out window by a lot: a device that has been
+  // offline for weeks must still learn about a deletion when it reconnects.
+  const TOMB_TTL_MS = 90 * 24 * 60 * 60 * 1000;
+  const SYNC_URL = 'https://coffee-favs.tianshu-tan.workers.dev';
+  const CODE_RE = /^[0-9a-f]{32}$/;
+  const SEP = '␟';                        // printable, survives HTML attrs
+  const DASHES = /[–—‐‑‒―⁻₋]/g;
+
+  const HEART_OFF = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.2l7.7-7.7 1.1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>';
+  const HEART_ON  = '<svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1.1L12 21.2l7.7-7.7 1.1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg>';
+
+  let favs = {};            // key -> snapshot
+  let tombs = {};           // key -> deleted_at (ms) — needed so a delete on one
+                            // device isn't undone by another device's stale copy
+  let syncCfg = { code: null, last_synced: 0 };
+  let liveKeys = new Set(); // keys present in the current data.json
+  let itemByKey = new Map();
+
+  // Mirrors item_key() in generate_web_data.py so a bean keeps its identity
+  // across weekly scrapes even if dashes or spacing drift.
+  function normPart(s) {
+    return (s || '').normalize('NFKC').replace(DASHES, '-')
+                    .replace(/\s+/g, ' ').trim().toLowerCase();
+  }
+  function keyOf(item) {
+    return normPart(item.roaster) + SEP + normPart(item.bean_name);
+  }
+
+  function loadStore() {
+    let parsed = null;
+    try { parsed = JSON.parse(localStorage.getItem(FAV_KEY) || 'null'); } catch {}
+    if (!parsed || typeof parsed !== 'object') return;
+    // v1 had no tombstones and no sync config; items carry over as-is.
+    if (parsed.v === 1 || parsed.v === 2) {
+      favs = parsed.items && typeof parsed.items === 'object' ? parsed.items : {};
+      tombs = parsed.tombstones && typeof parsed.tombstones === 'object' ? parsed.tombstones : {};
+      const s = parsed.sync;
+      if (s && CODE_RE.test(s.code || '')) syncCfg = { code: s.code, last_synced: s.last_synced || 0 };
+    }
+  }
+  function saveStore() {
+    try {
+      localStorage.setItem(FAV_KEY, JSON.stringify({
+        v: FAV_VERSION, items: favs, tombstones: tombs, sync: syncCfg
+      }));
+    } catch {}   // private mode / quota — favourites stay in memory for this session
+  }
+
+  function snapshot(item) {
+    return {
+      roaster: item.roaster, bean_name: item.bean_name, url: item.url,
+      roast_profile: item.roast_profile, origin: item.origin,
+      price_aud: item.price_aud, process: item.process,
+      varietal: item.varietal, flavour_profile: item.flavour_profile,
+      last_seen: generatedAt
+    };
+  }
+
+  // Runs once per load, only after data.json parsed successfully — a failed
+  // fetch must never be read as "everything sold out".
+  function reconcileFavs() {
+    const now = Date.now();
+    for (const [k, fav] of Object.entries(favs)) {
+      if (liveKeys.has(k)) {
+        favs[k] = Object.assign(snapshot(itemByKey.get(k)), { saved_at: fav.saved_at });
+      } else if (!fav.missing_since) {
+        fav.missing_since = now;
+      } else if (now - fav.missing_since > GONE_TTL_MS) {
+        // An expiry is a real deletion — tombstone it so other devices expire it
+        // too instead of syncing it back.
+        delete favs[k];
+        tombs[k] = now;
+      }
+    }
+    for (const [k, t] of Object.entries(tombs)) {
+      if (now - t > TOMB_TTL_MS) delete tombs[k];
+    }
+    saveStore();
+  }
+
+  function toggleFav(key) {
+    if (favs[key]) {
+      delete favs[key];
+      tombs[key] = Date.now();
+    } else {
+      const item = itemByKey.get(key);
+      if (!item) return;   // gone items are always already saved
+      favs[key] = Object.assign(snapshot(item), { saved_at: Date.now() });
+      delete tombs[key];
+    }
+    saveStore();
+    scheduleSync();
+  }
+
+  // ── Merge ────────────────────────────────────────────────────────────────
+  // Last-write-wins per key across four timestamps (local save, remote save,
+  // local delete, remote delete). Convergent: two devices that merge the same
+  // pair of documents in either order land on the same result, so a lost PUT
+  // race self-heals on the next sync.
+  function mergeDocs(lItems, lTombs, rItems, rTombs) {
+    const items = {}, tombstones = {};
+    const keys = new Set([
+      ...Object.keys(lItems), ...Object.keys(rItems),
+      ...Object.keys(lTombs), ...Object.keys(rTombs),
+    ]);
+    for (const k of keys) {
+      const li = lItems[k], ri = rItems[k];
+      const ls = (li && li.saved_at) || 0, rs = (ri && ri.saved_at) || 0;
+      const lt = lTombs[k] || 0,           rt = rTombs[k] || 0;
+      const best = Math.max(ls, rs, lt, rt);
+      if (!best) continue;
+
+      if (best === ls || best === rs) {   // a save is newest — item lives
+        let chosen;
+        if (rs > ls) chosen = Object.assign({}, ri);
+        else if (ls > rs) chosen = Object.assign({}, li);
+        else chosen = Object.assign({}, (ri && ri.last_seen) > (li && li.last_seen) ? ri : li);
+        // Expiry counts from when the bean was FIRST seen missing anywhere.
+        const seenMissing = [li && li.missing_since, ri && ri.missing_since].filter(Boolean);
+        if (seenMissing.length) chosen.missing_since = Math.min.apply(null, seenMissing);
+        else delete chosen.missing_since;
+        items[k] = chosen;
+      } else {
+        tombstones[k] = Math.max(lt, rt);
+      }
+    }
+    return { items, tombstones };
+  }
+
+  // Identity + timing only — enough to tell whether a push would change anything.
+  function canon(items, tombstones) {
+    const parts = [];
+    for (const k of Object.keys(items).sort()) parts.push('i' + k + ':' + (items[k].saved_at || 0));
+    for (const k of Object.keys(tombstones).sort()) parts.push('t' + k + ':' + tombstones[k]);
+    return parts.join('|');
+  }
+
+  function favCount() { return Object.keys(favs).length; }
+
+  function updateFavPill() {
+    const n = favCount();
+    document.getElementById('favOnlyBtn').textContent = n ? `♥ Saved ${n}` : '♥ Saved';
+  }
+
+  // ── Sync engine ──────────────────────────────────────────────────────────
+  // Sync is strictly additive to local storage: every failure path leaves the
+  // page fully usable offline, and nothing here can block rendering.
+  let syncTimer = null, syncing = false, syncState = 'idle';
+
+  function setSyncState(s) { syncState = s; paintSyncBar(); }
+
+  function newSyncCode() {
+    const b = new Uint8Array(16);
+    crypto.getRandomValues(b);
+    return Array.from(b, x => x.toString(16).padStart(2, '0')).join('');
+  }
+
+  function scheduleSync() {
+    if (!syncCfg.code) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(() => { syncNow(); }, 2000);
+  }
+
+  async function syncNow() {
+    if (!syncCfg.code || syncing) return;
+    syncing = true;
+    setSyncState('syncing');
+    const before = canon(favs, tombs);
+    try {
+      const res = await fetch(`${SYNC_URL}/favs/${syncCfg.code}`, { cache: 'no-store' });
+      if (!res.ok) throw new Error('pull ' + res.status);
+      const remote = await res.json();
+      const rItems = (remote && remote.items) || {};
+      const rTombs = (remote && remote.tombstones) || {};
+
+      const merged = mergeDocs(favs, tombs, rItems, rTombs);
+      favs = merged.items;
+      tombs = merged.tombstones;
+      reconcileFavs();       // re-apply liveness + expiry to whatever arrived
+
+      if (canon(favs, tombs) !== canon(rItems, rTombs)) {
+        const put = await fetch(`${SYNC_URL}/favs/${syncCfg.code}`, {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ items: favs, tombstones: tombs }),
+        });
+        if (!put.ok) throw new Error('push ' + put.status);
+      }
+
+      syncCfg.last_synced = Date.now();
+      saveStore();
+      setSyncState('ok');
+      if (canon(favs, tombs) !== before) { updateFavPill(); render(); }
+    } catch {
+      setSyncState('error');   // stays local-only; retried next load or change
+    } finally {
+      syncing = false;
+    }
+  }
+
+  function enableSync(code) {
+    syncCfg = { code: code || newSyncCode(), last_synced: 0 };
+    saveStore();
+    return syncNow();
+  }
+  function disableSync() {
+    syncCfg = { code: null, last_synced: 0 };
+    saveStore();
+    setSyncState('idle');
+  }
+
+  function agoText(ts) {
+    if (!ts) return 'never';
+    const m = Math.floor((Date.now() - ts) / 60000);
+    if (m < 1) return 'just now';
+    if (m < 60) return `${m}m ago`;
+    const h = Math.floor(m / 60);
+    return h < 24 ? `${h}h ago` : `${Math.floor(h / 24)}d ago`;
+  }
+
+  function syncBarHTML() {
+    let cls = '', txt;
+    if (!syncCfg.code)              txt = 'This device only — not synced';
+    else if (syncState === 'syncing') txt = 'Syncing…';
+    else if (syncState === 'error') { txt = `Sync failed — saved locally · last synced ${agoText(syncCfg.last_synced)}`; cls = ' is-err'; }
+    else                            { txt = `Synced · ${agoText(syncCfg.last_synced)}`; cls = ' is-ok'; }
+    return `<div class="sync-bar">
+      <span class="sync-state${cls}">${txt}</span>
+      <button class="sync-link" id="syncSetup">${syncCfg.code ? 'Sync settings' : 'Sync across devices'}</button>
+    </div>`;
+  }
+  function paintSyncBar() {
+    const bar = document.querySelector('.sync-bar');
+    if (bar) bar.outerHTML = syncBarHTML();
+  }
 
   fetch('data.json')
     .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
@@ -394,7 +754,24 @@
   function init(data) {
     allItems = data.items || [];
     roasters = data.roasters || [];
+    generatedAt = data.generated_at || '';
     const s = data.stats || {};
+
+    itemByKey = new Map(allItems.map(i => [keyOf(i), i]));
+    liveKeys = new Set(itemByKey.keys());
+    loadStore();
+    reconcileFavs();
+    updateFavPill();
+
+    // Arriving from a sync link on a second device: adopt the code, then strip
+    // it from the URL so it isn't left sitting in history or a shared screenshot.
+    const linked = (location.hash || '').match(/^#sync=([0-9a-f]{32})$/);
+    if (linked) {
+      history.replaceState(null, '', location.pathname + location.search);
+      enableSync(linked[1]);
+    } else if (syncCfg.code) {
+      syncNow();
+    }
 
     document.getElementById('dateline').innerHTML =
       `<span>Updated ${esc((data.generated_at || '').replace(/-/g, '·').split(' ')[0])}</span>` +
@@ -416,34 +793,60 @@
     document.dispatchEvent(new CustomEvent('coffeeDataLoaded', { detail: data.generated_at }));
   }
 
-  function filtered() {
+  // Roaster / profile / search — shared by in-stock and delisted pools.
+  function matches(item) {
     const q = state.search.toLowerCase().trim();
+    if (state.roaster && item.roaster !== state.roaster) return false;
+    if (state.profile && item.roast_profile !== state.profile) return false;
+    if (q) {
+      const h = [item.bean_name, item.origin, item.process,
+                 item.varietal, item.flavour_profile, item.roaster].join(' ').toLowerCase();
+      if (!h.includes(q)) return false;
+    }
+    return true;
+  }
+
+  function filtered() {
     return allItems.filter(item => {
-      if (state.roaster && item.roaster !== state.roaster) return false;
-      if (state.profile && item.roast_profile !== state.profile) return false;
+      if (!matches(item)) return false;
       if (state.newOnly && !item.is_new) return false;
-      if (q) {
-        const h = [item.bean_name, item.origin, item.process,
-                   item.varietal, item.flavour_profile, item.roaster].join(' ').toLowerCase();
-        if (!h.includes(q)) return false;
-      }
+      if (state.favOnly && !favs[keyOf(item)]) return false;
       return true;
     });
   }
 
+  // Saved beans that have dropped out of the weekly data. Only ever surfaced
+  // under ♥ Saved — never mixed into normal browsing. "New this week" and
+  // delisted are mutually exclusive, so the New filter excludes them too.
+  function goneFavs() {
+    if (!state.favOnly || state.newOnly) return [];
+    return Object.keys(favs)
+      .filter(k => !liveKeys.has(k))
+      .map(k => favs[k])
+      .filter(matches)
+      .sort((a, b) => (a.roaster || '').localeCompare(b.roaster || '') ||
+                      (a.bean_name || '').localeCompare(b.bean_name || ''));
+  }
+
   function render() {
     const items = filtered();
+    const gone = goneFavs();
     const main = document.getElementById('main');
-    if (!items.length) {
-      main.innerHTML = `<div class="empty"><div class="empty-icon">☕</div>No coffees match your filters.</div>`;
+
+    if (!items.length && !gone.length) {
+      main.innerHTML = (state.favOnly && !favCount())
+        ? syncBarHTML() + `<div class="empty"><div class="empty-icon">♡</div>Nothing saved yet.<br>Tap the ♥ on any card to keep it for later.</div>`
+        : `<div class="empty"><div class="empty-icon">☕</div>No coffees match your filters.</div>`;
       return;
     }
+
     const groups = {}, order = [];
     for (const item of items) {
       if (!groups[item.roaster]) { groups[item.roaster] = []; order.push(item.roaster); }
       groups[item.roaster].push(item);
     }
-    main.innerHTML = order.map(roaster => {
+    let html = state.favOnly ? syncBarHTML() : '';
+    html += order.map(roaster => {
       const grp = groups[roaster];
       const newCount = grp.filter(i => i.is_new).length;
       const newPart = newCount > 0 ? ` <span class="new-flag">· ★ ${newCount} New</span>` : '';
@@ -452,34 +855,60 @@
           <span class="roaster-tab">${esc(roaster)}</span>
           <span class="roaster-count">${grp.length} Listing${grp.length === 1 ? '' : 's'}${newPart}</span>
         </div>
-        <div class="coffee-grid">${grp.map(adHTML).join('')}</div>
+        <div class="coffee-grid">${grp.map(i => adHTML(i, false)).join('')}</div>
       </section>`;
     }).join('');
+
+    if (gone.length) {
+      html += `<section class="roaster-section">
+        <div class="roaster-head">
+          <span class="roaster-tab tab-gone">No Longer Listed</span>
+          <span class="roaster-count">${gone.length} Saved · gone from this week's data · auto-removed after ${GONE_TTL_DAYS} days</span>
+        </div>
+        <div class="coffee-grid">${gone.map(i => adHTML(i, true)).join('')}</div>
+      </section>`;
+    }
+    main.innerHTML = html;
   }
 
   function specRow(label, val) {
     return val ? `<div class="spec"><span class="spec-label">${label}</span><span class="spec-value">${esc(val)}</span></div>` : '';
   }
 
-  function adHTML(item) {
+  function favHTML(key, on, name) {
+    return `<button class="fav${on ? ' on' : ''}" data-key="${esc(key)}" aria-pressed="${on}"
+      aria-label="${on ? 'Remove from saved' : 'Save for later'}: ${esc(name)}"
+      title="${on ? 'Saved — click to remove' : 'Save for later'}">${on ? HEART_ON : HEART_OFF}</button>`;
+  }
+
+  function adHTML(item, gone) {
+    const key = keyOf(item);
+    const isNew = !gone && item.is_new;
     const profTag = item.roast_profile ? `<span class="tag">${esc(item.roast_profile)}</span>` : '';
-    const newTag  = item.is_new ? `<span class="tag tag-new">★ New</span>` : '';
+    const newTag  = isNew ? `<span class="tag tag-new">★ New</span>` : '';
+    const goneTag = gone ? `<span class="tag tag-gone">Sold Out</span>` : '';
     const price   = item.price_aud ? `$${esc(item.price_aud)}` : '—';
     const nameContent = item.url
       ? `<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.bean_name)}</a>`
       : esc(item.bean_name);
     const specs = specRow('Origin', item.origin) + specRow('Process', item.process) + specRow('Varietal', item.varietal);
     const flavour = item.flavour_profile ? `<div class="ad-flavour">${esc(item.flavour_profile)}</div>` : '';
+    const lastSeen = gone && item.last_seen
+      ? `<div class="ad-lastseen">Last seen ${esc(String(item.last_seen).split(' ')[0])}</div>` : '';
 
-    return `<article class="ad${item.is_new ? ' is-new' : ''}"${item.url ? ` data-url="${esc(item.url)}"` : ''}>
+    return `<article class="ad${isNew ? ' is-new' : ''}${gone ? ' is-gone' : ''}"${item.url ? ` data-url="${esc(item.url)}"` : ''}>
       <div class="ad-top">
-        <div class="ad-tags">${profTag}${newTag}</div>
-        <div class="ad-price">${price}</div>
+        <div class="ad-tags">${profTag}${newTag}${goneTag}</div>
+        <div class="ad-right">
+          <div class="ad-price">${price}</div>
+          ${favHTML(key, !!favs[key], item.bean_name)}
+        </div>
       </div>
       <h3 class="ad-name">${nameContent}</h3>
       <hr class="ad-rule" />
       <div class="ad-specs">${specs}</div>
       ${flavour}
+      ${lastSeen}
     </article>`;
   }
 
@@ -490,6 +919,25 @@
 
   // ── Events ──
   document.getElementById('main').addEventListener('click', e => {
+    const btn = e.target.closest('.fav');
+    if (btn) {
+      // must not fall through to the card's open-product-page handler
+      e.preventDefault();
+      e.stopPropagation();
+      const key = btn.dataset.key;
+      toggleFav(key);
+      updateFavPill();
+      if (state.favOnly) {
+        render();   // card leaves (or the section empties) — rebuild the list
+      } else {
+        const on = !!favs[key];
+        btn.classList.toggle('on', on);
+        btn.setAttribute('aria-pressed', String(on));
+        btn.setAttribute('title', on ? 'Saved — click to remove' : 'Save for later');
+        btn.innerHTML = on ? HEART_ON : HEART_OFF;
+      }
+      return;
+    }
     if (e.target.closest('a')) return;
     const card = e.target.closest('.ad[data-url]');
     if (card) window.open(card.dataset.url, '_blank', 'noopener');
@@ -514,6 +962,102 @@
     this.classList.toggle('active', state.newOnly);
     render();
   });
+  document.getElementById('favOnlyBtn').addEventListener('click', function () {
+    state.favOnly = !state.favOnly;
+    this.classList.toggle('active', state.favOnly);
+    render();
+  });
+
+  // ── Sync dialog ──────────────────────────────────────────────────────────
+  const modal = document.getElementById('syncModal');
+  const modalBody = document.getElementById('syncBody');
+
+  function syncLink() {
+    return location.origin + location.pathname + '#sync=' + syncCfg.code;
+  }
+
+  function paintModal(msg, msgCls) {
+    const note = `<div class="modal-msg${msgCls ? ' ' + msgCls : ''}">${msg || ''}</div>`;
+    if (!syncCfg.code) {
+      modalBody.innerHTML = `
+        <p>Saved coffees live in this browser only. Turn on sync to share them with your phone or another computer.</p>
+        <p style="font-size:.85rem;color:var(--blue)">This device gets a random sync code. Anything holding that code can read and change your saved list, so treat it like a password — but it's only ever a coffee wishlist.</p>
+        <div class="btn-row"><button class="btn" id="syncOn">Turn on sync</button></div>
+        <hr class="modal-rule" />
+        <div class="mono-note">Already have a code from another device?</div>
+        <input class="code-input" id="codeInput" placeholder="paste code or link" autocomplete="off" spellcheck="false" />
+        <div class="btn-row"><button class="btn btn-ghost" id="syncJoin">Connect this device</button></div>
+        ${note}`;
+    } else {
+      modalBody.innerHTML = `
+        <p>Open this link on your other device, or paste the code there.</p>
+        <div class="mono-note">Sync link</div>
+        <div class="code-box">${esc(syncLink())}</div>
+        <div class="btn-row">
+          <button class="btn" id="syncCopy">Copy link</button>
+          <button class="btn btn-ghost" id="syncCopyCode">Copy code only</button>
+          <button class="btn btn-ghost" id="syncRun">Sync now</button>
+        </div>
+        <hr class="modal-rule" />
+        <div class="mono-note">Status</div>
+        <p style="font-family:var(--font-mono);font-size:.72rem">
+          ${favCount()} saved · last synced ${agoText(syncCfg.last_synced)}</p>
+        <div class="btn-row"><button class="btn btn-danger" id="syncOff">Stop syncing this device</button></div>
+        <p style="font-size:.82rem;color:var(--blue)">Stopping only disconnects this device. Your saved coffees stay here, and the copy in the cloud is left untouched.</p>
+        ${note}`;
+    }
+  }
+
+  function openModal(msg, cls) { paintModal(msg, cls); modal.hidden = false; }
+  function closeModal() { modal.hidden = true; }
+
+  document.getElementById('syncClose').addEventListener('click', closeModal);
+  modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !modal.hidden) closeModal(); });
+
+  document.getElementById('main').addEventListener('click', e => {
+    if (e.target.closest('#syncSetup')) openModal();
+  });
+
+  modalBody.addEventListener('click', async e => {
+    const id = e.target.id;
+    if (id === 'syncOn') {
+      await enableSync();
+      paintModal(syncState === 'error' ? 'Turned on, but the server did not answer — will retry.'
+                                       : 'Sync is on.', syncState === 'error' ? 'is-err' : 'is-ok');
+      paintSyncBar();
+    }
+    if (id === 'syncJoin') {
+      const raw = document.getElementById('codeInput').value.trim();
+      const m = raw.match(/([0-9a-f]{32})/i);
+      if (!m) return paintModal('That does not look like a sync code.', 'is-err');
+      await enableSync(m[1].toLowerCase());
+      paintModal(syncState === 'error' ? 'Connected, but the server did not answer — will retry.'
+                                       : 'Connected. Saved coffees merged.', syncState === 'error' ? 'is-err' : 'is-ok');
+      paintSyncBar();
+      updateFavPill();
+    }
+    if (id === 'syncCopy' || id === 'syncCopyCode') {
+      const text = id === 'syncCopy' ? syncLink() : syncCfg.code;
+      try {
+        await navigator.clipboard.writeText(text);
+        paintModal('Copied.', 'is-ok');
+      } catch {
+        paintModal('Could not copy — select the text above manually.', 'is-err');
+      }
+    }
+    if (id === 'syncRun') {
+      await syncNow();
+      paintModal(syncState === 'error' ? 'Sync failed — your list is safe on this device.' : 'Synced.',
+                 syncState === 'error' ? 'is-err' : 'is-ok');
+      paintSyncBar();
+    }
+    if (id === 'syncOff') {
+      disableSync();
+      paintModal('This device is no longer syncing.', 'is-ok');
+      paintSyncBar();
+    }
+  });
 })();
 
 // ── Manual update button ──
@@ -535,6 +1079,12 @@
 
     try {
       const res = await fetch(WORKER_URL, { method: 'POST' });
+      if (res.status === 429) {          // worker's 60s throttle
+        btn.className = 'update-btn error';
+        label.textContent = 'Just ran, wait a min';
+        btn.disabled = false;
+        return;
+      }
       if (!res.ok) throw new Error('dispatch failed');
     } catch {
       btn.className = 'update-btn error';
