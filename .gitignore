@@ -11,6 +11,9 @@ output/*.xlsx
 # Raw diary source notes (photos/markdown) — processed into docs/diary.json, not published
 coffee-diary/
 
+# Wrangler's local account cache — machine-specific, not part of the app
+worker/*/.wrangler/
+
 # Local Claude Code tooling (skills, agents, lockfile) — not part of the app
 .claude/
 .agents/

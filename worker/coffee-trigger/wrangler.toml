@@ -1,0 +1,12 @@
+# Recovered 2026-07-24 from the deployed script via the Cloudflare API.
+# It was originally written in the dashboard quick editor on 2026-03-31 and had
+# never existed as local source — hence compatibility_date below matches the
+# deployed value rather than today's.
+#
+# The GITHUB_TOKEN secret is NOT in this file and cannot be read back out of
+# Cloudflare. It is already set on the live Worker. Only if you ever redeploy
+# from scratch would you need to mint a new one:
+#   npx wrangler secret put GITHUB_TOKEN
+name = "coffee-trigger"
+main = "trigger-update.js"
+compatibility_date = "2026-03-31"
