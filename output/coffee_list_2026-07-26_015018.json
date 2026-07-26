@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-24_042445",
+  "generated_at": "2026-07-26_015018",
   "summary": {
-    "total_rows": 177,
-    "ok_rows": 177,
+    "total_rows": 178,
+    "ok_rows": 178,
     "error_rows": 0
   },
   "grouped": {
@@ -247,7 +247,7 @@
       },
       {
         "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+        "source_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
         "bean_name": "Unfamiliar Origins: Sri Lanka",
         "roast_profile": "filter",
         "origin": "",
@@ -255,7 +255,7 @@
         "process": "",
         "varietal": "",
         "flavour_profile": "Chocolate, Sweet",
-        "product_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+        "product_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
         "status": "ok",
         "error": ""
       },
@@ -888,6 +888,20 @@
         "varietal": "Catuaí & Topazio",
         "flavour_profile": "",
         "product_url": "https://marketlane.com.au/collections/espresso-beans/products/airuma-espresso-beans",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Market Lane",
+        "source_url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
+        "bean_name": "Rurima",
+        "roast_profile": "espresso",
+        "origin": "Embu, Kenya",
+        "price_aud": "28.00",
+        "process": "Washed",
+        "varietal": "SL28, SL34, Ruiru 11 & Batian",
+        "flavour_profile": "",
+        "product_url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
         "status": "ok",
         "error": ""
       },
@@ -2524,6 +2538,20 @@
     },
     {
       "roaster": "Market Lane",
+      "source_url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
+      "bean_name": "Rurima",
+      "roast_profile": "espresso",
+      "origin": "Embu, Kenya",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "SL28, SL34, Ruiru 11 & Batian",
+      "flavour_profile": "",
+      "product_url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Market Lane",
       "source_url": "https://marketlane.com.au/collections/filter-beans/products/mutura",
       "bean_name": "Mutura",
       "roast_profile": "filter",
@@ -3308,7 +3336,7 @@
     },
     {
       "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+      "source_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
       "bean_name": "Unfamiliar Origins: Sri Lanka",
       "roast_profile": "filter",
       "origin": "",
@@ -3316,7 +3344,7 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "Chocolate, Sweet",
-      "product_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-milkcoffee",
+      "product_url": "https://onacoffee.com.au/products/unfamiliar-origin-sri-lanka-special-release-filter",
       "status": "ok",
       "error": ""
     },

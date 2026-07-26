@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-24 23:37",
+  "generated_at": "2026-07-26 01:50",
   "stats": {
     "total": 178,
-    "new": 1,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,18 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Rurima",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
-      "roast_profile": "espresso",
-      "origin": "Embu, Kenya",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "SL28, SL34, Ruiru 11 & Batian",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -716,6 +704,18 @@
       "price_aud": "28.00",
       "process": "Washed",
       "varietal": "SL28, SL34 & Ruiru 11",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Rurima",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/rurima",
+      "roast_profile": "espresso",
+      "origin": "Embu, Kenya",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "SL28, SL34, Ruiru 11 & Batian",
       "flavour_profile": "",
       "is_new": false
     },
