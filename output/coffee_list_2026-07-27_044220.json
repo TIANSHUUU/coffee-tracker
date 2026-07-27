@@ -1,12 +1,26 @@
 {
-  "generated_at": "2026-07-26_150156",
+  "generated_at": "2026-07-27_044220",
   "summary": {
-    "total_rows": 178,
-    "ok_rows": 178,
+    "total_rows": 177,
+    "ok_rows": 177,
     "error_rows": 0
   },
   "grouped": {
     "filter": [
+      {
+        "roaster": "Market Lane",
+        "source_url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
+        "bean_name": "Lomaverde",
+        "roast_profile": "filter",
+        "origin": "Santa Barbara, Antioquia, Colombia",
+        "price_aud": "32.00",
+        "process": "Washed",
+        "varietal": "Chiroso",
+        "flavour_profile": "",
+        "product_url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
+        "status": "ok",
+        "error": ""
+      },
       {
         "roaster": "Market Lane",
         "source_url": "https://marketlane.com.au/collections/filter-beans/products/mutura",
@@ -18,20 +32,6 @@
         "varietal": "SL28, SL34 & Ruiru 11",
         "flavour_profile": "",
         "product_url": "https://marketlane.com.au/collections/filter-beans/products/mutura",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Market Lane",
-        "source_url": "https://marketlane.com.au/collections/filter-beans/products/canta-ranas",
-        "bean_name": "Canta Ranas",
-        "roast_profile": "filter",
-        "origin": "Santa Isabel, Tolima, Colombia",
-        "price_aud": "32.00",
-        "process": "Washed",
-        "varietal": "Chiroso",
-        "flavour_profile": "",
-        "product_url": "https://marketlane.com.au/collections/filter-beans/products/canta-ranas",
         "status": "ok",
         "error": ""
       },
@@ -1313,20 +1313,6 @@
       },
       {
         "roaster": "Code Black",
-        "source_url": "https://codeblackcoffee.com.au/products/colombia-cerro-azul-honey-gesha-espresso-single-origin-1",
-        "bean_name": "Colombia Cerro Azul Honey Gesha Espresso - Single Origin",
-        "roast_profile": "espresso",
-        "origin": "Colombia",
-        "price_aud": "95.00",
-        "process": "Honey",
-        "varietal": "GESHA",
-        "flavour_profile": "Citrus, Delicate, Floral, Sweet",
-        "product_url": "https://codeblackcoffee.com.au/products/colombia-cerro-azul-honey-gesha-espresso-single-origin-1",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Code Black",
         "source_url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-espresso-single-origin",
         "bean_name": "Kenya Kainamui AA Washed Espresso - Single Origin",
         "roast_profile": "espresso",
@@ -2552,6 +2538,20 @@
     },
     {
       "roaster": "Market Lane",
+      "source_url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
+      "bean_name": "Lomaverde",
+      "roast_profile": "filter",
+      "origin": "Santa Barbara, Antioquia, Colombia",
+      "price_aud": "32.00",
+      "process": "Washed",
+      "varietal": "Chiroso",
+      "flavour_profile": "",
+      "product_url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Market Lane",
       "source_url": "https://marketlane.com.au/collections/filter-beans/products/mutura",
       "bean_name": "Mutura",
       "roast_profile": "filter",
@@ -2561,20 +2561,6 @@
       "varietal": "SL28, SL34 & Ruiru 11",
       "flavour_profile": "",
       "product_url": "https://marketlane.com.au/collections/filter-beans/products/mutura",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Market Lane",
-      "source_url": "https://marketlane.com.au/collections/filter-beans/products/canta-ranas",
-      "bean_name": "Canta Ranas",
-      "roast_profile": "filter",
-      "origin": "Santa Isabel, Tolima, Colombia",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "Chiroso",
-      "flavour_profile": "",
-      "product_url": "https://marketlane.com.au/collections/filter-beans/products/canta-ranas",
       "status": "ok",
       "error": ""
     },
@@ -3639,20 +3625,6 @@
       "varietal": "GESHA",
       "flavour_profile": "Citrus, Delicate, Floral, Sweet",
       "product_url": "https://codeblackcoffee.com.au/products/colombia-cerro-azul-honey-gesha-filter-single-origin-1",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Code Black",
-      "source_url": "https://codeblackcoffee.com.au/products/colombia-cerro-azul-honey-gesha-espresso-single-origin-1",
-      "bean_name": "Colombia Cerro Azul Honey Gesha Espresso - Single Origin",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "95.00",
-      "process": "Honey",
-      "varietal": "GESHA",
-      "flavour_profile": "Citrus, Delicate, Floral, Sweet",
-      "product_url": "https://codeblackcoffee.com.au/products/colombia-cerro-azul-honey-gesha-espresso-single-origin-1",
       "status": "ok",
       "error": ""
     },
