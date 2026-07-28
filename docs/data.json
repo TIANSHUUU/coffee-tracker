@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-27 04:42",
+  "generated_at": "2026-07-28 03:33",
   "stats": {
     "total": 177,
-    "new": 1,
+    "new": 3,
     "roasters": 15
   },
   "roasters": [
@@ -24,14 +24,38 @@
   ],
   "items": [
     {
-      "roaster": "Market Lane",
-      "bean_name": "Lomaverde",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
+      "roaster": "ONA Coffee",
+      "bean_name": "Bloom Filter Distributor",
+      "url": "https://onacoffee.com.au/products/nucleus-coffee-tools-bloom-distributor",
       "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "Chiroso",
+      "origin": "",
+      "price_aud": "63.18",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Guji, Ethiopia, Natural",
+      "url": "https://onacoffee.com.au/products/espresso-singleorigin-guji-ethiopia-natural",
+      "roast_profile": "espresso",
+      "origin": "East Africa",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Berries, Chocolate, Chocolate milk, Grapes",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Special Order - Link Roaster",
+      "url": "https://onacoffee.com.au/products/nucleus-link-roaster",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "2590.00",
+      "process": "",
+      "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
@@ -409,18 +433,6 @@
     },
     {
       "roaster": "Commonfolk",
-      "bean_name": "Nkonge Natural",
-      "url": "https://www.commonfolkcoffee.com.au/products/nkonge-natural_26",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "30.00",
-      "process": "Natural",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
       "bean_name": "Nyeri",
       "url": "https://www.commonfolkcoffee.com.au/products/nyeri_25",
       "roast_profile": "omni",
@@ -685,6 +697,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "Lomaverde",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
+      "roast_profile": "filter",
+      "origin": "Santa Barbara, Antioquia, Colombia",
+      "price_aud": "32.00",
+      "process": "Washed",
+      "varietal": "Chiroso",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "Mutura",
       "url": "https://marketlane.com.au/collections/filter-beans/products/mutura",
       "roast_profile": "filter",
@@ -741,18 +765,6 @@
       "process": "Washed",
       "varietal": "JARC varieties 74148 & 74158",
       "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Ama Project Lot Botafogo, Brazil, Superhoney",
-      "url": "https://onacoffee.com.au/products/espresso-singleorigin-ama-project-lot-botafogo-brazil-superhoney",
-      "roast_profile": "espresso",
-      "origin": "East Africa",
-      "price_aud": "22.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "Chocolate, Chocolate milk, Nutty, Raisin",
       "is_new": false
     },
     {
@@ -825,18 +837,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "Berries, Chocolate",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Gatumbi AB, Kenya, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-singleorigin-gatumbi-ab-kenya-washed",
-      "roast_profile": "espresso",
-      "origin": "East Africa",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Fruity, Pink fruit, Sweet",
       "is_new": false
     },
     {
