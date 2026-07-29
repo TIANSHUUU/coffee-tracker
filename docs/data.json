@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-28 03:33",
+  "generated_at": "2026-07-29 02:02",
   "stats": {
-    "total": 177,
-    "new": 3,
+    "total": 178,
+    "new": 2,
     "roasters": 15
   },
   "roasters": [
@@ -24,37 +24,25 @@
   ],
   "items": [
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Bloom Filter Distributor",
-      "url": "https://onacoffee.com.au/products/nucleus-coffee-tools-bloom-distributor",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "63.18",
-      "process": "",
+      "roaster": "Stitch Coffee",
+      "bean_name": "COLOMBIA, FINCA EL TREBOL",
+      "url": "https://stitch.coffee/products/colombia-finca-el-trebol-26",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "29.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Guji, Ethiopia, Natural",
-      "url": "https://onacoffee.com.au/products/espresso-singleorigin-guji-ethiopia-natural",
-      "roast_profile": "espresso",
-      "origin": "East Africa",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Berries, Chocolate, Chocolate milk, Grapes",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Special Order - Link Roaster",
-      "url": "https://onacoffee.com.au/products/nucleus-link-roaster",
-      "roast_profile": "",
-      "origin": "",
-      "price_aud": "2590.00",
-      "process": "",
+      "roaster": "Stitch Coffee",
+      "bean_name": "KENYA, KII AA",
+      "url": "https://stitch.coffee/products/kenya-kii-aa-26",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "31.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -781,6 +769,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Bloom Filter Distributor",
+      "url": "https://onacoffee.com.au/products/nucleus-coffee-tools-bloom-distributor",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "63.18",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Chilling Rock Pack Espresso",
       "url": "https://onacoffee.com.au/products/chilling-rock-pack-esp",
       "roast_profile": "espresso",
@@ -865,6 +865,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Guji, Ethiopia, Natural",
+      "url": "https://onacoffee.com.au/products/espresso-singleorigin-guji-ethiopia-natural",
+      "roast_profile": "espresso",
+      "origin": "East Africa",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Berries, Chocolate, Chocolate milk, Grapes",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Hacienda La Papaya Sidra Anaerobic Washed",
       "url": "https://onacoffee.com.au/products/filter-rare-hacienda-la-papaya-sidra-anaerobic-washed",
       "roast_profile": "filter",
@@ -925,18 +937,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "Paragon Espresso",
-      "url": "https://onacoffee.com.au/products/paragon",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "84.95",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Paragon Filter Black",
       "url": "https://onacoffee.com.au/products/paragon-filter",
       "roast_profile": "filter",
@@ -990,6 +990,18 @@
       "roast_profile": "",
       "origin": "",
       "price_aud": "508.34",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Special Order - Link Roaster",
+      "url": "https://onacoffee.com.au/products/nucleus-link-roaster",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "2590.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
