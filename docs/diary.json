@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "slug": "stitch-bolivia-las-lomas-red-catuai",
+      "date": "2026-07-27",
+      "roast_date": "2026-06-30",
+      "bean_name": { "zh": "玻利维亚 拉斯洛马斯庄园 红卡杜艾", "en": "Bolivia Finca Las Lomas Red Catuai" },
+      "roaster": { "zh": "Stitch Coffee", "en": "Stitch Coffee" },
+      "image": "diary/images/stitch-bolivia-las-lomas-1.jpg",
+      "images": ["diary/images/stitch-bolivia-las-lomas-1.jpg", "diary/images/stitch-bolivia-las-lomas-2.jpg"],
+      "color": "peach",
+      "roast_profile": "filter",
+      "price_aud": "21.50",
+      "weight": "250g",
+      "url": "https://www.instagram.com/p/DZOMvsEmcfT/",
+      "tags": [
+        { "zh": "玻利维亚", "en": "Bolivia" },
+        { "zh": "日晒", "en": "Natural" },
+        { "zh": "红卡杜艾", "en": "Red Catuai" }
+      ],
+      "flavours": [
+        { "icon": "🥭", "label": { "zh": "炖煮芒果", "en": "Stewed mango" } }
+      ],
+      "story": {
+        "zh": "这完全是我喜欢的那种咖啡！传统豆种和处理法，处理得很到位。磨豆时有成熟芒果的香气，冲煮后是做果酱过程中那种炖煮芒果的甜感，香气柔和愉悦（不是那种新鲜奔放的香气），不得不说 Stitch 的风味描述非常准确。还有一些炖桃子、香草的感觉。第一口不算张扬，但越喝越喜欢，绝对是七月最佳。",
+        "en": "This is exactly the kind of coffee I love — a traditional varietal and process, done really well. The dry grounds smell of ripe mango, and in the cup it's that stewed, jammy mango sweetness, with a soft, pleasant aroma (not the bright, punchy kind) — Stitch's flavour description nails it. There's also a touch of stewed peach and vanilla. The first sip is understated, but it grows on you the more you drink — easily my favourite of July."
+      },
+      "brew": {
+        "method": { "zh": "泰摩冰瞳 / Origami · C40 刻度 18–20 格 · 1:15 · 96°C", "en": "TIMEMORE Icicle / Origami · C40 grind, 18–20 clicks · 1:15 · 96°C" }
+      },
+      "profile": {
+        "acidity": "medium",
+        "sweetness": "high",
+        "body": "medium",
+        "aroma": "high",
+        "aftertaste": "high"
+      },
+      "summary": { "zh": "炖煮芒果和桃子，低调耐喝，回味无穷。", "en": "Stewed mango and peach — understated, moreish, with a lingering finish." },
+      "details": {
+        "producer": "Juan Carlos Mamani",
+        "farm": "Finca Las Lomas",
+        "region": { "zh": "卡拉纳维，拉巴斯，玻利维亚", "en": "Caranavi, La Paz, Bolivia" },
+        "altitude": "1700 MASL",
+        "varietal": { "zh": "红卡杜艾", "en": "Red Catuai" },
+        "process": { "zh": "日晒", "en": "Natural" },
+        "notes": {
+          "zh": "Finca Las Lomas 位于玻利维亚拉巴斯省雍加斯（Yungas）产区的卡拉纳维（Caranavi），地处安第斯山脉与东部雨林交界的高地，是玻利维亚最重要的咖啡产区之一。庄园主 Juan Carlos Mamani 出生于卡马乔省，1992年跟随同为咖啡种植者的父亲迁居雍加斯，2004年购入自己的第一块土地并种下原生豆种，后因锈病侵袭而改种红卡杜艾。农场规模不大，约五公顷，其中1.75公顷用于咖啡种植，此批次为日晒处理，晾晒周期约15到20天。",
+          "en": "Finca Las Lomas sits in Caranavi, in La Paz department's Yungas region — a high pocket where the Andes meet the eastern rainforest, and one of Bolivia's most important coffee-growing zones. Producer Juan Carlos Mamani was born in Camacho province and moved to the Yungas in 1992, following his father, who was also a coffee grower; he bought his first plot in 2004 and planted native varieties, later replanting with Red Catuai after a leaf rust outbreak. The farm is small, roughly five hectares with 1.75 under coffee, and this lot is natural-processed over a 15–20 day drying period."
+        },
+        "flag": "🇧🇴",
+        "map_url": "https://www.google.com/maps/place/Caranavi,+Bolivia"
+      }
+    },
+    {
       "slug": "brewman-peru-mira-flores-geisha",
       "date": "2026-07-09",
       "roast_date": "2026-05-27",
