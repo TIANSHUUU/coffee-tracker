@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03 04:35",
+  "generated_at": "2026-08-03 23:53",
   "stats": {
-    "total": 177,
-    "new": 0,
+    "total": 174,
+    "new": 2,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,30 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Sítio Canaã",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/sitio-canaa-espresso-beans",
+      "roast_profile": "filter",
+      "origin": "Piatã, Bahia, Brazil",
+      "price_aud": "26.00",
+      "process": "Pulped Natural",
+      "varietal": "Topazio & Acauã",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "El Salvador | El Angel | Red Bourbon | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/el-salvador-el-angel-red-bourbon-washed",
+      "roast_profile": "omni",
+      "origin": "El Salvador",
+      "price_aud": "31.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -685,18 +709,6 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "Sitio Canaã",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/sitio-canaa-espresso-beans",
-      "roast_profile": "omni",
-      "origin": "Piatã, Bahia, Brazil",
-      "price_aud": "26.00",
-      "process": "Pulped Natural",
-      "varietal": "Topazio & Acauã",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
       "bean_name": "São Judas Tadeu",
       "url": "https://marketlane.com.au/collections/espresso-beans/products/sao-judas-tadeu",
       "roast_profile": "espresso",
@@ -1309,18 +1321,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "bean_name": "Nicaragua | Buenos Aires | Maracaturra | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/nicaragua-buenos-aires-maracaturra-washed-1",
-      "roast_profile": "omni",
-      "origin": "Nicaragua",
-      "price_aud": "36.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
       "bean_name": "Panama | Los Lajones - Bambu | Geisha | Washed",
       "url": "https://www.proudmarycoffee.com.au/products/panama-los-lajones-bambu-geisha-washed",
       "roast_profile": "",
@@ -1609,18 +1609,6 @@
     },
     {
       "roaster": "Small Batch",
-      "bean_name": "Alirio Munoz – Borbon aji",
-      "url": "https://www.smallbatch.com.au/shop/filter/estrellas-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia, Ethiopia",
-      "price_aud": "28",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
       "bean_name": "Candyman Espresso Blend",
       "url": "https://www.smallbatch.com.au/shop/espresso/candyman-espresso-blend",
       "roast_profile": "omni",
@@ -1645,35 +1633,11 @@
     },
     {
       "roaster": "Small Batch",
-      "bean_name": "Edilma Piedrahita – Borbon Aji Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/edilma-borbonaji",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "28",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
       "bean_name": "Golden Ticket",
       "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
       "roast_profile": "filter",
       "origin": "Colombia",
       "price_aud": "21",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Tadeo Lopez – Pacamara",
-      "url": "https://www.smallbatch.com.au/shop/filter/alirio_sidra",
-      "roast_profile": "filter",
-      "origin": "Guatemala",
-      "price_aud": "28",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
