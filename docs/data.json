@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03 04:09",
+  "generated_at": "2026-08-03 04:35",
   "stats": {
     "total": 177,
-    "new": 3,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,42 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Market Lane",
-      "bean_name": "El Jardín",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
-      "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "42.00",
-      "process": "Natural",
-      "varietal": "Gesha",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "São Judas Tadeu",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/sao-judas-tadeu",
-      "roast_profile": "espresso",
-      "origin": "Piatã, Bahía, Brazil",
-      "price_aud": "26.00",
-      "process": "Pulped Natural",
-      "varietal": "Catuaí",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "Colombia, Arturo Arango - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/colombia-arturo-arango-single-origin-espresso",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "27.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -661,6 +625,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "El Jardín",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
+      "roast_profile": "filter",
+      "origin": "Santa Barbara, Antioquia, Colombia",
+      "price_aud": "42.00",
+      "process": "Natural",
+      "varietal": "Gesha",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "Lomaverde",
       "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
       "roast_profile": "filter",
@@ -716,6 +692,18 @@
       "price_aud": "26.00",
       "process": "Pulped Natural",
       "varietal": "Topazio & Acauã",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "São Judas Tadeu",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/sao-judas-tadeu",
+      "roast_profile": "espresso",
+      "origin": "Piatã, Bahía, Brazil",
+      "price_aud": "26.00",
+      "process": "Pulped Natural",
+      "varietal": "Catuaí",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1041,6 +1029,18 @@
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "Biscuit, Caramel",
+      "is_new": false
+    },
+    {
+      "roaster": "Padre Coffee",
+      "bean_name": "Colombia, Arturo Arango - Single Origin Espresso",
+      "url": "https://www.padrecoffee.com.au/products/colombia-arturo-arango-single-origin-espresso",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "27.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     },
     {
