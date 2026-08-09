@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07 09:38",
+  "generated_at": "2026-08-09 15:02",
   "stats": {
     "total": 173,
-    "new": 3,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,42 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Pavê de Amendoim",
-      "url": "https://www.commonfolkcoffee.com.au/products/pave-de-amendoim_26",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "30.00",
-      "process": "Anaerobic, Natural",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Santa Ana, Guatemala, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-singleorigin-santa-ana-guatemala-washed",
-      "roast_profile": "espresso",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Apple, Caramel, Citrus",
-      "is_new": true
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Nicaragua | Los Alpes | Geisha | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/nicaragua-los-alpes-geisha-natural",
-      "roast_profile": "",
-      "origin": "Nicaragua",
-      "price_aud": "62.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -427,6 +391,18 @@
       "origin": "Kenya",
       "price_aud": "27.00",
       "process": "Washed",
+      "varietal": "PROCESSING",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
+      "bean_name": "Pavê de Amendoim",
+      "url": "https://www.commonfolkcoffee.com.au/products/pave-de-amendoim_26",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "30.00",
+      "process": "Anaerobic, Natural",
       "varietal": "PROCESSING",
       "flavour_profile": "",
       "is_new": false
@@ -961,6 +937,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Santa Ana, Guatemala, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-singleorigin-santa-ana-guatemala-washed",
+      "roast_profile": "espresso",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Apple, Caramel, Citrus",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Simply Fresh",
       "url": "https://onacoffee.com.au/products/simply-fresh",
       "roast_profile": "",
@@ -1279,6 +1267,18 @@
       "origin": "",
       "price_aud": "22.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Nicaragua | Los Alpes | Geisha | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/nicaragua-los-alpes-geisha-natural",
+      "roast_profile": "",
+      "origin": "Nicaragua",
+      "price_aud": "62.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
