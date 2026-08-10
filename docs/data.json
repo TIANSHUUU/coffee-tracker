@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-09 15:02",
+  "generated_at": "2026-08-10 01:50",
   "stats": {
-    "total": 173,
-    "new": 0,
+    "total": 172,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,18 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Burundi | Gahahe | Red Bourbon | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "37.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -625,18 +637,6 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "El Jardín",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
-      "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "42.00",
-      "process": "Natural",
-      "varietal": "Gesha",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
       "bean_name": "Lomaverde",
       "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
       "roast_profile": "filter",
@@ -1201,18 +1201,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "bean_name": "Colombia | Area 18 | Castillo | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "36.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
       "bean_name": "El Salvador | El Angel | Red Bourbon | Washed",
       "url": "https://www.proudmarycoffee.com.au/products/el-salvador-el-angel-red-bourbon-washed",
       "roast_profile": "omni",
@@ -1648,9 +1636,9 @@
       "bean_name": "The Ones We Love – Seasonal Espresso",
       "url": "https://www.smallbatch.com.au/shop/espresso/the-ones-we-love-x",
       "roast_profile": "omni",
-      "origin": "Colombia, Ethiopia, Guatemala",
+      "origin": "Colombia, Guatemala",
       "price_aud": "21",
-      "process": "Honey, Washed",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
