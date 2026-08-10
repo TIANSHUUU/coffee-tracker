@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10 01:50",
+  "generated_at": "2026-08-10 03:14",
   "stats": {
     "total": 172,
-    "new": 1,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,18 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Burundi | Gahahe | Red Bourbon | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "37.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1194,6 +1182,18 @@
       "roast_profile": "omni",
       "origin": "Brazil",
       "price_aud": "34.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Burundi | Gahahe | Red Bourbon | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "37.00",
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "",

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-09_150210",
+  "generated_at": "2026-08-10_031453",
   "summary": {
-    "total_rows": 173,
-    "ok_rows": 173,
+    "total_rows": 172,
+    "ok_rows": 172,
     "error_rows": 0
   },
   "grouped": {
@@ -60,20 +60,6 @@
         "varietal": "JARC varieties 74148 & 74158",
         "flavour_profile": "",
         "product_url": "https://marketlane.com.au/collections/filter-beans/products/yaye-filter-beans",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Market Lane",
-        "source_url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
-        "bean_name": "El Jardín",
-        "roast_profile": "filter",
-        "origin": "Santa Barbara, Antioquia, Colombia",
-        "price_aud": "42.00",
-        "process": "Natural",
-        "varietal": "Gesha",
-        "flavour_profile": "",
-        "product_url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
         "status": "ok",
         "error": ""
       },
@@ -1833,20 +1819,6 @@
       },
       {
         "roaster": "Proud Mary",
-        "source_url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
-        "bean_name": "Colombia | Area 18 | Castillo | Natural",
-        "roast_profile": "omni",
-        "origin": "Colombia",
-        "price_aud": "36.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Proud Mary",
         "source_url": "https://www.proudmarycoffee.com.au/products/brazil-dois-irmaos-yellow-catuai-natural",
         "bean_name": "Brazil | Dois Irmaos | Catuai | Natural",
         "roast_profile": "omni",
@@ -1884,6 +1856,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-el-angel-red-bourbon-washed",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Proud Mary",
+        "source_url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
+        "bean_name": "Burundi | Gahahe | Red Bourbon | Natural",
+        "roast_profile": "omni",
+        "origin": "Burundi",
+        "price_aud": "37.00",
+        "process": "Natural",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
         "status": "ok",
         "error": ""
       },
@@ -2200,9 +2186,9 @@
         "source_url": "https://www.smallbatch.com.au/shop/espresso/the-ones-we-love-x",
         "bean_name": "The Ones We Love – Seasonal Espresso",
         "roast_profile": "omni",
-        "origin": "Colombia, Ethiopia, Guatemala",
+        "origin": "Colombia, Guatemala",
         "price_aud": "21",
-        "process": "Honey, Washed",
+        "process": "",
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.smallbatch.com.au/shop/espresso/the-ones-we-love-x",
@@ -2537,20 +2523,6 @@
       "error": ""
     },
     {
-      "roaster": "Market Lane",
-      "source_url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
-      "bean_name": "El Jardín",
-      "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "42.00",
-      "process": "Natural",
-      "varietal": "Gesha",
-      "flavour_profile": "",
-      "product_url": "https://marketlane.com.au/collections/filter-beans/products/el-jardin",
-      "status": "ok",
-      "error": ""
-    },
-    {
       "roaster": "Proud Mary",
       "source_url": "https://www.proudmarycoffee.com.au/products/blend-humbler",
       "bean_name": "Humbler",
@@ -2622,20 +2594,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "source_url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
-      "bean_name": "Colombia | Area 18 | Castillo | Natural",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "36.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.proudmarycoffee.com.au/products/colombia-area-18-castillo-natural",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Proud Mary",
       "source_url": "https://www.proudmarycoffee.com.au/products/brazil-dois-irmaos-yellow-catuai-natural",
       "bean_name": "Brazil | Dois Irmaos | Catuai | Natural",
       "roast_profile": "omni",
@@ -2701,6 +2659,20 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.proudmarycoffee.com.au/products/nicaragua-los-alpes-geisha-natural",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Proud Mary",
+      "source_url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
+      "bean_name": "Burundi | Gahahe | Red Bourbon | Natural",
+      "roast_profile": "omni",
+      "origin": "Burundi",
+      "price_aud": "37.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
       "status": "ok",
       "error": ""
     },
@@ -4305,9 +4277,9 @@
       "source_url": "https://www.smallbatch.com.au/shop/espresso/the-ones-we-love-x",
       "bean_name": "The Ones We Love – Seasonal Espresso",
       "roast_profile": "omni",
-      "origin": "Colombia, Ethiopia, Guatemala",
+      "origin": "Colombia, Guatemala",
       "price_aud": "21",
-      "process": "Honey, Washed",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.smallbatch.com.au/shop/espresso/the-ones-we-love-x",
