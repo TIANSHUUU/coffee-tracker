@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-10 03:14",
+  "generated_at": "2026-08-11 02:58",
   "stats": {
-    "total": 172,
-    "new": 0,
+    "total": 176,
+    "new": 8,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,102 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgacheffe – Natural",
+      "url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "29.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Roast dates 11th August, 25th August, 8th September",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Honduras | La Salvaje COE #1B | Geisha | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/honduras-la-salvaje-coe-1b-geisha-washed",
+      "roast_profile": "",
+      "origin": "Honduras",
+      "price_aud": "115.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Honduras | Manuel Vallecillo | Pacas | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/honduras-manuel-vallecillo-pacas-washed",
+      "roast_profile": "omni",
+      "origin": "Honduras",
+      "price_aud": "38.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Honduras | Ovidio Gomez | Geisha | Honey",
+      "url": "https://www.proudmarycoffee.com.au/products/honduras-ovidio-gomez-geisha-honey",
+      "roast_profile": "",
+      "origin": "Honduras",
+      "price_aud": "62.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Mexico | Santa Cruz | Geisha | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/mexico-santa-cruz-geisha-washed",
+      "roast_profile": "",
+      "origin": "Mexico",
+      "price_aud": "63.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Panama | Bambito Estate | Geisha | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed",
+      "roast_profile": "",
+      "origin": "Panama",
+      "price_aud": "90.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Panama | Los Lajones | Geisha | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/panama-los-lajones-geisha-washed",
+      "roast_profile": "",
+      "origin": "Panama",
+      "price_aud": "99.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Lengupá Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-lengupa",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "24.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -489,18 +585,6 @@
       "process": "Honey",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgecheffe – Natural",
-      "url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Roast dates 11th August, 25th August, 8th September",
       "is_new": false
     },
     {
@@ -1000,11 +1084,11 @@
       "bean_name": "Daddy's Girl Espresso Blend",
       "url": "https://www.padrecoffee.com.au/products/daddys-girl-espresso-blend",
       "roast_profile": "espresso",
-      "origin": "Brazil, Colombia",
+      "origin": "carefully selected Colombian and Brazilian coffees, Daddy",
       "price_aud": "23.00",
       "process": "",
       "varietal": "",
-      "flavour_profile": "",
+      "flavour_profile": "MILK CHOCOLATE, HONEY, HAZELNUT, PLUM",
       "is_new": false
     },
     {
@@ -1016,7 +1100,7 @@
       "price_aud": "24.00",
       "process": "",
       "varietal": "",
-      "flavour_profile": "PLUM, DARK CHOCOLATE, PEACH, MACADAMIA, APRICOT, MAPLE SYRUP",
+      "flavour_profile": "PEACH, MAPLE SYRUP, ORANGE, MALT",
       "is_new": false
     },
     {
@@ -1040,7 +1124,7 @@
       "price_aud": "24.00",
       "process": "Washed, Natural",
       "varietal": "",
-      "flavour_profile": "",
+      "flavour_profile": "STONE FRUIT, FLORALS, BERRIES, CITRUS",
       "is_new": false
     },
     {
@@ -1076,7 +1160,7 @@
       "price_aud": "21.00",
       "process": "",
       "varietal": "",
-      "flavour_profile": "VANILLA, ORANGE, HAZELNUT PRALINE, CARAMEL, MILK CHOCOLATE",
+      "flavour_profile": "VANILLA, ORANGE, CARAMEL, BLACK TEA",
       "is_new": false
     },
     {
@@ -1112,7 +1196,7 @@
       "price_aud": "23.00",
       "process": "",
       "varietal": "",
-      "flavour_profile": "",
+      "flavour_profile": "TOFFEE, ALMOND, LEMON, APPLE",
       "is_new": false
     },
     {
@@ -1120,11 +1204,11 @@
       "bean_name": "Troublemaker Espresso Blend",
       "url": "https://www.padrecoffee.com.au/products/trouble-maker-espresso-blend",
       "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia, Uganda",
+      "origin": "Uganda, Brazil and Ethiopia",
       "price_aud": "23.00",
       "process": "Anaerobic, Washed, Natural",
       "varietal": "",
-      "flavour_profile": "HONEYCOMB, HAZELNUT, DARK CHOCOLATE, RAISIN",
+      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1237,18 +1321,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "bean_name": "Honduras | Nahun Fernandez | Parainema | Honey",
-      "url": "https://www.proudmarycoffee.com.au/products/honduras-nahun-fernandes-parainema-honey",
-      "roast_profile": "omni",
-      "origin": "Honduras",
-      "price_aud": "38.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
       "bean_name": "Humbler",
       "url": "https://www.proudmarycoffee.com.au/products/blend-humbler",
       "roast_profile": "omni",
@@ -1338,18 +1410,6 @@
       "roast_profile": "filter",
       "origin": "Peru",
       "price_aud": "31.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Peru Elias Sanchez Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/peru-elias-sanchez-espresso",
-      "roast_profile": "espresso",
-      "origin": "Peru",
-      "price_aud": "26.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
@@ -1807,18 +1867,6 @@
       "origin": "Kenya",
       "price_aud": "31.00",
       "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "KENYA, MARA",
-      "url": "https://stitch.coffee/products/kenya-mara-26",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "28.00",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
