@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-13 00:46",
+  "generated_at": "2026-08-13 02:37",
   "stats": {
-    "total": 174,
-    "new": 2,
+    "total": 175,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -25,24 +25,12 @@
   "items": [
     {
       "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Javier Lopez Montaña Filter",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-javier-lopez-montana",
+      "bean_name": "Ethiopia Gogogu Filter",
+      "url": "https://www.rumblecoffee.com.au/products/ethiopia-gogogu",
       "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "24.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "Compadre Blend",
-      "url": "https://stitch.coffee/products/compadre-blend-26",
-      "roast_profile": "omni",
-      "origin": "Colombia, Ethiopia, Nicaragua",
+      "origin": "Ethiopia",
       "price_aud": "25.00",
-      "process": "Natural",
+      "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -1345,6 +1333,18 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Javier Lopez Montaña Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-javier-lopez-montana",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "24.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Colombia Lengupá Espresso",
       "url": "https://www.rumblecoffee.com.au/products/colombia-lengupa",
       "roast_profile": "espresso",
@@ -1433,7 +1433,7 @@
       "url": "https://www.rumblecoffee.com.au/products/single-origin-filter-twin-pack",
       "roast_profile": "filter",
       "origin": "",
-      "price_aud": "56.00",
+      "price_aud": "44.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -1795,6 +1795,18 @@
       "origin": "Colombia",
       "price_aud": "29.00",
       "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "Compadre Blend",
+      "url": "https://stitch.coffee/products/compadre-blend-26",
+      "roast_profile": "omni",
+      "origin": "Colombia, Ethiopia, Nicaragua",
+      "price_aud": "25.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
