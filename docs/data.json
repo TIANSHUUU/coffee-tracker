@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-12 10:43",
+  "generated_at": "2026-08-13 00:46",
   "stats": {
-    "total": 175,
+    "total": 174,
     "new": 2,
     "roasters": 15
   },
@@ -24,25 +24,25 @@
   ],
   "items": [
     {
-      "roaster": "Field Work Coffee",
-      "bean_name": "Ngogomo",
-      "url": "https://fieldworkcoffee.com.au/products/ngogomo",
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Javier Lopez Montaña Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-javier-lopez-montana",
       "roast_profile": "filter",
-      "origin": "Burundi",
-      "price_aud": "25.00",
-      "process": "Washed",
+      "origin": "Colombia",
+      "price_aud": "24.00",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
     {
       "roaster": "Stitch Coffee",
-      "bean_name": "BRAZIL, FAZENDA DONA NENEM",
-      "url": "https://stitch.coffee/products/brazil-fazenda-dona-nenem-26",
+      "bean_name": "Compadre Blend",
+      "url": "https://stitch.coffee/products/compadre-blend-26",
       "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "32.00",
-      "process": "",
+      "origin": "Colombia, Ethiopia, Nicaragua",
+      "price_aud": "25.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -636,6 +636,18 @@
       "is_new": false
     },
     {
+      "roaster": "Field Work Coffee",
+      "bean_name": "Ngogomo",
+      "url": "https://fieldworkcoffee.com.au/products/ngogomo",
+      "roast_profile": "filter",
+      "origin": "Burundi",
+      "price_aud": "25.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
       "roaster": "Market Lane",
       "bean_name": "Lomaverde",
       "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
@@ -921,18 +933,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "San Pablo, Honduras, Washed",
-      "url": "https://onacoffee.com.au/products/filter-singleorigin-san-pablo-honduras-washed",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Botanical, Lime, Stone Fruit",
       "is_new": false
     },
     {
@@ -1369,18 +1369,6 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Kenya Kabumbu Filter",
-      "url": "https://www.rumblecoffee.com.au/products/kenya-kabumbu-espresso-1",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Main Card - 4 Pack of Rumble Blends",
       "url": "https://www.rumblecoffee.com.au/products/main-card-pack-of-rumble-coffee-blends",
       "roast_profile": "omni",
@@ -1399,18 +1387,6 @@
       "origin": "",
       "price_aud": "21.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Peru Antenor Quispe Arevalo Gesha Filter",
-      "url": "https://www.rumblecoffee.com.au/products/peru-antenor-quispe-arevalo-gesha",
-      "roast_profile": "filter",
-      "origin": "Peru",
-      "price_aud": "31.00",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1784,6 +1760,18 @@
       "price_aud": "28.00",
       "process": "Natural",
       "varietal": "Catuaí",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "BRAZIL, FAZENDA DONA NENEM",
+      "url": "https://stitch.coffee/products/brazil-fazenda-dona-nenem-26",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "32.00",
+      "process": "",
+      "varietal": "",
       "flavour_profile": "",
       "is_new": false
     },
