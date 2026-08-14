@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-13 02:37",
+  "generated_at": "2026-08-14 01:24",
   "stats": {
-    "total": 175,
+    "total": 176,
     "new": 1,
     "roasters": 15
   },
@@ -24,14 +24,14 @@
   ],
   "items": [
     {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Ethiopia Gogogu Filter",
-      "url": "https://www.rumblecoffee.com.au/products/ethiopia-gogogu",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "25.00",
-      "process": "Washed, Natural",
-      "varietal": "",
+      "roaster": "Commonfolk",
+      "bean_name": "Wanale Washed",
+      "url": "https://www.commonfolkcoffee.com.au/products/wanale-washed_26",
+      "roast_profile": "omni",
+      "origin": "Uganda",
+      "price_aud": "29.00",
+      "process": "Washed",
+      "varietal": "PROCESSING",
       "flavour_profile": "",
       "is_new": true
     },
@@ -926,6 +926,18 @@
     {
       "roaster": "ONA Coffee",
       "bean_name": "Santa Ana, Guatemala, Washed",
+      "url": "https://onacoffee.com.au/products/filter-single-origin-santa-ana-guatemala-washed",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Apple, Fruity, Raisin, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Santa Ana, Guatemala, Washed",
       "url": "https://onacoffee.com.au/products/espresso-singleorigin-santa-ana-guatemala-washed",
       "roast_profile": "espresso",
       "origin": "Central America",
@@ -1285,18 +1297,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "bean_name": "Nicaragua | Los Alpes | Geisha | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/nicaragua-los-alpes-geisha-natural",
-      "roast_profile": "",
-      "origin": "Nicaragua",
-      "price_aud": "62.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
       "bean_name": "Panama | Bambito Estate | Geisha | Washed",
       "url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed",
       "roast_profile": "",
@@ -1351,6 +1351,18 @@
       "origin": "Colombia",
       "price_aud": "24.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Ethiopia Gogogu Filter",
+      "url": "https://www.rumblecoffee.com.au/products/ethiopia-gogogu",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "25.00",
+      "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1801,7 +1813,7 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "bean_name": "Compadre Blend",
+      "bean_name": "COMPADRE BLEND",
       "url": "https://stitch.coffee/products/compadre-blend-26",
       "roast_profile": "omni",
       "origin": "Colombia, Ethiopia, Nicaragua",
