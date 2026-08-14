@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14 01:24",
+  "generated_at": "2026-08-14 11:37",
   "stats": {
-    "total": 176,
+    "total": 174,
     "new": 1,
     "roasters": 15
   },
@@ -24,14 +24,14 @@
   ],
   "items": [
     {
-      "roaster": "Commonfolk",
-      "bean_name": "Wanale Washed",
-      "url": "https://www.commonfolkcoffee.com.au/products/wanale-washed_26",
-      "roast_profile": "omni",
-      "origin": "Uganda",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "PROCESSING",
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Luis Alfredo Bautista Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-luis-alfredo-bautista",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "24.00",
+      "process": "",
+      "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
@@ -444,6 +444,18 @@
       "is_new": false
     },
     {
+      "roaster": "Commonfolk",
+      "bean_name": "Wanale Washed",
+      "url": "https://www.commonfolkcoffee.com.au/products/wanale-washed_26",
+      "roast_profile": "omni",
+      "origin": "Uganda",
+      "price_aud": "29.00",
+      "process": "Washed",
+      "varietal": "PROCESSING",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
       "roaster": "Criteria Coffee",
       "bean_name": "Batch Blend for Filter",
       "url": "https://criteriacoffee.com/product/batch-blend-filter/",
@@ -825,18 +837,6 @@
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "Berries, Chocolate, Chocolate milk, Grapes",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Hacienda La Papaya Sidra Anaerobic Washed",
-      "url": "https://onacoffee.com.au/products/filter-rare-hacienda-la-papaya-sidra-anaerobic-washed",
-      "roast_profile": "filter",
-      "origin": "South America",
-      "price_aud": "47.25",
-      "process": "Anaerobic, Washed",
-      "varietal": "",
-      "flavour_profile": "Apricot, Citrus, Eucalyptus, Fruity, Orange, Sweet",
       "is_new": false
     },
     {
@@ -1285,18 +1285,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "bean_name": "Mexico | Santa Cruz | Geisha | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/mexico-santa-cruz-geisha-washed",
-      "roast_profile": "",
-      "origin": "Mexico",
-      "price_aud": "63.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
       "bean_name": "Panama | Bambito Estate | Geisha | Washed",
       "url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed",
       "roast_profile": "",
@@ -1314,18 +1302,6 @@
       "roast_profile": "",
       "origin": "Panama",
       "price_aud": "99.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Bella Vista Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-bella-vista",
-      "roast_profile": "espresso",
-      "origin": "Huila, Colombia, reshaping his family",
-      "price_aud": "28.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
@@ -1433,7 +1409,7 @@
       "url": "https://www.rumblecoffee.com.au/products/single-origin-espresso-twin-pack-1",
       "roast_profile": "espresso",
       "origin": "",
-      "price_aud": "47.00",
+      "price_aud": "43.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
