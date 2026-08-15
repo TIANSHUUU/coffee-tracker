@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14 11:37",
+  "generated_at": "2026-08-15 09:50",
   "stats": {
     "total": 174,
     "new": 1,
@@ -24,15 +24,15 @@
   ],
   "items": [
     {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Luis Alfredo Bautista Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-luis-alfredo-bautista",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "24.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
+      "roaster": "Wide Open Road",
+      "bean_name": "ETHIOPIA | CHELCHELE | NATURAL - FILTER",
+      "url": "https://wideopenroad.com.au/products/ethiopia-chelchele-natural-filter",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "23.00",
+      "process": "Natural",
+      "varietal": "Heirloom",
+      "flavour_profile": "Red grape, Elderflower, Peach Coffee Information: Chelchele is a bright and expressive coffee",
       "is_new": true
     },
     {
@@ -1333,6 +1333,18 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Luis Alfredo Bautista Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-luis-alfredo-bautista",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "24.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Ethiopia Gogogu Filter",
       "url": "https://www.rumblecoffee.com.au/products/ethiopia-gogogu",
       "roast_profile": "filter",
@@ -2037,18 +2049,6 @@
       "process": "Washed",
       "varietal": "Heirloom",
       "flavour_profile": "Orange, Cacao nibs, Candy apple",
-      "is_new": false
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "HONDURAS | LA CRUZ | NATURAL - FILTER",
-      "url": "https://wideopenroad.com.au/products/honduras-la-cruz-natural-filter",
-      "roast_profile": "filter",
-      "origin": "Honduras",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "Catuai",
-      "flavour_profile": "Mulberry, apricot, dark chocolate",
       "is_new": false
     },
     {
