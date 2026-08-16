@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15_095005",
+  "generated_at": "2026-08-16_150155",
   "summary": {
     "total_rows": 174,
     "ok_rows": 174,
@@ -709,20 +709,6 @@
       },
       {
         "roaster": "Standing Room Coffee",
-        "source_url": "https://standingroomcoffee.com.au/products/finca-la-asunta-bolivia-filter",
-        "bean_name": "Finca La Asunta, Bolivia, Filter",
-        "roast_profile": "filter",
-        "origin": "Bolivia Department",
-        "price_aud": "28.00",
-        "process": "Washed",
-        "varietal": "Java",
-        "flavour_profile": "",
-        "product_url": "https://standingroomcoffee.com.au/products/finca-la-asunta-bolivia-filter",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Standing Room Coffee",
         "source_url": "https://standingroomcoffee.com.au/products/gatitu-kenya-filter",
         "bean_name": "Gititu, Kenya, Filter",
         "roast_profile": "filter",
@@ -732,6 +718,20 @@
         "varietal": "Batian, SL28, SL34, Ruiru 11",
         "flavour_profile": "",
         "product_url": "https://standingroomcoffee.com.au/products/gatitu-kenya-filter",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Standing Room Coffee",
+        "source_url": "https://standingroomcoffee.com.au/products/finca-la-asunta-bolivia-filter",
+        "bean_name": "Finca La Asunta, Bolivia, Filter",
+        "roast_profile": "filter",
+        "origin": "Bolivia Department",
+        "price_aud": "28.00",
+        "process": "Washed",
+        "varietal": "Java",
+        "flavour_profile": "",
+        "product_url": "https://standingroomcoffee.com.au/products/finca-la-asunta-bolivia-filter",
         "status": "ok",
         "error": ""
       },
@@ -4708,20 +4708,6 @@
     },
     {
       "roaster": "Standing Room Coffee",
-      "source_url": "https://standingroomcoffee.com.au/products/finca-la-asunta-bolivia-filter",
-      "bean_name": "Finca La Asunta, Bolivia, Filter",
-      "roast_profile": "filter",
-      "origin": "Bolivia Department",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "Java",
-      "flavour_profile": "",
-      "product_url": "https://standingroomcoffee.com.au/products/finca-la-asunta-bolivia-filter",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Standing Room Coffee",
       "source_url": "https://standingroomcoffee.com.au/products/gatitu-kenya-filter",
       "bean_name": "Gititu, Kenya, Filter",
       "roast_profile": "filter",
@@ -4731,6 +4717,20 @@
       "varietal": "Batian, SL28, SL34, Ruiru 11",
       "flavour_profile": "",
       "product_url": "https://standingroomcoffee.com.au/products/gatitu-kenya-filter",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Standing Room Coffee",
+      "source_url": "https://standingroomcoffee.com.au/products/finca-la-asunta-bolivia-filter",
+      "bean_name": "Finca La Asunta, Bolivia, Filter",
+      "roast_profile": "filter",
+      "origin": "Bolivia Department",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "Java",
+      "flavour_profile": "",
+      "product_url": "https://standingroomcoffee.com.au/products/finca-la-asunta-bolivia-filter",
       "status": "ok",
       "error": ""
     },
