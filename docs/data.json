@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-15 09:50",
+  "generated_at": "2026-08-16 03:15",
   "stats": {
     "total": 174,
-    "new": 1,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,18 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "ETHIOPIA | CHELCHELE | NATURAL - FILTER",
-      "url": "https://wideopenroad.com.au/products/ethiopia-chelchele-natural-filter",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "23.00",
-      "process": "Natural",
-      "varietal": "Heirloom",
-      "flavour_profile": "Red grape, Elderflower, Peach Coffee Information: Chelchele is a bright and expressive coffee",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -2037,6 +2025,18 @@
       "process": "Washed",
       "varietal": "Papayo",
       "flavour_profile": "Mandarin, Dried cranberries, Lavender Coffee Information",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
+      "bean_name": "ETHIOPIA | CHELCHELE | NATURAL - FILTER",
+      "url": "https://wideopenroad.com.au/products/ethiopia-chelchele-natural-filter",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "23.00",
+      "process": "Natural",
+      "varietal": "Heirloom",
+      "flavour_profile": "Red grape, Elderflower, Peach Coffee Information: Chelchele is a bright and expressive coffee",
       "is_new": false
     },
     {
