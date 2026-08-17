@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17 02:22",
+  "generated_at": "2026-08-17 09:26",
   "stats": {
     "total": 182,
-    "new": 9,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,114 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Arsosala Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-arsosala-natural-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Arsosala Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-arsosala-natural-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Gakuyuini AA Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-gukuyuini-aa-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "Washed",
-      "varietal": "T",
-      "flavour_profile": "Berries, Citrus, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Gakuyuini AA Washed Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-gukuyuini-aa-washed-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Kenya",
-      "price_aud": "29.50",
-      "process": "Washed",
-      "varietal": "T",
-      "flavour_profile": "Berries, Citrus, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Mexico | Santa Cruz | Geisha | Honey",
-      "url": "https://www.proudmarycoffee.com.au/products/mexico-santa-cruz-geisha-honey",
-      "roast_profile": "",
-      "origin": "Mexico",
-      "price_aud": "63.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "bean_name": "GUATEMALA Santa Rosa El Boqueron ESPRESSO",
-      "url": "https://vacationcoffee.com.au/products/guatemala-el-boqueron-espresso",
-      "roast_profile": "espresso",
-      "origin": "Guatemala",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "Catuai, Caturra, Typica, Villa Sarchi",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "bean_name": "GUATEMALA Santa Rosa El Boqueron FILTER",
-      "url": "https://vacationcoffee.com.au/products/guatemala-el-boqueron-filter",
-      "roast_profile": "filter",
-      "origin": "Guatemala",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "Catuai, Caturra, Typica, Villa Sarchi",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "bean_name": "INDONESIA Sulawesi Yolan Tirta - Typica | LIMITED EDITION",
-      "url": "https://vacationcoffee.com.au/products/indonesia-sulawesi-yolan-tirta-typica-limited-edition",
-      "roast_profile": "omni",
-      "origin": "Indonesia",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "Typica",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "bean_name": "WHOLESALE SAMPLE PACK",
-      "url": "https://vacationcoffee.com.au/products/wholesale-sample-pack",
-      "roast_profile": "",
-      "origin": "",
-      "price_aud": "80.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -189,6 +81,30 @@
       "process": "Natural",
       "varietal": "T",
       "flavour_profile": "Berries, Floral, Nutty, Strong, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Arsosala Natural Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-arsosala-natural-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "29.00",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Ethiopia Arsosala Natural Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/ethiopia-arsosala-natural-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "29.00",
+      "process": "Natural",
+      "varietal": "T",
+      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
       "is_new": false
     },
     {
@@ -309,6 +225,30 @@
       "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "Chocolate, Citrus, Nutty, Strong, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Gakuyuini AA Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-gukuyuini-aa-washed-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "Washed",
+      "varietal": "T",
+      "flavour_profile": "Berries, Citrus, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Kenya Gakuyuini AA Washed Filter - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/kenya-gukuyuini-aa-washed-filter-single-origin",
+      "roast_profile": "filter",
+      "origin": "Kenya",
+      "price_aud": "29.50",
+      "process": "Washed",
+      "varietal": "T",
+      "flavour_profile": "Berries, Citrus, Sweet",
       "is_new": false
     },
     {
@@ -1369,6 +1309,18 @@
     },
     {
       "roaster": "Proud Mary",
+      "bean_name": "Mexico | Santa Cruz | Geisha | Honey",
+      "url": "https://www.proudmarycoffee.com.au/products/mexico-santa-cruz-geisha-honey",
+      "roast_profile": "",
+      "origin": "Mexico",
+      "price_aud": "63.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
       "bean_name": "Panama | Bambito Estate | Geisha | Washed",
       "url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed",
       "roast_profile": "",
@@ -2017,6 +1969,30 @@
     },
     {
       "roaster": "Vacation Coffee",
+      "bean_name": "GUATEMALA Santa Rosa El Boqueron ESPRESSO",
+      "url": "https://vacationcoffee.com.au/products/guatemala-el-boqueron-espresso",
+      "roast_profile": "espresso",
+      "origin": "Guatemala",
+      "price_aud": "24.00",
+      "process": "Natural",
+      "varietal": "Catuai, Caturra, Typica, Villa Sarchi",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "GUATEMALA Santa Rosa El Boqueron FILTER",
+      "url": "https://vacationcoffee.com.au/products/guatemala-el-boqueron-filter",
+      "roast_profile": "filter",
+      "origin": "Guatemala",
+      "price_aud": "24.00",
+      "process": "Natural",
+      "varietal": "Catuai, Caturra, Typica, Villa Sarchi",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Vacation Coffee",
       "bean_name": "INDONESIA Flores Marselina Walu ESPRESSO",
       "url": "https://vacationcoffee.com.au/products/indonesia-flores-marselina-walu-espresso",
       "roast_profile": "espresso",
@@ -2041,6 +2017,18 @@
     },
     {
       "roaster": "Vacation Coffee",
+      "bean_name": "INDONESIA Sulawesi Yolan Tirta - Typica | LIMITED EDITION",
+      "url": "https://vacationcoffee.com.au/products/indonesia-sulawesi-yolan-tirta-typica-limited-edition",
+      "roast_profile": "omni",
+      "origin": "Indonesia",
+      "price_aud": "29.00",
+      "process": "Washed",
+      "varietal": "Typica",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Vacation Coffee",
       "bean_name": "ROAD TRIP ESPRESSO",
       "url": "https://vacationcoffee.com.au/products/road-trip",
       "roast_profile": "espresso",
@@ -2060,6 +2048,18 @@
       "price_aud": "20.00",
       "process": "Washed",
       "varietal": "SL28, SL34, Ruiru 11 & Batian",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "WHOLESALE SAMPLE PACK",
+      "url": "https://vacationcoffee.com.au/products/wholesale-sample-pack",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "80.00",
+      "process": "",
+      "varietal": "",
       "flavour_profile": "",
       "is_new": false
     },
