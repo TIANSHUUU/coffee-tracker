@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-17_022235",
+  "generated_at": "2026-08-18_015827",
   "summary": {
-    "total_rows": 182,
-    "ok_rows": 182,
+    "total_rows": 183,
+    "ok_rows": 183,
     "error_rows": 0
   },
   "grouped": {
@@ -102,6 +102,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.commonfolkcoffee.com.au/products/filter-lucky-dip",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "ONA Coffee",
+        "source_url": "https://onacoffee.com.au/products/filter-rare-singleorigin-ama-project-lilac-brazil-cm-natural",
+        "bean_name": "Ama Project Lilac Lot 1, Brazil, CM Natural",
+        "roast_profile": "filter",
+        "origin": "East Africa",
+        "price_aud": "30.00",
+        "process": "Natural",
+        "varietal": "",
+        "flavour_profile": "Floral, Plum, Raisin",
+        "product_url": "https://onacoffee.com.au/products/filter-rare-singleorigin-ama-project-lilac-brazil-cm-natural",
         "status": "ok",
         "error": ""
       },
@@ -1889,20 +1903,6 @@
       },
       {
         "roaster": "Proud Mary",
-        "source_url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
-        "bean_name": "Burundi | Gahahe | Red Bourbon | Natural",
-        "roast_profile": "omni",
-        "origin": "Burundi",
-        "price_aud": "37.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Proud Mary",
         "source_url": "https://www.proudmarycoffee.com.au/products/honduras-manuel-vallecillo-pacas-washed",
         "bean_name": "Honduras | Manuel Vallecillo | Pacas | Washed",
         "roast_profile": "omni",
@@ -1912,6 +1912,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.proudmarycoffee.com.au/products/honduras-manuel-vallecillo-pacas-washed",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Proud Mary",
+        "source_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-fany-red-bourbon-natural",
+        "bean_name": "El Salvador | La Fany | Red Bourbon | Natural",
+        "roast_profile": "omni",
+        "origin": "El Salvador",
+        "price_aud": "38.00",
+        "process": "Natural",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-fany-red-bourbon-natural",
         "status": "ok",
         "error": ""
       },
@@ -2776,20 +2790,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "source_url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
-      "bean_name": "Burundi | Gahahe | Red Bourbon | Natural",
-      "roast_profile": "omni",
-      "origin": "Burundi",
-      "price_aud": "37.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.proudmarycoffee.com.au/products/burundi-gahahe-red-bourbon-natural",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Proud Mary",
       "source_url": "https://www.proudmarycoffee.com.au/products/honduras-ovidio-gomez-geisha-honey",
       "bean_name": "Honduras | Ovidio Gomez | Geisha | Honey",
       "roast_profile": "",
@@ -2869,6 +2869,20 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.proudmarycoffee.com.au/products/mexico-santa-cruz-geisha-honey",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Proud Mary",
+      "source_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-fany-red-bourbon-natural",
+      "bean_name": "El Salvador | La Fany | Red Bourbon | Natural",
+      "roast_profile": "omni",
+      "origin": "El Salvador",
+      "price_aud": "38.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-fany-red-bourbon-natural",
       "status": "ok",
       "error": ""
     },
@@ -3149,6 +3163,20 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.commonfolkcoffee.com.au/products/karinga-kenya",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "ONA Coffee",
+      "source_url": "https://onacoffee.com.au/products/filter-rare-singleorigin-ama-project-lilac-brazil-cm-natural",
+      "bean_name": "Ama Project Lilac Lot 1, Brazil, CM Natural",
+      "roast_profile": "filter",
+      "origin": "East Africa",
+      "price_aud": "30.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Floral, Plum, Raisin",
+      "product_url": "https://onacoffee.com.au/products/filter-rare-singleorigin-ama-project-lilac-brazil-cm-natural",
       "status": "ok",
       "error": ""
     },
