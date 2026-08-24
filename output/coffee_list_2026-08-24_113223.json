@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24_022515",
+  "generated_at": "2026-08-24_113223",
   "summary": {
-    "total_rows": 182,
-    "ok_rows": 182,
+    "total_rows": 180,
+    "ok_rows": 180,
     "error_rows": 0
   },
   "grouped": {
@@ -2351,20 +2351,6 @@
       },
       {
         "roaster": "Stitch Coffee",
-        "source_url": "https://stitch.coffee/products/brazil-fazenda-dona-nenem-26",
-        "bean_name": "BRAZIL, FAZENDA DONA NENEM",
-        "roast_profile": "omni",
-        "origin": "Brazil",
-        "price_aud": "32.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://stitch.coffee/products/brazil-fazenda-dona-nenem-26",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Stitch Coffee",
         "source_url": "https://stitch.coffee/products/ethiopia-jigesa-26",
         "bean_name": "ETHIOPIA, JIGESA",
         "roast_profile": "omni",
@@ -2435,20 +2421,6 @@
       }
     ],
     "unknown": [
-      {
-        "roaster": "Proud Mary",
-        "source_url": "https://www.proudmarycoffee.com.au/products/honduras-la-salvaje-coe-1b-geisha-washed",
-        "bean_name": "Honduras | La Salvaje COE #1B | Geisha | Washed",
-        "roast_profile": "",
-        "origin": "Honduras",
-        "price_aud": "115.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.proudmarycoffee.com.au/products/honduras-la-salvaje-coe-1b-geisha-washed",
-        "status": "ok",
-        "error": ""
-      },
       {
         "roaster": "Proud Mary",
         "source_url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed",
@@ -2771,20 +2743,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-el-angel-red-bourbon-washed",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Proud Mary",
-      "source_url": "https://www.proudmarycoffee.com.au/products/honduras-la-salvaje-coe-1b-geisha-washed",
-      "bean_name": "Honduras | La Salvaje COE #1B | Geisha | Washed",
-      "roast_profile": "",
-      "origin": "Honduras",
-      "price_aud": "115.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.proudmarycoffee.com.au/products/honduras-la-salvaje-coe-1b-geisha-washed",
       "status": "ok",
       "error": ""
     },
@@ -4549,20 +4507,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://stitch.coffee/products/compadre-blend-26",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "source_url": "https://stitch.coffee/products/brazil-fazenda-dona-nenem-26",
-      "bean_name": "BRAZIL, FAZENDA DONA NENEM",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "32.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://stitch.coffee/products/brazil-fazenda-dona-nenem-26",
       "status": "ok",
       "error": ""
     },
