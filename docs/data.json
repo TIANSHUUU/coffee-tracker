@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24 02:03",
+  "generated_at": "2026-08-24 02:25",
   "stats": {
     "total": 182,
-    "new": 2,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,30 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Ndocha",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/ndocha",
-      "roast_profile": "filter",
-      "origin": "Kiambu, Kenya",
-      "price_aud": "34.00",
-      "process": "Washed",
-      "varietal": "SL28 & Ruiru 11",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Small Producers of Cajamarca",
-      "url": "https://marketlane.com.au/collections/espresso-beans/products/small-producers-of-cajamarca",
-      "roast_profile": "espresso",
-      "origin": "Cajamarca, Tolima, Colombia",
-      "price_aud": "24.00",
-      "process": "Washed",
-      "varietal": "Caturra & Colombia",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -721,6 +697,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "Ndocha",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/ndocha",
+      "roast_profile": "filter",
+      "origin": "Kiambu, Kenya",
+      "price_aud": "34.00",
+      "process": "Washed",
+      "varietal": "SL28 & Ruiru 11",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "Seasonal Blend",
       "url": "https://marketlane.com.au/collections/espresso-beans/products/seasonal-blend",
       "roast_profile": "espresso",
@@ -728,6 +716,18 @@
       "price_aud": "24.00",
       "process": "Washed",
       "varietal": "Bourbon",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Small Producers of Cajamarca",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/small-producers-of-cajamarca",
+      "roast_profile": "espresso",
+      "origin": "Cajamarca, Tolima, Colombia",
+      "price_aud": "24.00",
+      "process": "Washed",
+      "varietal": "Caturra & Colombia",
       "flavour_profile": "",
       "is_new": false
     },
