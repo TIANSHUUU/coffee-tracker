@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24 02:25",
+  "generated_at": "2026-08-24 10:05",
   "stats": {
-    "total": 182,
+    "total": 180,
     "new": 0,
     "roasters": 15
   },
@@ -1273,18 +1273,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "bean_name": "Honduras | La Salvaje COE #1B | Geisha | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/honduras-la-salvaje-coe-1b-geisha-washed",
-      "roast_profile": "",
-      "origin": "Honduras",
-      "price_aud": "115.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
       "bean_name": "Honduras | Manuel Vallecillo | Pacas | Washed",
       "url": "https://www.proudmarycoffee.com.au/products/honduras-manuel-vallecillo-pacas-washed",
       "roast_profile": "omni",
@@ -1796,18 +1784,6 @@
       "price_aud": "28.00",
       "process": "Natural",
       "varietal": "Catuaí",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "BRAZIL, FAZENDA DONA NENEM",
-      "url": "https://stitch.coffee/products/brazil-fazenda-dona-nenem-26",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "32.00",
-      "process": "",
-      "varietal": "",
       "flavour_profile": "",
       "is_new": false
     },
