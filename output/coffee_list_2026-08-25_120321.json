@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25_001356",
+  "generated_at": "2026-08-25_120321",
   "summary": {
-    "total_rows": 179,
-    "ok_rows": 179,
+    "total_rows": 177,
+    "ok_rows": 177,
     "error_rows": 0
   },
   "grouped": {
@@ -1522,20 +1522,6 @@
         "error": ""
       },
       {
-        "roaster": "Rumble Coffee Roasters",
-        "source_url": "https://www.rumblecoffee.com.au/products/shadow-boxer-pods",
-        "bean_name": "Shadow Boxer Pods",
-        "roast_profile": "espresso",
-        "origin": "",
-        "price_aud": "12.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.rumblecoffee.com.au/products/shadow-boxer-pods",
-        "status": "ok",
-        "error": ""
-      },
-      {
         "roaster": "Wide Open Road",
         "source_url": "https://wideopenroad.com.au/products/shady-lane-espresso-blend",
         "bean_name": "SHADY LANE ESPRESSO BLEND",
@@ -2422,20 +2408,6 @@
         "error": ""
       },
       {
-        "roaster": "Proud Mary",
-        "source_url": "https://www.proudmarycoffee.com.au/products/panama-finca-momoto-camino-geisha-natural-1",
-        "bean_name": "Panama | Finca Momoto - Camino | Geisha | Natural",
-        "roast_profile": "",
-        "origin": "Panama",
-        "price_aud": "62.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.proudmarycoffee.com.au/products/panama-finca-momoto-camino-geisha-natural-1",
-        "status": "ok",
-        "error": ""
-      },
-      {
         "roaster": "ONA Coffee",
         "source_url": "https://onacoffee.com.au/products/ona-navy-half-zip-crew",
         "bean_name": "ONA Navy Half Zip Crew",
@@ -2771,20 +2743,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-fany-red-bourbon-natural",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Proud Mary",
-      "source_url": "https://www.proudmarycoffee.com.au/products/panama-finca-momoto-camino-geisha-natural-1",
-      "bean_name": "Panama | Finca Momoto - Camino | Geisha | Natural",
-      "roast_profile": "",
-      "origin": "Panama",
-      "price_aud": "62.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.proudmarycoffee.com.au/products/panama-finca-momoto-camino-geisha-natural-1",
       "status": "ok",
       "error": ""
     },
@@ -4078,20 +4036,6 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
-      "source_url": "https://www.rumblecoffee.com.au/products/shadow-boxer-pods",
-      "bean_name": "Shadow Boxer Pods",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "12.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.rumblecoffee.com.au/products/shadow-boxer-pods",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
       "source_url": "https://www.rumblecoffee.com.au/products/street-fighter-pods",
       "bean_name": "Street Fighter Pods",
       "roast_profile": "",
@@ -4946,20 +4890,6 @@
     },
     {
       "roaster": "Vacation Coffee",
-      "source_url": "https://vacationcoffee.com.au/products/costa-rica-hermosa-tarrazu-filter",
-      "bean_name": "COSTA RICA Hermosa Tarrazu FILTER",
-      "roast_profile": "filter",
-      "origin": "Costa Rica",
-      "price_aud": "22.00",
-      "process": "Fully Washed",
-      "varietal": "Caturra & Catuai",
-      "flavour_profile": "",
-      "product_url": "https://vacationcoffee.com.au/products/costa-rica-hermosa-tarrazu-filter",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Vacation Coffee",
       "source_url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-espresso",
       "bean_name": "ETHIOPIA Gara Agena ESPRESSO",
       "roast_profile": "espresso",
@@ -4969,6 +4899,20 @@
       "varietal": "Heirloom",
       "flavour_profile": "",
       "product_url": "https://vacationcoffee.com.au/products/ethiopia-gara-agena-espresso",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "source_url": "https://vacationcoffee.com.au/products/costa-rica-hermosa-tarrazu-filter",
+      "bean_name": "COSTA RICA Hermosa Tarrazu FILTER",
+      "roast_profile": "filter",
+      "origin": "Costa Rica",
+      "price_aud": "22.00",
+      "process": "Fully Washed",
+      "varietal": "Caturra & Catuai",
+      "flavour_profile": "",
+      "product_url": "https://vacationcoffee.com.au/products/costa-rica-hermosa-tarrazu-filter",
       "status": "ok",
       "error": ""
     },
