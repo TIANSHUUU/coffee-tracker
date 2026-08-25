@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-24_100505",
+  "generated_at": "2026-08-25_001356",
   "summary": {
-    "total_rows": 180,
-    "ok_rows": 180,
+    "total_rows": 179,
+    "ok_rows": 179,
     "error_rows": 0
   },
   "grouped": {
@@ -116,20 +116,6 @@
         "varietal": "",
         "flavour_profile": "Floral, Plum, Raisin",
         "product_url": "https://onacoffee.com.au/products/filter-rare-singleorigin-ama-project-lilac-brazil-cm-natural",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-singleorigin-ama-project-lot-cruzeiro-brazil-superhoney",
-        "bean_name": "Ama Project Lot Cruzeiro, Brazil, Superhoney",
-        "roast_profile": "filter",
-        "origin": "South America",
-        "price_aud": "22.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "Almond, Chocolate, Nutty, Raisin",
-        "product_url": "https://onacoffee.com.au/products/filter-singleorigin-ama-project-lot-cruzeiro-brazil-superhoney",
         "status": "ok",
         "error": ""
       },
@@ -3065,20 +3051,6 @@
       "varietal": "",
       "flavour_profile": "Floral, Plum, Raisin",
       "product_url": "https://onacoffee.com.au/products/filter-rare-singleorigin-ama-project-lilac-brazil-cm-natural",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-singleorigin-ama-project-lot-cruzeiro-brazil-superhoney",
-      "bean_name": "Ama Project Lot Cruzeiro, Brazil, Superhoney",
-      "roast_profile": "filter",
-      "origin": "South America",
-      "price_aud": "22.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "Almond, Chocolate, Nutty, Raisin",
-      "product_url": "https://onacoffee.com.au/products/filter-singleorigin-ama-project-lot-cruzeiro-brazil-superhoney",
       "status": "ok",
       "error": ""
     },
