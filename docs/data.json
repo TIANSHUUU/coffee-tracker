@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25 00:13",
+  "generated_at": "2026-08-25 03:39",
   "stats": {
-    "total": 179,
+    "total": 177,
     "new": 0,
     "roasters": 15
   },
@@ -1296,18 +1296,6 @@
       "is_new": false
     },
     {
-      "roaster": "Proud Mary",
-      "bean_name": "Panama | Finca Momoto - Camino | Geisha | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/panama-finca-momoto-camino-geisha-natural-1",
-      "roast_profile": "",
-      "origin": "Panama",
-      "price_aud": "62.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
       "roaster": "Rumble Coffee Roasters",
       "bean_name": "Colombia Javier Lopez Montaña Filter",
       "url": "https://www.rumblecoffee.com.au/products/colombia-javier-lopez-montana",
@@ -1398,18 +1386,6 @@
       "roast_profile": "espresso",
       "origin": "",
       "price_aud": "21.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Shadow Boxer Pods",
-      "url": "https://www.rumblecoffee.com.au/products/shadow-boxer-pods",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "12.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
