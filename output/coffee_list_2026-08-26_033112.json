@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25_120321",
+  "generated_at": "2026-08-26_033112",
   "summary": {
     "total_rows": 177,
     "ok_rows": 177,
@@ -312,20 +312,6 @@
         "varietal": "T",
         "flavour_profile": "Citrus, Delicate, Floral, Sweet",
         "product_url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-washed-filter-single-origin",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Code Black",
-        "source_url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-filter-single-origin",
-        "bean_name": "Peru Lorenzo Arbildo Ubillus Washed Filter - Single Origin",
-        "roast_profile": "filter",
-        "origin": "Peru",
-        "price_aud": "36.50",
-        "process": "Washed",
-        "varietal": "T",
-        "flavour_profile": "Citrus, Delicate, Floral, Sweet",
-        "product_url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-filter-single-origin",
         "status": "ok",
         "error": ""
       },
@@ -1168,20 +1154,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.padrecoffee.com.au/products/guatemala-paraiso-single-origin-espresso",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Padre Coffee",
-        "source_url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-espresso",
-        "bean_name": "Kenya Gachatha AA - Single Origin Espresso",
-        "roast_profile": "espresso",
-        "origin": "Kenya",
-        "price_aud": "28.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-espresso",
         "status": "ok",
         "error": ""
       },
@@ -2336,6 +2308,34 @@
         "error": ""
       },
       {
+        "roaster": "Stitch Coffee",
+        "source_url": "https://stitch.coffee/products/ethiopia-danche-red-honey-26",
+        "bean_name": "ETHIOPIA, DANCHE (RED HONEY)",
+        "roast_profile": "omni",
+        "origin": "Ethiopia",
+        "price_aud": "35.00",
+        "process": "Honey",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://stitch.coffee/products/ethiopia-danche-red-honey-26",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Stitch Coffee",
+        "source_url": "https://stitch.coffee/products/ethiopia-danche-anaerobic-washed-26",
+        "bean_name": "ETHIOPIA, DANCHE (ANAEROBIC WASHED)",
+        "roast_profile": "omni",
+        "origin": "Ethiopia",
+        "price_aud": "37.00",
+        "process": "Anaerobic, Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://stitch.coffee/products/ethiopia-danche-anaerobic-washed-26",
+        "status": "ok",
+        "error": ""
+      },
+      {
         "roaster": "Criteria Coffee",
         "source_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
         "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
@@ -3420,20 +3420,6 @@
     },
     {
       "roaster": "Padre Coffee",
-      "source_url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-espresso",
-      "bean_name": "Kenya Gachatha AA - Single Origin Espresso",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "28.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.padrecoffee.com.au/products/kenya-gachatha-aa-single-origin-espresso",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Padre Coffee",
       "source_url": "https://www.padrecoffee.com.au/products/rwanda-gishamwana-island-washed-single-origin-espresso",
       "bean_name": "Rwanda Gishamwana Island - Single Origin Espresso",
       "roast_profile": "espresso",
@@ -3667,20 +3653,6 @@
       "varietal": "T",
       "flavour_profile": "Citrus, Delicate, Floral, Sweet",
       "product_url": "https://codeblackcoffee.com.au/products/ethiopia-yaye-premium-washed-filter-single-origin",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Code Black",
-      "source_url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-filter-single-origin",
-      "bean_name": "Peru Lorenzo Arbildo Ubillus Washed Filter - Single Origin",
-      "roast_profile": "filter",
-      "origin": "Peru",
-      "price_aud": "36.50",
-      "process": "Washed",
-      "varietal": "T",
-      "flavour_profile": "Citrus, Delicate, Floral, Sweet",
-      "product_url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-filter-single-origin",
       "status": "ok",
       "error": ""
     },
@@ -4437,6 +4409,34 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://stitch.coffee/products/ethiopia-jigesa-26",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "source_url": "https://stitch.coffee/products/ethiopia-danche-red-honey-26",
+      "bean_name": "ETHIOPIA, DANCHE (RED HONEY)",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "35.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://stitch.coffee/products/ethiopia-danche-red-honey-26",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "source_url": "https://stitch.coffee/products/ethiopia-danche-anaerobic-washed-26",
+      "bean_name": "ETHIOPIA, DANCHE (ANAEROBIC WASHED)",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "37.00",
+      "process": "Anaerobic, Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://stitch.coffee/products/ethiopia-danche-anaerobic-washed-26",
       "status": "ok",
       "error": ""
     },

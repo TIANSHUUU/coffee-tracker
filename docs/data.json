@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25 23:37",
+  "generated_at": "2026-08-26 03:31",
   "stats": {
-    "total": 175,
-    "new": 1,
+    "total": 177,
+    "new": 2,
     "roasters": 15
   },
   "roasters": [
@@ -24,13 +24,25 @@
   ],
   "items": [
     {
+      "roaster": "Market Lane",
+      "bean_name": "Seasonal Blend",
+      "url": "https://marketlane.com.au/collections/espresso-beans/products/seasonal-blend",
+      "roast_profile": "espresso",
+      "origin": "Antigua, Guatemala",
+      "price_aud": "24.00",
+      "process": "Washed",
+      "varietal": "Bourbon",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
       "roaster": "Stitch Coffee",
-      "bean_name": "ETHIOPIA, DANCHE (RED HONEY)",
-      "url": "https://stitch.coffee/products/ethiopia-danche-red-honey-26",
+      "bean_name": "ETHIOPIA, DANCHE (ANAEROBIC WASHED)",
+      "url": "https://stitch.coffee/products/ethiopia-danche-anaerobic-washed-26",
       "roast_profile": "omni",
       "origin": "Ethiopia",
-      "price_aud": "35.00",
-      "process": "Honey",
+      "price_aud": "37.00",
+      "process": "Anaerobic, Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -1759,6 +1771,18 @@
       "origin": "",
       "price_aud": "20.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "ETHIOPIA, DANCHE (RED HONEY)",
+      "url": "https://stitch.coffee/products/ethiopia-danche-red-honey-26",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "35.00",
+      "process": "Honey",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
