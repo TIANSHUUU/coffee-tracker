@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14 05:59",
+  "generated_at": "2026-09-20 15:02",
   "stats": {
-    "total": 190,
-    "new": 2,
+    "total": 189,
+    "new": 8,
     "roasters": 15
   },
   "roasters": [
@@ -24,26 +24,98 @@
   ],
   "items": [
     {
-      "roaster": "Standing Room Coffee",
-      "bean_name": "Ayla Bombe Washed, Ethiopia, Filter",
-      "url": "https://standingroomcoffee.com.au/products/ayla-bombe-washed-ethiopia-filter",
+      "roaster": "Market Lane",
+      "bean_name": "Hacienda Carmona",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/hacienda-carmona-filter-beans",
       "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
+      "origin": "Antigua, Guatemala",
+      "price_aud": "26.00",
       "process": "Washed",
-      "varietal": "Primarily JARC 74112 and 74158 along",
+      "varietal": "Bourbon",
       "flavour_profile": "",
       "is_new": true
     },
     {
-      "roaster": "Standing Room Coffee",
-      "bean_name": "Sao Judas Tadeu, Brazil, Espresso",
-      "url": "https://standingroomcoffee.com.au/products/airuma-brazil-espresso-copy-2",
-      "roast_profile": "espresso",
-      "origin": "Brazil State",
-      "price_aud": "26.00",
-      "process": "Pulped Natural",
-      "varietal": "Catuaí",
+      "roaster": "ONA Coffee",
+      "bean_name": "Los Suyates Community Well 3, Nicaragua, CM Natural Jasper",
+      "url": "https://onacoffee.com.au/products/filter-los-suyates-community-well-3-nicaragua-cm-natural-jasper",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Berries, Fruity, Winey",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Maguta Estate Lot 432, Kenya, Nitrogen Natural Indigo",
+      "url": "https://onacoffee.com.au/products/filter-maguta-estate-lot-432-kenya-nitrogen-natural-indigo",
+      "roast_profile": "filter",
+      "origin": "East Africa",
+      "price_aud": "30.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Purple fruit, Berries, Cherry, Citrus, Stone Fruit, Sweet",
+      "is_new": true
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Panama | Finca Auromar | Geisha | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/panama-finca-auromar-geisha-washed",
+      "roast_profile": "",
+      "origin": "Panama",
+      "price_aud": "77.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Linarco Rodriguez Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia, Kenya",
+      "price_aud": "33.00",
+      "process": "Anaerobic",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Nestor Lasso Ombligon Filter - Special Release",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-nestor-lasso",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "39.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "ETHIOPIA, JIGESA",
+      "url": "https://stitch.coffee/products/ethiopia-jigesa-26",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "30.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "ETHIOPIA, YAYE (NATURAL)",
+      "url": "https://stitch.coffee/products/ethiopia-yaye-natural-26",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "40.00",
+      "process": "Natural",
+      "varietal": "",
       "flavour_profile": "",
       "is_new": true
     },
@@ -397,18 +469,6 @@
     },
     {
       "roaster": "Code Black",
-      "bean_name": "Peru Lorenzo Arbildo Ubillus Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/peru-lorenzo-arbildo-ubillus-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Peru",
-      "price_aud": "36.50",
-      "process": "Washed",
-      "varietal": "T",
-      "flavour_profile": "Citrus, Delicate, Floral, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
       "bean_name": "Seasonal Espresso Blend",
       "url": "https://codeblackcoffee.com.au/products/seasonal-espresso-blend",
       "roast_profile": "espresso",
@@ -498,18 +558,6 @@
       "roast_profile": "omni",
       "origin": "Tanzania",
       "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Nyeri",
-      "url": "https://www.commonfolkcoffee.com.au/products/nyeri_25",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "27.00",
       "process": "Washed",
       "varietal": "PROCESSING",
       "flavour_profile": "",
@@ -661,18 +709,6 @@
     },
     {
       "roaster": "Field Work Coffee",
-      "bean_name": "Bookkisa",
-      "url": "https://fieldworkcoffee.com.au/products/bookkisa",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "25.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Field Work Coffee",
       "bean_name": "Bookkisa Espresso",
       "url": "https://fieldworkcoffee.com.au/products/bookkisa-espresso",
       "roast_profile": "espresso",
@@ -817,18 +853,6 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "Lomaverde",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/lomaverde-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Santa Barbara, Antioquia, Colombia",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "Chiroso",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
       "bean_name": "Ndocha",
       "url": "https://marketlane.com.au/collections/filter-beans/products/ndocha",
       "roast_profile": "filter",
@@ -909,18 +933,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "El Avión, Nicaragua, CM Natural Indigo",
-      "url": "https://onacoffee.com.au/products/filter-single-origin-el-avion-nicaragua-cm-natural-indigo",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Purple fruit, Winey, Chocolate",
       "is_new": false
     },
     {
@@ -1404,18 +1416,6 @@
       "is_new": false
     },
     {
-      "roaster": "Proud Mary",
-      "bean_name": "Panama | Elida Estate - Falda | Geisha | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/panama-elida-estate-falda-geisha-natural",
-      "roast_profile": "",
-      "origin": "Panama",
-      "price_aud": "92.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
       "roaster": "Rumble Coffee Roasters",
       "bean_name": "Colombia Lengupá Espresso",
       "url": "https://www.rumblecoffee.com.au/products/colombia-lengupa",
@@ -1423,18 +1423,6 @@
       "origin": "Colombia",
       "price_aud": "24.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Ethiopia Gogogu Filter",
-      "url": "https://www.rumblecoffee.com.au/products/ethiopia-gogogu",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "25.00",
-      "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1541,7 +1529,7 @@
       "url": "https://www.rumblecoffee.com.au/products/single-origin-filter-twin-pack",
       "roast_profile": "filter",
       "origin": "",
-      "price_aud": "46.00",
+      "price_aud": "53.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -1592,18 +1580,6 @@
       "price_aud": "30.00",
       "process": "",
       "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "El Limoncillo Javanica, Nicaragua",
-      "url": "https://sevenseeds.com.au/products/el-limoncillo-javanica-nicaragua-2026",
-      "roast_profile": "omni",
-      "origin": "Yasicasur, Matagalpa, Nicaragua",
-      "price_aud": "25.00",
-      "process": "Natural",
-      "varietal": "Javanica",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1789,18 +1765,6 @@
     },
     {
       "roaster": "Small Batch",
-      "bean_name": "Victor Bermudez – Pink Borbon Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/victor-pink-borbon-espresso",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "26",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
       "bean_name": "Victor Bermudez – Washed Gesha Filter",
       "url": "https://www.smallbatch.com.au/shop/filter/victor-bermudez-gesha-filter",
       "roast_profile": "filter",
@@ -1819,6 +1783,18 @@
       "origin": "Ethiopia",
       "price_aud": "29.00",
       "process": "Natural",
+      "varietal": "Primarily JARC 74112 and 74158 along",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Standing Room Coffee",
+      "bean_name": "Ayla Bombe Washed, Ethiopia, Filter",
+      "url": "https://standingroomcoffee.com.au/products/ayla-bombe-washed-ethiopia-filter",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "29.00",
+      "process": "Washed",
       "varietal": "Primarily JARC 74112 and 74158 along",
       "flavour_profile": "",
       "is_new": false
@@ -1856,6 +1832,18 @@
       "price_aud": "30.00",
       "process": "Washed",
       "varietal": "SL28, SL34, Batian Coffee Grade",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Standing Room Coffee",
+      "bean_name": "Sao Judas Tadeu, Brazil, Espresso",
+      "url": "https://standingroomcoffee.com.au/products/airuma-brazil-espresso-copy-2",
+      "roast_profile": "espresso",
+      "origin": "Brazil State",
+      "price_aud": "26.00",
+      "process": "Pulped Natural",
+      "varietal": "Catuaí",
       "flavour_profile": "",
       "is_new": false
     },
