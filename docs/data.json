@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-20 15:02",
+  "generated_at": "2026-09-21 06:04",
   "stats": {
     "total": 189,
-    "new": 8,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -24,97 +24,13 @@
   ],
   "items": [
     {
-      "roaster": "Market Lane",
-      "bean_name": "Hacienda Carmona",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/hacienda-carmona-filter-beans",
-      "roast_profile": "filter",
-      "origin": "Antigua, Guatemala",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "Bourbon",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Los Suyates Community Well 3, Nicaragua, CM Natural Jasper",
-      "url": "https://onacoffee.com.au/products/filter-los-suyates-community-well-3-nicaragua-cm-natural-jasper",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Berries, Fruity, Winey",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Maguta Estate Lot 432, Kenya, Nitrogen Natural Indigo",
-      "url": "https://onacoffee.com.au/products/filter-maguta-estate-lot-432-kenya-nitrogen-natural-indigo",
-      "roast_profile": "filter",
-      "origin": "East Africa",
-      "price_aud": "30.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Purple fruit, Berries, Cherry, Citrus, Stone Fruit, Sweet",
-      "is_new": true
-    },
-    {
       "roaster": "Proud Mary",
-      "bean_name": "Panama | Finca Auromar | Geisha | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/panama-finca-auromar-geisha-washed",
-      "roast_profile": "",
-      "origin": "Panama",
-      "price_aud": "77.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Linarco Rodriguez Filter",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia, Kenya",
-      "price_aud": "33.00",
-      "process": "Anaerobic",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Nestor Lasso Ombligon Filter - Special Release",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-nestor-lasso",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "39.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ETHIOPIA, JIGESA",
-      "url": "https://stitch.coffee/products/ethiopia-jigesa-26",
+      "bean_name": "Costa Rica | Finca Toño | Sarchimor | Yellow Honey",
+      "url": "https://www.proudmarycoffee.com.au/products/costa-rica-finca-tono-sarchimor-yellow-honey",
       "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "30.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ETHIOPIA, YAYE (NATURAL)",
-      "url": "https://stitch.coffee/products/ethiopia-yaye-natural-26",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "40.00",
-      "process": "Natural",
+      "origin": "Costa Rica",
+      "price_aud": "17.00",
+      "process": "Honey",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -829,6 +745,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "Hacienda Carmona",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/hacienda-carmona-filter-beans",
+      "roast_profile": "filter",
+      "origin": "Antigua, Guatemala",
+      "price_aud": "26.00",
+      "process": "Washed",
+      "varietal": "Bourbon",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "La Esperanza",
       "url": "https://marketlane.com.au/collections/filter-beans/products/la-esperanza-filter-beans",
       "roast_profile": "filter",
@@ -981,6 +909,30 @@
       "process": "Anaerobic, Natural",
       "varietal": "",
       "flavour_profile": "Almond, Citrus, Fruity, Sweet, Tropical",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Los Suyates Community Well 3, Nicaragua, CM Natural Jasper",
+      "url": "https://onacoffee.com.au/products/filter-los-suyates-community-well-3-nicaragua-cm-natural-jasper",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Berries, Fruity, Winey",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Maguta Estate Lot 432, Kenya, Nitrogen Natural Indigo",
+      "url": "https://onacoffee.com.au/products/filter-maguta-estate-lot-432-kenya-nitrogen-natural-indigo",
+      "roast_profile": "filter",
+      "origin": "East Africa",
+      "price_aud": "30.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Purple fruit, Berries, Cherry, Citrus, Stone Fruit, Sweet",
       "is_new": false
     },
     {
@@ -1369,18 +1321,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "bean_name": "El Salvador | La Siberia | Red Bourbon | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-red-bourbon-washed",
-      "roast_profile": "omni",
-      "origin": "El Salvador",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Proud Mary",
       "bean_name": "Ghost Rider",
       "url": "https://www.proudmarycoffee.com.au/products/ghost-rider",
       "roast_profile": "omni",
@@ -1416,6 +1356,18 @@
       "is_new": false
     },
     {
+      "roaster": "Proud Mary",
+      "bean_name": "Panama | Finca Auromar | Geisha | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/panama-finca-auromar-geisha-washed",
+      "roast_profile": "",
+      "origin": "Panama",
+      "price_aud": "77.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
       "roaster": "Rumble Coffee Roasters",
       "bean_name": "Colombia Lengupá Espresso",
       "url": "https://www.rumblecoffee.com.au/products/colombia-lengupa",
@@ -1423,6 +1375,30 @@
       "origin": "Colombia",
       "price_aud": "24.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Linarco Rodriguez Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia, Kenya",
+      "price_aud": "33.00",
+      "process": "Anaerobic",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Nestor Lasso Ombligon Filter - Special Release",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-nestor-lasso",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "39.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1917,6 +1893,30 @@
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "expressing delicate mixed berry notes plus tons of citrus and floral aroma",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "ETHIOPIA, JIGESA",
+      "url": "https://stitch.coffee/products/ethiopia-jigesa-26",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "30.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "ETHIOPIA, YAYE (NATURAL)",
+      "url": "https://stitch.coffee/products/ethiopia-yaye-natural-26",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "40.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     },
     {
