@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05 06:46",
+  "generated_at": "2026-10-07 02:39",
   "stats": {
-    "total": 197,
-    "new": 1,
+    "total": 193,
+    "new": 4,
     "roasters": 15
   },
   "roasters": [
@@ -24,13 +24,49 @@
   ],
   "items": [
     {
-      "roaster": "Proud Mary",
-      "bean_name": "El Salvador | El Manzano | Pacamara | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/el-salvador-el-manzano-pacamara-natural",
+      "roaster": "Field Work Coffee",
+      "bean_name": "Bunyangabu",
+      "url": "https://fieldworkcoffee.com.au/products/bunyangabu",
+      "roast_profile": "filter",
+      "origin": "Bunyangabu in Western Uganda, near the Congolese border",
+      "price_aud": "23.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Thageini Karibu, Kenya, Supernatural",
+      "url": "https://onacoffee.com.au/products/cofosof-rare-thageini-karibu-kenya-supernatural",
+      "roast_profile": "filter",
+      "origin": "South America",
+      "price_aud": "25.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "Floral, Nutty",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Edilma Piedrahita – Borbon aji",
+      "url": "https://www.smallbatch.com.au/shop/filter/edilma-piedrahita-borbon-aji",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "28",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Santos Perez Ramirez – Guatemala",
+      "url": "https://www.smallbatch.com.au/shop/filter/santos_guatemala",
       "roast_profile": "omni",
-      "origin": "El Salvador",
-      "price_aud": "38.00",
-      "process": "Natural",
+      "origin": "Guatemala",
+      "price_aud": "23",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -889,18 +925,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "El Lino, Nicaragua, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-el-lino-nicaragua-washed",
-      "roast_profile": "espresso",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Chocolate, Chocolate milk, Nutty",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "El Ángel, El Salvador, Natural",
       "url": "https://onacoffee.com.au/products/filter-el-angel-el-salvador-natural",
       "roast_profile": "filter",
@@ -909,18 +933,6 @@
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "Citrus, Fruity",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Finca Putushio, Ecuador, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-reserve-y-rsoe1",
-      "roast_profile": "espresso",
-      "origin": "Central America, South America",
-      "price_aud": "72.50",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Caramel, Floral, Peach",
       "is_new": false
     },
     {
@@ -1369,6 +1381,18 @@
     },
     {
       "roaster": "Proud Mary",
+      "bean_name": "El Salvador | El Manzano | Pacamara | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/el-salvador-el-manzano-pacamara-natural",
+      "roast_profile": "omni",
+      "origin": "El Salvador",
+      "price_aud": "38.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
       "bean_name": "El Salvador | La Siberia | Java | Natural",
       "url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-java-natural",
       "roast_profile": "",
@@ -1705,18 +1729,6 @@
     },
     {
       "roaster": "Seven Seeds",
-      "bean_name": "San Jose, Nicaragua",
-      "url": "https://sevenseeds.com.au/products/san-jose-nicaragua-2026",
-      "roast_profile": "omni",
-      "origin": "Lipilulo, Jinotaga, Nicaragua",
-      "price_aud": "35.00",
-      "process": "Anaerobic, Natural",
-      "varietal": "Gesha",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
       "bean_name": "Seven Seeds House Blend",
       "url": "https://sevenseeds.com.au/products/seven-seeds-espresso-blend",
       "roast_profile": "omni",
@@ -1765,23 +1777,11 @@
     },
     {
       "roaster": "Small Batch",
-      "bean_name": "Erwin Argueta – Guatemala",
-      "url": "https://www.smallbatch.com.au/shop/filter/alirio_sidra",
-      "roast_profile": "filter",
-      "origin": "Ethiopia, Guatemala",
-      "price_aud": "23",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
       "bean_name": "Golden Ticket",
       "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
       "roast_profile": "filter",
       "origin": "Colombia",
-      "price_aud": "21",
+      "price_aud": "22",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -1933,30 +1933,6 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "bean_name": "COLOMBIA, CAMPO HERMOSO - 100g",
-      "url": "https://stitch.coffee/products/colombia-campo-hermoso-26",
-      "roast_profile": "",
-      "origin": "Colombia",
-      "price_aud": "29.00",
-      "process": "Carbonic Maceration",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "COLOMBIA, EL DIVISO - 100g",
-      "url": "https://stitch.coffee/products/colombia-el-diviso-26",
-      "roast_profile": "",
-      "origin": "Colombia",
-      "price_aud": "22.00",
-      "process": "Anaerobic",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
       "bean_name": "COLOMBIA, SANTA MONICA",
       "url": "https://stitch.coffee/products/colombia-santa-monica-26",
       "roast_profile": "omni",
@@ -2017,18 +1993,6 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "bean_name": "GUATEMALA, LA UNIÓN",
-      "url": "https://stitch.coffee/products/guatemala-la-union-26",
-      "roast_profile": "omni",
-      "origin": "Guatemala",
-      "price_aud": "38.00",
-      "process": "Double Fermentation, Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
       "bean_name": "Higgs Field Blend",
       "url": "https://stitch.coffee/products/higgs-field-blend",
       "roast_profile": "omni",
@@ -2046,18 +2010,6 @@
       "roast_profile": "omni",
       "origin": "",
       "price_aud": "20.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "KENYA, INOI THAITA AA",
-      "url": "https://stitch.coffee/products/kenya-inoi-thaita-aa-26",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "28.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
