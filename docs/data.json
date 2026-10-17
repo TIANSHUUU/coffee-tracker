@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16 04:18",
+  "generated_at": "2026-10-17 03:59",
   "stats": {
-    "total": 188,
-    "new": 6,
+    "total": 187,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -24,75 +24,15 @@
   ],
   "items": [
     {
-      "roaster": "Commonfolk",
-      "bean_name": "Hydro Honey",
-      "url": "https://www.commonfolkcoffee.com.au/products/hydrohoney_26",
-      "roast_profile": "omni",
-      "origin": "",
-      "price_aud": "29.00",
-      "process": "",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Bridazul Lot 1, Nicaragua, Supernatural",
-      "url": "https://onacoffee.com.au/products/filter-bridazul-lot-1-nicaragua-supernatural",
+      "roaster": "Market Lane",
+      "bean_name": "Santa Clara Gesha",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/santa-clara-gesha-beans",
       "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "Chocolate, Plum, Raisin",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Regional Aurea, Papua New Guinea, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-singleorigin-regional-aurea-papua-new-guinea-washed",
-      "roast_profile": "espresso",
-      "origin": "East Africa",
-      "price_aud": "22.00",
+      "origin": "Antigua, Guatemala",
+      "price_aud": "46.00",
       "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Chocolate, Chocolate milk, Nutty, Raisin",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Guatemala La Danta Espresso",
-      "url": "https://www.rumblecoffee.com.au/products/guatemala-la-danta",
-      "roast_profile": "espresso",
-      "origin": "Guatemala",
-      "price_aud": "23.00",
-      "process": "Washed",
-      "varietal": "",
+      "varietal": "Gesha",
       "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Kenya Gakundu Filter",
-      "url": "https://www.rumblecoffee.com.au/products/kenya-gakundu",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "26.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "BRAZIL | ESPIGÃO | NATURAL ANAEROBIC - FILTER",
-      "url": "https://wideopenroad.com.au/products/brazil-espigao-natural-filter",
-      "roast_profile": "filter",
-      "origin": "Brazil",
-      "price_aud": "26.00",
-      "process": "Anaerobic, Natural",
-      "varietal": "Catuai",
-      "flavour_profile": "Pear, Cashews, Milk Chocolate Coffee Information: Espigão is a Brazilian coffee",
       "is_new": true
     },
     {
@@ -301,30 +241,6 @@
     },
     {
       "roaster": "Code Black",
-      "bean_name": "Ethiopia Mundayo Natural Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-mundayo-natural-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Mundayo Natural Filter - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-mundayo-natural-filter-single-origin",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "T",
-      "flavour_profile": "Berries, Chocolate, Citrus, Nutty, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
       "bean_name": "Ethiopia Rumudamo Natural Espresso - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/ethiopia-rumudamo-natural-espresso-single-origin",
       "roast_profile": "espresso",
@@ -524,6 +440,18 @@
       "price_aud": "22.00",
       "process": "",
       "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
+      "bean_name": "Hydro Honey",
+      "url": "https://www.commonfolkcoffee.com.au/products/hydrohoney_26",
+      "roast_profile": "omni",
+      "origin": "",
+      "price_aud": "29.00",
+      "process": "",
+      "varietal": "PROCESSING",
       "flavour_profile": "",
       "is_new": false
     },
@@ -937,6 +865,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Bridazul Lot 1, Nicaragua, Supernatural",
+      "url": "https://onacoffee.com.au/products/filter-bridazul-lot-1-nicaragua-supernatural",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "Chocolate, Plum, Raisin",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Chilling Rock Pack Espresso",
       "url": "https://onacoffee.com.au/products/chilling-rock-pack-esp",
       "roast_profile": "espresso",
@@ -1125,6 +1065,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Regional Aurea, Papua New Guinea, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-singleorigin-regional-aurea-papua-new-guinea-washed",
+      "roast_profile": "espresso",
+      "origin": "East Africa",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Chocolate, Chocolate milk, Nutty, Raisin",
       "is_new": false
     },
     {
@@ -1513,12 +1465,36 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Guatemala La Danta Espresso",
+      "url": "https://www.rumblecoffee.com.au/products/guatemala-la-danta",
+      "roast_profile": "espresso",
+      "origin": "Guatemala",
+      "price_aud": "23.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Haymaker Espresso Blend",
       "url": "https://www.rumblecoffee.com.au/products/haymaker-espresso-blend",
       "roast_profile": "espresso",
       "origin": "",
       "price_aud": "22.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Kenya Gakundu Filter",
+      "url": "https://www.rumblecoffee.com.au/products/kenya-gakundu",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "26.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -1577,7 +1553,7 @@
       "url": "https://www.rumblecoffee.com.au/products/single-origin-espresso-twin-pack-1",
       "roast_profile": "espresso",
       "origin": "",
-      "price_aud": "15.00",
+      "price_aud": "45.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -2133,6 +2109,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
+      "bean_name": "BRAZIL | ESPIGÃO | NATURAL ANAEROBIC - FILTER",
+      "url": "https://wideopenroad.com.au/products/brazil-espigao-natural-filter",
+      "roast_profile": "filter",
+      "origin": "Brazil",
+      "price_aud": "26.00",
+      "process": "Anaerobic, Natural",
+      "varietal": "Catuai",
+      "flavour_profile": "Pear, Cashews, Milk Chocolate Coffee Information: Espigão is a Brazilian coffee",
       "is_new": false
     },
     {
