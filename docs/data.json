@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-17 03:59",
+  "generated_at": "2026-10-18 12:43",
   "stats": {
-    "total": 187,
+    "total": 188,
     "new": 1,
     "roasters": 15
   },
@@ -24,15 +24,15 @@
   ],
   "items": [
     {
-      "roaster": "Market Lane",
-      "bean_name": "Santa Clara Gesha",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/santa-clara-gesha-beans",
+      "roaster": "Code Black",
+      "bean_name": "Panama Hiu Los Lajones Bambu Gesha Honey Filter - Rare Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
       "roast_profile": "filter",
-      "origin": "Antigua, Guatemala",
-      "price_aud": "46.00",
+      "origin": "Panama",
+      "price_aud": "89.00",
       "process": "Washed",
-      "varietal": "Gesha",
-      "flavour_profile": "",
+      "varietal": "S",
+      "flavour_profile": "Citrus, Delicate, Floral, Sweet",
       "is_new": true
     },
     {
@@ -788,6 +788,18 @@
       "price_aud": "26.00",
       "process": "Washed",
       "varietal": "Caturra & Colombia",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Santa Clara Gesha",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/santa-clara-gesha-beans",
+      "roast_profile": "filter",
+      "origin": "Antigua, Guatemala",
+      "price_aud": "46.00",
+      "process": "Washed",
+      "varietal": "Gesha",
       "flavour_profile": "",
       "is_new": false
     },
