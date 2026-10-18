@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-17_035951",
+  "generated_at": "2026-10-18_140413",
   "summary": {
-    "total_rows": 187,
-    "ok_rows": 187,
-    "error_rows": 0
+    "total_rows": 180,
+    "ok_rows": 179,
+    "error_rows": 1
   },
   "grouped": {
     "filter": [
@@ -457,6 +457,20 @@
       },
       {
         "roaster": "Code Black",
+        "source_url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
+        "bean_name": "Panama Hiu Los Lajones Bambu Gesha Honey Filter - Rare Single Origin",
+        "roast_profile": "filter",
+        "origin": "Panama",
+        "price_aud": "89.00",
+        "process": "Washed",
+        "varietal": "S",
+        "flavour_profile": "Citrus, Delicate, Floral, Sweet",
+        "product_url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Code Black",
         "source_url": "https://codeblackcoffee.com.au/products/ethiopia-rumudamo-natural-filter-single-origin",
         "bean_name": "Ethiopia Rumudamo Natural Filter - Single Origin",
         "roast_profile": "filter",
@@ -676,34 +690,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.smallbatch.com.au/shop/filter/victor-bermudez-gesha-filter",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-        "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgacheffe – Natural",
-        "roast_profile": "filter",
-        "origin": "",
-        "price_aud": "29.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "Roast dates 22nd Sept, 6th October, 20th October",
-        "product_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/batch-blend-filter/",
-        "bean_name": "Batch Blend for Filter",
-        "roast_profile": "filter",
-        "origin": "",
-        "price_aud": "21.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/batch-blend-filter/",
         "status": "ok",
         "error": ""
       },
@@ -1634,48 +1620,6 @@
         "error": ""
       },
       {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-        "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
-        "roast_profile": "espresso",
-        "origin": "Kenya",
-        "price_aud": "34.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-        "bean_name": "Nebula Espresso Blend",
-        "roast_profile": "espresso",
-        "origin": "",
-        "price_aud": "20.00",
-        "process": "Washed, Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-        "bean_name": "The Crowd Pleaser Espresso Blend",
-        "roast_profile": "espresso",
-        "origin": "Brazil, Ethiopia",
-        "price_aud": "20.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-        "status": "ok",
-        "error": ""
-      },
-      {
         "roaster": "Field Work Coffee",
         "source_url": "https://fieldworkcoffee.com.au/products/bookkisa-espresso",
         "bean_name": "Bookkisa Espresso",
@@ -2434,62 +2378,6 @@
         "error": ""
       },
       {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/ethiopia-gezahegn-regassa-haro-village-yirgacheffe-welisho-washed-espresso/",
-        "bean_name": "Ethiopia | Gezahegn-Regassa | Haro-Village – Yirgacheffe | Welisho – Washed",
-        "roast_profile": "omni",
-        "origin": "",
-        "price_aud": "32.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/ethiopia-gezahegn-regassa-haro-village-yirgacheffe-welisho-washed-espresso/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/ethiopia-bogale-galcha-kurume-natural-espresso/",
-        "bean_name": "Ethiopia | Bogale Galcha | Kurume – Natural",
-        "roast_profile": "omni",
-        "origin": "Ethiopia",
-        "price_aud": "32.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/ethiopia-bogale-galcha-kurume-natural-espresso/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/colombia-jairo-arcilla-santa-monica-tabi-washed-esp/",
-        "bean_name": "Colombia | Jairo Arcilla – Santa Monica, Tabi – Washed",
-        "roast_profile": "omni",
-        "origin": "Colombia",
-        "price_aud": "32.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/colombia-jairo-arcilla-santa-monica-tabi-washed-esp/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-        "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
-        "roast_profile": "omni",
-        "origin": "Brazil",
-        "price_aud": "22.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-        "status": "ok",
-        "error": ""
-      },
-      {
         "roaster": "Vacation Coffee",
         "source_url": "https://vacationcoffee.com.au/products/indonesia-sulawesi-yolan-tirta-typica-limited-edition",
         "bean_name": "INDONESIA Sulawesi Yolan Tirta - Typica | SPECIAL EDITION",
@@ -2602,6 +2490,20 @@
         "product_url": "https://stitch.coffee/products/colombia-san-adolfo-26",
         "status": "ok",
         "error": ""
+      },
+      {
+        "roaster": "Criteria Coffee",
+        "source_url": "https://criteriacoffee.com/shop/",
+        "bean_name": "",
+        "roast_profile": "",
+        "origin": "",
+        "price_aud": "",
+        "process": "",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "",
+        "status": "error",
+        "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x7f1e380c5d50>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x7f1e38030cd0>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
       },
       {
         "roaster": "Vacation Coffee",
@@ -4092,6 +3994,20 @@
     },
     {
       "roaster": "Code Black",
+      "source_url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
+      "bean_name": "Panama Hiu Los Lajones Bambu Gesha Honey Filter - Rare Single Origin",
+      "roast_profile": "filter",
+      "origin": "Panama",
+      "price_aud": "89.00",
+      "process": "Washed",
+      "varietal": "S",
+      "flavour_profile": "Citrus, Delicate, Floral, Sweet",
+      "product_url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Code Black",
       "source_url": "https://codeblackcoffee.com.au/products/ethiopia-rumudamo-natural-filter-single-origin",
       "bean_name": "Ethiopia Rumudamo Natural Filter - Single Origin",
       "roast_profile": "filter",
@@ -4806,129 +4722,17 @@
     },
     {
       "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/ethiopia-gezahegn-regassa-haro-village-yirgacheffe-welisho-washed-espresso/",
-      "bean_name": "Ethiopia | Gezahegn-Regassa | Haro-Village – Yirgacheffe | Welisho – Washed",
-      "roast_profile": "omni",
+      "source_url": "https://criteriacoffee.com/shop/",
+      "bean_name": "",
+      "roast_profile": "",
       "origin": "",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/ethiopia-gezahegn-regassa-haro-village-yirgacheffe-welisho-washed-espresso/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/ethiopia-bogale-galcha-kurume-natural-espresso/",
-      "bean_name": "Ethiopia | Bogale Galcha | Kurume – Natural",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "32.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/ethiopia-bogale-galcha-kurume-natural-espresso/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/colombia-jairo-arcilla-santa-monica-tabi-washed-esp/",
-      "bean_name": "Colombia | Jairo Arcilla – Santa Monica, Tabi – Washed",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/colombia-jairo-arcilla-santa-monica-tabi-washed-esp/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-      "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgacheffe – Natural",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Roast dates 22nd Sept, 6th October, 20th October",
-      "product_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "34.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/batch-blend-filter/",
-      "bean_name": "Batch Blend for Filter",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "21.00",
+      "price_aud": "",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/batch-blend-filter/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "bean_name": "Nebula Espresso Blend",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "20.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "bean_name": "The Crowd Pleaser Espresso Blend",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "status": "ok",
-      "error": ""
+      "product_url": "",
+      "status": "error",
+      "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x7f1e380c5d50>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x7f1e38030cd0>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
     },
     {
       "roaster": "Field Work Coffee",
@@ -5253,5 +5057,20 @@
       "error": ""
     }
   ],
-  "errors": []
+  "errors": [
+    {
+      "roaster": "Criteria Coffee",
+      "source_url": "https://criteriacoffee.com/shop/",
+      "bean_name": "",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "",
+      "status": "error",
+      "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x7f1e380c5d50>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x7f1e38030cd0>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
+    }
+  ]
 }
