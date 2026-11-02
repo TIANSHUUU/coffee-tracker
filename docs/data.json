@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-01 14:02",
+  "generated_at": "2026-11-02 01:44",
   "stats": {
-    "total": 196,
-    "new": 2,
+    "total": 194,
+    "new": 0,
     "roasters": 15
   },
   "roasters": [
@@ -23,30 +23,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Alirio Muñoz – Borbon Aji Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/alirio-borbon-aji-espresso",
-      "roast_profile": "espresso",
-      "origin": "Colombia, Ethiopia",
-      "price_aud": "26",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Miller Ñañez – Filter",
-      "url": "https://www.smallbatch.com.au/shop/filter/miller-pink-borbon-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "25",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1536,18 +1512,6 @@
       "is_new": false
     },
     {
-      "roaster": "Proud Mary",
-      "bean_name": "Panama | Finca Auromar | Geisha | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/panama-finca-auromar-geisha-washed",
-      "roast_profile": "",
-      "origin": "Panama",
-      "price_aud": "77.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
       "roaster": "Rumble Coffee Roasters",
       "bean_name": "Colombia Patio Bonito Espresso",
       "url": "https://www.rumblecoffee.com.au/products/colombia-patio-bonito",
@@ -1729,18 +1693,6 @@
     },
     {
       "roaster": "Seven Seeds",
-      "bean_name": "Cerro San Luis, Costa Rica",
-      "url": "https://sevenseeds.com.au/products/cerro-san-luis-costa-rica-2026",
-      "roast_profile": "omni",
-      "origin": "Grecia, West Valley, Costa Rica",
-      "price_aud": "30.00",
-      "process": "Honey",
-      "varietal": "SL - 28",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
       "bean_name": "Cold Filter Cask",
       "url": "https://sevenseeds.com.au/products/cold-filter-cask",
       "roast_profile": "filter",
@@ -1813,6 +1765,18 @@
     },
     {
       "roaster": "Small Batch",
+      "bean_name": "Alirio Muñoz – Borbon Aji Espresso",
+      "url": "https://www.smallbatch.com.au/shop/espresso/alirio-borbon-aji-espresso",
+      "roast_profile": "espresso",
+      "origin": "Colombia, Ethiopia",
+      "price_aud": "26",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Small Batch",
       "bean_name": "Arlam Aguirre – Espresso",
       "url": "https://www.smallbatch.com.au/shop/espresso/victor-pink-borbon-espresso",
       "roast_profile": "espresso",
@@ -1866,6 +1830,18 @@
       "roast_profile": "omni",
       "origin": "Ethiopia",
       "price_aud": "26",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Miller Ñañez – Filter",
+      "url": "https://www.smallbatch.com.au/shop/filter/miller-pink-borbon-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "25",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
