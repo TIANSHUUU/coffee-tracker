@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-02_014459",
+  "generated_at": "2026-11-03_041028",
   "summary": {
-    "total_rows": 194,
-    "ok_rows": 194,
+    "total_rows": 192,
+    "ok_rows": 192,
     "error_rows": 0
   },
   "grouped": {
@@ -429,20 +429,6 @@
       },
       {
         "roaster": "Code Black",
-        "source_url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
-        "bean_name": "Panama Hiu Los Lajones Bambu Gesha Honey Filter - Rare Single Origin",
-        "roast_profile": "filter",
-        "origin": "Panama",
-        "price_aud": "89.00",
-        "process": "Washed",
-        "varietal": "S",
-        "flavour_profile": "Citrus, Delicate, Floral, Sweet",
-        "product_url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Code Black",
         "source_url": "https://codeblackcoffee.com.au/products/ethiopia-rumudamo-natural-filter-single-origin",
         "bean_name": "Ethiopia Rumudamo Natural Filter - Single Origin",
         "roast_profile": "filter",
@@ -716,7 +702,7 @@
         "price_aud": "29.00",
         "process": "Natural",
         "varietal": "",
-        "flavour_profile": "Roast dates 22nd Sept, 6th October, 20th October",
+        "flavour_profile": "Roast dates 17th November, 1st December 2026",
         "product_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
         "status": "ok",
         "error": ""
@@ -1229,20 +1215,6 @@
       },
       {
         "roaster": "Padre Coffee",
-        "source_url": "https://www.padrecoffee.com.au/products/brazil-danilo-barbosa-single-origin-espresso",
-        "bean_name": "Brazil, Danilo Barbosa - Single Origin Espresso",
-        "roast_profile": "espresso",
-        "origin": "Brazil",
-        "price_aud": "27.50",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.padrecoffee.com.au/products/brazil-danilo-barbosa-single-origin-espresso",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Padre Coffee",
         "source_url": "https://www.padrecoffee.com.au/products/ethiopia-chelchele-single-origin-espresso",
         "bean_name": "Ethiopia, Chelchele - Single Origin Espresso",
         "roast_profile": "espresso",
@@ -1602,20 +1574,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.rumblecoffee.com.au/products/single-origin-espresso-twin-pack-1",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Rumble Coffee Roasters",
-        "source_url": "https://www.rumblecoffee.com.au/products/street-fighter-pods",
-        "bean_name": "Street Fighter Pods",
-        "roast_profile": "espresso",
-        "origin": "",
-        "price_aud": "13.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.rumblecoffee.com.au/products/street-fighter-pods",
         "status": "ok",
         "error": ""
       },
@@ -2556,6 +2514,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://stitch.coffee/products/ethiopia-gatta-26",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Stitch Coffee",
+        "source_url": "https://stitch.coffee/products/colombia-patio-bonito-washed-26",
+        "bean_name": "COLOMBIA, PATIO BONITO (WASHED)",
+        "roast_profile": "omni",
+        "origin": "Colombia",
+        "price_aud": "37.00",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://stitch.coffee/products/colombia-patio-bonito-washed-26",
         "status": "ok",
         "error": ""
       },
@@ -3784,20 +3756,6 @@
     },
     {
       "roaster": "Padre Coffee",
-      "source_url": "https://www.padrecoffee.com.au/products/brazil-danilo-barbosa-single-origin-espresso",
-      "bean_name": "Brazil, Danilo Barbosa - Single Origin Espresso",
-      "roast_profile": "espresso",
-      "origin": "Brazil",
-      "price_aud": "27.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.padrecoffee.com.au/products/brazil-danilo-barbosa-single-origin-espresso",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Padre Coffee",
       "source_url": "https://www.padrecoffee.com.au/products/ethiopia-chelchele-single-origin-espresso",
       "bean_name": "Ethiopia, Chelchele - Single Origin Espresso",
       "roast_profile": "espresso",
@@ -4176,20 +4134,6 @@
     },
     {
       "roaster": "Code Black",
-      "source_url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
-      "bean_name": "Panama Hiu Los Lajones Bambu Gesha Honey Filter - Rare Single Origin",
-      "roast_profile": "filter",
-      "origin": "Panama",
-      "price_aud": "89.00",
-      "process": "Washed",
-      "varietal": "S",
-      "flavour_profile": "Citrus, Delicate, Floral, Sweet",
-      "product_url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Code Black",
       "source_url": "https://codeblackcoffee.com.au/products/ethiopia-rumudamo-natural-filter-single-origin",
       "bean_name": "Ethiopia Rumudamo Natural Filter - Single Origin",
       "roast_profile": "filter",
@@ -4451,20 +4395,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.rumblecoffee.com.au/products/single-origin-filter-twin-pack",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "source_url": "https://www.rumblecoffee.com.au/products/street-fighter-pods",
-      "bean_name": "Street Fighter Pods",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "13.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.rumblecoffee.com.au/products/street-fighter-pods",
       "status": "ok",
       "error": ""
     },
@@ -4945,6 +4875,20 @@
       "error": ""
     },
     {
+      "roaster": "Stitch Coffee",
+      "source_url": "https://stitch.coffee/products/colombia-patio-bonito-washed-26",
+      "bean_name": "COLOMBIA, PATIO BONITO (WASHED)",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "37.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://stitch.coffee/products/colombia-patio-bonito-washed-26",
+      "status": "ok",
+      "error": ""
+    },
+    {
       "roaster": "Criteria Coffee",
       "source_url": "https://criteriacoffee.com/product/ethiopia-gezahegn-regassa-haro-village-yirgacheffe-welisho-washed-espresso/",
       "bean_name": "Ethiopia | Gezahegn-Regassa | Haro-Village – Yirgacheffe | Welisho – Washed",
@@ -4995,7 +4939,7 @@
       "price_aud": "29.00",
       "process": "Natural",
       "varietal": "",
-      "flavour_profile": "Roast dates 22nd Sept, 6th October, 20th October",
+      "flavour_profile": "Roast dates 17th November, 1st December 2026",
       "product_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
       "status": "ok",
       "error": ""
