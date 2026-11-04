@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-03_092747",
+  "generated_at": "2026-11-04_232348",
   "summary": {
-    "total_rows": 192,
-    "ok_rows": 192,
+    "total_rows": 188,
+    "ok_rows": 188,
     "error_rows": 0
   },
   "grouped": {
@@ -149,20 +149,6 @@
       },
       {
         "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-singleorigin-flor-del-cafe-jalapa-guatemala-washed",
-        "bean_name": "Flor del Café Jalapa, Guatemala, Washed",
-        "roast_profile": "filter",
-        "origin": "Central America",
-        "price_aud": "22.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://onacoffee.com.au/products/filter-singleorigin-flor-del-cafe-jalapa-guatemala-washed",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "ONA Coffee",
         "source_url": "https://onacoffee.com.au/products/in-sequence",
         "bean_name": "In Sequence",
         "roast_profile": "filter",
@@ -246,20 +232,6 @@
         "error": ""
       },
       {
-        "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-singleorigin-fyula-regional-lot-guatemala-washed",
-        "bean_name": "Yula Regional Lot, Guatemala, Washed",
-        "roast_profile": "filter",
-        "origin": "South America",
-        "price_aud": "22.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "Apple, Chocolate, Raisin, Red Apple",
-        "product_url": "https://onacoffee.com.au/products/filter-singleorigin-fyula-regional-lot-guatemala-washed",
-        "status": "ok",
-        "error": ""
-      },
-      {
         "roaster": "Padre Coffee",
         "source_url": "https://www.padrecoffee.com.au/products/hey-buddy-filter-blend",
         "bean_name": "Hey Buddy Filter Blend",
@@ -284,20 +256,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.padrecoffee.com.au/products/burundi-bumba-single-origin-filter",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Padre Coffee",
-        "source_url": "https://www.padrecoffee.com.au/products/costa-rica-minor-jimenez-abarca-single-origin-filter",
-        "bean_name": "Costa Rica, Minor Jimenez Abarca - Single Origin Filter",
-        "roast_profile": "filter",
-        "origin": "Costa Rica",
-        "price_aud": "27.50",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.padrecoffee.com.au/products/costa-rica-minor-jimenez-abarca-single-origin-filter",
         "status": "ok",
         "error": ""
       },
@@ -654,7 +612,7 @@
       {
         "roaster": "Small Batch",
         "source_url": "https://www.smallbatch.com.au/shop/filter/edilma-piedrahita-borbon-aji",
-        "bean_name": "Edilma Piedrahita – Borbon aji",
+        "bean_name": "Edilma Piedrahita – Borbon Aji Filter",
         "roast_profile": "filter",
         "origin": "Colombia",
         "price_aud": "28",
@@ -668,7 +626,7 @@
       {
         "roaster": "Small Batch",
         "source_url": "https://www.smallbatch.com.au/shop/filter/miller-pink-borbon-filter",
-        "bean_name": "Miller Ñañez – Filter",
+        "bean_name": "Miller Ñañez – Pink Borbon Filter",
         "roast_profile": "filter",
         "origin": "Colombia",
         "price_aud": "25",
@@ -1242,20 +1200,6 @@
         "error": ""
       },
       {
-        "roaster": "Padre Coffee",
-        "source_url": "https://www.padrecoffee.com.au/products/costa-rica-minor-jimenez-abarca-single-origin-espresso",
-        "bean_name": "Costa Rica, Minor Jimenez Abarca - Single Origin Espresso",
-        "roast_profile": "espresso",
-        "origin": "Costa Rica",
-        "price_aud": "27.50",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.padrecoffee.com.au/products/costa-rica-minor-jimenez-abarca-single-origin-espresso",
-        "status": "ok",
-        "error": ""
-      },
-      {
         "roaster": "Code Black",
         "source_url": "https://codeblackcoffee.com.au/products/ex-wife-espresso-blend-coffee",
         "bean_name": "Ex-Wife Espresso Blend",
@@ -1551,25 +1495,11 @@
       },
       {
         "roaster": "Rumble Coffee Roasters",
-        "source_url": "https://www.rumblecoffee.com.au/products/colombia-patio-bonito",
-        "bean_name": "Colombia Patio Bonito Espresso",
-        "roast_profile": "espresso",
-        "origin": "Colombia",
-        "price_aud": "27.00",
-        "process": "Anaerobic, Washed, Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.rumblecoffee.com.au/products/colombia-patio-bonito",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Rumble Coffee Roasters",
         "source_url": "https://www.rumblecoffee.com.au/products/single-origin-espresso-twin-pack-1",
         "bean_name": "Single Origin Espresso Twin Pack",
         "roast_profile": "espresso",
         "origin": "",
-        "price_aud": "45.00",
+        "price_aud": "41.00",
         "process": "",
         "varietal": "",
         "flavour_profile": "",
@@ -1588,6 +1518,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.rumblecoffee.com.au/products/guatemala-la-danta",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Rumble Coffee Roasters",
+        "source_url": "https://www.rumblecoffee.com.au/products/guatemala-el-panal",
+        "bean_name": "Guatemala El Panal Espresso",
+        "roast_profile": "espresso",
+        "origin": "Guatemala",
+        "price_aud": "23.00",
+        "process": "Natural",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.rumblecoffee.com.au/products/guatemala-el-panal",
         "status": "ok",
         "error": ""
       },
@@ -2338,7 +2282,7 @@
       {
         "roaster": "Small Batch",
         "source_url": "https://www.smallbatch.com.au/shop/filter/santos_guatemala",
-        "bean_name": "Santos Perez Ramirez – Guatemala",
+        "bean_name": "Santos Perez Ramirez – Guatemala Filter",
         "roast_profile": "omni",
         "origin": "Guatemala",
         "price_aud": "23",
@@ -2600,20 +2544,6 @@
         "product_url": "https://vacationcoffee.com.au/products/indonesia-sulawesi-yolan-tirta-typica-limited-edition",
         "status": "ok",
         "error": ""
-      },
-      {
-        "roaster": "Vacation Coffee",
-        "source_url": "https://vacationcoffee.com.au/products/ethiopia-chorso-bule-limited-edition",
-        "bean_name": "ETHIOPIA Chorso Bule | SPECIAL EDITION",
-        "roast_profile": "omni",
-        "origin": "Ethiopia",
-        "price_aud": "36.00",
-        "process": "Natural",
-        "varietal": "Ethiopian Landrace",
-        "flavour_profile": "",
-        "product_url": "https://vacationcoffee.com.au/products/ethiopia-chorso-bule-limited-edition",
-        "status": "ok",
-        "error": ""
       }
     ],
     "unknown": [
@@ -2628,6 +2558,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-java-natural",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Proud Mary",
+        "source_url": "https://www.proudmarycoffee.com.au/products/el-salvador-los-bellotos-bernardina-anaerobic-honey-sunset-1",
+        "bean_name": "El Salvador | Los Bellotos | Bernardina | Anaerobic Honey Sunset",
+        "roast_profile": "",
+        "origin": "El Salvador",
+        "price_aud": "50.00",
+        "process": "Anaerobic, Honey",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-los-bellotos-bernardina-anaerobic-honey-sunset-1",
         "status": "ok",
         "error": ""
       },
@@ -2967,6 +2911,20 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.proudmarycoffee.com.au/products/nicaragua-buenos-aires-maragogipe-natural",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Proud Mary",
+      "source_url": "https://www.proudmarycoffee.com.au/products/el-salvador-los-bellotos-bernardina-anaerobic-honey-sunset-1",
+      "bean_name": "El Salvador | Los Bellotos | Bernardina | Anaerobic Honey Sunset",
+      "roast_profile": "",
+      "origin": "El Salvador",
+      "price_aud": "50.00",
+      "process": "Anaerobic, Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-los-bellotos-bernardina-anaerobic-honey-sunset-1",
       "status": "ok",
       "error": ""
     },
@@ -3378,20 +3336,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-singleorigin-flor-del-cafe-jalapa-guatemala-washed",
-      "bean_name": "Flor del Café Jalapa, Guatemala, Washed",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://onacoffee.com.au/products/filter-singleorigin-flor-del-cafe-jalapa-guatemala-washed",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "ONA Coffee",
       "source_url": "https://onacoffee.com.au/products/milk-w-som1",
       "bean_name": "Gargari Gutity G1 Red, Ethiopia, Natural",
       "roast_profile": "espresso",
@@ -3643,20 +3587,6 @@
       "error": ""
     },
     {
-      "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-singleorigin-fyula-regional-lot-guatemala-washed",
-      "bean_name": "Yula Regional Lot, Guatemala, Washed",
-      "roast_profile": "filter",
-      "origin": "South America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Apple, Chocolate, Raisin, Red Apple",
-      "product_url": "https://onacoffee.com.au/products/filter-singleorigin-fyula-regional-lot-guatemala-washed",
-      "status": "ok",
-      "error": ""
-    },
-    {
       "roaster": "Padre Coffee",
       "source_url": "https://www.padrecoffee.com.au/products/daddys-girl-espresso-blend",
       "bean_name": "Daddy's Girl Espresso Blend",
@@ -3793,34 +3723,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.padrecoffee.com.au/products/burundi-bumba-single-origin-filter",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Padre Coffee",
-      "source_url": "https://www.padrecoffee.com.au/products/costa-rica-minor-jimenez-abarca-single-origin-espresso",
-      "bean_name": "Costa Rica, Minor Jimenez Abarca - Single Origin Espresso",
-      "roast_profile": "espresso",
-      "origin": "Costa Rica",
-      "price_aud": "27.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.padrecoffee.com.au/products/costa-rica-minor-jimenez-abarca-single-origin-espresso",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Padre Coffee",
-      "source_url": "https://www.padrecoffee.com.au/products/costa-rica-minor-jimenez-abarca-single-origin-filter",
-      "bean_name": "Costa Rica, Minor Jimenez Abarca - Single Origin Filter",
-      "roast_profile": "filter",
-      "origin": "Costa Rica",
-      "price_aud": "27.50",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.padrecoffee.com.au/products/costa-rica-minor-jimenez-abarca-single-origin-filter",
       "status": "ok",
       "error": ""
     },
@@ -4358,25 +4260,11 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
-      "source_url": "https://www.rumblecoffee.com.au/products/colombia-patio-bonito",
-      "bean_name": "Colombia Patio Bonito Espresso",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "27.00",
-      "process": "Anaerobic, Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.rumblecoffee.com.au/products/colombia-patio-bonito",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
       "source_url": "https://www.rumblecoffee.com.au/products/single-origin-espresso-twin-pack-1",
       "bean_name": "Single Origin Espresso Twin Pack",
       "roast_profile": "espresso",
       "origin": "",
-      "price_aud": "45.00",
+      "price_aud": "41.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -4437,6 +4325,20 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.rumblecoffee.com.au/products/guatemala-la-danta",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "source_url": "https://www.rumblecoffee.com.au/products/guatemala-el-panal",
+      "bean_name": "Guatemala El Panal Espresso",
+      "roast_profile": "espresso",
+      "origin": "Guatemala",
+      "price_aud": "23.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.rumblecoffee.com.au/products/guatemala-el-panal",
       "status": "ok",
       "error": ""
     },
@@ -4639,7 +4541,7 @@
     {
       "roaster": "Small Batch",
       "source_url": "https://www.smallbatch.com.au/shop/filter/edilma-piedrahita-borbon-aji",
-      "bean_name": "Edilma Piedrahita – Borbon aji",
+      "bean_name": "Edilma Piedrahita – Borbon Aji Filter",
       "roast_profile": "filter",
       "origin": "Colombia",
       "price_aud": "28",
@@ -4653,7 +4555,7 @@
     {
       "roaster": "Small Batch",
       "source_url": "https://www.smallbatch.com.au/shop/filter/miller-pink-borbon-filter",
-      "bean_name": "Miller Ñañez – Filter",
+      "bean_name": "Miller Ñañez – Pink Borbon Filter",
       "roast_profile": "filter",
       "origin": "Colombia",
       "price_aud": "25",
@@ -4667,7 +4569,7 @@
     {
       "roaster": "Small Batch",
       "source_url": "https://www.smallbatch.com.au/shop/filter/santos_guatemala",
-      "bean_name": "Santos Perez Ramirez – Guatemala",
+      "bean_name": "Santos Perez Ramirez – Guatemala Filter",
       "roast_profile": "omni",
       "origin": "Guatemala",
       "price_aud": "23",
@@ -5268,20 +5170,6 @@
     },
     {
       "roaster": "Vacation Coffee",
-      "source_url": "https://vacationcoffee.com.au/products/indonesia-sulawesi-yolan-tirta-typica-limited-edition",
-      "bean_name": "INDONESIA Sulawesi Yolan Tirta - Typica | SPECIAL EDITION",
-      "roast_profile": "omni",
-      "origin": "Indonesia",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "Typica",
-      "flavour_profile": "",
-      "product_url": "https://vacationcoffee.com.au/products/indonesia-sulawesi-yolan-tirta-typica-limited-edition",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Vacation Coffee",
       "source_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-espresso",
       "bean_name": "ETHIOPIA Guji Guribea ESPRESSO",
       "roast_profile": "espresso",
@@ -5291,6 +5179,20 @@
       "varietal": "Heirloom",
       "flavour_profile": "",
       "product_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-espresso",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "source_url": "https://vacationcoffee.com.au/products/indonesia-sulawesi-yolan-tirta-typica-limited-edition",
+      "bean_name": "INDONESIA Sulawesi Yolan Tirta - Typica | SPECIAL EDITION",
+      "roast_profile": "omni",
+      "origin": "Indonesia",
+      "price_aud": "29.00",
+      "process": "Washed",
+      "varietal": "Typica",
+      "flavour_profile": "",
+      "product_url": "https://vacationcoffee.com.au/products/indonesia-sulawesi-yolan-tirta-typica-limited-edition",
       "status": "ok",
       "error": ""
     },
@@ -5319,20 +5221,6 @@
       "varietal": "Batian, SL28, SL34, Ruiru 11",
       "flavour_profile": "",
       "product_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-filter",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "source_url": "https://vacationcoffee.com.au/products/ethiopia-chorso-bule-limited-edition",
-      "bean_name": "ETHIOPIA Chorso Bule | SPECIAL EDITION",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "36.00",
-      "process": "Natural",
-      "varietal": "Ethiopian Landrace",
-      "flavour_profile": "",
-      "product_url": "https://vacationcoffee.com.au/products/ethiopia-chorso-bule-limited-edition",
       "status": "ok",
       "error": ""
     },
