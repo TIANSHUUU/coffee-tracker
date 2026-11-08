@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-07 05:09",
+  "generated_at": "2026-11-08 11:43",
   "stats": {
-    "total": 193,
-    "new": 4,
+    "total": 192,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -24,49 +24,13 @@
   ],
   "items": [
     {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Colombia | Campo Hermoso | Pink Bourbon – Black Honey (Galaxy Hops)",
-      "url": "https://criteriacoffee.com/product/colombia-campo-hermoso-pink-bourbon-black-honey-galaxy-hops/",
+      "roaster": "Small Batch",
+      "bean_name": "Golden Ticket – Daily Filter",
+      "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
       "roast_profile": "filter",
-      "origin": "Colombia, fermented",
-      "price_aud": "39.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Calahute",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/calahute",
-      "roast_profile": "filter",
-      "origin": "Huehuetenango, Guatemala",
-      "price_aud": "36.00",
-      "process": "Washed",
-      "varietal": "Maragogype",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Guacamaya",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/guacamaya",
-      "roast_profile": "filter",
-      "origin": "Huehuetenango, Guatemala",
-      "price_aud": "24.00",
-      "process": "Washed",
-      "varietal": "Caturra",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "La Huerta, Honduras, Washed",
-      "url": "https://onacoffee.com.au/products/filter-single-originla-huerta-honduras-washed",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
+      "origin": "Colombia, Guatemala",
+      "price_aud": "22",
+      "process": "",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -661,6 +625,18 @@
     },
     {
       "roaster": "Criteria Coffee",
+      "bean_name": "Colombia | Campo Hermoso | Pink Bourbon – Black Honey (Galaxy Hops)",
+      "url": "https://criteriacoffee.com/product/colombia-campo-hermoso-pink-bourbon-black-honey-galaxy-hops/",
+      "roast_profile": "filter",
+      "origin": "Colombia, fermented",
+      "price_aud": "39.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Criteria Coffee",
       "bean_name": "Colombia | Jairo Arcilla – Santa Monica, Tabi – Washed",
       "url": "https://criteriacoffee.com/product/colombia-jairo-arcilla-santa-monica-tabi-washed-esp/",
       "roast_profile": "omni",
@@ -725,10 +701,10 @@
       "url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
       "roast_profile": "filter",
       "origin": "",
-      "price_aud": "29.00",
+      "price_aud": "20.00",
       "process": "Natural",
       "varietal": "",
-      "flavour_profile": "Roast dates 17th November, 1st December 2026",
+      "flavour_profile": "Green melon, pink guava, violet, fruit tingle, tropical",
       "is_new": false
     },
     {
@@ -865,6 +841,18 @@
     },
     {
       "roaster": "Market Lane",
+      "bean_name": "Calahute",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/calahute",
+      "roast_profile": "filter",
+      "origin": "Huehuetenango, Guatemala",
+      "price_aud": "36.00",
+      "process": "Washed",
+      "varietal": "Maragogype",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
       "bean_name": "El Faldón",
       "url": "https://marketlane.com.au/collections/filter-beans/products/el-faldon",
       "roast_profile": "filter",
@@ -872,6 +860,18 @@
       "price_aud": "26.00",
       "process": "Washed",
       "varietal": "Caturra & Bourbon",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Guacamaya",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/guacamaya",
+      "roast_profile": "filter",
+      "origin": "Huehuetenango, Guatemala",
+      "price_aud": "24.00",
+      "process": "Washed",
+      "varietal": "Caturra",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1041,6 +1041,18 @@
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "Currant, Grapefruit, Green Tea",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "La Huerta, Honduras, Washed",
+      "url": "https://onacoffee.com.au/products/filter-single-originla-huerta-honduras-washed",
+      "roast_profile": "filter",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1794,30 +1806,6 @@
       "roast_profile": "filter",
       "origin": "Colombia",
       "price_aud": "28",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Golden Ticket",
-      "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia, Guatemala",
-      "price_aud": "22",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Halo Beriti – Espresso",
-      "url": "https://www.smallbatch.com.au/shop/espresso/edilma-borbonaji",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "26",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
