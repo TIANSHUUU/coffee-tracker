@@ -1,14 +1,13 @@
 {
-  "generated_at": "2026-11-08 11:43",
+  "generated_at": "2026-11-08 14:03",
   "stats": {
-    "total": 192,
-    "new": 1,
-    "roasters": 15
+    "total": 182,
+    "new": 0,
+    "roasters": 14
   },
   "roasters": [
     "Code Black",
     "Commonfolk",
-    "Criteria Coffee",
     "Field Work Coffee",
     "Market Lane",
     "ONA Coffee",
@@ -23,18 +22,6 @@
     "Wide Open Road"
   ],
   "items": [
-    {
-      "roaster": "Small Batch",
-      "bean_name": "Golden Ticket – Daily Filter",
-      "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
-      "roast_profile": "filter",
-      "origin": "Colombia, Guatemala",
-      "price_aud": "22",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -596,126 +583,6 @@
       "price_aud": "27.00",
       "process": "Natural",
       "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Batch Blend for Filter",
-      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "21.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
-      "url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Colombia | Campo Hermoso | Pink Bourbon – Black Honey (Galaxy Hops)",
-      "url": "https://criteriacoffee.com/product/colombia-campo-hermoso-pink-bourbon-black-honey-galaxy-hops/",
-      "roast_profile": "filter",
-      "origin": "Colombia, fermented",
-      "price_aud": "39.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Colombia | Jairo Arcilla – Santa Monica, Tabi – Washed",
-      "url": "https://criteriacoffee.com/product/colombia-jairo-arcilla-santa-monica-tabi-washed-esp/",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Ethiopia | Bogale Galcha | Kurume – Natural",
-      "url": "https://criteriacoffee.com/product/ethiopia-bogale-galcha-kurume-natural-espresso/",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "32.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Ethiopia | Gezahegn-Regassa | Haro-Village – Yirgacheffe | Welisho – Washed",
-      "url": "https://criteriacoffee.com/product/ethiopia-gezahegn-regassa-haro-village-yirgacheffe-welisho-washed-espresso/",
-      "roast_profile": "omni",
-      "origin": "",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
-      "url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "34.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "Nebula Espresso Blend",
-      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "20.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgacheffe – Natural",
-      "url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Green melon, pink guava, violet, fruit tingle, tropical",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "The Crowd Pleaser Espresso Blend",
-      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
-      "roast_profile": "espresso",
-      "origin": "Brazil, Ethiopia",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1806,6 +1673,18 @@
       "roast_profile": "filter",
       "origin": "Colombia",
       "price_aud": "28",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Small Batch",
+      "bean_name": "Golden Ticket – Daily Filter",
+      "url": "https://www.smallbatch.com.au/shop/filter/golden-ticket-filter",
+      "roast_profile": "filter",
+      "origin": "Colombia, Guatemala",
+      "price_aud": "22",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
