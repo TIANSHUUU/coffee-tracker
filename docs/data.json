@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-09 07:49",
+  "generated_at": "2026-11-10 01:01",
   "stats": {
-    "total": 193,
-    "new": 0,
+    "total": 192,
+    "new": 1,
     "roasters": 15
   },
   "roasters": [
@@ -23,6 +23,18 @@
     "Wide Open Road"
   ],
   "items": [
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Linarco Rodriguez Pink Bourbon Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-pink-bourbon",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "31.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1625,7 +1637,7 @@
       "url": "https://www.rumblecoffee.com.au/products/single-origin-filter-twin-pack",
       "roast_profile": "filter",
       "origin": "",
-      "price_aud": "46.00",
+      "price_aud": "50.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -1696,10 +1708,10 @@
       "bean_name": "F. Bomb Filter Blend",
       "url": "https://sevenseeds.com.au/products/f-bomb-filter-blend",
       "roast_profile": "filter",
-      "origin": "",
+      "origin": "Yasicasur, Matagalpa",
       "price_aud": "25.00",
-      "process": "Fully Washed",
-      "varietal": "Batian, SL - 28, SL - 34, Ruiru",
+      "process": "Washed",
+      "varietal": "Ethiosar",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1975,30 +1987,6 @@
       "origin": "",
       "price_aud": "16.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ETHIOPIA, GATTA",
-      "url": "https://stitch.coffee/products/ethiopia-gatta-26",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "26.40",
-      "process": "Honey, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "ETHIOPIA, HADESO",
-      "url": "https://stitch.coffee/products/ethiopia-hadeso-26",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "22.40",
-      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
