@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-10 01:01",
+  "generated_at": "2026-11-10 08:43",
   "stats": {
-    "total": 192,
-    "new": 1,
+    "total": 193,
+    "new": 2,
     "roasters": 15
   },
   "roasters": [
@@ -24,15 +24,27 @@
   ],
   "items": [
     {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Colombia Linarco Rodriguez Pink Bourbon Filter",
-      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-pink-bourbon",
+      "roaster": "ONA Coffee",
+      "bean_name": "Guji Mudole, Ethiopia, Supernatural",
+      "url": "https://onacoffee.com.au/products/filter-rare-guji-mudole-ethiopia-supernatural",
       "roast_profile": "filter",
-      "origin": "Colombia",
-      "price_aud": "31.00",
+      "origin": "East Africa",
+      "price_aud": "23.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "Concord Grape, Fruity, Red Berries, Sweet, Tropical",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Thageini Lot 2226, Kenya, CM Washed Indigo",
+      "url": "https://onacoffee.com.au/products/espresso-reserve-z-rsoe1",
+      "roast_profile": "espresso",
+      "origin": "South America",
+      "price_aud": "36.00",
       "process": "Washed",
       "varietal": "",
-      "flavour_profile": "",
+      "flavour_profile": "Berries, Chocolate",
       "is_new": true
     },
     {
@@ -1021,18 +1033,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "In Sequence",
-      "url": "https://onacoffee.com.au/products/in-sequence",
-      "roast_profile": "filter",
-      "origin": "East Africa",
-      "price_aud": "75.00",
-      "process": "Carbonic Maceration",
-      "varietal": "",
-      "flavour_profile": "Citrus, Floral, Fruity, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Kuriru AB, Kenya, Washed",
       "url": "https://onacoffee.com.au/products/kuriru-ab-kenya-washed",
       "roast_profile": "filter",
@@ -1519,6 +1519,18 @@
       "origin": "Nicaragua",
       "price_aud": "35.00",
       "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Colombia Linarco Rodriguez Pink Bourbon Filter",
+      "url": "https://www.rumblecoffee.com.au/products/colombia-linarco-rodriguez-pink-bourbon",
+      "roast_profile": "filter",
+      "origin": "Colombia",
+      "price_aud": "31.00",
+      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
