@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-10 08:43",
+  "generated_at": "2026-11-11 02:41",
   "stats": {
-    "total": 193,
+    "total": 191,
     "new": 2,
     "roasters": 15
   },
@@ -24,27 +24,27 @@
   ],
   "items": [
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Guji Mudole, Ethiopia, Supernatural",
-      "url": "https://onacoffee.com.au/products/filter-rare-guji-mudole-ethiopia-supernatural",
-      "roast_profile": "filter",
-      "origin": "East Africa",
-      "price_aud": "23.00",
-      "process": "",
+      "roaster": "Stitch Coffee",
+      "bean_name": "COLOMBIA, CAMPO HERMOSO (BOURBON CHIROSO)",
+      "url": "https://stitch.coffee/products/colombia-campo-hermoso-bourbon-chiroso-26",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "34.40",
+      "process": "Carbonic Maceration, Honey",
       "varietal": "",
-      "flavour_profile": "Concord Grape, Fruity, Red Berries, Sweet, Tropical",
+      "flavour_profile": "",
       "is_new": true
     },
     {
-      "roaster": "ONA Coffee",
-      "bean_name": "Thageini Lot 2226, Kenya, CM Washed Indigo",
-      "url": "https://onacoffee.com.au/products/espresso-reserve-z-rsoe1",
-      "roast_profile": "espresso",
-      "origin": "South America",
-      "price_aud": "36.00",
+      "roaster": "Stitch Coffee",
+      "bean_name": "ETHIOPIA, ALO - 100g",
+      "url": "https://stitch.coffee/products/ethiopia-alo-26",
+      "roast_profile": "",
+      "origin": "Ethiopia",
+      "price_aud": "20.00",
       "process": "Washed",
       "varietal": "",
-      "flavour_profile": "Berries, Chocolate",
+      "flavour_profile": "",
       "is_new": true
     },
     {
@@ -357,18 +357,6 @@
       "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "Chocolate, Citrus, Nutty, Strong, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Kenya Kainamui AA Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/kenya-kainamui-aa-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "T",
-      "flavour_profile": "Berries, Citrus, Sweet",
       "is_new": false
     },
     {
@@ -889,18 +877,6 @@
     },
     {
       "roaster": "Market Lane",
-      "bean_name": "Kii",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/kii",
-      "roast_profile": "filter",
-      "origin": "Kirinyaga, Kenya",
-      "price_aud": "30.00",
-      "process": "Washed",
-      "varietal": "SL28, SL34 and Ruiru 11",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Market Lane",
       "bean_name": "Santa Isabel",
       "url": "https://marketlane.com.au/collections/espresso-beans/products/santa-isabel-espresso-beans",
       "roast_profile": "espresso",
@@ -1009,18 +985,6 @@
     },
     {
       "roaster": "ONA Coffee",
-      "bean_name": "Gargari Gutity G1 Red, Ethiopia, Natural",
-      "url": "https://onacoffee.com.au/products/milk-w-som1",
-      "roast_profile": "espresso",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Berries, Caramel, Chocolate",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
       "bean_name": "Gateway",
       "url": "https://onacoffee.com.au/products/gateway",
       "roast_profile": "espresso",
@@ -1029,6 +993,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "Berries, Chocolate",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Guji Mudole, Ethiopia, Supernatural",
+      "url": "https://onacoffee.com.au/products/filter-rare-guji-mudole-ethiopia-supernatural",
+      "roast_profile": "filter",
+      "origin": "East Africa",
+      "price_aud": "23.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "Concord Grape, Fruity, Red Berries, Sweet, Tropical",
       "is_new": false
     },
     {
@@ -1185,6 +1161,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Thageini Lot 2226, Kenya, CM Washed Indigo",
+      "url": "https://onacoffee.com.au/products/espresso-reserve-z-rsoe1",
+      "roast_profile": "espresso",
+      "origin": "South America",
+      "price_aud": "36.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Berries, Chocolate",
       "is_new": false
     },
     {
@@ -1736,18 +1724,6 @@
       "price_aud": "21.00",
       "process": "Natural",
       "varietal": "Yellow Bourbon",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Seven Seeds",
-      "bean_name": "Mubuku, Uganda",
-      "url": "https://sevenseeds.com.au/products/mubuku-uganda-2026",
-      "roast_profile": "omni",
-      "origin": "Kasese, Western Uganda, Uganda",
-      "price_aud": "27.00",
-      "process": "Anaerobic, Natural",
-      "varietal": "SL - 14",
       "flavour_profile": "",
       "is_new": false
     },
