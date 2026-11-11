@@ -197,6 +197,7 @@ def clean_flavour(s: str) -> str:
 # ── body Label: value ────────────────────────────────────────────────────────
 # (label regex, field-or-None). None = boundary only (stops a previous value).
 _BODY_LABELS = [
+    (r"country\s*/\s*region", "origin"),   # Mecca: "Country/Region: Chalatenango, El Salvador"
     (r"origins?", "origin"),
     (r"countr(?:y|ies)", "origin"),
     (r"region", None),
@@ -206,6 +207,7 @@ _BODY_LABELS = [
     (r"producers?", None),
     (r"altitude", None),
     (r"elevation", None),
+    (r"harvest(?:\s+year)?", None),
     (r"relationship\s+length", None),
     (r"farm", None),
     (r"importer", None),
@@ -222,7 +224,9 @@ _BODY_LABELS = [
 ]
 
 _LABEL_ALT = "|".join(p for p, _ in _BODY_LABELS)
-_LABEL_RE = re.compile(rf"\b({_LABEL_ALT})\b\s*[:\-]\s*", re.I)
+# Optional "Coffee " prefix ("Coffee Varietal:", "Coffee Process:") is consumed as part of
+# the label so it doesn't leak onto the end of the previous value.
+_LABEL_RE = re.compile(rf"\b(?:coffee\s+)?({_LABEL_ALT})\b\s*([:\-])\s*", re.I)
 
 
 def _label_field(label: str):
@@ -237,7 +241,10 @@ def extract_from_body_labels(text: str, rules=None):
     """Slice each 'Label: value' up to the next known label (mutual boundaries)."""
     t = re.sub(r"\s+", " ", text or "")
     out = {f: "" for f in _FIELDS}
-    matches = list(_LABEL_RE.finditer(t))
+    # A hyphen after a lowercase word is prose ("...Icatu varieties - Championing in..."),
+    # not a label. Real "Label - value" specs are capitalised.
+    matches = [m for m in _LABEL_RE.finditer(t)
+               if not (m.group(2) == "-" and m.group(1)[0].islower())]
     for i, m in enumerate(matches):
         field = _label_field(m.group(1))
         if field is None or out.get(field):     # boundary-only, or field already filled

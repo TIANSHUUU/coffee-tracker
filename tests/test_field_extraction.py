@@ -150,6 +150,32 @@ class TestBodyLabels(unittest.TestCase):
         self.assertEqual(out, {"origin": "", "process": "", "varietal": "", "flavour": ""})
 
 
+# Real Mecca spec block, whitespace-collapsed (no sentence punctuation between labels).
+MECCA = ("Some prose about El Salvador. Country/Region: Chalatenango, El Salvador "
+         "Elevation: 1650 masl Coffee Varietal: Pacamara Coffee Process: Natural Harvest Year: BREW RECIPES")
+
+
+class TestBodyLabelsMecca(unittest.TestCase):
+    def test_country_region_label_is_origin(self):
+        out = extract_from_body_labels(MECCA)
+        self.assertEqual(out["origin"], "Chalatenango, El Salvador")
+
+    def test_coffee_prefix_does_not_leak_into_previous_value(self):
+        out = extract_from_body_labels(MECCA)
+        self.assertEqual(out["varietal"], "Pacamara")
+        self.assertEqual(out["process"], "Natural")
+
+    def test_lowercase_word_before_hyphen_is_not_a_label(self):
+        # Reuben Hills prose: "...Yellow Icatu varieties - Championing in Natural Process."
+        out = extract_from_body_labels("growing Yellow Bourbon and Red Catuai varieties - Championing in Natural Process")
+        self.assertEqual(out["varietal"], "")
+
+    def test_capitalised_hyphen_label_still_works(self):
+        out = extract_from_body_labels("Varietal - Caturra Process - Washed")
+        self.assertEqual(out["varietal"], "Caturra")
+        self.assertEqual(out["process"], "Washed")
+
+
 class TestOrchestrator(unittest.TestCase):
     def test_tags_win_over_body(self):
         out = extract_structured(

@@ -65,5 +65,15 @@
   {
     "name": "Vacation Coffee",
     "url": "https://vacationcoffee.com.au/collections/coffee"
+  },
+  {
+    "name": "Reuben Hills",
+    "url": "https://www.reubenhills.com.au/collections/shop-coffee",
+    "grind_variants": true
+  },
+  {
+    "name": "Mecca Coffee",
+    "url": "https://www.mecca.coffee/collections/specialty-coffee-beans",
+    "product_page_specs": true
   }
 ]

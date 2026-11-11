@@ -3,6 +3,16 @@
 A human-readable record of notable changes. Newest first.
 (For machine context across AI sessions, see the project memory — separate from the repo.)
 
+## 2026-11 — Reuben Hills + Mecca Coffee
+
+- Added **Reuben Hills** (`/collections/shop-coffee`) and **Mecca Coffee** (`/collections/specialty-coffee-beans`) — 17 roasters. Beans only: subscriptions (incl. "Join Sub Club"), drip bags, taster/sample packs, gear and merch are filtered; decaf stays excluded as for every roaster.
+- New per-roaster config flags `grind_variants` and `product_page_specs` (see README).
+- Extraction tweaks, each verified on a full live run to only *fill* previously-empty fields on existing roasters (11 fills, 0 changed values):
+  - body labels: `Country/Region:` → origin; a `Coffee ` label prefix ("Coffee Process:") no longer leaks into the previous value; `Harvest Year:` is a boundary; a hyphen after a lowercase word ("varieties - Championing") is prose, not a label.
+  - origin from a country segment of the title ("Bolivia, San Lorenzo", "Ayla Bombe | Ethiopia") before falling back to prose scanning.
+  - last-resort prose flavour "notes of chocolate, red currant, and orange", accepted only when it's a clean list.
+- Masthead copy: "Fine beans currently roasting across Australia's specialty coffee roasters".
+
 ## 2026-06 — Tracker redesign, data-quality overhaul, hardening
 
 ### Frontend — "The Classifieds" redesign

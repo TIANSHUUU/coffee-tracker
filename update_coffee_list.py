@@ -77,6 +77,7 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "bundles",
     "subscription",
     "subsrcription",
+    "sub club",          # Reuben Hills "Join Sub Club"
     "equipment",
     "merchandise",
     "merch",
@@ -129,6 +130,8 @@ EXCLUDED_PRODUCT_KEYWORDS = [
     "panela sugar",
     "panel sugar",
     "sampler pack",
+    "sample pack",
+    "taster pack",
     # Education / services
     "course",
     "certification",
@@ -254,6 +257,82 @@ def parse_roast_profile(text: str, title: str = "") -> str:
     return ""
 
 
+def origin_from_title(title: str) -> str:
+    """Country named as its own segment of the title.
+
+    Covers "Bolivia, San Lorenzo" (Reuben Hills) and "Ayla Bombe | Ethiopia" (Mecca),
+    where the prose body would otherwise yield fragments like "Bolivia, and we".
+    """
+    for seg in re.split(r"\s*[,|/\u2013\u2014]\s*|\s+-\s+", title or ""):
+        key = seg.strip().lower()
+        if key in COUNTRY_KEYWORDS:
+            return key.upper() if key == "png" else key.title()
+    return ""
+
+
+_ORIGIN_CODES = {
+    "ETH": "Ethiopia", "COL": "Colombia", "BRA": "Brazil", "PNG": "Papua New Guinea",
+    "KEN": "Kenya", "GUA": "Guatemala", "HON": "Honduras", "PER": "Peru", "RWA": "Rwanda",
+    "BUR": "Burundi", "SLV": "El Salvador", "CRI": "Costa Rica", "NIC": "Nicaragua",
+    "MEX": "Mexico", "IDN": "Indonesia", "UGA": "Uganda", "TZA": "Tanzania", "BOL": "Bolivia",
+}
+
+
+def _component_country(component: str) -> str:
+    """'Tolima (COL)' -> 'Colombia'; 'Guji, Ethiopia' -> 'Ethiopia'."""
+    m = re.search(r"\(([A-Z]{3})\)\s*$", component)
+    if m and m.group(1) in _ORIGIN_CODES:
+        return _ORIGIN_CODES[m.group(1)]
+    return component.split(",")[-1].strip()
+
+
+def fetch_product_page_specs(session: requests.Session, product_url: str) -> str:
+    """Spec text that a store renders on the product page but not in products.json.
+
+    Returns 'Label: value' fragments for extract_structured(): every <p> that opens with a
+    <strong>Label:</strong> (Mecca's "Country/Region:", "Coffee Varietal:", "Coffee Process:"),
+    plus the `.product--text` subtitle as tasting notes — Mecca puts the cup notes there
+    after a bold category name ("<strong>Vibrant & Fruity</strong><br/>Honeydew & Green Grape").
+    """
+    try:
+        resp = session.get(product_url, timeout=TIMEOUT_SECONDS)
+        if resp.status_code != 200:
+            return ""
+    except Exception:
+        return ""
+    soup = BeautifulSoup(resp.text, "html.parser")
+    parts: List[str] = []
+    subtitle = soup.select_one(".product--text")
+    if subtitle:
+        for strong in subtitle.find_all("strong"):
+            strong.decompose()
+        notes = clean_text(subtitle.get_text(" "))
+        if notes:
+            parts.append(f"Tasting Notes: {notes}.")
+    seen = set()
+    for para in soup.find_all("p"):
+        first = para.find(True)
+        if not first or first.name != "strong":
+            continue
+        if not clean_text(first.get_text(" ")).rstrip().endswith(":"):
+            continue
+        line = clean_text(para.get_text(" "))
+        label, _, value = line.partition(":")
+        comps = re.split(r"\s+[|/]\s+", value)
+        if len(comps) > 1:
+            # Blend: one entry per component — "1/3 Guji, Ethiopia | 1/3 Tolima, Colombia"
+            # or "1/3 Eastern Highlands (PNG) / 1/3 Tolima (COL)".
+            comps = [re.sub(r"^\s*\d+\s*/\s*\d+\s*", "", c).strip() for c in comps]
+            if re.search(r"countr|region|origin", label, re.IGNORECASE):
+                comps = [_component_country(c) for c in comps]
+            comps = [c for i, c in enumerate(comps) if c and c not in comps[:i]]
+            line = f"{label}: {', '.join(comps)}"
+        if line and line not in seen:
+            seen.add(line)
+            parts.append(line)
+    return " ".join(parts)
+
+
 def parse_origin(text: str) -> str:
     t = clean_text(text)
     lower = t.lower()
@@ -327,12 +406,15 @@ def parse_process(text: str, title: str = "", product_url: str = "") -> str:
 def parse_varietal(text: str) -> str:
     t = clean_text(text)
     patterns = [
-        r"(?:variet(?:al|y|ies)|cultivar)\s*[:\-]\s*([A-Za-z0-9 ,/&()+-]+)",
+        r"(variet(?:al|y|ies)|cultivar)\s*([:\-])\s*([A-Za-z0-9 ,/&()+-]+)",
     ]
     for p in patterns:
-        m = re.search(p, t, flags=re.IGNORECASE)
+        # "...Icatu varieties - Championing in..." is prose: a hyphen only separates a
+        # label from its value when the label is capitalised ("Variety - Caturra").
+        m = next((m for m in re.finditer(p, t, flags=re.IGNORECASE)
+                  if not (m.group(2) == "-" and m.group(1)[0].islower())), None)
         if m:
-            candidate = clean_text(m.group(1))
+            candidate = clean_text(m.group(3))
             candidate = re.split(r"[.;]| origin| process| roast| altitude| notes?", candidate, flags=re.IGNORECASE)[0]
             return candidate[:120].strip(" ,")
     return ""
@@ -453,7 +535,40 @@ def parse_flavour_profile(text: str) -> str:
         if candidate and ("," in candidate or " and " in candidate.lower()):
             return candidate
 
+    # Last resort, prose: "Expect a lively cup with notes of chocolate, red currant, and orange."
+    # Unlabelled prose runs on into the next clause, so accept it only when it's a clean list.
+    prose = re.search(r"\bnotes\s+of\s+([A-Za-z0-9' ,/&()+-]{6,180})", t, flags=re.IGNORECASE)
+    if prose:
+        candidate = clean_candidate(prose.group(1))
+        if candidate and _is_plain_note_list(candidate):
+            return candidate
+
     return ""
+
+
+_PROSE_WORDS = {
+    "a", "an", "it", "its", "is", "to", "by", "of", "with", "but", "that", "which", "as",
+    "in", "on", "for", "from", "while", "lifted", "paired", "provides", "finishing", "truly",
+}
+
+
+def _is_plain_note_list(candidate: str) -> bool:
+    """'chocolate, red currant, and orange' yes; 'dark chocolate, paired' /
+    'peach and honey, it provides an ...' / 'yellow nectarine Rub(én...)' no."""
+    items = [i for i in re.split(r"\s*,\s*(?:and\s+)?|\s+and\s+|\s*&\s*", candidate.strip()) if i]
+    if len(items) < 2:
+        return False
+    for item in items:
+        words = item.split()
+        if not 1 <= len(words) <= 3:
+            return False
+        if any(w.lower() in _PROSE_WORDS for w in words):
+            return False
+        if len(words) == 1 and words[0].lower().endswith("ed"):
+            return False                      # dangling participle ("paired")
+        if words[0][0].islower() and any(w[0].isupper() for w in words[1:]):
+            return False                      # ran into the next sentence
+    return True
 
 
 def should_exclude_product(text: str) -> bool:
@@ -567,6 +682,8 @@ def scrape_shopify_collection_json(
     shopify_collection_handle: Optional[str] = None,
     price_variant_filter: Optional[str] = None,
     field_rules: Optional[dict] = None,
+    grind_variants: bool = False,
+    product_page_specs: bool = False,
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     json_url = normalize_collection_json_url(listing_url, shopify_collection_handle)
     if not json_url:
@@ -656,8 +773,12 @@ def scrape_shopify_collection_json(
 
         # Structured extraction (namespaced tags + body Label:value) first;
         # existing heuristics remain as the fallback for each field.
+        if product_page_specs:
+            # Labelled specs first so they win over any label-like phrase in the prose.
+            specs = fetch_product_page_specs(session, product_url)
+            text_blob = f"{specs} {text_blob}" if specs else text_blob
         sx = extract_structured(raw_tags, text_blob, rules=field_rules)
-        origin   = clean_origin(sx["origin"]   or parse_origin(combined))
+        origin   = clean_origin(sx["origin"] or origin_from_title(title) or parse_origin(combined))
         process  = sx["process"]  or normalize_process(parse_process(combined, title=title, product_url=product_url))
         varietal = sx["varietal"] or clean_varietal(parse_varietal(combined))
         flavour  = clean_flavour(sx["flavour"] or parse_flavour_profile(combined))
@@ -668,6 +789,18 @@ def scrape_shopify_collection_json(
         title_profile = parse_roast_profile("", title=title)
         if title_profile:
             roast_profile_label = title_profile
+        elif grind_variants:
+            # Store's variants are grind sizes ("Grind for Espresso" / "Grind for Filter")
+            # offered on every bean, so they say nothing about the roast. Use the store's own
+            # classification instead: product_type + bare "Espresso"/"Filter (Coffee)" tags.
+            type_signals = [str(product.get("product_type") or "")] + [
+                t for t in raw_tags if re.fullmatch(r"\s*(espresso|filter)(\s+coffee)?\s*", t, re.IGNORECASE)
+            ]
+            roast_profile_label = (
+                parse_roast_profile(" ".join(type_signals))
+                or (parse_roast_profile(" ".join(tag_meta["roast"]), title=title) if tag_meta["roast"] else "")
+                or parse_roast_profile(combined, title=title)
+            )
         else:
             variant_titles = " ".join(v.get("title") or "" for v in variants).lower()
             has_espresso_variant = any(k in variant_titles for k in ("espresso",))
@@ -1379,6 +1512,8 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
     price_variant_filter = str(roaster.get("price_variant_filter", "") or "").strip() or None
     force_html_listing = bool(roaster.get("force_html_listing", False))
     force_woo_api = bool(roaster.get("force_woo_api", False))
+    grind_variants = bool(roaster.get("grind_variants", False))
+    product_page_specs = bool(roaster.get("product_page_specs", False))
     field_rules = roaster.get("field_rules") if isinstance(roaster.get("field_rules"), dict) else None
     listing_url = collection_url_override or url
 
@@ -1417,6 +1552,8 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                 shopify_collection_handle=shopify_collection_handle,
                 price_variant_filter=price_variant_filter,
                 field_rules=field_rules,
+                grind_variants=grind_variants,
+                product_page_specs=product_page_specs,
             )
             if items:
                 return items
@@ -1434,6 +1571,8 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                         candidate_url,
                         shopify_collection_handle=handle,
                         field_rules=field_rules,
+                        grind_variants=grind_variants,
+                        product_page_specs=product_page_specs,
                     )
                     if items:
                         if len(items) > len(best_items):
