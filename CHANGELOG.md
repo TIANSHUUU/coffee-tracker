@@ -3,6 +3,10 @@
 A human-readable record of notable changes. Newest first.
 (For machine context across AI sessions, see the project memory — separate from the repo.)
 
+## 2026-11 — Wood & Co Coffee
+
+- Added **Wood & Co Coffee** — 18 roasters. Scrapes `/collections/store` because `/collections/all-coffee` omits the single origins; new `product_types` allowlist keeps only `Coffee Beans and Ground`, so gear/merch can't slip through on a keyword miss. Subscriptions, the sampler pack and decaf are excluded. Their pages are prose-only, so flavour/varietal are mostly empty (not fabricated).
+
 ## 2026-11 — Reuben Hills + Mecca Coffee
 
 - Added **Reuben Hills** (`/collections/shop-coffee`) and **Mecca Coffee** (`/collections/specialty-coffee-beans`) — 17 roasters. Beans only: subscriptions (incl. "Join Sub Club"), drip bags, taster/sample packs, gear and merch are filtered; decaf stays excluded as for every roaster.

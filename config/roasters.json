@@ -75,5 +75,12 @@
     "name": "Mecca Coffee",
     "url": "https://www.mecca.coffee/collections/specialty-coffee-beans",
     "product_page_specs": true
+  },
+  {
+    "name": "Wood & Co Coffee",
+    "url": "https://woodandcocoffee.com.au/collections/store",
+    "product_types": [
+      "Coffee Beans and Ground"
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 # Coffee Tracker
 
-One page to browse what's currently roasting across Australian specialty coffee roasters, refreshed weekly — so you don't have to check ~17 websites by hand.
+One page to browse what's currently roasting across Australian specialty coffee roasters, refreshed weekly — so you don't have to check ~18 websites by hand.
 
 **Live site:** https://tianshuuu.github.io/coffee-tracker/
 
@@ -58,6 +58,7 @@ Edit [`config/roasters.json`](config/roasters.json). Each entry needs a `name` a
 | `price_variant_filter` | pick a bag size for the displayed price (e.g. `"250g"`) |
 | `force_html_listing` / `force_woo_api` | skip auto-detection and use a specific strategy |
 | `grind_variants` | the store's variants are grind sizes ("Grind for Espresso / Filter"), so don't read them as an omni roast; use the store's `product_type` / Espresso-Filter tags instead (Reuben Hills) |
+| `product_types` | keep only products whose Shopify `product_type` is in this list — for collections that mix beans with gear (Wood & Co: `["Coffee Beans and Ground"]`) |
 | `product_page_specs` | also read the labelled spec block (`Country/Region:`, `Coffee Process:` …) and tasting-notes subtitle from the product HTML page, for stores that keep specs out of `products.json` (Mecca) |
 
 Products that aren't whole-bean coffee (drip bags, subscriptions, merch, equipment, etc.) are filtered out by keyword. If a roaster can't be scraped, it's recorded with `status: error` rather than silently dropped, and the workflow warns when several roasters fail in one run.

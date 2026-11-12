@@ -684,6 +684,7 @@ def scrape_shopify_collection_json(
     field_rules: Optional[dict] = None,
     grind_variants: bool = False,
     product_page_specs: bool = False,
+    product_types: Optional[List[str]] = None,
 ) -> Tuple[List[CoffeeItem], Optional[str]]:
     json_url = normalize_collection_json_url(listing_url, shopify_collection_handle)
     if not json_url:
@@ -717,6 +718,9 @@ def scrape_shopify_collection_json(
         text_blob = clean_text(BeautifulSoup(body_html, "html.parser").get_text(" "))
         combined = " ".join([title, tags_str, text_blob])
         if should_exclude_product_for_roaster(roaster, title):
+            continue
+        # Allowlist by the store's own product_type, for collections that mix beans with gear.
+        if product_types and (product.get("product_type") or "").strip().lower() not in product_types:
             continue
 
         price = ""
@@ -1514,6 +1518,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
     force_woo_api = bool(roaster.get("force_woo_api", False))
     grind_variants = bool(roaster.get("grind_variants", False))
     product_page_specs = bool(roaster.get("product_page_specs", False))
+    product_types = [str(t).strip().lower() for t in (roaster.get("product_types") or [])] or None
     field_rules = roaster.get("field_rules") if isinstance(roaster.get("field_rules"), dict) else None
     listing_url = collection_url_override or url
 
@@ -1554,6 +1559,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                 field_rules=field_rules,
                 grind_variants=grind_variants,
                 product_page_specs=product_page_specs,
+                product_types=product_types,
             )
             if items:
                 return items
@@ -1573,6 +1579,7 @@ def scrape_one_roaster(session: requests.Session, roaster: Dict[str, object]) ->
                         field_rules=field_rules,
                         grind_variants=grind_variants,
                         product_page_specs=product_page_specs,
+                        product_types=product_types,
                     )
                     if items:
                         if len(items) > len(best_items):
