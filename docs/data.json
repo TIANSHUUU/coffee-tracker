@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12 12:59",
+  "generated_at": "2026-11-12 22:58",
   "stats": {
-    "total": 210,
-    "new": 10,
+    "total": 213,
+    "new": 3,
     "roasters": 18
   },
   "roasters": [
@@ -27,123 +27,39 @@
   ],
   "items": [
     {
-      "roaster": "Code Black",
-      "bean_name": "Colombia Maria Rodriguez SL28 Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-maria-rodriguez-sl28-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "34.00",
-      "process": "Washed",
-      "varietal": "S",
-      "flavour_profile": "Citrus, Malic, Sweet",
-      "is_new": true
-    },
-    {
-      "roaster": "Market Lane",
-      "bean_name": "Muhathi",
-      "url": "https://marketlane.com.au/collections/filter-beans/products/muhathi",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "32.00",
-      "process": "Washed",
-      "varietal": "SL28, SL34 & Batian",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "BATHYSPHERE ESPRESSO BLEND",
-      "url": "https://wideopenroad.com.au/products/bathysphere-espresso-blend",
-      "roast_profile": "espresso",
-      "origin": "El Salvador, Ethiopia, Nicaragua",
-      "price_aud": "24.00",
-      "process": "Carbonic Maceration, Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "MILK CHOCOLATE , CARAMEL, STONE FRUIT",
-      "is_new": true
-    },
-    {
-      "roaster": "Wood & Co Coffee",
-      "bean_name": "Asman Gayo, Sumatra Indonesia",
-      "url": "https://woodandcocoffee.com.au/products/asman-gayo-sumatra-indonesia",
-      "roast_profile": "omni",
-      "origin": "Indonesia",
-      "price_aud": "28.00",
-      "process": "Washed, Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wood & Co Coffee",
-      "bean_name": "Banko Gotiti, Ethiopia",
-      "url": "https://woodandcocoffee.com.au/products/banko-gotiti-ethiopia",
+      "roaster": "Commonfolk",
+      "bean_name": "Sookoo Wine",
+      "url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
       "roast_profile": "omni",
       "origin": "Ethiopia",
-      "price_aud": "28.00",
-      "process": "Washed",
+      "price_aud": "24.00",
+      "process": "Anaerobic, Natural",
       "varietal": "",
+      "flavour_profile": "Ribena, Red Lollies, Orange syrup, Starfruit Come",
+      "is_new": true
+    },
+    {
+      "roaster": "Mecca Coffee",
+      "bean_name": "Aricha | Ethiopia",
+      "url": "https://www.mecca.coffee/products/aricha-ethiopia",
+      "roast_profile": "omni",
+      "origin": "Yirgacheffe, Ethiopia",
+      "price_aud": "27.80",
+      "process": "Natural",
+      "varietal": "Ethiopian Landrace",
       "flavour_profile": "",
       "is_new": true
     },
     {
-      "roaster": "Wood & Co Coffee",
-      "bean_name": "El Roble, Salvador",
-      "url": "https://woodandcocoffee.com.au/products/elroble",
-      "roast_profile": "omni",
-      "origin": "El Salvador",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wood & Co Coffee",
-      "bean_name": "Ismael Aguilar , Salvador",
-      "url": "https://woodandcocoffee.com.au/products/ismael-aguilar",
-      "roast_profile": "omni",
-      "origin": "El Salvador",
-      "price_aud": "28.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wood & Co Coffee",
-      "bean_name": "Karma Blend",
-      "url": "https://woodandcocoffee.com.au/products/karma-blend",
-      "roast_profile": "omni",
-      "origin": "Papua New Guinea and Brazil, we",
+      "roaster": "ONA Coffee",
+      "bean_name": "Kiambu Regional PB, Kenya, Washed",
+      "url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
+      "roast_profile": "espresso",
+      "origin": "East Africa",
       "price_aud": "22.00",
-      "process": "",
+      "process": "Washed",
       "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wood & Co Coffee",
-      "bean_name": "Sunshine Filter Blend",
-      "url": "https://woodandcocoffee.com.au/products/sunshine-filter-blend",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "23.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wood & Co Coffee",
-      "bean_name": "Twin Peaks Blend",
-      "url": "https://woodandcocoffee.com.au/products/twin-peaks-seasonal-blend",
-      "roast_profile": "omni",
-      "origin": "Colombia, Ethiopia",
-      "price_aud": "22.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
+      "flavour_profile": "Citrus",
       "is_new": true
     },
     {
@@ -276,6 +192,18 @@
       "process": "Washed",
       "varietal": "S",
       "flavour_profile": "Citrus, Floral, Malic, Stone Fruit, Sweet",
+      "is_new": false
+    },
+    {
+      "roaster": "Code Black",
+      "bean_name": "Colombia Maria Rodriguez SL28 Washed Espresso - Single Origin",
+      "url": "https://codeblackcoffee.com.au/products/colombia-maria-rodriguez-sl28-washed-espresso-single-origin",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "34.00",
+      "process": "Washed",
+      "varietal": "S",
+      "flavour_profile": "Citrus, Malic, Sweet",
       "is_new": false
     },
     {
@@ -971,6 +899,18 @@
       "price_aud": "24.00",
       "process": "Washed",
       "varietal": "Caturra",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Market Lane",
+      "bean_name": "Muhathi",
+      "url": "https://marketlane.com.au/collections/filter-beans/products/muhathi",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "32.00",
+      "process": "Washed",
+      "varietal": "SL28, SL34 & Batian",
       "flavour_profile": "",
       "is_new": false
     },
@@ -2416,6 +2356,18 @@
     },
     {
       "roaster": "Wide Open Road",
+      "bean_name": "BATHYSPHERE ESPRESSO BLEND",
+      "url": "https://wideopenroad.com.au/products/bathysphere-espresso-blend",
+      "roast_profile": "espresso",
+      "origin": "El Salvador, Ethiopia, Nicaragua",
+      "price_aud": "24.00",
+      "process": "Carbonic Maceration, Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "MILK CHOCOLATE , CARAMEL, STONE FRUIT",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
       "bean_name": "BRAZIL | ESPIGÃO | NATURAL ANAEROBIC - FILTER",
       "url": "https://wideopenroad.com.au/products/brazil-espigao-natural-filter",
       "roast_profile": "filter",
@@ -2544,6 +2496,90 @@
       "process": "Natural",
       "varietal": "Heirloom",
       "flavour_profile": "MANDARIN, HIBISCUS, LIME MERINGUE",
+      "is_new": false
+    },
+    {
+      "roaster": "Wood & Co Coffee",
+      "bean_name": "Asman Gayo, Sumatra Indonesia",
+      "url": "https://woodandcocoffee.com.au/products/asman-gayo-sumatra-indonesia",
+      "roast_profile": "omni",
+      "origin": "Indonesia",
+      "price_aud": "28.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Wood & Co Coffee",
+      "bean_name": "Banko Gotiti, Ethiopia",
+      "url": "https://woodandcocoffee.com.au/products/banko-gotiti-ethiopia",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Wood & Co Coffee",
+      "bean_name": "El Roble, Salvador",
+      "url": "https://woodandcocoffee.com.au/products/elroble",
+      "roast_profile": "omni",
+      "origin": "El Salvador",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Wood & Co Coffee",
+      "bean_name": "Ismael Aguilar , Salvador",
+      "url": "https://woodandcocoffee.com.au/products/ismael-aguilar",
+      "roast_profile": "omni",
+      "origin": "El Salvador",
+      "price_aud": "28.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Wood & Co Coffee",
+      "bean_name": "Karma Blend",
+      "url": "https://woodandcocoffee.com.au/products/karma-blend",
+      "roast_profile": "omni",
+      "origin": "Papua New Guinea and Brazil, we",
+      "price_aud": "22.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Wood & Co Coffee",
+      "bean_name": "Sunshine Filter Blend",
+      "url": "https://woodandcocoffee.com.au/products/sunshine-filter-blend",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "23.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Wood & Co Coffee",
+      "bean_name": "Twin Peaks Blend",
+      "url": "https://woodandcocoffee.com.au/products/twin-peaks-seasonal-blend",
+      "roast_profile": "omni",
+      "origin": "Colombia, Ethiopia",
+      "price_aud": "22.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     }
   ]
