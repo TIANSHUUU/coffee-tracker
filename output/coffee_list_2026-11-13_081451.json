@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12_125921",
+  "generated_at": "2026-11-13_081451",
   "summary": {
-    "total_rows": 210,
-    "ok_rows": 210,
+    "total_rows": 213,
+    "ok_rows": 213,
     "error_rows": 0
   },
   "grouped": {
@@ -1070,6 +1070,20 @@
         "varietal": "",
         "flavour_profile": "Berries, Chocolate",
         "product_url": "https://onacoffee.com.au/products/gateway",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "ONA Coffee",
+        "source_url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
+        "bean_name": "Kiambu Regional PB, Kenya, Washed",
+        "roast_profile": "espresso",
+        "origin": "East Africa",
+        "price_aud": "22.00",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "Citrus",
+        "product_url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
         "status": "ok",
         "error": ""
       },
@@ -2211,6 +2225,20 @@
       },
       {
         "roaster": "Commonfolk",
+        "source_url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
+        "bean_name": "Sookoo Wine",
+        "roast_profile": "omni",
+        "origin": "Ethiopia",
+        "price_aud": "24.00",
+        "process": "Anaerobic, Natural",
+        "varietal": "",
+        "flavour_profile": "Ribena, Red Lollies, Orange syrup, Starfruit Come",
+        "product_url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Commonfolk",
         "source_url": "https://www.commonfolkcoffee.com.au/products/pegasus-to-a-horse-race_26",
         "bean_name": "Pegasus to a Horse Race",
         "roast_profile": "omni",
@@ -2766,6 +2794,20 @@
         "varietal": "Pacamara",
         "flavour_profile": "Honeydew & Green Grape",
         "product_url": "https://www.mecca.coffee/products/saul-murcia-el-salvador",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Mecca Coffee",
+        "source_url": "https://www.mecca.coffee/products/aricha-ethiopia",
+        "bean_name": "Aricha | Ethiopia",
+        "roast_profile": "omni",
+        "origin": "Yirgacheffe, Ethiopia",
+        "price_aud": "27.80",
+        "process": "Natural",
+        "varietal": "Ethiopian Landrace",
+        "flavour_profile": "",
+        "product_url": "https://www.mecca.coffee/products/aricha-ethiopia",
         "status": "ok",
         "error": ""
       },
@@ -3364,6 +3406,20 @@
     },
     {
       "roaster": "Commonfolk",
+      "source_url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
+      "bean_name": "Sookoo Wine",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "24.00",
+      "process": "Anaerobic, Natural",
+      "varietal": "",
+      "flavour_profile": "Ribena, Red Lollies, Orange syrup, Starfruit Come",
+      "product_url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Commonfolk",
       "source_url": "https://www.commonfolkcoffee.com.au/products/pegasus-to-a-horse-race_26",
       "bean_name": "Pegasus to a Horse Race",
       "roast_profile": "omni",
@@ -3681,6 +3737,20 @@
       "varietal": "",
       "flavour_profile": "Concord Grape, Fruity, Red Berries, Sweet, Tropical",
       "product_url": "https://onacoffee.com.au/products/filter-rare-guji-mudole-ethiopia-supernatural",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "ONA Coffee",
+      "source_url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
+      "bean_name": "Kiambu Regional PB, Kenya, Washed",
+      "roast_profile": "espresso",
+      "origin": "East Africa",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Citrus",
+      "product_url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
       "status": "ok",
       "error": ""
     },
@@ -5795,6 +5865,20 @@
       "varietal": "Pacamara",
       "flavour_profile": "Honeydew & Green Grape",
       "product_url": "https://www.mecca.coffee/products/saul-murcia-el-salvador",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Mecca Coffee",
+      "source_url": "https://www.mecca.coffee/products/aricha-ethiopia",
+      "bean_name": "Aricha | Ethiopia",
+      "roast_profile": "omni",
+      "origin": "Yirgacheffe, Ethiopia",
+      "price_aud": "27.80",
+      "process": "Natural",
+      "varietal": "Ethiopian Landrace",
+      "flavour_profile": "",
+      "product_url": "https://www.mecca.coffee/products/aricha-ethiopia",
       "status": "ok",
       "error": ""
     },

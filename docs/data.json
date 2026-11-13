@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12 22:58",
+  "generated_at": "2026-11-13 08:14",
   "stats": {
     "total": 213,
-    "new": 3,
+    "new": 0,
     "roasters": 18
   },
   "roasters": [
@@ -26,42 +26,6 @@
     "Wood & Co Coffee"
   ],
   "items": [
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Sookoo Wine",
-      "url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
-      "roast_profile": "omni",
-      "origin": "Ethiopia",
-      "price_aud": "24.00",
-      "process": "Anaerobic, Natural",
-      "varietal": "",
-      "flavour_profile": "Ribena, Red Lollies, Orange syrup, Starfruit Come",
-      "is_new": true
-    },
-    {
-      "roaster": "Mecca Coffee",
-      "bean_name": "Aricha | Ethiopia",
-      "url": "https://www.mecca.coffee/products/aricha-ethiopia",
-      "roast_profile": "omni",
-      "origin": "Yirgacheffe, Ethiopia",
-      "price_aud": "27.80",
-      "process": "Natural",
-      "varietal": "Ethiopian Landrace",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Kiambu Regional PB, Kenya, Washed",
-      "url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
-      "roast_profile": "espresso",
-      "origin": "East Africa",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Citrus",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -604,6 +568,18 @@
     },
     {
       "roaster": "Commonfolk",
+      "bean_name": "Sookoo Wine",
+      "url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "24.00",
+      "process": "Anaerobic, Natural",
+      "varietal": "",
+      "flavour_profile": "Ribena, Red Lollies, Orange syrup, Starfruit Come",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
       "bean_name": "Stallion",
       "url": "https://www.commonfolkcoffee.com.au/products/stallion_26",
       "roast_profile": "omni",
@@ -952,6 +928,18 @@
     },
     {
       "roaster": "Mecca Coffee",
+      "bean_name": "Aricha | Ethiopia",
+      "url": "https://www.mecca.coffee/products/aricha-ethiopia",
+      "roast_profile": "omni",
+      "origin": "Yirgacheffe, Ethiopia",
+      "price_aud": "27.80",
+      "process": "Natural",
+      "varietal": "Ethiopian Landrace",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Mecca Coffee",
       "bean_name": "Ayla Bombe | Ethiopia",
       "url": "https://www.mecca.coffee/products/ayla-bombe-ethiopia",
       "roast_profile": "omni",
@@ -1128,6 +1116,18 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "Concord Grape, Fruity, Red Berries, Sweet, Tropical",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Kiambu Regional PB, Kenya, Washed",
+      "url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
+      "roast_profile": "espresso",
+      "origin": "East Africa",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Citrus",
       "is_new": false
     },
     {
