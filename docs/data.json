@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-13 23:25",
+  "generated_at": "2026-11-15 00:58",
   "stats": {
-    "total": 213,
+    "total": 211,
     "new": 0,
     "roasters": 18
   },
@@ -384,18 +384,6 @@
       "process": "Washed",
       "varietal": "T",
       "flavour_profile": "Citrus, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Panama Hiu Los Lajones Bambu Gesha Honey Filter - Rare Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/panama-hiu-los-lajones-bambu-gesha-honey-filter-rare-single-origin",
-      "roast_profile": "filter",
-      "origin": "Panama",
-      "price_aud": "89.00",
-      "process": "Washed",
-      "varietal": "S",
-      "flavour_profile": "Citrus, Delicate, Floral, Sweet",
       "is_new": false
     },
     {
@@ -2134,18 +2122,6 @@
       "origin": "",
       "price_aud": "16.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "COLOMBIA, CAMPO HERMOSO (BOURBON CHIROSO)",
-      "url": "https://stitch.coffee/products/colombia-campo-hermoso-bourbon-chiroso-26",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "34.40",
-      "process": "Carbonic Maceration, Honey",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
