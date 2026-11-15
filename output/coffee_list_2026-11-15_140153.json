@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-15_005820",
+  "generated_at": "2026-11-15_140153",
   "summary": {
-    "total_rows": 211,
-    "ok_rows": 211,
+    "total_rows": 209,
+    "ok_rows": 209,
     "error_rows": 0
   },
   "grouped": {
@@ -830,20 +830,6 @@
         "varietal": "SL28, SL34, Batian Coffee Grade",
         "flavour_profile": "",
         "product_url": "https://standingroomcoffee.com.au/products/filter-template-country-filter-copy",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Vacation Coffee",
-        "source_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-filter",
-        "bean_name": "ETHIOPIA Guji Guribea FILTER",
-        "roast_profile": "filter",
-        "origin": "Ethiopia",
-        "price_aud": "24.00",
-        "process": "Natural",
-        "varietal": "Heirloom",
-        "flavour_profile": "",
-        "product_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-filter",
         "status": "ok",
         "error": ""
       },
@@ -1910,20 +1896,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://vacationcoffee.com.au/products/road-trip",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Vacation Coffee",
-        "source_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-espresso",
-        "bean_name": "ETHIOPIA Guji Guribea ESPRESSO",
-        "roast_profile": "espresso",
-        "origin": "Ethiopia",
-        "price_aud": "24.00",
-        "process": "Natural",
-        "varietal": "Heirloom",
-        "flavour_profile": "",
-        "product_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-espresso",
         "status": "ok",
         "error": ""
       },
@@ -5515,34 +5487,6 @@
       "varietal": "SL28, SL34, Ruiru 11 & Batian",
       "flavour_profile": "",
       "product_url": "https://vacationcoffee.com.au/products/the-weekender",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "source_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-espresso",
-      "bean_name": "ETHIOPIA Guji Guribea ESPRESSO",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "Heirloom",
-      "flavour_profile": "",
-      "product_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-espresso",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "source_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-filter",
-      "bean_name": "ETHIOPIA Guji Guribea FILTER",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "Heirloom",
-      "flavour_profile": "",
-      "product_url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-filter",
       "status": "ok",
       "error": ""
     },

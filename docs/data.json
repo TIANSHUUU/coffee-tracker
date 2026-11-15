@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15 08:04",
+  "generated_at": "2026-11-15 14:01",
   "stats": {
-    "total": 211,
+    "total": 209,
     "new": 0,
     "roasters": 18
   },
@@ -2219,30 +2219,6 @@
       "price_aud": "21.00",
       "process": "Honey",
       "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "bean_name": "ETHIOPIA Guji Guribea ESPRESSO",
-      "url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-espresso",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "Heirloom",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Vacation Coffee",
-      "bean_name": "ETHIOPIA Guji Guribea FILTER",
-      "url": "https://vacationcoffee.com.au/products/ethiopia-guji-guribea-filter",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "24.00",
-      "process": "Natural",
-      "varietal": "Heirloom",
       "flavour_profile": "",
       "is_new": false
     },
