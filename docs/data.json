@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-16 07:50",
+  "generated_at": "2026-11-16 09:44",
   "stats": {
     "total": 193,
-    "new": 1,
+    "new": 0,
     "roasters": 17
   },
   "roasters": [
@@ -25,18 +25,6 @@
     "Wood & Co Coffee"
   ],
   "items": [
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Brazil | Baixadao | Yellow Bourbon | Natural",
-      "url": "https://www.proudmarycoffee.com.au/products/brazil-baixadao-yellow-bourbon-natural",
-      "roast_profile": "omni",
-      "origin": "Brazil",
-      "price_aud": "37.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1317,6 +1305,18 @@
       "origin": "",
       "price_aud": "24.00",
       "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
+      "bean_name": "Brazil | Baixadao | Yellow Bourbon | Natural",
+      "url": "https://www.proudmarycoffee.com.au/products/brazil-baixadao-yellow-bourbon-natural",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "37.00",
+      "process": "Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false

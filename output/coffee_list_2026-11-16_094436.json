@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15_233704",
+  "generated_at": "2026-11-16_094436",
   "summary": {
     "total_rows": 194,
     "ok_rows": 193,
@@ -1861,20 +1861,6 @@
       },
       {
         "roaster": "Proud Mary",
-        "source_url": "https://www.proudmarycoffee.com.au/products/honduras-manuel-vallecillo-pacas-washed",
-        "bean_name": "Honduras | Manuel Vallecillo | Pacas | Washed",
-        "roast_profile": "omni",
-        "origin": "Honduras",
-        "price_aud": "38.00",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "yellow plum and black tea",
-        "product_url": "https://www.proudmarycoffee.com.au/products/honduras-manuel-vallecillo-pacas-washed",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Proud Mary",
         "source_url": "https://www.proudmarycoffee.com.au/products/costa-rica-finca-tono-sarchimor-yellow-honey",
         "bean_name": "Costa Rica | Finca Toño | Sarchimor | Yellow Honey",
         "roast_profile": "omni",
@@ -1940,6 +1926,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.proudmarycoffee.com.au/products/nicaragua-buenos-aires-maragogipe-natural",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Proud Mary",
+        "source_url": "https://www.proudmarycoffee.com.au/products/brazil-baixadao-yellow-bourbon-natural",
+        "bean_name": "Brazil | Baixadao | Yellow Bourbon | Natural",
+        "roast_profile": "omni",
+        "origin": "Brazil",
+        "price_aud": "37.00",
+        "process": "Natural",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.proudmarycoffee.com.au/products/brazil-baixadao-yellow-bourbon-natural",
         "status": "ok",
         "error": ""
       },
@@ -2713,7 +2713,7 @@
         "flavour_profile": "",
         "product_url": "",
         "status": "error",
-        "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x76097d7c79d0>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x76097d7be590>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
+        "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x710d7e543150>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x710d7e0ad850>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
       },
       {
         "roaster": "Vacation Coffee",
@@ -2888,20 +2888,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "source_url": "https://www.proudmarycoffee.com.au/products/honduras-manuel-vallecillo-pacas-washed",
-      "bean_name": "Honduras | Manuel Vallecillo | Pacas | Washed",
-      "roast_profile": "omni",
-      "origin": "Honduras",
-      "price_aud": "38.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "yellow plum and black tea",
-      "product_url": "https://www.proudmarycoffee.com.au/products/honduras-manuel-vallecillo-pacas-washed",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Proud Mary",
       "source_url": "https://www.proudmarycoffee.com.au/products/costa-rica-finca-tono-sarchimor-yellow-honey",
       "bean_name": "Costa Rica | Finca Toño | Sarchimor | Yellow Honey",
       "roast_profile": "omni",
@@ -2999,6 +2985,20 @@
       "error": ""
     },
     {
+      "roaster": "Proud Mary",
+      "source_url": "https://www.proudmarycoffee.com.au/products/brazil-baixadao-yellow-bourbon-natural",
+      "bean_name": "Brazil | Baixadao | Yellow Bourbon | Natural",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "37.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.proudmarycoffee.com.au/products/brazil-baixadao-yellow-bourbon-natural",
+      "status": "ok",
+      "error": ""
+    },
+    {
       "roaster": "Seven Seeds",
       "source_url": "https://sevenseeds.com.au/products/seven-seeds-espresso-blend",
       "bean_name": "Seven Seeds House Blend",
@@ -3037,20 +3037,6 @@
       "varietal": "Ethiosar",
       "flavour_profile": "",
       "product_url": "https://sevenseeds.com.au/products/f-bomb-filter-blend",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Seven Seeds",
-      "source_url": "https://sevenseeds.com.au/products/cold-filter-cask",
-      "bean_name": "Cold Filter Cask",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "30.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://sevenseeds.com.au/products/cold-filter-cask",
       "status": "ok",
       "error": ""
     },
@@ -3107,6 +3093,20 @@
       "varietal": "Ethiosar",
       "flavour_profile": "Cherry, Donut, Dried Apricot",
       "product_url": "https://sevenseeds.com.au/products/el-limoncillo-ethiosar-nicaragua-2026",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Seven Seeds",
+      "source_url": "https://sevenseeds.com.au/products/cold-filter-cask",
+      "bean_name": "Cold Filter Cask",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "30.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://sevenseeds.com.au/products/cold-filter-cask",
       "status": "ok",
       "error": ""
     },
@@ -4816,7 +4816,7 @@
       "flavour_profile": "",
       "product_url": "",
       "status": "error",
-      "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x76097d7c79d0>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x76097d7be590>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
+      "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x710d7e543150>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x710d7e0ad850>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
     },
     {
       "roaster": "Field Work Coffee",
@@ -5462,7 +5462,7 @@
       "flavour_profile": "",
       "product_url": "",
       "status": "error",
-      "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x76097d7c79d0>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x76097d7be590>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
+      "error": "https://criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='criteriacoffee.com', port=443) at 0x710d7e543150>, 'Connection to criteriacoffee.com timed out. (connect timeout=25)')) || https://www.criteriacoffee.com/shop/ => woocommerce_error: HTTPSConnectionPool(host='www.criteriacoffee.com', port=443): Max retries exceeded with url: /wp-json/wc/store/v1/products?per_page=100&page=1 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.criteriacoffee.com', port=443) at 0x710d7e0ad850>, 'Connection to www.criteriacoffee.com timed out. (connect timeout=25)'))"
     }
   ]
 }
