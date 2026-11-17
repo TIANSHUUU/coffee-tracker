@@ -1,13 +1,14 @@
 {
-  "generated_at": "2026-11-16 09:44",
+  "generated_at": "2026-11-17 10:26",
   "stats": {
-    "total": 193,
-    "new": 0,
-    "roasters": 17
+    "total": 201,
+    "new": 13,
+    "roasters": 18
   },
   "roasters": [
     "Code Black",
     "Commonfolk",
+    "Criteria Coffee",
     "Field Work Coffee",
     "Market Lane",
     "Mecca Coffee",
@@ -25,6 +26,162 @@
     "Wood & Co Coffee"
   ],
   "items": [
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Batch Blend for Filter",
+      "url": "https://criteriacoffee.com/product/batch-blend-filter/",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "21.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Brazil – Danilo Barbosa | Mixed Varietals – Pulped Natural",
+      "url": "https://criteriacoffee.com/product/brazil-danilo-barbosa-mixed-varietals-pulped-natural-espresso/",
+      "roast_profile": "omni",
+      "origin": "Brazil",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Colombia | Campo Hermoso | Pink Bourbon – Black Honey (Galaxy Hops)",
+      "url": "https://criteriacoffee.com/product/colombia-campo-hermoso-pink-bourbon-black-honey-galaxy-hops/",
+      "roast_profile": "filter",
+      "origin": "Colombia, fermented",
+      "price_aud": "39.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Colombia | Jairo Arcilla – Santa Monica, Tabi – Washed",
+      "url": "https://criteriacoffee.com/product/colombia-jairo-arcilla-santa-monica-tabi-washed-esp/",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "32.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Ethiopia | Bogale Galcha | Kurume – Natural",
+      "url": "https://criteriacoffee.com/product/ethiopia-bogale-galcha-kurume-natural-espresso/",
+      "roast_profile": "omni",
+      "origin": "Ethiopia",
+      "price_aud": "32.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Ethiopia | Gezahegn-Regassa | Haro-Village – Yirgacheffe | Welisho – Washed",
+      "url": "https://criteriacoffee.com/product/ethiopia-gezahegn-regassa-haro-village-yirgacheffe-welisho-washed-espresso/",
+      "roast_profile": "omni",
+      "origin": "",
+      "price_aud": "32.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Kenya – Kiambu County Ruera Estate | Mixed Varietals – Natural (Taco Roll)",
+      "url": "https://criteriacoffee.com/product/kenya-kiambu-county-ruera-estate-mixed-varietals-natural-taco-roll-espresso/",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "34.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "Nebula Espresso Blend",
+      "url": "https://criteriacoffee.com/product/nebula-espresso-blend/",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "20.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgacheffe – Natural",
+      "url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Green melon, pink guava, violet, fruit tingle, tropical",
+      "is_new": true
+    },
+    {
+      "roaster": "Criteria Coffee",
+      "bean_name": "The Crowd Pleaser Espresso Blend",
+      "url": "https://criteriacoffee.com/product/the-crowd-pleaser/",
+      "roast_profile": "espresso",
+      "origin": "Brazil, Ethiopia",
+      "price_aud": "20.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Mecca Coffee",
+      "bean_name": "Karogoto 2026 | Kenya",
+      "url": "https://www.mecca.coffee/products/karogoto-2026-kenya",
+      "roast_profile": "omni",
+      "origin": "Nyeri County, Kenya",
+      "price_aud": "31.00",
+      "process": "Washed",
+      "varietal": "SL28, SL34, Batian & Ruiru 11",
+      "flavour_profile": "Blackcurrant & Grapefruit",
+      "is_new": true
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Trifle",
+      "url": "https://onacoffee.com.au/products/festive-release-milk-based-blendtrifle",
+      "roast_profile": "filter",
+      "origin": "",
+      "price_aud": "27.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "Chocolate, Sweet",
+      "is_new": true
+    },
+    {
+      "roaster": "Wide Open Road",
+      "bean_name": "COLOMBIA | CATURRA SYRUP | WASHED - ESPRESSO",
+      "url": "https://wideopenroad.com.au/products/colombia-caturra-syrup-washed-espresso",
+      "roast_profile": "espresso",
+      "origin": "Colombia",
+      "price_aud": "22.50",
+      "process": "Washed",
+      "varietal": "Caturra",
+      "flavour_profile": "Chocolate Praline, Caramel Syrup, Candied Orange Coffee Information",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -159,18 +316,6 @@
     },
     {
       "roaster": "Code Black",
-      "bean_name": "Colombia Maria Rodriguez SL28 Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/colombia-maria-rodriguez-sl28-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "34.00",
-      "process": "Washed",
-      "varietal": "S",
-      "flavour_profile": "Citrus, Malic, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
       "bean_name": "Costa Rica Ivan Solis Higueronal Anaerobic Natural Espresso - Single Origin",
       "url": "https://codeblackcoffee.com.au/products/costa-rica-ivan-solis-higueronal-anaerobic-natural-espresso-single-origin",
       "roast_profile": "espresso",
@@ -215,18 +360,6 @@
       "process": "Natural",
       "varietal": "T",
       "flavour_profile": "Berries, Citrus, Sweet",
-      "is_new": false
-    },
-    {
-      "roaster": "Code Black",
-      "bean_name": "Ethiopia Ayla Bombe Washed Espresso - Single Origin",
-      "url": "https://codeblackcoffee.com.au/products/ethiopia-ayla-bombe-washed-espresso-single-origin",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "Washed",
-      "varietal": "T",
-      "flavour_profile": "Citrus, Floral, Nutty, Sweet",
       "is_new": false
     },
     {
@@ -807,18 +940,6 @@
     },
     {
       "roaster": "Mecca Coffee",
-      "bean_name": "Karagoto 2026 | Kenya",
-      "url": "https://www.mecca.coffee/products/karogoto-2026-kenya",
-      "roast_profile": "omni",
-      "origin": "Nyeri County, Kenya",
-      "price_aud": "31.00",
-      "process": "Washed",
-      "varietal": "SL28, SL34, Batian & Ruiru 11",
-      "flavour_profile": "Blackcurrant & Grapefruit",
-      "is_new": false
-    },
-    {
-      "roaster": "Mecca Coffee",
       "bean_name": "Moka Premium Blend",
       "url": "https://www.mecca.coffee/products/moka-blend-specialty-coffee",
       "roast_profile": "omni",
@@ -1199,18 +1320,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "MILK CHOCOLATE, HONEY, HAZELNUT, PLUM",
-      "is_new": false
-    },
-    {
-      "roaster": "Padre Coffee",
-      "bean_name": "Ethiopia, Chelchele - Single Origin Espresso",
-      "url": "https://www.padrecoffee.com.au/products/ethiopia-chelchele-single-origin-espresso",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "26.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1758,10 +1867,10 @@
       "bean_name": "Seven Seeds House Blend",
       "url": "https://sevenseeds.com.au/products/seven-seeds-espresso-blend",
       "roast_profile": "omni",
-      "origin": "Carmo de Minas, Minas Gerais",
+      "origin": "Agaro, Oromia",
       "price_aud": "23.00",
-      "process": "Pulped Natural",
-      "varietal": "Yellow Bourbon",
+      "process": "Fully Washed",
+      "varietal": "Mix of 74110, 74165",
       "flavour_profile": "",
       "is_new": false
     },
@@ -1941,18 +2050,6 @@
       "origin": "",
       "price_aud": "16.00",
       "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "COLOMBIA, PATIO BONITO (WASHED)",
-      "url": "https://stitch.coffee/products/colombia-patio-bonito-washed-26",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "29.60",
-      "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
       "is_new": false
@@ -2299,7 +2396,7 @@
       "url": "https://woodandcocoffee.com.au/products/ismael-aguilar",
       "roast_profile": "omni",
       "origin": "El Salvador",
-      "price_aud": "28.00",
+      "price_aud": "32.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
