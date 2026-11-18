@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-17_102639",
+  "generated_at": "2026-11-18_222731",
   "summary": {
-    "total_rows": 201,
-    "ok_rows": 201,
+    "total_rows": 204,
+    "ok_rows": 204,
     "error_rows": 0
   },
   "grouped": {
@@ -228,20 +228,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://onacoffee.com.au/products/raspberry-candy-filter",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/festive-release-milk-based-blendtrifle",
-        "bean_name": "Trifle",
-        "roast_profile": "filter",
-        "origin": "",
-        "price_aud": "27.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "Chocolate, Sweet",
-        "product_url": "https://onacoffee.com.au/products/festive-release-milk-based-blendtrifle",
         "status": "ok",
         "error": ""
       },
@@ -779,20 +765,6 @@
       },
       {
         "roaster": "Standing Room Coffee",
-        "source_url": "https://standingroomcoffee.com.au/products/filter-template-country-filter-copy-1",
-        "bean_name": "Santa Isabel Esate, Guatemala, Filter",
-        "roast_profile": "filter",
-        "origin": "Guatemala Department: Alta Verapaz Municipality: Cobán Town",
-        "price_aud": "27.00",
-        "process": "Washed",
-        "varietal": "Caturra",
-        "flavour_profile": "",
-        "product_url": "https://standingroomcoffee.com.au/products/filter-template-country-filter-copy-1",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Standing Room Coffee",
         "source_url": "https://standingroomcoffee.com.au/products/filter-template-country-filter-copy",
         "bean_name": "Muhathi Estate AB, Kenya, Filter",
         "roast_profile": "filter",
@@ -1098,6 +1070,20 @@
         "varietal": "",
         "flavour_profile": "Berries, Chocolate",
         "product_url": "https://onacoffee.com.au/products/espresso-reserve-z-rsoe1",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "ONA Coffee",
+        "source_url": "https://onacoffee.com.au/products/festive-release-milk-based-blendtrifle",
+        "bean_name": "Trifle",
+        "roast_profile": "espresso",
+        "origin": "",
+        "price_aud": "27.00",
+        "process": "",
+        "varietal": "",
+        "flavour_profile": "Chocolate, Sweet",
+        "product_url": "https://onacoffee.com.au/products/festive-release-milk-based-blendtrifle",
         "status": "ok",
         "error": ""
       },
@@ -2084,6 +2070,20 @@
         "error": ""
       },
       {
+        "roaster": "Seven Seeds",
+        "source_url": "https://sevenseeds.com.au/products/asman-arianto-2026",
+        "bean_name": "Asman Arianto, Indonesia",
+        "roast_profile": "omni",
+        "origin": "Takengon, Ache, Indonesia",
+        "price_aud": "27.00",
+        "process": "Fully Washed",
+        "varietal": "Ateng, Bor bor, Timor and Catimor",
+        "flavour_profile": "Berry Jelly, Stone Fruits, Mango",
+        "product_url": "https://sevenseeds.com.au/products/asman-arianto-2026",
+        "status": "ok",
+        "error": ""
+      },
+      {
         "roaster": "Commonfolk",
         "source_url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
         "bean_name": "Sookoo Wine",
@@ -2448,6 +2448,48 @@
         "error": ""
       },
       {
+        "roaster": "Stitch Coffee",
+        "source_url": "https://stitch.coffee/products/bah-humbug-blend",
+        "bean_name": "BAH HUMBUG BLEND",
+        "roast_profile": "omni",
+        "origin": "Colombia, Ethiopia",
+        "price_aud": "20.00",
+        "process": "Washed, Natural",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://stitch.coffee/products/bah-humbug-blend",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Stitch Coffee",
+        "source_url": "https://stitch.coffee/products/kenya-spikes-estate-ab-26",
+        "bean_name": "KENYA, SPIKES ESTATE AB",
+        "roast_profile": "omni",
+        "origin": "Kenya",
+        "price_aud": "23.20",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://stitch.coffee/products/kenya-spikes-estate-ab-26",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Stitch Coffee",
+        "source_url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
+        "bean_name": "HONDURAS, EL PINO",
+        "roast_profile": "omni",
+        "origin": "Honduras",
+        "price_aud": "22.40",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
+        "status": "ok",
+        "error": ""
+      },
+      {
         "roaster": "Criteria Coffee",
         "source_url": "https://criteriacoffee.com/product/ethiopia-gezahegn-regassa-haro-village-yirgacheffe-welisho-washed-espresso/",
         "bean_name": "Ethiopia | Gezahegn-Regassa | Haro-Village – Yirgacheffe | Welisho – Washed",
@@ -2638,7 +2680,7 @@
         "price_aud": "27.80",
         "process": "Natural",
         "varietal": "Ethiopian Landrace",
-        "flavour_profile": "",
+        "flavour_profile": "Mango & Jasmine",
         "product_url": "https://www.mecca.coffee/products/aricha-ethiopia",
         "status": "ok",
         "error": ""
@@ -2731,20 +2773,6 @@
     "unknown": [
       {
         "roaster": "Proud Mary",
-        "source_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-java-natural",
-        "bean_name": "El Salvador | La Siberia | Java | Natural",
-        "roast_profile": "",
-        "origin": "El Salvador",
-        "price_aud": "50.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-java-natural",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Proud Mary",
         "source_url": "https://www.proudmarycoffee.com.au/products/el-salvador-los-bellotos-bernardina-anaerobic-honey-sunset-1",
         "bean_name": "El Salvador | Los Bellotos | Bernardina | Anaerobic Honey Sunset",
         "roast_profile": "",
@@ -2754,6 +2782,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-los-bellotos-bernardina-anaerobic-honey-sunset-1",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Proud Mary",
+        "source_url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed-2",
+        "bean_name": "Panama | Bambito Estate | Geisha | Washed",
+        "roast_profile": "",
+        "origin": "Panama",
+        "price_aud": "93.00",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed-2",
         "status": "ok",
         "error": ""
       },
@@ -3014,20 +3056,6 @@
     },
     {
       "roaster": "Proud Mary",
-      "source_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-java-natural",
-      "bean_name": "El Salvador | La Siberia | Java | Natural",
-      "roast_profile": "",
-      "origin": "El Salvador",
-      "price_aud": "50.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://www.proudmarycoffee.com.au/products/el-salvador-la-siberia-java-natural",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Proud Mary",
       "source_url": "https://www.proudmarycoffee.com.au/products/honduras-nahun-fernandez-pacas-washed",
       "bean_name": "Honduras | Nahun Fernandez | Pacas | Washed",
       "roast_profile": "omni",
@@ -3093,6 +3121,20 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://www.proudmarycoffee.com.au/products/brazil-baixadao-yellow-bourbon-natural",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Proud Mary",
+      "source_url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed-2",
+      "bean_name": "Panama | Bambito Estate | Geisha | Washed",
+      "roast_profile": "",
+      "origin": "Panama",
+      "price_aud": "93.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed-2",
       "status": "ok",
       "error": ""
     },
@@ -3191,6 +3233,20 @@
       "varietal": "Ethiosar",
       "flavour_profile": "Cherry, Donut, Dried Apricot",
       "product_url": "https://sevenseeds.com.au/products/el-limoncillo-ethiosar-nicaragua-2026",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Seven Seeds",
+      "source_url": "https://sevenseeds.com.au/products/asman-arianto-2026",
+      "bean_name": "Asman Arianto, Indonesia",
+      "roast_profile": "omni",
+      "origin": "Takengon, Ache, Indonesia",
+      "price_aud": "27.00",
+      "process": "Fully Washed",
+      "varietal": "Ateng, Bor bor, Timor and Catimor",
+      "flavour_profile": "Berry Jelly, Stone Fruits, Mango",
+      "product_url": "https://sevenseeds.com.au/products/asman-arianto-2026",
       "status": "ok",
       "error": ""
     },
@@ -3730,7 +3786,7 @@
       "roaster": "ONA Coffee",
       "source_url": "https://onacoffee.com.au/products/festive-release-milk-based-blendtrifle",
       "bean_name": "Trifle",
-      "roast_profile": "filter",
+      "roast_profile": "espresso",
       "origin": "",
       "price_aud": "27.00",
       "process": "",
@@ -4875,6 +4931,48 @@
       "error": ""
     },
     {
+      "roaster": "Stitch Coffee",
+      "source_url": "https://stitch.coffee/products/bah-humbug-blend",
+      "bean_name": "BAH HUMBUG BLEND",
+      "roast_profile": "omni",
+      "origin": "Colombia, Ethiopia",
+      "price_aud": "20.00",
+      "process": "Washed, Natural",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://stitch.coffee/products/bah-humbug-blend",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "source_url": "https://stitch.coffee/products/kenya-spikes-estate-ab-26",
+      "bean_name": "KENYA, SPIKES ESTATE AB",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "23.20",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://stitch.coffee/products/kenya-spikes-estate-ab-26",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "source_url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
+      "bean_name": "HONDURAS, EL PINO",
+      "roast_profile": "omni",
+      "origin": "Honduras",
+      "price_aud": "22.40",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
+      "status": "ok",
+      "error": ""
+    },
+    {
       "roaster": "Criteria Coffee",
       "source_url": "https://criteriacoffee.com/product/colombia-campo-hermoso-pink-bourbon-black-honey-galaxy-hops/",
       "bean_name": "Colombia | Campo Hermoso | Pink Bourbon – Black Honey (Galaxy Hops)",
@@ -5165,20 +5263,6 @@
       "varietal": "Common Costa Rican Varieties",
       "flavour_profile": "",
       "product_url": "https://standingroomcoffee.com.au/products/las-lajas-costa-rica-espresso-1",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Standing Room Coffee",
-      "source_url": "https://standingroomcoffee.com.au/products/filter-template-country-filter-copy-1",
-      "bean_name": "Santa Isabel Esate, Guatemala, Filter",
-      "roast_profile": "filter",
-      "origin": "Guatemala Department: Alta Verapaz Municipality: Cobán Town",
-      "price_aud": "27.00",
-      "process": "Washed",
-      "varietal": "Caturra",
-      "flavour_profile": "",
-      "product_url": "https://standingroomcoffee.com.au/products/filter-template-country-filter-copy-1",
       "status": "ok",
       "error": ""
     },
@@ -5541,7 +5625,7 @@
       "price_aud": "27.80",
       "process": "Natural",
       "varietal": "Ethiopian Landrace",
-      "flavour_profile": "",
+      "flavour_profile": "Mango & Jasmine",
       "product_url": "https://www.mecca.coffee/products/aricha-ethiopia",
       "status": "ok",
       "error": ""

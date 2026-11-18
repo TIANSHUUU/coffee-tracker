@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-18 05:06",
+  "generated_at": "2026-11-18 22:27",
   "stats": {
-    "total": 202,
-    "new": 3,
+    "total": 204,
+    "new": 2,
     "roasters": 18
   },
   "roasters": [
@@ -27,24 +27,12 @@
   ],
   "items": [
     {
-      "roaster": "Seven Seeds",
-      "bean_name": "Asman Arianto, Indonesia",
-      "url": "https://sevenseeds.com.au/products/asman-arianto-2026",
-      "roast_profile": "omni",
-      "origin": "Takengon, Ache, Indonesia",
-      "price_aud": "27.00",
-      "process": "Fully Washed",
-      "varietal": "Ateng, Bor bor, Timor and Catimor",
-      "flavour_profile": "Berry Jelly, Stone Fruits, Mango",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "HONDURAS, EL PINO",
-      "url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
-      "roast_profile": "omni",
-      "origin": "Honduras",
-      "price_aud": "22.40",
+      "roaster": "Proud Mary",
+      "bean_name": "Panama | Bambito Estate | Geisha | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/panama-bambito-estate-geisha-washed-2",
+      "roast_profile": "",
+      "origin": "Panama",
+      "price_aud": "93.00",
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "",
@@ -52,12 +40,12 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "bean_name": "KENYA, SPIKES ESTATE AB",
-      "url": "https://stitch.coffee/products/kenya-spikes-estate-ab-26",
+      "bean_name": "BAH HUMBUG BLEND",
+      "url": "https://stitch.coffee/products/bah-humbug-blend",
       "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "23.20",
-      "process": "Washed",
+      "origin": "Colombia, Ethiopia",
+      "price_aud": "20.00",
+      "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "",
       "is_new": true
@@ -1792,6 +1780,18 @@
     },
     {
       "roaster": "Seven Seeds",
+      "bean_name": "Asman Arianto, Indonesia",
+      "url": "https://sevenseeds.com.au/products/asman-arianto-2026",
+      "roast_profile": "omni",
+      "origin": "Takengon, Ache, Indonesia",
+      "price_aud": "27.00",
+      "process": "Fully Washed",
+      "varietal": "Ateng, Bor bor, Timor and Catimor",
+      "flavour_profile": "Berry Jelly, Stone Fruits, Mango",
+      "is_new": false
+    },
+    {
+      "roaster": "Seven Seeds",
       "bean_name": "Basha Bekele, Ethiopia",
       "url": "https://sevenseeds.com.au/products/basha-bekele-ethiopia-2026",
       "roast_profile": "omni",
@@ -2080,6 +2080,18 @@
     },
     {
       "roaster": "Stitch Coffee",
+      "bean_name": "HONDURAS, EL PINO",
+      "url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
+      "roast_profile": "omni",
+      "origin": "Honduras",
+      "price_aud": "22.40",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
       "bean_name": "Higgs Field Blend",
       "url": "https://stitch.coffee/products/higgs-field-blend",
       "roast_profile": "omni",
@@ -2118,6 +2130,18 @@
       "roaster": "Stitch Coffee",
       "bean_name": "KENYA, KII AB",
       "url": "https://stitch.coffee/products/kenya-kii-ab-26",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "23.20",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "KENYA, SPIKES ESTATE AB",
+      "url": "https://stitch.coffee/products/kenya-spikes-estate-ab-26",
       "roast_profile": "omni",
       "origin": "Kenya",
       "price_aud": "23.20",
