@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22 01:54",
+  "generated_at": "2026-11-22 14:01",
   "stats": {
-    "total": 211,
-    "new": 0,
+    "total": 216,
+    "new": 5,
     "roasters": 18
   },
   "roasters": [
@@ -26,6 +26,66 @@
     "Wood & Co Coffee"
   ],
   "items": [
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "KENYA AA Kirinyaga Kamwangi ESPRESSO",
+      "url": "https://vacationcoffee.com.au/products/kenya-aa-kirinyaga-kamwangi-espresso",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "23.00",
+      "process": "Washed",
+      "varietal": "Batian, SL28, SL34, Ruiru 11",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "RWANDA Gishamwana Island ESPRESSO",
+      "url": "https://vacationcoffee.com.au/products/rwanda-gishamwana-island-espresso",
+      "roast_profile": "espresso",
+      "origin": "Rwanda",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "Bourbon",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "RWANDA Gishamwana Island FILTER",
+      "url": "https://vacationcoffee.com.au/products/rwanda-gitwe-nyamsheke-filter",
+      "roast_profile": "filter",
+      "origin": "Rwanda",
+      "price_aud": "22.00",
+      "process": "Natural",
+      "varietal": "Bourbon",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "VACATION COFFEE VACUUM COFFEE CANISTER",
+      "url": "https://vacationcoffee.com.au/products/vacation-coffee-vacuum-coffee-canister",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "20.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "bean_name": "VACATION POSTCARD",
+      "url": "https://vacationcoffee.com.au/products/vacation-postcard",
+      "roast_profile": "",
+      "origin": "",
+      "price_aud": "1.50",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": true
+    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
