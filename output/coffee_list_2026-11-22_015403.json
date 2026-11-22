@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-19_231524",
+  "generated_at": "2026-11-22_015403",
   "summary": {
-    "total_rows": 212,
-    "ok_rows": 212,
+    "total_rows": 211,
+    "ok_rows": 211,
     "error_rows": 0
   },
   "grouped": {
@@ -149,7 +149,7 @@
       },
       {
         "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+        "source_url": "https://onacoffee.com.au/products/filter-singleorigin-el-arbol-nicaragua-cm-natural-jasper",
         "bean_name": "El Árbol, Nicaragua, CM Natural Jasper",
         "roast_profile": "filter",
         "origin": "South America",
@@ -157,7 +157,7 @@
         "process": "Natural",
         "varietal": "",
         "flavour_profile": "Berries, Orange, Plum",
-        "product_url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+        "product_url": "https://onacoffee.com.au/products/filter-singleorigin-el-arbol-nicaragua-cm-natural-jasper",
         "status": "ok",
         "error": ""
       },
@@ -242,20 +242,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://onacoffee.com.au/products/raspberry-candy-filter",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-yirgacheffe-amederaro-lot-1626-ethiopia-nitrogen-natural-jasper",
-        "bean_name": "Yirgacheffe Amederaro Lot 1626, Ethiopia, Nitrogen Natural Jasper",
-        "roast_profile": "filter",
-        "origin": "Central America",
-        "price_aud": "23.75",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "of orange soda lifted by tropical fruits",
-        "product_url": "https://onacoffee.com.au/products/filter-yirgacheffe-amederaro-lot-1626-ethiopia-nitrogen-natural-jasper",
         "status": "ok",
         "error": ""
       },
@@ -1047,6 +1033,20 @@
       },
       {
         "roaster": "ONA Coffee",
+        "source_url": "https://onacoffee.com.au/products/espresso-kaliluni-aa-kenya-washed",
+        "bean_name": "Kaliluni AA, Kenya, Washed",
+        "roast_profile": "espresso",
+        "origin": "Kenya",
+        "price_aud": "22.00",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "Brown sugar, Fruity",
+        "product_url": "https://onacoffee.com.au/products/espresso-kaliluni-aa-kenya-washed",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "ONA Coffee",
         "source_url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
         "bean_name": "Kiambu Regional PB, Kenya, Washed",
         "roast_profile": "espresso",
@@ -1070,6 +1070,20 @@
         "varietal": "",
         "flavour_profile": "Berries, Cherry, Chocolate, Chocolate milk, Raisin",
         "product_url": "https://onacoffee.com.au/products/espresso-singleorigin-la-merced-guatemala-natural",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "ONA Coffee",
+        "source_url": "https://onacoffee.com.au/products/espresso-singleorigin-los-arcos-guatemala-washed",
+        "bean_name": "Los Arcos, Guatemala, Washed",
+        "roast_profile": "espresso",
+        "origin": "Central America",
+        "price_aud": "22.00",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://onacoffee.com.au/products/espresso-singleorigin-los-arcos-guatemala-washed",
         "status": "ok",
         "error": ""
       },
@@ -2225,20 +2239,6 @@
       },
       {
         "roaster": "Commonfolk",
-        "source_url": "https://www.commonfolkcoffee.com.au/products/unicorn_26",
-        "bean_name": "Unicorn",
-        "roast_profile": "omni",
-        "origin": "Uganda",
-        "price_aud": "27.00",
-        "process": "Natural",
-        "varietal": "PROCESSING",
-        "flavour_profile": "",
-        "product_url": "https://www.commonfolkcoffee.com.au/products/unicorn_26",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Commonfolk",
         "source_url": "https://www.commonfolkcoffee.com.au/products/hydrohoney_26",
         "bean_name": "Hydro Honey",
         "roast_profile": "omni",
@@ -2533,20 +2533,6 @@
       },
       {
         "roaster": "Stitch Coffee",
-        "source_url": "https://stitch.coffee/products/kenya-kii-ab-26",
-        "bean_name": "KENYA, KII AB",
-        "roast_profile": "omni",
-        "origin": "Kenya",
-        "price_aud": "23.20",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://stitch.coffee/products/kenya-kii-ab-26",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Stitch Coffee",
         "source_url": "https://stitch.coffee/products/bah-humbug-blend",
         "bean_name": "BAH HUMBUG BLEND",
         "roast_profile": "omni",
@@ -2785,6 +2771,20 @@
       },
       {
         "roaster": "Wood & Co Coffee",
+        "source_url": "https://woodandcocoffee.com.au/products/black-friday-six-months-of-coffee",
+        "bean_name": "Black Friday — Six Months of Coffee",
+        "roast_profile": "omni",
+        "origin": "",
+        "price_aud": "360.00",
+        "process": "",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://woodandcocoffee.com.au/products/black-friday-six-months-of-coffee",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Wood & Co Coffee",
         "source_url": "https://woodandcocoffee.com.au/products/ismael-aguilar",
         "bean_name": "Ismael Aguilar , Salvador",
         "roast_profile": "omni",
@@ -2836,20 +2836,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://woodandcocoffee.com.au/products/banko-gotiti-ethiopia",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Wood & Co Coffee",
-        "source_url": "https://woodandcocoffee.com.au/products/black-friday-six-months-of-coffee",
-        "bean_name": "Black Friday — Six Months of Coffee",
-        "roast_profile": "omni",
-        "origin": "",
-        "price_aud": "360.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "",
-        "product_url": "https://woodandcocoffee.com.au/products/black-friday-six-months-of-coffee",
         "status": "ok",
         "error": ""
       },
@@ -3420,20 +3406,6 @@
     },
     {
       "roaster": "Commonfolk",
-      "source_url": "https://www.commonfolkcoffee.com.au/products/unicorn_26",
-      "bean_name": "Unicorn",
-      "roast_profile": "omni",
-      "origin": "Uganda",
-      "price_aud": "27.00",
-      "process": "Natural",
-      "varietal": "PROCESSING",
-      "flavour_profile": "",
-      "product_url": "https://www.commonfolkcoffee.com.au/products/unicorn_26",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Commonfolk",
       "source_url": "https://www.commonfolkcoffee.com.au/products/hydrohoney_26",
       "bean_name": "Hydro Honey",
       "roast_profile": "omni",
@@ -3686,7 +3658,7 @@
     },
     {
       "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+      "source_url": "https://onacoffee.com.au/products/filter-singleorigin-el-arbol-nicaragua-cm-natural-jasper",
       "bean_name": "El Árbol, Nicaragua, CM Natural Jasper",
       "roast_profile": "filter",
       "origin": "South America",
@@ -3694,7 +3666,7 @@
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "Berries, Orange, Plum",
-      "product_url": "https://onacoffee.com.au/products/filter-singleorigin-finca-idolia-guatemala-anaerobic-natural",
+      "product_url": "https://onacoffee.com.au/products/filter-singleorigin-el-arbol-nicaragua-cm-natural-jasper",
       "status": "ok",
       "error": ""
     },
@@ -3723,6 +3695,20 @@
       "varietal": "",
       "flavour_profile": "Concord Grape, Fruity, Red Berries, Sweet, Tropical",
       "product_url": "https://onacoffee.com.au/products/filter-rare-guji-mudole-ethiopia-supernatural",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "ONA Coffee",
+      "source_url": "https://onacoffee.com.au/products/espresso-kaliluni-aa-kenya-washed",
+      "bean_name": "Kaliluni AA, Kenya, Washed",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Brown sugar, Fruity",
+      "product_url": "https://onacoffee.com.au/products/espresso-kaliluni-aa-kenya-washed",
       "status": "ok",
       "error": ""
     },
@@ -3779,6 +3765,20 @@
       "varietal": "",
       "flavour_profile": "Berries, Cherry, Chocolate, Chocolate milk, Raisin",
       "product_url": "https://onacoffee.com.au/products/espresso-singleorigin-la-merced-guatemala-natural",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "ONA Coffee",
+      "source_url": "https://onacoffee.com.au/products/espresso-singleorigin-los-arcos-guatemala-washed",
+      "bean_name": "Los Arcos, Guatemala, Washed",
+      "roast_profile": "espresso",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://onacoffee.com.au/products/espresso-singleorigin-los-arcos-guatemala-washed",
       "status": "ok",
       "error": ""
     },
@@ -3933,20 +3933,6 @@
       "varietal": "",
       "flavour_profile": "Caramel, Chocolate, Citrus",
       "product_url": "https://onacoffee.com.au/products/unwind",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-yirgacheffe-amederaro-lot-1626-ethiopia-nitrogen-natural-jasper",
-      "bean_name": "Yirgacheffe Amederaro Lot 1626, Ethiopia, Nitrogen Natural Jasper",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "23.75",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "of orange soda lifted by tropical fruits",
-      "product_url": "https://onacoffee.com.au/products/filter-yirgacheffe-amederaro-lot-1626-ethiopia-nitrogen-natural-jasper",
       "status": "ok",
       "error": ""
     },
@@ -5072,20 +5058,6 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "source_url": "https://stitch.coffee/products/kenya-kii-ab-26",
-      "bean_name": "KENYA, KII AB",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "23.20",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://stitch.coffee/products/kenya-kii-ab-26",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Stitch Coffee",
       "source_url": "https://stitch.coffee/products/ethiopia-alo-26",
       "bean_name": "ETHIOPIA, ALO - 100g",
       "roast_profile": "",
@@ -5842,6 +5814,20 @@
     },
     {
       "roaster": "Wood & Co Coffee",
+      "source_url": "https://woodandcocoffee.com.au/products/black-friday-six-months-of-coffee",
+      "bean_name": "Black Friday — Six Months of Coffee",
+      "roast_profile": "omni",
+      "origin": "",
+      "price_aud": "360.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://woodandcocoffee.com.au/products/black-friday-six-months-of-coffee",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Wood & Co Coffee",
       "source_url": "https://woodandcocoffee.com.au/products/ismael-aguilar",
       "bean_name": "Ismael Aguilar , Salvador",
       "roast_profile": "omni",
@@ -5893,20 +5879,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://woodandcocoffee.com.au/products/banko-gotiti-ethiopia",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Wood & Co Coffee",
-      "source_url": "https://woodandcocoffee.com.au/products/black-friday-six-months-of-coffee",
-      "bean_name": "Black Friday — Six Months of Coffee",
-      "roast_profile": "omni",
-      "origin": "",
-      "price_aud": "360.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "product_url": "https://woodandcocoffee.com.au/products/black-friday-six-months-of-coffee",
       "status": "ok",
       "error": ""
     },

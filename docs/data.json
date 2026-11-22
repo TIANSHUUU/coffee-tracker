@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-20 23:52",
+  "generated_at": "2026-11-22 01:54",
   "stats": {
-    "total": 213,
-    "new": 2,
+    "total": 211,
+    "new": 0,
     "roasters": 18
   },
   "roasters": [
@@ -26,30 +26,6 @@
     "Wood & Co Coffee"
   ],
   "items": [
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Kaliluni AA, Kenya, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-kaliluni-aa-kenya-washed",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "Brown sugar, Fruity",
-      "is_new": true
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Los Arcos, Guatemala, Washed",
-      "url": "https://onacoffee.com.au/products/espresso-singleorigin-los-arcos-guatemala-washed",
-      "roast_profile": "espresso",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -1072,6 +1048,18 @@
     },
     {
       "roaster": "ONA Coffee",
+      "bean_name": "Kaliluni AA, Kenya, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-kaliluni-aa-kenya-washed",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "Brown sugar, Fruity",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
       "bean_name": "Kiambu Regional PB, Kenya, Washed",
       "url": "https://onacoffee.com.au/products/singleorigin-espresso-kiambu-regional-pb-kenya-washed",
       "roast_profile": "espresso",
@@ -1116,6 +1104,18 @@
       "process": "Natural",
       "varietal": "",
       "flavour_profile": "Berries, Cherry, Chocolate, Chocolate milk, Raisin",
+      "is_new": false
+    },
+    {
+      "roaster": "ONA Coffee",
+      "bean_name": "Los Arcos, Guatemala, Washed",
+      "url": "https://onacoffee.com.au/products/espresso-singleorigin-los-arcos-guatemala-washed",
+      "roast_profile": "espresso",
+      "origin": "Central America",
+      "price_aud": "22.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     },
     {
@@ -1248,18 +1248,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "Caramel, Chocolate, Citrus",
-      "is_new": false
-    },
-    {
-      "roaster": "ONA Coffee",
-      "bean_name": "Yirgacheffe Amederaro Lot 1626, Ethiopia, Nitrogen Natural Jasper",
-      "url": "https://onacoffee.com.au/products/filter-yirgacheffe-amederaro-lot-1626-ethiopia-nitrogen-natural-jasper",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "23.75",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "of orange soda lifted by tropical fruits",
       "is_new": false
     },
     {
@@ -2220,18 +2208,6 @@
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "pineapple, green grape, and orange twist",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "KENYA, KII AB",
-      "url": "https://stitch.coffee/products/kenya-kii-ab-26",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "23.20",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
       "is_new": false
     },
     {
