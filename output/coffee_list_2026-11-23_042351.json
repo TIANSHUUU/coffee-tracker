@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-22_015403",
+  "generated_at": "2026-11-23_042351",
   "summary": {
-    "total_rows": 211,
-    "ok_rows": 211,
+    "total_rows": 213,
+    "ok_rows": 213,
     "error_rows": 0
   },
   "grouped": {
@@ -116,20 +116,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://onacoffee.com.au/products/nucleus-coffee-tools-bloom-distributor",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "ONA Coffee",
-        "source_url": "https://onacoffee.com.au/products/filter-bridazul-lot-1-nicaragua-supernatural",
-        "bean_name": "Bridazul Lot 1, Nicaragua, Supernatural",
-        "roast_profile": "filter",
-        "origin": "Central America",
-        "price_aud": "22.00",
-        "process": "",
-        "varietal": "",
-        "flavour_profile": "Chocolate, Plum, Raisin",
-        "product_url": "https://onacoffee.com.au/products/filter-bridazul-lot-1-nicaragua-supernatural",
         "status": "ok",
         "error": ""
       },
@@ -1915,20 +1901,6 @@
       },
       {
         "roaster": "Vacation Coffee",
-        "source_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-espresso",
-        "bean_name": "KENYA Gicherori AB Embu ESPRESSO",
-        "roast_profile": "espresso",
-        "origin": "Kenya",
-        "price_aud": "24.00",
-        "process": "Washed",
-        "varietal": "Batian, SL28, SL34, Ruiru 11",
-        "flavour_profile": "",
-        "product_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-espresso",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Vacation Coffee",
         "source_url": "https://vacationcoffee.com.au/products/peru-senaida-chilcon-espresso",
         "bean_name": "PERU Senaida Chilcon ESPRESSO",
         "roast_profile": "espresso",
@@ -1938,6 +1910,20 @@
         "varietal": "Yellow Caturra",
         "flavour_profile": "",
         "product_url": "https://vacationcoffee.com.au/products/peru-senaida-chilcon-espresso",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Vacation Coffee",
+        "source_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-espresso",
+        "bean_name": "KENYA Gicherori AB Embu ESPRESSO",
+        "roast_profile": "espresso",
+        "origin": "Kenya",
+        "price_aud": "24.00",
+        "process": "Washed",
+        "varietal": "Batian, SL28, SL34, Ruiru 11",
+        "flavour_profile": "",
+        "product_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-espresso",
         "status": "ok",
         "error": ""
       },
@@ -2192,6 +2178,20 @@
         "varietal": "Ateng, Bor bor, Timor and Catimor",
         "flavour_profile": "Berry Jelly, Stone Fruits, Mango",
         "product_url": "https://sevenseeds.com.au/products/asman-arianto-2026",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Commonfolk",
+        "source_url": "https://www.commonfolkcoffee.com.au/products/double-apple",
+        "bean_name": "Double Apple",
+        "roast_profile": "omni",
+        "origin": "Colombia",
+        "price_aud": "26.00",
+        "process": "Anaerobic, Honey, Co-Ferment, Experimental",
+        "varietal": "",
+        "flavour_profile": "Red Apple, Green Apple, White Choc, Vanilla, Guaran",
+        "product_url": "https://www.commonfolkcoffee.com.au/products/double-apple",
         "status": "ok",
         "error": ""
       },
@@ -2533,6 +2533,20 @@
       },
       {
         "roaster": "Stitch Coffee",
+        "source_url": "https://stitch.coffee/products/kenya-kii-ab-26",
+        "bean_name": "KENYA, KII AB",
+        "roast_profile": "omni",
+        "origin": "Kenya",
+        "price_aud": "23.20",
+        "process": "Washed",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://stitch.coffee/products/kenya-kii-ab-26",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Stitch Coffee",
         "source_url": "https://stitch.coffee/products/bah-humbug-blend",
         "bean_name": "BAH HUMBUG BLEND",
         "roast_profile": "omni",
@@ -2570,6 +2584,20 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
+        "status": "ok",
+        "error": ""
+      },
+      {
+        "roaster": "Stitch Coffee",
+        "source_url": "https://stitch.coffee/products/honduras-el-cedral-26",
+        "bean_name": "HONDURAS, EL CEDRAL",
+        "roast_profile": "omni",
+        "origin": "Honduras",
+        "price_aud": "29.60",
+        "process": "",
+        "varietal": "",
+        "flavour_profile": "",
+        "product_url": "https://stitch.coffee/products/honduras-el-cedral-26",
         "status": "ok",
         "error": ""
       },
@@ -3364,6 +3392,20 @@
     },
     {
       "roaster": "Commonfolk",
+      "source_url": "https://www.commonfolkcoffee.com.au/products/double-apple",
+      "bean_name": "Double Apple",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "26.00",
+      "process": "Anaerobic, Honey, Co-Ferment, Experimental",
+      "varietal": "",
+      "flavour_profile": "Red Apple, Green Apple, White Choc, Vanilla, Guaran",
+      "product_url": "https://www.commonfolkcoffee.com.au/products/double-apple",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Commonfolk",
       "source_url": "https://www.commonfolkcoffee.com.au/products/sookoo-wine_26",
       "bean_name": "Sookoo Wine",
       "roast_profile": "omni",
@@ -3597,20 +3639,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://onacoffee.com.au/products/nucleus-coffee-tools-bloom-distributor",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "ONA Coffee",
-      "source_url": "https://onacoffee.com.au/products/filter-bridazul-lot-1-nicaragua-supernatural",
-      "bean_name": "Bridazul Lot 1, Nicaragua, Supernatural",
-      "roast_profile": "filter",
-      "origin": "Central America",
-      "price_aud": "22.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "Chocolate, Plum, Raisin",
-      "product_url": "https://onacoffee.com.au/products/filter-bridazul-lot-1-nicaragua-supernatural",
       "status": "ok",
       "error": ""
     },
@@ -5058,6 +5086,20 @@
     },
     {
       "roaster": "Stitch Coffee",
+      "source_url": "https://stitch.coffee/products/kenya-kii-ab-26",
+      "bean_name": "KENYA, KII AB",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "23.20",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://stitch.coffee/products/kenya-kii-ab-26",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Stitch Coffee",
       "source_url": "https://stitch.coffee/products/ethiopia-alo-26",
       "bean_name": "ETHIOPIA, ALO - 100g",
       "roast_profile": "",
@@ -5109,6 +5151,20 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "source_url": "https://stitch.coffee/products/honduras-el-cedral-26",
+      "bean_name": "HONDURAS, EL CEDRAL",
+      "roast_profile": "omni",
+      "origin": "Honduras",
+      "price_aud": "29.60",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "product_url": "https://stitch.coffee/products/honduras-el-cedral-26",
       "status": "ok",
       "error": ""
     },
@@ -5562,20 +5618,6 @@
     },
     {
       "roaster": "Vacation Coffee",
-      "source_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-espresso",
-      "bean_name": "KENYA Gicherori AB Embu ESPRESSO",
-      "roast_profile": "espresso",
-      "origin": "Kenya",
-      "price_aud": "24.00",
-      "process": "Washed",
-      "varietal": "Batian, SL28, SL34, Ruiru 11",
-      "flavour_profile": "",
-      "product_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-espresso",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Vacation Coffee",
       "source_url": "https://vacationcoffee.com.au/products/peru-senaida-chilcon-espresso",
       "bean_name": "PERU Senaida Chilcon ESPRESSO",
       "roast_profile": "espresso",
@@ -5585,6 +5627,20 @@
       "varietal": "Yellow Caturra",
       "flavour_profile": "",
       "product_url": "https://vacationcoffee.com.au/products/peru-senaida-chilcon-espresso",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Vacation Coffee",
+      "source_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-espresso",
+      "bean_name": "KENYA Gicherori AB Embu ESPRESSO",
+      "roast_profile": "espresso",
+      "origin": "Kenya",
+      "price_aud": "24.00",
+      "process": "Washed",
+      "varietal": "Batian, SL28, SL34, Ruiru 11",
+      "flavour_profile": "",
+      "product_url": "https://vacationcoffee.com.au/products/kenya-gicherori-ab-embu-espresso",
       "status": "ok",
       "error": ""
     },
