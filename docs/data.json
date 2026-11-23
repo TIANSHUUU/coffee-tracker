@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23 04:23",
+  "generated_at": "2026-11-23 08:49",
   "stats": {
     "total": 213,
-    "new": 3,
+    "new": 0,
     "roasters": 18
   },
   "roasters": [
@@ -26,42 +26,6 @@
     "Wood & Co Coffee"
   ],
   "items": [
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Double Apple",
-      "url": "https://www.commonfolkcoffee.com.au/products/double-apple",
-      "roast_profile": "omni",
-      "origin": "Colombia",
-      "price_aud": "26.00",
-      "process": "Anaerobic, Honey, Co-Ferment, Experimental",
-      "varietal": "",
-      "flavour_profile": "Red Apple, Green Apple, White Choc, Vanilla, Guaran",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "HONDURAS, EL CEDRAL",
-      "url": "https://stitch.coffee/products/honduras-el-cedral-26",
-      "roast_profile": "omni",
-      "origin": "Honduras",
-      "price_aud": "29.60",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "KENYA, KII AB",
-      "url": "https://stitch.coffee/products/kenya-kii-ab-26",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "23.20",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -408,6 +372,18 @@
       "process": "Washed",
       "varietal": "PROCESSING",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
+      "bean_name": "Double Apple",
+      "url": "https://www.commonfolkcoffee.com.au/products/double-apple",
+      "roast_profile": "omni",
+      "origin": "Colombia",
+      "price_aud": "26.00",
+      "process": "Anaerobic, Honey, Co-Ferment, Experimental",
+      "varietal": "",
+      "flavour_profile": "Red Apple, Green Apple, White Choc, Vanilla, Guaran",
       "is_new": false
     },
     {
@@ -2188,6 +2164,18 @@
     },
     {
       "roaster": "Stitch Coffee",
+      "bean_name": "HONDURAS, EL CEDRAL",
+      "url": "https://stitch.coffee/products/honduras-el-cedral-26",
+      "roast_profile": "omni",
+      "origin": "Honduras",
+      "price_aud": "29.60",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
       "bean_name": "HONDURAS, EL PINO",
       "url": "https://stitch.coffee/products/honduras-el-pino-washed-typica-26",
       "roast_profile": "omni",
@@ -2232,6 +2220,18 @@
       "process": "Washed",
       "varietal": "",
       "flavour_profile": "pineapple, green grape, and orange twist",
+      "is_new": false
+    },
+    {
+      "roaster": "Stitch Coffee",
+      "bean_name": "KENYA, KII AB",
+      "url": "https://stitch.coffee/products/kenya-kii-ab-26",
+      "roast_profile": "omni",
+      "origin": "Kenya",
+      "price_aud": "23.20",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
       "is_new": false
     },
     {
