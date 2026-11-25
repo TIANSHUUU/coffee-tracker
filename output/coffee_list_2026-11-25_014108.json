@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23_084914",
+  "generated_at": "2026-11-25_014108",
   "summary": {
-    "total_rows": 213,
-    "ok_rows": 213,
+    "total_rows": 212,
+    "ok_rows": 212,
     "error_rows": 0
   },
   "grouped": {
@@ -1392,20 +1392,6 @@
         "varietal": "T",
         "flavour_profile": "Berries, Floral, Nutty, Strong, Sweet",
         "product_url": "https://codeblackcoffee.com.au/products/colombia-el-diviso-sidra-espresso-single-origin-1",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Code Black",
-        "source_url": "https://codeblackcoffee.com.au/products/colombia-linarco-rodriguez-gesha-washed-espresso-single-origin",
-        "bean_name": "Colombia Linarco Rodriguez Gesha Washed Espresso - Single Origin",
-        "roast_profile": "espresso",
-        "origin": "Colombia",
-        "price_aud": "34.50",
-        "process": "Washed",
-        "varietal": "S",
-        "flavour_profile": "Citrus, Floral, Malic, Stone Fruit, Sweet",
-        "product_url": "https://codeblackcoffee.com.au/products/colombia-linarco-rodriguez-gesha-washed-espresso-single-origin",
         "status": "ok",
         "error": ""
       },
@@ -4325,20 +4311,6 @@
       "varietal": "S",
       "flavour_profile": "Citrus, Floral, Malic, Stone Fruit, Sweet",
       "product_url": "https://codeblackcoffee.com.au/products/colombia-linarco-rodriguez-gesha-washed-filter-single-origin",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Code Black",
-      "source_url": "https://codeblackcoffee.com.au/products/colombia-linarco-rodriguez-gesha-washed-espresso-single-origin",
-      "bean_name": "Colombia Linarco Rodriguez Gesha Washed Espresso - Single Origin",
-      "roast_profile": "espresso",
-      "origin": "Colombia",
-      "price_aud": "34.50",
-      "process": "Washed",
-      "varietal": "S",
-      "flavour_profile": "Citrus, Floral, Malic, Stone Fruit, Sweet",
-      "product_url": "https://codeblackcoffee.com.au/products/colombia-linarco-rodriguez-gesha-washed-espresso-single-origin",
       "status": "ok",
       "error": ""
     },
