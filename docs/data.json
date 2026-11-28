@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27 03:36",
+  "generated_at": "2026-11-28 00:20",
   "stats": {
     "total": 214,
-    "new": 7,
+    "new": 0,
     "roasters": 18
   },
   "roasters": [
@@ -26,90 +26,6 @@
     "Wood & Co Coffee"
   ],
   "items": [
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "La Cruz",
-      "url": "https://www.commonfolkcoffee.com.au/products/la-cruz",
-      "roast_profile": "espresso",
-      "origin": "El Salvador",
-      "price_aud": "29.00",
-      "process": "Honey",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Commonfolk",
-      "bean_name": "Los Naranjitos",
-      "url": "https://www.commonfolkcoffee.com.au/products/los-naranjitos",
-      "roast_profile": "omni",
-      "origin": "El Salvador",
-      "price_aud": "28.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Gummy bears, Sultanas, Freeze Dried Pineapple, Tang Good coffee is all about",
-      "is_new": true
-    },
-    {
-      "roaster": "Proud Mary",
-      "bean_name": "Colombia | La Gloria #15 AFP | Pink Bourbon | Washed",
-      "url": "https://www.proudmarycoffee.com.au/products/new-template-country-farm-producer-variety-process-100g-copy",
-      "roast_profile": "",
-      "origin": "Colombia",
-      "price_aud": "37.00",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Reuben Hills",
-      "bean_name": "Ethiopia, Birhan Lot 2",
-      "url": "https://www.reubenhills.com.au/products/ethiopia-chelbesa-1",
-      "roast_profile": "espresso",
-      "origin": "Ethiopia",
-      "price_aud": "21.30",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Shadow Boxer Pods",
-      "url": "https://www.rumblecoffee.com.au/products/shadow-boxer-pods",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "12.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Rumble Coffee Roasters",
-      "bean_name": "Street Fighter Pods",
-      "url": "https://www.rumblecoffee.com.au/products/street-fighter-pods",
-      "roast_profile": "espresso",
-      "origin": "",
-      "price_aud": "13.00",
-      "process": "",
-      "varietal": "",
-      "flavour_profile": "",
-      "is_new": true
-    },
-    {
-      "roaster": "Wide Open Road",
-      "bean_name": "EL SALVADOR | LA MONTAÑITA | HONEY - FILTER",
-      "url": "https://wideopenroad.com.au/products/el-salvador-la-montanita-honey-filter",
-      "roast_profile": "filter",
-      "origin": "El Salvador",
-      "price_aud": "25.50",
-      "process": "Honey",
-      "varietal": "Pacamara",
-      "flavour_profile": "Cooked Blackberry, Caramel, Citrus Zest Coffee Information: La Montañita is a honey-processed Pacamara from Finca Talque",
-      "is_new": true
-    },
     {
       "roaster": "Code Black",
       "bean_name": "3056 Espresso Blend",
@@ -484,6 +400,18 @@
     },
     {
       "roaster": "Commonfolk",
+      "bean_name": "La Cruz",
+      "url": "https://www.commonfolkcoffee.com.au/products/la-cruz",
+      "roast_profile": "espresso",
+      "origin": "El Salvador",
+      "price_aud": "29.00",
+      "process": "Honey",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
       "bean_name": "La Familia",
       "url": "https://www.commonfolkcoffee.com.au/products/blend-familia_25f",
       "roast_profile": "omni",
@@ -492,6 +420,18 @@
       "process": "Washed",
       "varietal": "PROCESSING",
       "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Commonfolk",
+      "bean_name": "Los Naranjitos",
+      "url": "https://www.commonfolkcoffee.com.au/products/los-naranjitos",
+      "roast_profile": "omni",
+      "origin": "El Salvador",
+      "price_aud": "28.00",
+      "process": "Natural",
+      "varietal": "",
+      "flavour_profile": "Gummy bears, Sultanas, Freeze Dried Pineapple, Tang Good coffee is all about",
       "is_new": false
     },
     {
@@ -1444,6 +1384,18 @@
     },
     {
       "roaster": "Proud Mary",
+      "bean_name": "Colombia | La Gloria #15 AFP | Pink Bourbon | Washed",
+      "url": "https://www.proudmarycoffee.com.au/products/new-template-country-farm-producer-variety-process-100g-copy",
+      "roast_profile": "",
+      "origin": "Colombia",
+      "price_aud": "37.00",
+      "process": "Washed",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Proud Mary",
       "bean_name": "Costa Rica | Finca Toño | Sarchimor | Yellow Honey",
       "url": "https://www.proudmarycoffee.com.au/products/costa-rica-finca-tono-sarchimor-yellow-honey",
       "roast_profile": "omni",
@@ -1660,6 +1612,18 @@
     },
     {
       "roaster": "Reuben Hills",
+      "bean_name": "Ethiopia, Birhan Lot 2",
+      "url": "https://www.reubenhills.com.au/products/ethiopia-chelbesa-1",
+      "roast_profile": "espresso",
+      "origin": "Ethiopia",
+      "price_aud": "21.30",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Reuben Hills",
       "bean_name": "House Blend",
       "url": "https://www.reubenhills.com.au/products/house-blend-espresso",
       "roast_profile": "espresso",
@@ -1792,6 +1756,18 @@
     },
     {
       "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Shadow Boxer Pods",
+      "url": "https://www.rumblecoffee.com.au/products/shadow-boxer-pods",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "12.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
       "bean_name": "Single Origin Espresso Twin Pack",
       "url": "https://www.rumblecoffee.com.au/products/single-origin-espresso-twin-pack-1",
       "roast_profile": "espresso",
@@ -1821,6 +1797,18 @@
       "roast_profile": "espresso",
       "origin": "",
       "price_aud": "23.00",
+      "process": "",
+      "varietal": "",
+      "flavour_profile": "",
+      "is_new": false
+    },
+    {
+      "roaster": "Rumble Coffee Roasters",
+      "bean_name": "Street Fighter Pods",
+      "url": "https://www.rumblecoffee.com.au/products/street-fighter-pods",
+      "roast_profile": "espresso",
+      "origin": "",
+      "price_aud": "13.00",
       "process": "",
       "varietal": "",
       "flavour_profile": "",
@@ -2412,6 +2400,18 @@
       "process": "Washed",
       "varietal": "Caturra",
       "flavour_profile": "Chocolate Praline, Caramel Syrup, Candied Orange Coffee Information",
+      "is_new": false
+    },
+    {
+      "roaster": "Wide Open Road",
+      "bean_name": "EL SALVADOR | LA MONTAÑITA | HONEY - FILTER",
+      "url": "https://wideopenroad.com.au/products/el-salvador-la-montanita-honey-filter",
+      "roast_profile": "filter",
+      "origin": "El Salvador",
+      "price_aud": "25.50",
+      "process": "Honey",
+      "varietal": "Pacamara",
+      "flavour_profile": "Cooked Blackberry, Caramel, Citrus Zest Coffee Information: La Montañita is a honey-processed Pacamara from Finca Talque",
       "is_new": false
     },
     {
