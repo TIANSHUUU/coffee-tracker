@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-28 00:20",
+  "generated_at": "2026-11-28 09:11",
   "stats": {
-    "total": 214,
+    "total": 212,
     "new": 0,
     "roasters": 18
   },
@@ -564,18 +564,6 @@
       "process": "Washed, Natural",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgacheffe – Natural",
-      "url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Green melon, pink guava, violet, fruit tingle, tropical",
       "is_new": false
     },
     {
@@ -2220,18 +2208,6 @@
       "process": "",
       "varietal": "",
       "flavour_profile": "",
-      "is_new": false
-    },
-    {
-      "roaster": "Stitch Coffee",
-      "bean_name": "KENYA, GATHAITHI AA",
-      "url": "https://stitch.coffee/products/kenya-gathaithi-aa-26",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "20.30",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "pineapple, green grape, and orange twist",
       "is_new": false
     },
     {

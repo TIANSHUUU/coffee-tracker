@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-27_033658",
+  "generated_at": "2026-11-28_091105",
   "summary": {
-    "total_rows": 214,
-    "ok_rows": 214,
+    "total_rows": 212,
+    "ok_rows": 212,
     "error_rows": 0
   },
   "grouped": {
@@ -620,20 +620,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://criteriacoffee.com/product/colombia-campo-hermoso-pink-bourbon-black-honey-galaxy-hops/",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Criteria Coffee",
-        "source_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-        "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgacheffe – Natural",
-        "roast_profile": "filter",
-        "origin": "",
-        "price_aud": "20.00",
-        "process": "Natural",
-        "varietal": "",
-        "flavour_profile": "Green melon, pink guava, violet, fruit tingle, tropical",
-        "product_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
         "status": "ok",
         "error": ""
       },
@@ -2430,20 +2416,6 @@
         "varietal": "",
         "flavour_profile": "",
         "product_url": "https://stitch.coffee/products/dark-field-blend",
-        "status": "ok",
-        "error": ""
-      },
-      {
-        "roaster": "Stitch Coffee",
-        "source_url": "https://stitch.coffee/products/kenya-gathaithi-aa-26",
-        "bean_name": "KENYA, GATHAITHI AA",
-        "roast_profile": "omni",
-        "origin": "Kenya",
-        "price_aud": "20.30",
-        "process": "Washed",
-        "varietal": "",
-        "flavour_profile": "pineapple, green grape, and orange twist",
-        "product_url": "https://stitch.coffee/products/kenya-gathaithi-aa-26",
         "status": "ok",
         "error": ""
       },
@@ -5086,20 +5058,6 @@
     },
     {
       "roaster": "Stitch Coffee",
-      "source_url": "https://stitch.coffee/products/kenya-gathaithi-aa-26",
-      "bean_name": "KENYA, GATHAITHI AA",
-      "roast_profile": "omni",
-      "origin": "Kenya",
-      "price_aud": "20.30",
-      "process": "Washed",
-      "varietal": "",
-      "flavour_profile": "pineapple, green grape, and orange twist",
-      "product_url": "https://stitch.coffee/products/kenya-gathaithi-aa-26",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Stitch Coffee",
       "source_url": "https://stitch.coffee/products/kenya-kii-ab-26",
       "bean_name": "KENYA, KII AB",
       "roast_profile": "omni",
@@ -5235,20 +5193,6 @@
       "varietal": "",
       "flavour_profile": "",
       "product_url": "https://criteriacoffee.com/product/colombia-jairo-arcilla-santa-monica-tabi-washed-esp/",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Criteria Coffee",
-      "source_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
-      "bean_name": "SPECIAL RELEASE – Colombia | Luis Aníbal Calderón | Yirgacheffe – Natural",
-      "roast_profile": "filter",
-      "origin": "",
-      "price_aud": "20.00",
-      "process": "Natural",
-      "varietal": "",
-      "flavour_profile": "Green melon, pink guava, violet, fruit tingle, tropical",
-      "product_url": "https://criteriacoffee.com/product/special-release-colombia-luis-anibal-calderon-yirgecheffe-natural/",
       "status": "ok",
       "error": ""
     },
@@ -5506,20 +5450,6 @@
     },
     {
       "roaster": "Standing Room Coffee",
-      "source_url": "https://standingroomcoffee.com.au/products/mundayo-natural-ethiopia-filter",
-      "bean_name": "Mundayo Natural, Ethiopia, Filter",
-      "roast_profile": "filter",
-      "origin": "Ethiopia",
-      "price_aud": "29.00",
-      "process": "Natural",
-      "varietal": "Local landrace and JARC varieties",
-      "flavour_profile": "",
-      "product_url": "https://standingroomcoffee.com.au/products/mundayo-natural-ethiopia-filter",
-      "status": "ok",
-      "error": ""
-    },
-    {
-      "roaster": "Standing Room Coffee",
       "source_url": "https://standingroomcoffee.com.au/products/la-soledad-guatemala-espresso-4",
       "bean_name": "La Soledad, Guatemala, Espresso",
       "roast_profile": "espresso",
@@ -5529,6 +5459,20 @@
       "varietal": "Bourbon, Caturra",
       "flavour_profile": "",
       "product_url": "https://standingroomcoffee.com.au/products/la-soledad-guatemala-espresso-4",
+      "status": "ok",
+      "error": ""
+    },
+    {
+      "roaster": "Standing Room Coffee",
+      "source_url": "https://standingroomcoffee.com.au/products/mundayo-natural-ethiopia-filter",
+      "bean_name": "Mundayo Natural, Ethiopia, Filter",
+      "roast_profile": "filter",
+      "origin": "Ethiopia",
+      "price_aud": "29.00",
+      "process": "Natural",
+      "varietal": "Local landrace and JARC varieties",
+      "flavour_profile": "",
+      "product_url": "https://standingroomcoffee.com.au/products/mundayo-natural-ethiopia-filter",
       "status": "ok",
       "error": ""
     },
